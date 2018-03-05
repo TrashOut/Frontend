@@ -1,0 +1,296 @@
+.content {
+  width: 100%;
+  position:relative;
+  min-height: 80vh;
+}
+
+.grid-list-auto-width div {
+  width: auto!important;
+}
+
+.center div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  width: 20%;
+  float:left;
+  position:fixed;
+  height: 100%;
+  z-index: 128;
+}
+
+.mui-image-preview div {
+  bottom: 5px!important;
+}
+
+.Logo {
+  box-shadow: none;
+  text-align:center;
+  float:left;
+  width: 100%;
+  position: relative;
+  box-shadow: none!important;
+}
+
+.Logo h1 {
+  width:100%;
+  font-size: 1.5em;
+  padding:0;
+  margin:0;
+  margin:auto;
+  color:white;
+}
+
+.signOut:hover {
+  color: #8cc947!important;
+}
+
+.signOut:hover .signOutIcon {
+  fill: #8cc947!important;
+}
+
+.right {
+  width: 80%;
+  float:right;
+  position: relative;
+  z-index:64;
+}
+
+.footer {
+  min-height: 20vh;
+}
+
+.LeftBar {
+  margin:0;
+  padding:0;
+  float:left;
+  width:100%;
+  position:relative;
+  z-index: 100008;
+}
+
+.UserInfo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  float:left;
+  width:100%;
+  background: #686868;
+}
+.UserName {
+  font-size: 1.0em;
+}
+
+.Contact {
+  float:left;
+  color: #EAEAEA;
+  margin-left: 5%;
+}
+
+.Email {
+  font-size: 0.8em;
+}
+
+.Avatar {
+  float:left;
+  margin-left: 5%;
+}
+.Menu {
+  width:100%;
+  float:left;
+  margin-top: 10px;
+}
+
+.Menu * {
+  color: white;
+  fill:white;
+}
+
+.menu-link > div {
+  border-left: 5px solid #F5B249;
+}
+
+.menu-link > div > * {
+  margin-left: -5px!important;
+}
+
+
+.Divider {
+  float:left;
+  width:100%;
+}
+
+@media (min-width:1050px) {
+  .colmain {
+    width: calc(100% - 256px)!important;
+    float:right!important;
+  }
+  .main-appbar-container {
+    width: calc(100% - 256px)!important;
+  }
+  .second-appbar-container {
+    width: calc(100% - 256px)!important;
+  }
+}
+
+.main-appbar-container {
+  width: 100%;
+  position: fixed;
+  top:0;
+  right:0;
+  z-index: 100;
+}
+
+.col {
+  height:100%!important;
+}
+.row {
+  padding:0;
+  margin:0;
+  height:100%;
+}
+.row .col {
+  padding:0;
+}
+.AppBar div {
+  width:100%;
+  position:relative;
+  margin:auto;
+  padding:0;
+}
+
+.breadcrumb:before {
+  vertical-align: middle!important;
+}
+
+.main-content {
+  width:96%;
+  margin-left:2%;
+  margin-top:135px;
+  margin-bottom:5%;
+  position:relative;
+  float:left;
+}
+
+.no-appbar {
+  margin-top: 100px;
+}
+
+.filter {
+  width:100%;
+  position:relative;
+}
+.filter .head {
+  width:100%;
+  float:left;
+  margin-bottom: 2%;
+}
+.head h4 {
+  float:left;
+  padding:0;
+  margin:0;
+}
+.head .button {
+  float:right;
+}
+.AppBarRight {
+  margin:0;
+  padding:0;
+  margin-right:16px;
+  text-align:right;
+  float:right;
+}
+.AppBarRight > div {
+  margin:0;
+  padding:0;
+}
+
+.filter .row {
+  margin:0;
+  padding:0;
+  width:100%;
+  margin-bottom: 10px;
+}
+.filter h6 {
+  margin-top: 10px;
+}
+
+
+.filter .form {
+  margin-top: 20px;
+  float:left;
+}
+
+.ChecboxCenter {
+  width:auto!important;
+}
+
+.ChecboxCenter>div {
+  display:flex!important;
+  float:left;
+  width:auto!important;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ChecboxCenter>div>div {
+  display:inline!important;
+  margin-right:0!important;
+  text-align:center;
+}
+.ChecboxCenter>div>div svg {
+position:absolute;
+left:calc(50% - 12px);
+transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms!important;
+}
+.ChecboxCenter>div>label {
+  float:left!important;
+  width:100%!important;
+  text-align:center;
+}
+.ChecboxCenter>div>div div:nth-child(2) span {
+  left:0!important;
+  top:0!important;
+  width:100%!important;
+  height:100%!important;
+}
+
+.alert {
+  padding: 19px 15px;
+  color: #fefefe;
+  position: relative;
+  font: 14px/20px Museo300Regular, Helvetica, Arial, sans-serif;
+}
+.alert .msg { padding: 0 20px 0 40px;}
+.alert p { margin: 0;}
+.alert .toggle-alert {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  display: block;
+  text-indent: -10000px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
+}
+.info-box {   background: #2fa9f6 }
+.success-box {  background: #7EB62E;}
+.error-box {  background: #f64b2f;}
+.notice-box { background: #f6ca2f;}
+.download-box { background: #a555ca;}
+
+.opening-hours > tr > td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.slick-dots {
+  bottom: auto;
+}

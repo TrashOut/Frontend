@@ -1,0 +1,372 @@
+/**
+ * TrashOut is an environmental project that teaches people how to recycle 
+ * and showcases the worst way of handling waste - illegal dumping. All you need is a smart phone.
+ *
+ *
+ * There are 10 types of programmers - those who are helping TrashOut and those who are not.
+ * Clean up our code, so we can clean up our planet. 
+ * Get in touch with us: help@trashout.ngo
+ *
+ * Copyright 2017 TrashOut, n.f.
+ *
+ * This file is part of the TrashOut project.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * See the GNU General Public License for more details: <https://www.gnu.org/licenses/>.
+ */
+
+.widget {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.widget::before,
+.widget::after {
+  content: "";
+  display: table;
+}
+.widget::after {
+  clear: both;
+}
+.widget h1 {
+  background-color: #8cc947;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  padding: 17px 20px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  margin: -1px -1px 15px -1px;
+}
+.widget .tabs {
+  position: relative;
+}
+.widget .tabs-nav {
+  position: absolute;
+  top: -66px;
+  right: -1px;
+  font-size: 0;
+}
+.widget .tabs-nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 13px 20px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.widget .tabs-nav a:hover,
+.widget .tabs-nav a.current {
+  background-color: rgba(255,255,255,0.4);
+}
+.widget .tabs-content {
+  height: auto;
+  padding: 0 10px 5px;
+  -webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
+  transition: opacity 0.4s, -webkit-transform 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s, -webkit-transform 0.4s;
+}
+.widget .tabs-content::before,
+.widget .tabs-content::after {
+  content: "";
+  display: table;
+}
+.widget .tabs-content::after {
+  clear: both;
+}
+.widget .tabs-content:not(.current) {
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+  opacity: 0;
+  height: 0;
+  padding: 0;
+  -webkit-transition: opacity 0s, -webkit-transform 0s;
+  transition: opacity 0s, -webkit-transform 0s;
+  transition: transform 0s, opacity 0s;
+  transition: transform 0s, opacity 0s, -webkit-transform 0s;
+  overflow: hidden;
+}
+.widget input[type="checkbox"] + label::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 19px;
+  height: 19px;
+  border: 2px solid #8cc947;
+  border-radius: 1px;
+  margin-right: 8px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.widget input[type="checkbox"]:checked + label::before {
+  background: #8cc947 url("../images/icons/checkbox.png") center no-repeat;
+}
+.widget input[type="radio"]:not(.special) + label::before {
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #e7e7e7;
+  border-radius: 50%;
+}
+.widget input[type="radio"]:not(.special):checked + label::before {
+  border-color: #8cc947;
+}
+.widget input[type="radio"]:not(.special):checked + label::after {
+  position: absolute;
+  content: "";
+  left: 6px;
+  top: 50%;
+  margin-top: -6px;
+  width: 12px;
+  height: 12px;
+  background-color: #8cc947;
+  border-radius: 50%;
+}
+.widget input[type="checkbox"],
+.widget input[type="radio"] {
+  display: none;
+}
+.widget input[type="checkbox"] + label,
+.widget input[type="radio"] + label {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 16px;
+}
+.widget input[type="checkbox"] + label:not(:last-child),
+.widget input[type="radio"] + label:not(:last-child) {
+  margin-right: 30px;
+}
+.widget input[type="checkbox"] + label:hover,
+.widget input[type="radio"] + label:hover {
+  cursor: pointer;
+}
+.widget input[type="checkbox"].special:checked + label::before,
+.widget input[type="radio"].special:checked + label::before {
+  background-image: none;
+  background-color: #8cc947;
+  border-color: #8cc947;
+}
+.widget .filter-checkcs input[type="checkbox"].special:checked + label::before,
+.widget .filter-checkcs input[type="radio"].special:checked + label::before {
+  background: #8cc947 url('../images/icons/check.png') no-repeat center center;
+  border-color: #8cc947;
+}
+.widget input[type="checkbox"].special:checked + label::after,
+.widget input[type="radio"].special:checked + label::after {
+  background-position: 0 -53px;
+}
+.widget .ico,
+.widget input[type="checkbox"] + label.ico,
+.widget input[type="radio"] + label.ico {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 15px;
+  padding-top: 60px;
+}
+.widget .ico.width-auto,
+.widget input[type="checkbox"] + label.ico.width-auto,
+.widget input[type="radio"] + label.ico.width-auto {
+  width: auto !important;
+}
+.widget .ico::before,
+.widget input[type="checkbox"] + label.ico::before,
+.widget input[type="radio"] + label.ico::before,
+.widget .ico::after,
+.widget input[type="checkbox"] + label.ico::after,
+.widget input[type="radio"] + label.ico::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -27px;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.widget .ico::before,
+.widget input[type="checkbox"] + label.ico::before,
+.widget input[type="radio"] + label.ico::before {
+  border: 3px solid #e7e7e7;
+}
+.widget .ico::after,
+.widget input[type="checkbox"] + label.ico::after,
+.widget input[type="radio"] + label.ico::after {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.ico-bag::after {
+  background-image: url("../images/icons/bag.png");
+}
+.ico-wheelbarrow::after {
+  background-image: url("../images/icons/wheelbarrow.png");
+}
+.ico-car::after {
+  background-image: url("../images/icons/car.png");
+}
+.ico-domestic::after,
+.ico-household::after {
+  background-image: url("../images/icons/household.png");
+}
+.ico-automotive::after {
+  background-image: url("../images/icons/automotive.png");
+}
+.ico-construction::after {
+  background-image: url("../images/icons/construction.png");
+}
+.ico-plastic::after {
+  background-image: url("../images/icons/plastic.png");
+}
+.ico-electronic::after {
+  background-image: url("../images/icons/electronic.png");
+}
+.ico-glass::after {
+  background-image: url("../images/icons/glass.png");
+}
+.ico-metal::after {
+  background-image: url("../images/icons/metal.png");
+}
+.ico-liquid::after {
+  background-image: url("../images/icons/liquid.png");
+}
+.ico-dangerous::after {
+  background-image: url("../images/icons/dangerous.png");
+}
+.ico-dead-animals::after {
+  background-image: url("../images/icons/dead-animals.png");
+}
+.ico-check::after {
+  background-image: url("../images/icons/cleaned.png");
+}
+.ico-location::after {
+  background-image: url("../images/icons/location.png");
+}
+.green::after {
+  background-color: #8cc947;
+}
+.grey::after {
+  background-color: #5f5d5e;
+}
+.red::after {
+  background-color: #fe4646;
+}
+.green2::after {
+  background-color: #5e9b19;
+}
+.dark-green::after {
+  background-color: #0c874e;
+}
+.orange::after {
+  background-color: #ffb802;
+}
+.dark-orange::after {
+  background-color: #f7941d;
+}
+.purple::after {
+  background-color: #664f84;
+}
+.blue::after {
+  background-color: #3a8ea6;
+}
+.brown::after {
+  background-color: #c65b01;
+}
+.light-brown::after {
+  background-color: #c69c6d;
+}
+.black::after {
+  background-color: #000;
+}
+
+@media (max-width: 640px) {
+  .widget h1 {
+    padding-bottom: 50px;
+  }
+  .widget .tabs-nav {
+    top: -55px;
+  }
+  .widget .tabs-nav a {
+    padding: 8px 15px 15px;
+  }
+}
+/* ------------------
+    Trash Map Widget
+   ------------------- */
+
+#trash-map .range-steps {
+  width: 100%;
+  padding-top: 10px;
+}
+#trash-map .range-steps::before,
+#trash-map .range-steps::after {
+  content: "";
+  display: table;
+}
+#trash-map .range-steps::after {
+  clear: both;
+}
+#trash-map .range-steps span {
+  display: inline-block;
+  width: 20%;
+  float: left;
+  position: relative;
+}
+#trash-map .range-steps span::before {
+  position: absolute;
+  content: "";
+  z-index: 1;
+  width: 1px;
+  height: 10px;
+  background-color: #898989;
+  top: -20px;
+}
+#trash-map .range-steps span:nth-child(1)::before {
+  left: 10px;
+}
+#trash-map .range-steps span:nth-child(2) {
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+#trash-map .range-steps span:nth-child(2)::before {
+  left: 50%;
+  margin-left: -17px;
+}
+#trash-map .range-steps span:nth-child(3)::before {
+  left: 50%;
+  margin-left: -10px;
+}
+#trash-map .range-steps span:nth-child(4) {
+  text-align: center;
+}
+#trash-map .range-steps span:nth-child(4)::before {
+  left: 50%;
+  margin-left: -2px;
+}
+#trash-map .range-steps span:nth-child(5) {
+  text-align: center;
+}
+#trash-map .range-steps span:nth-child(5)::before {
+  right: 30px;
+}
+#map {
+  height: 500px;
+}
