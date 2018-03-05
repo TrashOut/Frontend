@@ -1,0 +1,55 @@
+.loginBox h1 {
+  position: relative;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.loginBox .paper {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: rgba(255,255,255,0.9)!important;
+}
+
+.loginBox .facebook {
+  margin-left: auto;
+  margin-right: auto;
+  display: block!important;
+  width: 400px;
+  margin-top: 30px;
+}
+
+.error {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: calc(400px - 2%);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 1%;
+  background-color: #de371c;
+}
+
+@media(max-width: 500px) {
+
+  .loginBox h1 {
+    width: 300px;
+  }
+  .loginBox .paper {
+    width: 300px;
+  }
+  .loginBox .facebook {
+    width: 300px;
+  }
+  .error {
+    width: calc(300px - 2%);
+  }
+}

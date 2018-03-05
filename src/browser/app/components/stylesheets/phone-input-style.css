@@ -1,0 +1,26 @@
+.react-phone-number-input__row
+{
+  height: 49px;
+}
+.rrui__input-element rrui__select__button
+{
+  height: 30px;
+}
+.rrui__input-field:focus,
+.rrui__select__button:focus,
+.rrui__select__native-expanded:focus + .rrui__select__button
+{
+  border-bottom: 2px solid;
+  border-bottom-color: #73b02e!important;
+}
+.react-phone-number-input__country {
+  margin-top: 1px;
+}
+.rrui__input-error {
+  margin-top: -7px;
+  margin-left: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(244, 67, 54);
+}

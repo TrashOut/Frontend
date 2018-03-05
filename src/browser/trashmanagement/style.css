@@ -1,0 +1,141 @@
+
+.form-section-container {
+  display: block;
+  width: 100%;
+  position: relative;
+  float:left;
+}
+
+.location-container, .textbox-container, .dates-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.dates-container .form-section-container {
+  flex-basis: 48%;
+  width: 48%;
+  margin-right: 2%;
+}
+
+.textbox-container .form-section-container {
+  flex-basis: 31%;
+  width: 31%;
+  margin-right: 2%;
+}
+
+.location-container .form-section-container {
+  flex-basis: 23%;
+  width: 23%;
+  margin-right:2%;
+}
+
+.datepicker > div {
+  width: 100%!important;
+}
+
+.form-section-container>div{
+  width: 100%!important;
+}
+
+@media (max-width: 1044px) {
+  .location-container .form-section-container {
+    flex-basis: 48%;
+    width: 48%;
+  }
+  .textbox-container .form-section-container {
+    flex-basis: 98%;
+    width: 98%;
+  }
+}
+
+@media (max-width: 500px) {
+  .location-container .form-section-container {
+    flex-basis: 98%;
+    width: 98%;
+  }
+  .textbox-container .form-section-container {
+    flex-basis: 98%;
+    width: 98%;
+  }
+  .dates-container .form-section-container {
+    flex-basis: 98%;
+    width: 98%;
+    margin-right: 2%;
+  }
+}
+
+.hide-filter-container {
+  width: 100%;
+  position:relative;
+  z-index: 12;
+  height: 58px;
+  margin-top: -60px;
+  margin-bottom: 15px;
+}
+
+.hide-filter-container  .hide-filter-button {
+  float:right;
+  margin-right: 1vw;
+  width: 16vw;
+}
+
+.hide-filter-button {
+  height: 60px;
+}
+.hide-filter-button > button, .hide-filter-button > button > div > div {
+  height: 60px!important;
+}
+.hide-filter-button > button > div {
+  line-height: 60px!important;
+}
+
+.table-header {
+  background: white!important;
+  color: #626262;
+}
+.table-header-column {
+  border-radius: 0!important;
+  color: #6e6e6e!important;
+  height: 25px!important;
+}
+.table-header-column:hover {
+  color: black!important;
+  border-radius: 0!important;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.secondary:hover {
+  background: rgb(224, 224, 224)!important;
+}
+
+.primary {
+  color: white!important;
+}
+
+.primary:hover {
+  background: #8cc947!important;
+  color: white!important;
+}
+
+.unsortable:hover {
+  background: inherit!important;
+  cursor: auto!important;
+}
+
+.mui-table tr, .mui-table th, .mui-table td{
+  padding: 0;
+  height: 44px!important;
+}
+
+@media (max-width: 1044px) {
+  .hide-filter-container  .hide-filter-button {
+    float:right;
+    margin-right: 1vw;
+    width: 150px;
+    height: 60px;
+  }
+}
+
