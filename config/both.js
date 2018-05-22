@@ -28,6 +28,7 @@ const config = {
     authDomain: 'trashoutngo-dev.firebaseapp.com',
     databaseURL: 'https://trashoutngo-dev.firebaseio.com',
     storageBucket: 'trashoutngo-dev.appspot.com',
+    projectId: 'trashoutngo-dev',
   },
 };
 
