@@ -23,6 +23,7 @@
  * See the GNU General Public License for more details: <https://www.gnu.org/licenses/>.
  */
 import admin from 'firebase-admin';
+import config from '../config';
 import express from 'express';
 import formidable from 'formidable';
 import UUID from 'uuid-v4';
@@ -54,7 +55,7 @@ const uploadFile = async (req, res) => {
   if (!admin.apps.length) {
     admin.initializeApp({
       credential: admin.credential.cert(serviceAccount),
-      databaseURL: 'https://trashoutngo-dev.firebaseio.com',
+      databaseURL: config.firebase.databaseURL,
     });
   }
 
@@ -90,14 +91,14 @@ const uploadFile = async (req, res) => {
 
     await resizeImage();
     const storage = Storage({
-      projectId: 'trashoutngo-dev',
+      projectId: config.firebase.projectId,
       keyFilename: '../firebase/firebase.service-account-credentials.json',
       credentials: require('../firebase/firebase.service-account-credentials.json'),
     });
 
     const uuid = UUID();
 
-    const bucket = storage.bucket('trashoutngo-dev.appspot.com');
+    const bucket = storage.bucket(config.firebase.storageBucket);
     const uploadedThumb = (await bucket.upload(thumbName, {
       destination: `thumb-images/${uuid}_${parsedFile.name}`,
       uploadType: 'media',

@@ -1,0 +1,29 @@
+# OSX
+#
+.DS_Store
+
+# node.js
+#
+node_modules/
+npm-debug.log
+
+# BUCK
+buck-out/
+\.buckd/
+android/app/libs
+android/keystores/debug.keystore
+
+# Este
+.firebaserc
+bundle-stats.json
+firebase-debug.log
+firebase/rules.json
+src/common/config.json
+src/native/initialState.js
+webpack-assets.json
+
+# yarn
+yarn-error.log
+
+# build
+build/
