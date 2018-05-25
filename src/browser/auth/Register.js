@@ -105,6 +105,14 @@ export default class Register extends Component {
               primary={Boolean(true)}
             />
           </form>
+          
+          <p>            
+              {msg('global.signUp.acceptRegister.startSentense')} 
+              <a href="https://www.trashout.ngo/policy"> {msg('global.signUp.acceptRegister.privatePolicy')} </a>
+              {msg('global.signUp.acceptRegister.and')}
+              <a href="https://www.trashout.ngo/terms"> {msg('global.signUp.acceptRegister.terms')} </a>
+          </p>
+
         </Paper>
         <p style={styles.center}>
           <Link
