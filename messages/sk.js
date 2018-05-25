@@ -791,7 +791,7 @@ export default [
 	},
 	{
 		"id": "global.cleaned",
-		"defaultMessage": "Vyčistených"
+		"defaultMessage": "Vyčistené"
 	},
 	{
 		"id": "notification.noEmailAddress",
@@ -1735,7 +1735,7 @@ export default [
 	},
 	{
 		"id": "trash.created",
-		"defaultMessage": "Hlásené"
+		"defaultMessage": "Nahlásené"
 	},
 	{
 		"id": "global.facebookLogin",
@@ -2379,7 +2379,7 @@ export default [
 	},
 	{
 		"id": "global.readMore",
-		"defaultMessage": "Prečítajte viac"
+		"defaultMessage": "Zistite viac"
 	},
 	{
 		"id": "user.validation.nonEmptyOrganization",
@@ -2635,7 +2635,7 @@ export default [
 	},
 	{
 		"id": "widget.statistics.breakdownOfDumps",
-		"defaultMessage": "Rozpis počtu nelegálnych skládok v"
+		"defaultMessage": "Nelegálne skládky v"
 	},
 	{
 		"id": "widget.statistics.lastUpdatedDumps",
@@ -3847,7 +3847,7 @@ export default [
 	},
 	{
 		"id": "mail.eventConfirm.eventInfo5",
-		"defaultMessage": "Prosím potvrďte vašu účasť."
+		"defaultMessage": "Prosím, potvrďte vašu účasť."
 	},
 	{
 		"id": "mail.eventConfirm.confirmButton",
@@ -3855,7 +3855,7 @@ export default [
 	},
 	{
 		"id": "mail.eventConfirm.eventDetail1",
-		"defaultMessage": "Pre viac informácií a kontakty si prosím pozrite "
+		"defaultMessage": "Pre viac informácií a kontakty si pozrite"
 	},
 	{
 		"id": "mail.eventConfirm.eventDetail2",
@@ -3875,7 +3875,7 @@ export default [
 	},
 	{
 		"id": "mail.eventConfirm.footer",
-		"defaultMessage": "Dostali ste tento e-mail pretože ste sa pridali k udalosti v aplikácii TrashOut a súhlasili ste s podmienkami používania."
+		"defaultMessage": "Dostali ste tento e-mail, pretože ste sa pridali k udalosti v aplikácii TrashOut a súhlasili ste s podmienkami používania."
 	},
 	{
 		"id": "mail.eventCreate.greeting",
@@ -3891,7 +3891,7 @@ export default [
 	},
 	{
 		"id": "mail.eventCreate.eventEdit",
-		"defaultMessage": "V prípade, že by ste chceli upraviť alebo zrušiť Vaše podujatie použite tento odkaz"
+		"defaultMessage": "V prípade, že by ste chceli upraviť alebo zrušiť Vaše podujatie, použite tento odkaz"
 	},
 	{
 		"id": "mail.eventCreate.detailButton",
@@ -3899,7 +3899,7 @@ export default [
 	},
 	{
 		"id": "mail.eventCreate.eventConfirmation",
-		"defaultMessage": "Jeden deň pred udalosťou vyzveme užívateľov, ktorí sa pridali na vaše podujatie, aby potvrdili svoju účasť. Jeden deň po podujatí zúčastnených užívateľov požiadame o odhad množstva vyzbieraného odpadu, počtu účastníkov a zdieľanie fotiek. Obe tieto informácie môžete nájsť na detaile podujatia cez vyššie uvedený link. "
+		"defaultMessage": "Jeden deň pred udalosťou vyzveme používateľov, ktorí sa pridali na Vaše podujatie, aby potvrdili svoju účasť. Jeden deň po podujatí zúčastnených používateľov požiadame o odhad množstva vyzbieraného odpadu, počtu účastníkov a zdieľanie fotiek. Obe tieto informácie môžete nájsť na detaile podujatia cez vyššie uvedený link."
 	},
 	{
 		"id": "mail.eventCreate.wishing",
@@ -3907,7 +3907,7 @@ export default [
 	},
 	{
 		"id": "mail.eventCreate.thanks",
-		"defaultMessage": "Ďakujeme, že prispievate k tomu, aby bol náš svet čistejší pre každého. Použite mobilnú aplikáciu TrashOut na nahlásenie a aktualizovanie nelegálnych skládok v okolí, nájdenie najbližšieho zberného miesta alebo pridanie sa na čistiace podujatie. "
+		"defaultMessage": "Ďakujeme, že prispievate k tomu, aby bol náš svet čistejší pre každého. Použite mobilnú aplikáciu TrashOut na nahlásenie a aktualizovanie nelegálnych skládok v okolí, nájdenie najbližšieho zberného miesta alebo pridanie sa na čistiace podujatie."
 	},
 	{
 		"id": "mail.eventCreate.footer",
@@ -3927,11 +3927,11 @@ export default [
 	},
 	{
 		"id": "mail.eventFeedback.eventFeedback3",
-		"defaultMessage": "Dajte ostatným vedieť, ako úspešne ste to zvládli. Vyplňte odhad počtu vyzbieraných vriec, počtu účastníkov a zdieľajte vaše fotografie z podujatia. Inšpirujte ostatných k podobnému úsiliu. "
+		"defaultMessage": "Dajte ostatným vedieť, ako úspešne ste to zvládli. Vyplňte odhad počtu vyzbieraných vriec, počtu účastníkov a zdieľajte vaše fotografie z podujatia. Inšpirujte ostatných k podobnému úsiliu."
 	},
 	{
 		"id": "mail.eventFeedback.feedbackButton",
-		"defaultMessage": "áno"
+		"defaultMessage": "Áno"
 	},
 	{
 		"id": "mail.eventFeedback.team",
@@ -3939,7 +3939,7 @@ export default [
 	},
 	{
 		"id": "mail.eventFeedback.thanks",
-		"defaultMessage": "Ďakujeme, že prispievaš k tomu, aby bol svet čistejší! Nezabudnite používať mobilnú aplikáciu TrashOut a aktualizujte nelegálne skládky a starajte sa o životné prostredie okolo seba."
+		"defaultMessage": "Ďakujeme, že prispievate k tomu, aby bol svet čistejší! Nezabudnite používať mobilnú aplikáciu TrashOut a aktualizujte nelegálne skládky a starajte sa o životné prostredie okolo seba."
 	},
 	{
 		"id": "mail.eventFeedback.footer",
@@ -3979,7 +3979,7 @@ export default [
 	},
 	{
 		"id": "mail.organizationInvitation.footer",
-		"defaultMessage": "Dostali ste tento e-mail, pretože používateľ TrashOut aplikácie vás pozval vložením Vášho e-mailu. Daný používateľ musel byť členom alebo manažérom organizácie, do ktorej ste pozvaný. Používatelia rozhodujú koho pozvať a komu napísať až do momentu, než sa stanete aj vu TrashOut používateľom."
+		"defaultMessage": "Dostali ste tento e-mail, pretože používateľ TrashOut aplikácie vás pozval vložením Vášho e-mailu. Daný používateľ musel byť členom alebo manažérom organizácie, do ktorej ste pozvaný. Používatelia rozhodujú, koho pozvať a čo mu napísať v pozvánke. Než sa pridáte k TrashOut ako používateľ"
 	},
 	{
 		"id": "mail.newsletter.greeting",
@@ -3987,7 +3987,7 @@ export default [
 	},
 	{
 		"id": "mail.newsletter.p1",
-		"defaultMessage": "ďakujeme Vám za starostlivosť o životné prostredie. Ste skvelá/ý! Prosím, pozrite si nižšie nedávne aktivity vo sledovanej oblasti."
+		"defaultMessage": "ďakujeme Vám za starostlivosť o životné prostredie. Ste skvelá/ý! Prosím, pozrite si nižšie nedávne aktivity v sledovanej oblasti."
 	},
 	{
 		"id": "mail.newsletter.area",
@@ -4015,15 +4015,15 @@ export default [
 	},
 	{
 		"id": "mail.newsletter.p4",
-		"defaultMessage": "aplikácii TrashOut."
+		"defaultMessage": "v aplikácii TrashOut."
 	},
 	{
 		"id": "mail.newsletter.p5",
-		"defaultMessage": "Ďakujeme, že prispievate k tomu, aby bol svet čistejší! Nezabudnite používať mobilnú aplikáciu TrashOut na nahlasovanie a aktualizovanie nelegálnych skládok vo svojom okolí, nájdenie njabližšieho zberného miesta, či zúčastnenie sa čistiacej akcie. "
+		"defaultMessage": "Ďakujeme, že prispievate k tomu, aby bol svet čistejší! Nezabudnite používať mobilnú aplikáciu TrashOut na nahlasovanie a aktualizovanie nelegálnych skládok vo svojom okolí, nájdenie njabližšieho zberného miesta, či zúčastnenie sa čistiacej akcie."
 	},
 	{
 		"id": "mail.newsletter.footer",
-		"defaultMessage": "Tento e-mail ste dostali, pretože zo svojho profilu na admin.trashout.ngo ste si nastavili pravidelné notifikácie na sledovanie vybranej oblasti a súhlasili ste tak s podmienkami používania aplikácie TrashOut. Svoje preferencie môžete kedykoľvek zmeniť "
+		"defaultMessage": "Tento e-mail ste dostali, pretože vo svojom profile na admin.trashout.ngo ste si nastavili pravidelné notifikácie na sledovanie vybranej oblasti a súhlasili ste s podmienkami používania aplikácie TrashOut. Svoje preferencie môžete zmeniť kedykoľvek"
 	},
 	{
 		"id": "mail.newsletter.footerLink",
@@ -4427,7 +4427,7 @@ export default [
 	},
 	{
 		"id": "trash.create.thankYou.sentence2",
-		"defaultMessage": "Ste skvelý/á"
+		"defaultMessage": "Ste skvelý/á!"
 	},
 	{
 		"id": "trash.create.thankYou.sentence3",
@@ -4659,7 +4659,7 @@ export default [
 	},
 	{
 		"id": "mail.newsletter.emptyBlock",
-		"defaultMessage": "Vo sledovanej oblasti nedošlo za vybraný čas k žiadnej novej aktivite. Všetky skládky si môžete pozrieť "
+		"defaultMessage": "V sledovanej oblasti nedošlo za vybraný čas k žiadnej novej aktivite. Všetky skládky si môžete pozrieť"
 	},
 	{
 		"id": "mail.newsletter.trashLink",
@@ -4676,5 +4676,33 @@ export default [
 	{
 		"id": "statistics.countryPicker.header",
 		"defaultMessage": "Vyberte krajinu"
+	},
+	{
+		"id": "notification.recentActivity.header",
+		"defaultMessage": "Vaše hlásenie skládky bolo aktualizované"
+	},
+	{
+		"id": "notification.recentActivity.text",
+		"defaultMessage": "Pozrite si jej nový stav v aplikácii TrashOut a buďte vždy v obraze"
+	},
+	{
+		"id": "mail.eventCreate.subject",
+		"defaultMessage": "TrashOut - informácie o vašom podujatí"
+	},
+	{
+		"id": "global.signUp.acceptRegister.startSentense",
+		"defaultMessage": "S registráciou alebo používaním mobilnej aplikácie súhlasíte so znením"
+	},
+	{
+		"id": "global.signUp.acceptRegister.privatePolicy",
+		"defaultMessage": "Ochrany osobných údajov"
+	},
+	{
+		"id": "global.signUp.acceptRegister.and",
+		"defaultMessage": "a"
+	},
+	{
+		"id": "global.signUp.acceptRegister.terms",
+		"defaultMessage": "Podmienkami používania"
 	}
 ]

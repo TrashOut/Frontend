@@ -15,7 +15,7 @@ export default [
 	},
 	{
 		"id": "tab.dumps",
-		"defaultMessage": "Deponien"
+		"defaultMessage": "Müllkippe"
 	},
 	{
 		"id": "tab.news",
@@ -43,7 +43,7 @@ export default [
 	},
 	{
 		"id": "global.menu.dumps",
-		"defaultMessage": "Deponien"
+		"defaultMessage": "Müllkippe"
 	},
 	{
 		"id": "global.menu.collectionPoints",
@@ -791,7 +791,7 @@ export default [
 	},
 	{
 		"id": "global.cleaned",
-		"defaultMessage": "gereinigt"
+		"defaultMessage": "Gereinigt"
 	},
 	{
 		"id": "notification.noEmailAddress",
@@ -963,7 +963,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.size.recyclingCenter",
-		"defaultMessage": "Mitte"
+		"defaultMessage": "Recyclinghof (groß)"
 	},
 	{
 		"id": "collectionPoint.size.all",
@@ -4519,7 +4519,7 @@ export default [
 	},
 	{
 		"id": "global.distanceAttribute.away",
-		"defaultMessage": "Weg"
+		"defaultMessage": "entfernt"
 	},
 	{
 		"id": "event.create.successMobile",
@@ -4676,5 +4676,33 @@ export default [
 	{
 		"id": "statistics.countryPicker.header",
 		"defaultMessage": "Wählen Sie das Land aus"
+	},
+	{
+		"id": "notification.recentActivity.header",
+		"defaultMessage": "Ihr Bericht eines illegalen Speicherauszugs wurde aktualisiert"
+	},
+	{
+		"id": "notification.recentActivity.text",
+		"defaultMessage": "Überprüfen Sie seinen neuen Status in der TrashOut App und bleiben Sie immer informiert"
+	},
+	{
+		"id": "mail.eventCreate.subject",
+		"defaultMessage": "TrashOut - wichtige Informationen über das von Ihnen erstellte Ereignis"
+	},
+	{
+		"id": "global.signUp.acceptRegister.startSentense",
+		"defaultMessage": "Indem du dich registrierst, stimmst du den"
+	},
+	{
+		"id": "global.signUp.acceptRegister.privatePolicy",
+		"defaultMessage": "Allgemeinen Geschäftsbedingungen"
+	},
+	{
+		"id": "global.signUp.acceptRegister.and",
+		"defaultMessage": "und"
+	},
+	{
+		"id": "global.signUp.acceptRegister.terms",
+		"defaultMessage": "Datenschutzrichtlinien"
 	}
 ]

@@ -791,7 +791,7 @@ export default [
 	},
 	{
 		"id": "global.cleaned",
-		"defaultMessage": "vyčištěno"
+		"defaultMessage": "Vyčištěno"
 	},
 	{
 		"id": "notification.noEmailAddress",
@@ -4676,5 +4676,33 @@ export default [
 	{
 		"id": "statistics.countryPicker.header",
 		"defaultMessage": "Vyberte krajinu"
+	},
+	{
+		"id": "notification.recentActivity.header",
+		"defaultMessage": "Vaše hlášení skládky bylo aktualizováno"
+	},
+	{
+		"id": "notification.recentActivity.text",
+		"defaultMessage": "Skontrolujte nový stav v aplikaci TrashOut a mějte vždy přehled"
+	},
+	{
+		"id": "mail.eventCreate.subject",
+		"defaultMessage": "TrashOut - informace o vašem podujetí"
+	},
+	{
+		"id": "global.signUp.acceptRegister.startSentense",
+		"defaultMessage": "S registrací nebo používáním mobilní aplikace souhlasíte se zněním"
+	},
+	{
+		"id": "global.signUp.acceptRegister.privatePolicy",
+		"defaultMessage": "Ochrany osobních údajů"
+	},
+	{
+		"id": "global.signUp.acceptRegister.and",
+		"defaultMessage": "a"
+	},
+	{
+		"id": "global.signUp.acceptRegister.terms",
+		"defaultMessage": "Podmínkami používání"
 	}
 ]

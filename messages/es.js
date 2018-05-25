@@ -791,7 +791,7 @@ export default [
 	},
 	{
 		"id": "global.cleaned",
-		"defaultMessage": "limpio"
+		"defaultMessage": "Limpio"
 	},
 	{
 		"id": "notification.noEmailAddress",
@@ -4676,5 +4676,33 @@ export default [
 	{
 		"id": "statistics.countryPicker.header",
 		"defaultMessage": "seleccione un país"
+	},
+	{
+		"id": "notification.recentActivity.header",
+		"defaultMessage": "Su informe de un vertedero ilegal fue actualizado"
+	},
+	{
+		"id": "notification.recentActivity.text",
+		"defaultMessage": "Echa un vistazo a su nuevo estado en la aplicación TrashOut y mantente siempre informado"
+	},
+	{
+		"id": "mail.eventCreate.subject",
+		"defaultMessage": "TrashOut: información importante sobre el evento que ha creado"
+	},
+	{
+		"id": "global.signUp.acceptRegister.startSentense",
+		"defaultMessage": "Al registrarte, aceptas las"
+	},
+	{
+		"id": "global.signUp.acceptRegister.privatePolicy",
+		"defaultMessage": "Condiciones de Servicio"
+	},
+	{
+		"id": "global.signUp.acceptRegister.and",
+		"defaultMessage": "y la"
+	},
+	{
+		"id": "global.signUp.acceptRegister.terms",
+		"defaultMessage": "Política de Privacidad"
 	}
 ]
