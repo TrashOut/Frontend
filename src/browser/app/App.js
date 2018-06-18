@@ -38,7 +38,7 @@ import translate from '../../messages/translate';
 import { confirmSignIn } from '../../common/users/actions';
 import { connect } from 'react-redux';
 import { muiTheme } from '../../common/app/colors';
-import { resetError } from '../../common/app/actions';
+import { checkCookies, acceptCookiesConsent, resetError } from '../../common/app/actions';
 import { Route } from 'react-router-dom';
 import { setDevice } from '../../common/device/actions';
 import { toggleRedirect, clearMessages } from '../../common/messages/actions';
@@ -64,10 +64,12 @@ const getMetadata = (msg) => ([
   user: state.users.viewer,
   userLoaded: state.users.userLoaded,
   signoutInProcess: state.config.signoutInProcess,
-}), { setDevice, confirmSignIn, toggleRedirect, clearMessages, resetError })
+  consentGiven: state.app.consentGiven,
+}), { checkCookies, setDevice, confirmSignIn, toggleRedirect, clearMessages, resetError, acceptCookiesConsent })
 @Radium
 class App extends React.Component {
   static propTypes = {
+    acceptCookiesConsent: React.PropTypes.func,
     clearMessages: React.PropTypes.func,
     lang: React.PropTypes.string.isRequired,
     currentTheme: React.PropTypes.string,
@@ -81,6 +83,8 @@ class App extends React.Component {
     toggleRedirect: React.PropTypes.func,
     user: React.PropTypes.object,
     userLoaded: React.PropTypes.bool,
+    checkCookies: React.PropTypes.func.isRequired,
+    consentGiven: React.PropTypes.bool,
   };
 
   state = {
@@ -100,6 +104,12 @@ class App extends React.Component {
     mqls.map(x => x.addListener(() => this.mediaQueryChanged()));
     this.setState({ mqls });
     setTimeout(() => this.mediaQueryChanged(), 5);
+  }
+
+  componentDidMount() {
+    const { checkCookies } = this.props;
+
+    if (process.env.IS_BROWSER) checkCookies();
   }
 
   mediaQueryChanged() {
@@ -147,7 +157,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { msg, lang, error } = this.props;
+    const { consentGiven, acceptCookiesConsent, msg, lang, error } = this.props;
 
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
@@ -180,6 +190,12 @@ class App extends React.Component {
             {this.renderContent()}
             <Loading />
           </div>
+          {!consentGiven &&
+            <div style={styles.consent}>
+              <span>{msg('global.cookiesPolicy')}</span>
+              <button onClick={acceptCookiesConsent} style={styles.consent.button}>{msg('global.acceptCookiesPolicy')}</button>
+            </div>
+          }
         </div>
       </MuiThemeProvider>
     );
@@ -222,6 +238,37 @@ const styles = {
     p: {
       padding: '10px 40px',
       color: 'white',
+    },
+  },
+
+  consent: {
+    position: 'fixed',
+    background: 'black',
+    opacity: '0.7',
+    color: 'white',
+    width: '80%',
+    height: '100px',
+    display: 'flex',
+    alignItems: 'center',
+    paddingLeft: '10%',
+    paddingRight: '10%',
+    bottom: 0,
+    zIndex: 9999,
+    justifyContent: 'space-between',
+
+    button: {
+      paddingLeft: '3%',
+      paddingRight: '3%',
+      paddingTop: '10px',
+      paddingBottom: '10px',
+      color: 'black',
+      border: 0,
+      borderRadius: '5px',
+      opacity: '0.8',
+
+      ':hover': {
+        opacity: '1',
+      },
     },
   },
 };

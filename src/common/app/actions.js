@@ -33,6 +33,11 @@ export const APP_STORAGE_LOAD = 'APP_STORAGE_LOAD';
 export const APP_TOGGLE_API = 'APP_SWITCH_API';
 export const RESET_ERROR = 'RESET_ERROR';
 
+export const CURRENT_COOKIES_CONSENT_SUCCESS = 'CURRENT_COOKIES_CONSENT_SUCCESS';
+export const CURRENT_COOKIES_CONSENT = 'CURRENT_COOKIES_CONSENT';
+export const CURRENT_COOKIES_CONSENT_START = 'CURRENT_COOKIES_CONSENT_START';
+export const CURRENT_COOKIES_CONSENT_ERROR = 'CURRENT_COOKIES_CONSENT_ERROR';
+
 export const toggleApi = () => ({ getState }) => {
   let url = 'https://private-b9c0e-trashout.apiary-mock.com/';
   if (getState().app.apiUrl === 'https://private-b9c0e-trashout.apiary-mock.com/') {
@@ -58,6 +63,20 @@ export const resetError = () => ({
   type: RESET_ERROR,
 });
 
+export const acceptCookiesConsent = () => ({ dispatch, storageCookiesEngine }) => {
+  storageCookiesEngine.save({ acceptCookies: true }).then(() => dispatch(checkCookies()));
+
+  return {
+    type: 'ACCEPT_COOKIES_CONSENT',
+    payload: {},
+  };
+};
+
+export const checkCookies = () => ({ storageCookiesEngine }) => ({
+  type: CURRENT_COOKIES_CONSENT,
+  payload: storageCookiesEngine && storageCookiesEngine.load(),
+});
+
 export const start = () => {
   const loadStorage = async (dispatch, storageEngine) => {
     const state = await storageEngine.load();
@@ -72,3 +91,4 @@ export const start = () => {
     };
   };
 };
+

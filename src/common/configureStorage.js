@@ -70,6 +70,11 @@ const configureStorage = (initialState, createStorageEngine) => {
   const storageEngine =
     createStorageEngine &&
     createStorageEngine(`redux-storage:${initialState.config.appName}`);
+
+  const storageCookiesEngine =
+    createStorageEngine &&
+    createStorageEngine('accept-cookies-storage');
+
   const storageMiddleware =
     storageEngine &&
     createStorageMiddleware(storageEngine);
@@ -77,6 +82,7 @@ const configureStorage = (initialState, createStorageEngine) => {
   return {
     STORAGE_SAVE: storage.SAVE,
     storageEngine,
+    storageCookiesEngine,
     storageMiddleware,
   };
 };
