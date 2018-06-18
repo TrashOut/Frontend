@@ -45,6 +45,10 @@ export const validateRegister = values => {
     if (values[key].length > 255) errors[key] = 'global.validation.tooLong';
   });
 
+  if (!values.agreement) {
+    errors.agreement = 'user.validation.agreementRequired';
+  }
+
   return errors;
 };
 
