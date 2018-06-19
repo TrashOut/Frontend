@@ -108,9 +108,13 @@ export default class Register extends Component {
               name="agreement"
               type="checkbox"
               component={Input}
-              label={msg('user.agreement')}
-              hint={msg('user.agreement')}
-              wrapperStyle={{ marginTop: '20px', marginBottom: '20px' }}
+              hint={<div>
+                {msg('global.signUp.acceptRegister.startSentense')}
+                <a href="https://www.trashout.ngo/policy"> {msg('global.signUp.acceptRegister.privatePolicy')} </a>
+                {msg('global.signUp.acceptRegister.and')}
+                <a href="https://www.trashout.ngo/terms"> {msg('global.signUp.acceptRegister.terms')} </a>
+              </div>}
+              wrapperStyle={{ marginTop: '20px', marginBottom: '20px', whiteSpace: 'normal' }}
             />
             <RaisedButton
               type="submit"
@@ -119,13 +123,6 @@ export default class Register extends Component {
               disabled={!agreementAccepted}
             />
           </form>
-          
-          <p>            
-              {msg('global.signUp.acceptRegister.startSentense')} 
-              <a href="https://www.trashout.ngo/policy"> {msg('global.signUp.acceptRegister.privatePolicy')} </a>
-              {msg('global.signUp.acceptRegister.and')}
-              <a href="https://www.trashout.ngo/terms"> {msg('global.signUp.acceptRegister.terms')} </a>
-          </p>
 
         </Paper>
         <p style={styles.center}>
