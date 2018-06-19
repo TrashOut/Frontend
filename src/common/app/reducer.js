@@ -38,7 +38,7 @@ const State = Record({
   storageLoaded: false,
   apiError: false,
   pendingCount: 0,
-  consentGiven: false,
+  consentGiven: true,
 }, 'app');
 
 const appReducer = (state = new State(), action) => {
