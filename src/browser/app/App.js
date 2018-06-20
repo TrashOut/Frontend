@@ -192,7 +192,10 @@ class App extends React.Component {
           </div>
           {!consentGiven &&
             <div style={styles.consent}>
-              <span>{msg('global.cookiesPolicy')}</span>
+              <span>
+                {msg('global.cookiesPolicy')}
+                <a href="https://www.trashout.ngo/policy"> {msg('global.signUp.acceptRegister.privatePolicy')} </a>
+              </span>
               <button onClick={acceptCookiesConsent} style={styles.consent.button}>{msg('global.acceptCookiesPolicy')}</button>
             </div>
           }
