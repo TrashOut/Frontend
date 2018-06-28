@@ -30,26 +30,31 @@ import React, { PureComponent as Component } from 'react';
 import routesList from '../routesList';
 import translate from '../../messages/translate';
 import { connect } from 'react-redux';
-import { Field, reduxForm } from 'redux-form';
+import { formValueSelector, Field, reduxForm } from 'redux-form';
 import { languages } from '../../common/consts';
 import { signUp } from '../../common/lib/redux-firebase/actions';
 import { validateRegister as validate } from '../../common/auth/validate';
+
+const selector = formValueSelector('register');
 
 @translate
 @reduxForm({
   form: 'register',
   validate,
 })
-@connect(null, { signUp })
+@connect(state => ({
+  agreementAccepted: selector(state, 'agreement'),
+}), { signUp })
 export default class Register extends Component {
   static propTypes = {
     handleSubmit: React.PropTypes.func,
     msg: React.PropTypes.func.isRequired,
     signUp: React.PropTypes.func,
+    agreementAccepted: React.PropTypes.bool,
   };
 
   render() {
-    const { handleSubmit, msg, signUp } = this.props;
+    const { agreementAccepted, handleSubmit, msg, signUp } = this.props;
     return (
       <div>
         <Paper className="paper">
@@ -99,12 +104,26 @@ export default class Register extends Component {
               label={msg('user.reEnterPassword')}
               hint={msg('user.reEnterPassword')}
             />
+            <Field
+              name="agreement"
+              type="checkbox"
+              component={Input}
+              hint={<div>
+                {msg('global.signUp.acceptRegister.startSentense')}
+                <a href="https://www.trashout.ngo/policy"> {msg('global.signUp.acceptRegister.privatePolicy')} </a>
+                {msg('global.signUp.acceptRegister.and')}
+                <a href="https://www.trashout.ngo/terms"> {msg('global.signUp.acceptRegister.terms')} </a>
+              </div>}
+              wrapperStyle={{ marginTop: '20px', marginBottom: '20px', whiteSpace: 'normal' }}
+            />
             <RaisedButton
               type="submit"
               label={msg('global.createNewAccount')}
               primary={Boolean(true)}
+              disabled={!agreementAccepted}
             />
           </form>
+
         </Paper>
         <p style={styles.center}>
           <Link

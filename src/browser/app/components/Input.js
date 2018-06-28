@@ -387,7 +387,7 @@ const Input = ({
     }
 
     return (
-      <div style={styles.checkbox.wrapper}>
+      <div className="form-section-container" style={{ ...styles.checkbox.wrapper, ...(next.wrapperStyle || {}) }}>
         <Checkbox
           checked={input.value || false}
           value={input.value}
@@ -395,7 +395,7 @@ const Input = ({
             input.onChange(checked);
             if (next.onValueChange) next.onValueChange({ id, name: input.name, checked });
           }}
-          label={label}
+          label={label || hint}
           style={inRow ? styles.checkbox.rowItem : {}}
           labelStyle={style}
           iconStyle={style}

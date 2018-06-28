@@ -146,6 +146,7 @@ const configureMiddleware = (initialState, platformDeps, platformMiddleware, rou
 
   const {
     STORAGE_SAVE,
+    storageCookiesEngine,
     storageEngine,
     storageMiddleware,
   } = configureStorage(initialState, platformDeps.createStorageEngine);
@@ -157,6 +158,7 @@ const configureMiddleware = (initialState, platformDeps, platformMiddleware, rou
     getUid: () => platformDeps.uuid.v4(),
     now: () => Date.now(),
     storageEngine,
+    storageCookiesEngine,
   }, createDependencyInjections());
 
   const middleware = [

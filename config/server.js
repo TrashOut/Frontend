@@ -27,7 +27,7 @@ const config = {
   appVersion: process.env.appVersion || process.env.HEROKU_SLUG_COMMIT,
   defaultLocale: 'en',
   gcloud: {
-    projectId: 'trashoutngo-dev',
+    projectId: 'trashoutngo-stage',
   },
   googleAnalyticsId: 'UA-00000000-0',
   googleTagManagerId: 'GTM-0000000',
@@ -40,7 +40,7 @@ const config = {
     : 'https://ac67ade7cf7143809fc3978851b42572@sentry.io/232513',
   googleMaps: 'AIzaSyAYllMAAZSTvdgXyV_KSZLzNBqekYFy1Mg',
   api: {
-    externalAPI: 'https://api.trashout.ngo/v1/',
+    externalAPI: 'https://dev-api.trashout.ngo/v1/',
     internalAPI: 'http://localhost:8888/v1/',
   },
 };

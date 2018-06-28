@@ -25,7 +25,7 @@
 import * as actions from './actions';
 import { Record } from '../transit';
 
-const exclude = ['APP_START', 'FIREBASE_START', 'MESSAGE_ADD_ERROR', 'MESSAGE_ADD_SUCCESS'];
+const exclude = ['APP_START', 'FIREBASE_START', 'MESSAGE_ADD_ERROR', 'MESSAGE_ADD_SUCCESS', actions.CURRENT_COOKIES_CONSENT_SUCCESS, actions.CURRENT_COOKIES_CONSENT_START, actions.CURRENT_COOKIES_CONSENT_ERROR];
 const notExcluded = (type) => exclude.indexOf(type) === -1;
 
 const State = Record({
@@ -38,6 +38,7 @@ const State = Record({
   storageLoaded: false,
   apiError: false,
   pendingCount: 0,
+  consentGiven: true,
 }, 'app');
 
 const appReducer = (state = new State(), action) => {
@@ -74,6 +75,10 @@ const appReducer = (state = new State(), action) => {
 
     case actions.RESET_ERROR:
       return state.set('error', null);
+
+    case actions.CURRENT_COOKIES_CONSENT_SUCCESS: {
+      return state.set('consentGiven', (action.payload || {}).acceptCookies);
+    }
 
     default:
       return state;

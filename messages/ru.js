@@ -4676,5 +4676,33 @@ export default [
 	{
 		"id": "statistics.countryPicker.header",
 		"defaultMessage": "Выберите страну"
+	},
+	{
+		"id": "notification.recentActivity.header",
+		"defaultMessage": "Обновлен отчет о незаконном дампе"
+	},
+	{
+		"id": "notification.recentActivity.text",
+		"defaultMessage": "Проверьте свой новый статус в приложении TrashOut и всегда будьте информированы"
+	},
+	{
+		"id": "mail.eventCreate.subject",
+		"defaultMessage": "TrashOut - важная информация о событии, которое вы создали"
+	},
+	{
+		"id": "global.signUp.acceptRegister.startSentense",
+		"defaultMessage": "Регистрируясь, вы соглашаетесь с"
+	},
+	{
+		"id": "global.signUp.acceptRegister.privatePolicy",
+		"defaultMessage": "Условиями предоставления услуг"
+	},
+	{
+		"id": "global.signUp.acceptRegister.and",
+		"defaultMessage": "и"
+	},
+	{
+		"id": "global.signUp.acceptRegister.terms",
+		"defaultMessage": "Политикой конфиденциальности"
 	}
 ]

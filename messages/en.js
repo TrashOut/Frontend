@@ -607,7 +607,7 @@ export default [
 	},
 	{
 		"id": "trash.status.cleaned",
-		"defaultMessage": "It`s cleaned"
+		"defaultMessage": "Cleaned"
 	},
 	{
 		"id": "trash.status.less",
@@ -799,7 +799,7 @@ export default [
 	},
 	{
 		"id": "event.header",
-		"defaultMessage": "Cleaning Event"
+		"defaultMessage": "Cleaning Events"
 	},
 	{
 		"id": "event.create.header",
@@ -1031,7 +1031,7 @@ export default [
 	},
 	{
 		"id": "home.events.text",
-		"defaultMessage": "Upcoming events in your neighbourhood"
+		"defaultMessage": "Upcoming events in your neighborhood"
 	},
 	{
 		"id": "home.numberDumpsWorldwide",
@@ -3207,11 +3207,11 @@ export default [
 	},
 	{
 		"id": "organization.mailSubject",
-		"defaultMessage": "Mail Subject"
+		"defaultMessage": "TrashOut - organization"
 	},
 	{
 		"id": "organization.mailBody",
-		"defaultMessage": "Mail Body"
+		"defaultMessage": "TrashOut - organization"
 	},
 	{
 		"id": "organization.parentOrganization.select",
@@ -4676,5 +4676,33 @@ export default [
 	{
 		"id": "statistics.countryPicker.header",
 		"defaultMessage": "Select country"
+	},
+	{
+		"id": "notification.recentActivity.header",
+		"defaultMessage": "Your report of an illegal dump was updated"
+	},
+	{
+		"id": "notification.recentActivity.text",
+		"defaultMessage": "Check out its new status in TrashOut app and stay always informed"
+	},
+	{
+		"id": "mail.eventCreate.subject",
+		"defaultMessage": "TrashOut - important information about the event you created"
+	},
+	{
+		"id": "global.signUp.acceptRegister.startSentense",
+		"defaultMessage": "When you register or use this app, you agree with our"
+	},
+	{
+		"id": "global.signUp.acceptRegister.privatePolicy",
+		"defaultMessage": "Privacy Policy"
+	},
+	{
+		"id": "global.signUp.acceptRegister.and",
+		"defaultMessage": "and"
+	},
+	{
+		"id": "global.signUp.acceptRegister.terms",
+		"defaultMessage": "Terms and Conditions"
 	}
 ]
