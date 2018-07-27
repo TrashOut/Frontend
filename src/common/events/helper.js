@@ -25,7 +25,7 @@
 import geolib from 'geolib';
 
 export const getPointsBound = (points) => {
-  if (!points) return null;
+  if (!points || points.length === 0) return null;
 
   const result = {
     upperLeft: {},
@@ -47,7 +47,7 @@ export const getPointsBound = (points) => {
 
   let coords = {};
   if (points.length === 1 || isMultiplePoint(points)) {
-    const { lat, long } = points[0].gps;
+    const { lat, long } = ((points[0] || {}).gps || { lat: 0, long: 0 });
     const pointObj = { lat, lon: long };
     const upperLeftPoint = geolib.computeDestinationPoint(pointObj, 20, 315);
     const bottomRightPoint = geolib.computeDestinationPoint(pointObj, 20, 135);
