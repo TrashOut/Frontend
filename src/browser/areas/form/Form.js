@@ -151,19 +151,25 @@ class Filter extends Component {
           if (nextProps.values[fields[j]] === 'all') add += 1;
           else break;
         }
+
         const field = fields[i - add];
         const filter = { type: fields[i + 1] };
-        filter[field] = nextProps.values[field];
+        if (field) {
+          filter[field] = nextProps.values[field];
+        }
 
         if (fields[i + 1]) {
           fetchAreaList(filter);
         }
-        if (insertAreaId && items) {
-          const id = items.get(field).filter(x => x.id === nextProps.values[field]);
+
+        const currentField = items.get(field);
+        if (insertAreaId && items && currentField) {
+          const id = currentField.filter(x => x.id === nextProps.values[field]);
           if (id.length > 0) {
             change(formName, 'areaId', id[0].pathId);
           }
         }
+
         this.removeToEnd(i + 1);
         break;
       }
