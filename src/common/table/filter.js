@@ -153,6 +153,7 @@ export class CollectionPointFilter extends Record({
   page: 1,
   orderBy: '',
   limit: 10,
+  collectionPointNote: '',
 }, 'collectionPointFilter') {
   constructor(values) {
     if (!values) {

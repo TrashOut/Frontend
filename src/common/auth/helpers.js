@@ -58,7 +58,7 @@ export const hasAreaAuthorization = (userAreas, area, role, exactRole = false) =
       : (userAreaRoleId <= selectedRoleId);
   }, false);
 
-export const hasEventAuthorization = (user, event) => user.id === event.userId;
+export const hasEventAuthorization = (user, event) => user.id === parseInt(event.userId, 10);
 
 export const hasOrganizationAuthorization = (user, organization, roleId) => {
   const o = user.organizations.filter(x => x.id === organization.id)[0];
