@@ -38,7 +38,7 @@ const config = {
   sentryUrl: process.env.NODE_ENV === 'production'
     ? 'https://d609d84e844f4bc3905f44f4b94f5836@sentry.io/232508'
     : 'https://ac67ade7cf7143809fc3978851b42572@sentry.io/232513',
-  googleMaps: 'AIzaSyAYllMAAZSTvdgXyV_KSZLzNBqekYFy1Mg',
+  googleMaps: 'AIzaSyAbe7pSzBnjsU2x6bk3FqyVFcYtemI7zBM',
   api: {
     externalAPI: 'https://dev-api.trashout.ngo/v1/',
     internalAPI: 'http://localhost:8888/v1/',
