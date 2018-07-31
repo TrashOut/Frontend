@@ -23,7 +23,7 @@
  * See the GNU General Public License for more details: <https://www.gnu.org/licenses/>.
  */
 const config = {
-  googleMaps: 'AIzaSyBQa-0pghBXFAOjvvWGfIieQcTvMAefNPY',
+  googleMaps: 'AIzaSyAbe7pSzBnjsU2x6bk3FqyVFcYtemI7zBM',
 };
 
 const getConfiguration = () => {
