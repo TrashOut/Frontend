@@ -659,7 +659,7 @@ export default [
 	},
 	{
 		"id": "global.fetchError",
-		"defaultMessage": "Huups, server aktuálne neodpovedá. Skúste to o chvíľu, prosím."
+		"defaultMessage": "Aktuálne máme dočasné problémy s naším serverom. Robíme všetko pre to, aby sme to čoskoro vyriešili. Prosím, vráťte sa neskôr."
 	},
 	{
 		"id": "trash.discardChanges",
@@ -727,7 +727,7 @@ export default [
 	},
 	{
 		"id": "global.loadingError",
-		"defaultMessage": "Nahrávanie zlyhalo :("
+		"defaultMessage": "Pre zobrazenie tejto sekcie sa prosím pripojte k internetu."
 	},
 	{
 		"id": "trash.edit.betterLocation",
@@ -4375,7 +4375,7 @@ export default [
 	},
 	{
 		"id": "global.trashoutShareDescription",
-		"defaultMessage": "TrashOut je environmentálna organizácia, ktorá pomáha lokalizovať občanom nelegálne skládky."
+		"defaultMessage": "TrashOut je environmentálny projekt, ktorého cieľom je zmapovať všetky nelegálne skládky na celom svete a pomôcť občanom recyklovať viac."
 	},
 	{
 		"id": "collectionPoint.mapNavigation.message",
@@ -4691,11 +4691,11 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "S registráciou alebo používaním mobilnej aplikácie súhlasíte so znením"
+		"defaultMessage": "Súhlasím so spracovaním mojich osobných údajov. Prečítal/a som si a prijímam"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
-		"defaultMessage": "Ochrany osobných údajov"
+		"defaultMessage": "Zásady ochrany osobných údajov"
 	},
 	{
 		"id": "global.signUp.acceptRegister.and",
@@ -4703,6 +4703,30 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.terms",
-		"defaultMessage": "Podmienkami používania"
+		"defaultMessage": "Podmienky používania"
+	},
+	{
+		"id": "global.error.api.text",
+		"defaultMessage": "Aktuálne máme dočasné problémy s naším serverom. Robíme všetko pre to, aby sme to čoskoro vyriešili. Prosím, vráťte sa neskôr."
+	},
+	{
+		"id": "global.internet.offline",
+		"defaultMessage": "Pre zobrazenie tejto sekcie sa prosím pripojte k internetu."
+	},
+	{
+		"id": "global.cookiesPolicy",
+		"defaultMessage": "Na tejto webovej stránke používame súbory cookie, aby sme vám poskytli najlepší zážitok. Súhlasíte kliknutím na tlačidlo \"Akceptovať\". Cookies používame, aby sme mohli analyzovať návštevnosť a správanie návštevníkov na našich webových stránkach a na marketingové účely. Niekedy zdieľame tieto anonymizované informácie s nástrojmi tretích strán. Prečítajte si naše"
+	},
+	{
+		"id": "global.acceptCookiesPolicy",
+		"defaultMessage": "Akceptovať Cookies"
+	},
+	{
+		"id": "global.cookiesPolicy.link",
+		"defaultMessage": "Zásady ochrany osobných údajov"
+	},
+	{
+		"id": "global.internet.error.offline",
+		"defaultMessage": "Vaše mobilné zariadenie nie je pripojené k internetu. Urobte fotografiu a nahláste skládku \nneskôr prostredníctvom stránky www.admin.trashout.ngo."
 	}
 ]

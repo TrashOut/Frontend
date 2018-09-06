@@ -191,6 +191,7 @@ export default class Edit extends Component {
                         accept="image/*"
                         multiple={Boolean(false)}
                         description={msg('profile.edit.profileImage')}
+                        dismissHint
                       />
                     </div>
                   </div>
