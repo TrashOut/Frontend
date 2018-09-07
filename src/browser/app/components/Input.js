@@ -183,6 +183,7 @@ const Input = ({
     return (
       <div className="form-section-container">
         <h4>{label}</h4>
+        {!next.dismissHint && <p>{msg('global.images.requirements')}</p>}
         <Dropzone
           accept={next.accept || 'image/*'}
           multiple={next.multiple}

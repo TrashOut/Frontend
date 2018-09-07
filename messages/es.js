@@ -659,7 +659,7 @@ export default [
 	},
 	{
 		"id": "global.fetchError",
-		"defaultMessage": "Algo salió mal :(\nEl servidor no responde ahora mismo; vuelva a intentarlo más tarde."
+		"defaultMessage": "Estamos experimentando un problema temporal con nuestro servidor. Estamos haciendo nuestro mejor esfuerzo para solucionarlo pronto. Por favor regresa más tarde."
 	},
 	{
 		"id": "trash.discardChanges",
@@ -727,7 +727,7 @@ export default [
 	},
 	{
 		"id": "global.loadingError",
-		"defaultMessage": "Error al cargar :("
+		"defaultMessage": "Por favor, conéctese a Internet para ver esta sección."
 	},
 	{
 		"id": "trash.edit.betterLocation",
@@ -4691,11 +4691,11 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "Al registrarte, aceptas las"
+		"defaultMessage": "Estoy de acuerdo con el procesamiento de mis datos personales. He leído y acepto"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
-		"defaultMessage": "Condiciones de Servicio"
+		"defaultMessage": "La política de privacidad"
 	},
 	{
 		"id": "global.signUp.acceptRegister.and",
@@ -4703,6 +4703,30 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.terms",
-		"defaultMessage": "Política de Privacidad"
+		"defaultMessage": "Términos de servicio"
+	},
+	{
+		"id": "global.error.api.text",
+		"defaultMessage": "Estamos experimentando un problema temporal con nuestro servidor. Estamos haciendo nuestro mejor esfuerzo para solucionarlo pronto. Por favor regresa más tarde."
+	},
+	{
+		"id": "global.internet.offline",
+		"defaultMessage": "Por favor, conéctese a Internet para ver esta sección."
+	},
+	{
+		"id": "global.cookiesPolicy",
+		"defaultMessage": "Este sitio web utiliza cookies para brindarle la mejor experiencia. De acuerdo haciendo clic en el botón 'Aceptar'. Utilizamos cookies para proporcionar funciones de redes sociales, analizar nuestro tráfico y el comportamiento de los visitantes en nuestro sitio web y para fines de marketing. Algunas veces compartimos esta información anonimizada con herramientas de terceros. Lee nuestro"
+	},
+	{
+		"id": "global.acceptCookiesPolicy",
+		"defaultMessage": "Aceptar"
+	},
+	{
+		"id": "global.cookiesPolicy.link",
+		"defaultMessage": "Política de privacidad"
+	},
+	{
+		"id": "global.internet.error.offline",
+		"defaultMessage": "Su dispositivo no está conectado a internet. Tome una fotografía e infórmela más tarde a través de www.admin.trashout.ngo."
 	}
 ]

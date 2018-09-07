@@ -26,6 +26,6 @@
   ? require('./client')
   : require('./server');
 
-const bothConfig = require('./both');
+ const bothConfig = require('./both');
 
-export default { ...bothConfig, ...envConfig };
+ export default { ...bothConfig, ...envConfig };
