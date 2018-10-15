@@ -28,7 +28,7 @@ import { validEmail, validPhone, validUrl, validFacebook, validTwitter, validate
 export const validateCreate = (values) => {
   const errors = {};
   if (!values.name || values.name.length === 0) {
-    errors.name = 'organizations.validation.name';
+    errors.name = 'organization.validation.nameRequired';
   }
 
   if (values.contactPhone && !validPhone(values.contactPhone)) {

@@ -659,7 +659,7 @@ export default [
 	},
 	{
 		"id": "global.fetchError",
-		"defaultMessage": "Something went wrong.\nThe server is not responding right now or you do not have internet connection."
+		"defaultMessage": "We are experiencing temporary issue with our server. We are doing our best to fix it soon. Please come back later."
 	},
 	{
 		"id": "trash.discardChanges",
@@ -727,7 +727,7 @@ export default [
 	},
 	{
 		"id": "global.loadingError",
-		"defaultMessage": "Loading failed"
+		"defaultMessage": "“Please connect to the internet in order to see this section.”"
 	},
 	{
 		"id": "trash.edit.betterLocation",
@@ -4375,7 +4375,7 @@ export default [
 	},
 	{
 		"id": "global.trashoutShareDescription",
-		"defaultMessage": "TrashOut is an environmental project which aims to map all illegal dumps around the world and to help citizens to recycle more."
+		"defaultMessage": "TrashOut is an environmental project which aims to map all illegal dumps around the world and to help citizens recycle more."
 	},
 	{
 		"id": "collectionPoint.mapNavigation.message",
@@ -4691,7 +4691,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "When you register or use this app, you agree with our"
+		"defaultMessage": "I agree with processing of my personal data. I have read and accepted"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -4704,5 +4704,29 @@ export default [
 	{
 		"id": "global.signUp.acceptRegister.terms",
 		"defaultMessage": "Terms and Conditions"
+	},
+	{
+		"id": "global.error.api.text",
+		"defaultMessage": "We are experiencing temporary issue with our server. We are doing our best to fix it soon. Please come back later."
+	},
+	{
+		"id": "global.internet.offline",
+		"defaultMessage": "Please connect to the internet in order to see this section."
+	},
+	{
+		"id": "global.cookiesPolicy",
+		"defaultMessage": "This website uses cookies to give you the best experience. Agree by clicking the 'Accept' button. We use cookies to be able to provide social media features, analyze our traffic and behavior of the visitors on our website and for marketing purposes. Sometimes we share this anonymized information with the 3rd parties' tools. Read our "
+	},
+	{
+		"id": "global.acceptCookiesPolicy",
+		"defaultMessage": "Accept Cookies"
+	},
+	{
+		"id": "global.cookiesPolicy.link",
+		"defaultMessage": "Privacy Policy"
+	},
+	{
+		"id": "global.internet.error.offline",
+		"defaultMessage": "Your device is not connected to the internet. Take a picture and report it later via www.admin.trashout.ngo."
 	}
 ]

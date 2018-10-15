@@ -659,7 +659,7 @@ export default [
 	},
 	{
 		"id": "global.fetchError",
-		"defaultMessage": "Ой, что-то пошло не так.\nВ данный момент сервер не отвечает. Повторите попытку позже."
+		"defaultMessage": "Мы периодически сталкиваемся с нашим сервером. Мы делаем все возможное, чтобы исправить это в ближайшее время. Пожалуйста, вернитесь позже."
 	},
 	{
 		"id": "trash.discardChanges",
@@ -727,7 +727,7 @@ export default [
 	},
 	{
 		"id": "global.loadingError",
-		"defaultMessage": "Сбой загрузки"
+		"defaultMessage": "Пожалуйста, подключитесь к Интернету, чтобы увидеть этот раздел."
 	},
 	{
 		"id": "trash.edit.betterLocation",
@@ -1115,7 +1115,7 @@ export default [
 	},
 	{
 		"id": "trash.accessibility.notForGeneralCleanup",
-		"defaultMessage": "Не для общей уюорки"
+		"defaultMessage": "Не для общей уборки"
 	},
 	{
 		"id": "trash.valiadation.accessibilityRequired",
@@ -4691,11 +4691,11 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "Регистрируясь, вы соглашаетесь с"
+		"defaultMessage": "Я согласен с обработкой моих личных данных. Я прочитал и принял"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
-		"defaultMessage": "Условиями предоставления услуг"
+		"defaultMessage": "политика конфиденциальности"
 	},
 	{
 		"id": "global.signUp.acceptRegister.and",
@@ -4703,6 +4703,30 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.terms",
-		"defaultMessage": "Политикой конфиденциальности"
+		"defaultMessage": "Условия использования"
+	},
+	{
+		"id": "global.error.api.text",
+		"defaultMessage": "Мы периодически сталкиваемся с нашим сервером. Мы делаем все возможное, чтобы исправить это в ближайшее время. Пожалуйста, вернитесь позже."
+	},
+	{
+		"id": "global.internet.offline",
+		"defaultMessage": "Пожалуйста, подключитесь к Интернету, чтобы увидеть этот раздел."
+	},
+	{
+		"id": "global.cookiesPolicy",
+		"defaultMessage": "Этот веб-сайт использует файлы cookie, чтобы дать вам лучший опыт. Согласитесь, нажав кнопку «Я принимаю». Мы используем файлы cookie для предоставления возможностей социальных сетей, анализа нашего трафика и поведения посетителей на нашем веб-сайте и в маркетинговых целях. Иногда мы предоставляем эту анонимную информацию сторонним инструментам. Читайте наши"
+	},
+	{
+		"id": "global.acceptCookiesPolicy",
+		"defaultMessage": "Я принимаю"
+	},
+	{
+		"id": "global.cookiesPolicy.link",
+		"defaultMessage": "Политика конфиденциальности"
+	},
+	{
+		"id": "global.internet.error.offline",
+		"defaultMessage": "Ваше мобильное устройство не подключено к Интернету. Сделайте снимок и сообщите об этом позже через www.admin.trashout.ngo."
 	}
 ]

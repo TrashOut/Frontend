@@ -659,7 +659,7 @@ export default [
 	},
 	{
 		"id": "global.fetchError",
-		"defaultMessage": "Hoppla, irgendwas ist schief gelaufen.\nDer Server antwortet gerade nicht, bitte versuche es später noch einmal."
+		"defaultMessage": "Wir haben ein vorübergehendes Problem mit unserem Server. Wir tun unser Bestes, um es bald zu beheben, bitte versuche es später noch einmal."
 	},
 	{
 		"id": "trash.discardChanges",
@@ -727,7 +727,7 @@ export default [
 	},
 	{
 		"id": "global.loadingError",
-		"defaultMessage": "Laden fehlgeschlagen"
+		"defaultMessage": "Bitte verbinden Sie sich mit dem Internet, um diesen Abschnitt zu sehen."
 	},
 	{
 		"id": "trash.edit.betterLocation",
@@ -4691,11 +4691,11 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "Indem du dich registrierst, stimmst du den"
+		"defaultMessage": "Ich stimme der Verarbeitung meiner persönlichen Daten zu. Ich stimme den "
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
-		"defaultMessage": "Allgemeinen Geschäftsbedingungen"
+		"defaultMessage": "Datenschutzrichtlinien"
 	},
 	{
 		"id": "global.signUp.acceptRegister.and",
@@ -4703,6 +4703,30 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.terms",
-		"defaultMessage": "Datenschutzrichtlinien"
+		"defaultMessage": "Nutzungsbedingungen"
+	},
+	{
+		"id": "global.error.api.text",
+		"defaultMessage": "Wir haben ein vorübergehendes Problem mit unserem Server. Wir tun unser Bestes, um es bald zu beheben, bitte versuche es später noch einmal."
+	},
+	{
+		"id": "global.internet.offline",
+		"defaultMessage": "Bitte verbinden Sie sich mit dem Internet, um diesen Abschnitt zu sehen."
+	},
+	{
+		"id": "global.cookiesPolicy",
+		"defaultMessage": "Diese Website verwendet Cookies, um Ihnen die bestmögliche Erfahrung zu bieten. Stimmen Sie zu, indem Sie auf die Schaltfläche \"Akzeptieren\" klicken. Wir verwenden Cookies, um Social-Media-Funktionen bereitzustellen, unseren Traffic und das Verhalten der Besucher auf unserer Website und zu Marketingzwecken zu analysieren. Manchmal teilen wir diese anonymisierten Informationen mit den Tools von Drittanbietern. Lesen Sie unsere"
+	},
+	{
+		"id": "global.acceptCookiesPolicy",
+		"defaultMessage": "Akzeptieren"
+	},
+	{
+		"id": "global.cookiesPolicy.link",
+		"defaultMessage": "Datenschutz-Bestimmungen"
+	},
+	{
+		"id": "global.internet.error.offline",
+		"defaultMessage": "Ihr Mobilgerät ist nicht mit dem Internet verbunden. Machen Sie ein Foto und melden Sie es später über www.admin.trashout.ngo."
 	}
 ]
