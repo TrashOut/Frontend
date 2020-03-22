@@ -130,3 +130,11 @@ export const removeOrganizationUser = async (id, userId, token) => {
   }
 };
 
+export const getOrganizationStatistics = async (id, token) => {
+  try {
+    return await get(`/webapi/organization/${id}/stats`, token);
+  } catch (error) {
+    throw new Error('get-error');
+  }
+};
+

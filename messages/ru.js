@@ -955,7 +955,7 @@ export default [
 	},
 	{
 		"id": "home.nearestRecyclingPoints",
-		"defaultMessage": "Ближайший пункт переработки"
+		"defaultMessage": "Ближайшие пункты по переработке"
 	},
 	{
 		"id": "collectionPoint.size.recyclingBin",
@@ -1955,7 +1955,7 @@ export default [
 	},
 	{
 		"id": "event.confirmation.joinEvent",
-		"defaultMessage": "Действительно хотите присоединиться к мероприятию?"
+		"defaultMessage": "Пожалуйста, подтвердите свое участие. Информация об участниках доступна для организаторов, чтобы помочь им в подготовке"
 	},
 	{
 		"id": "trash.confirmation.markSpam",
@@ -4728,5 +4728,133 @@ export default [
 	{
 		"id": "global.internet.error.offline",
 		"defaultMessage": "Ваше мобильное устройство не подключено к Интернету. Сделайте снимок и сообщите об этом позже через www.admin.trashout.ngo."
+	},
+	{
+		"id": "global.images.requirements",
+		"defaultMessage": "Используйте изображения с соотношением сторон 1: 2 или менее (не широкоэкранное изображение) и до 2 МБ."
+	},
+	{
+		"id": "home.nearestRecyclingPoint",
+		"defaultMessage": "Ближайшая точка перерабатывания"
+	},
+	{
+		"id": "home.recycling_point_add_new_do_later",
+		"defaultMessage": "Отмена"
+	},
+	{
+		"id": "home.recycling_point_add_new_go_to_web",
+		"defaultMessage": "Добавить сейчас"
+	},
+	{
+		"id": "home.recycling_point_add_new_redirect",
+		"defaultMessage": "Точка сбора может быть добавлена только из нашего веб-приложения, в которое вы можете войти через веб-браузер"
+	},
+	{
+		"id": "info.frequentlyAskedQuestions",
+		"defaultMessage": "Часто задаваемые вопросы"
+	},
+	{
+		"id": "info.supportUs",
+		"defaultMessage": "Поддерживать нас"
+	},
+	{
+		"id": "home.recycling_point_edit_redirect",
+		"defaultMessage": "точка сбора может быть отредактирована только из веб-приложения, доступ к которому осуществляется через веб-браузер"
+	},
+	{
+		"id": "collectionPoint.email_is_missing",
+		"defaultMessage": "Добавить адрес электронной почты"
+	},
+	{
+		"id": "collectionPoint.phone_is_missing",
+		"defaultMessage": "Добавьте номер телефона"
+	},
+	{
+		"id": "collectionPoint.web_is_missing",
+		"defaultMessage": "Добавить веб-адрес"
+	},
+	{
+		"id": "event.meeting_point",
+		"defaultMessage": "Место встречи"
+	},
+	{
+		"id": "home.recycling_point_add_new_tittle",
+		"defaultMessage": "Добавить пункт сбора"
+	},
+	{
+		"id": "home.recycling_point_edit_title",
+		"defaultMessage": "Обновить точку сбора"
+	},
+	{
+		"id": "home.recycling_point_edit_go_to_web",
+		"defaultMessage": "Изменить сейчас"
+	},
+	{
+		"id": "home.recycling_point_edit_do_later\n",
+		"defaultMessage": "Отмена"
+	},
+	{
+		"id": "event.event_edit_title",
+		"defaultMessage": "Изменить это событие"
+	},
+	{
+		"id": "event.event_edit_redirect\n",
+		"defaultMessage": "События можно редактировать только из веб-приложения, которое доступно через веб-браузер"
+	},
+	{
+		"id": "event.event_edit_do_later\n",
+		"defaultMessage": "Отмена"
+	},
+	{
+		"id": "event.event_edit_go_to_web\n",
+		"defaultMessage": "Изменить сейчас"
+	},
+	{
+		"id": "event.event_joinEventTitle",
+		"defaultMessage": "Присоединяйтесь к событию"
+	},
+	{
+		"id": "home.orderTrashPickup",
+		"defaultMessage": "Заказать вывоз мусора"
+	},
+	{
+		"id": "event.create_event_meeting_date_title",
+		"defaultMessage": "Дата встречи"
+	},
+	{
+		"id": "notification_new_trash_formatter",
+		"defaultMessage": "Вы охотитесь на% d новых или обновленных корзин."
+	},
+	{
+		"id": "about_version_date_formatted",
+		"defaultMessage": "Версия от% s"
+	},
+	{
+		"id": "skip_btn",
+		"defaultMessage": "ПРОПУСКАТЬ"
+	},
+	{
+		"id": "event.create.thankYou.sentence1",
+		"defaultMessage": "Спасибо за создание этого события"
+	},
+	{
+		"id": "event.create.thankYou.sentence2",
+		"defaultMessage": "Ты обалденный!"
+	},
+	{
+		"id": "event.create.thankYou.sentence3",
+		"defaultMessage": "Не забудьте обновить все дампы, которые вы очистили во время мероприятия"
+	},
+	{
+		"id": "event.create.thankYou.shareTitle",
+		"defaultMessage": "Поделиться с другими"
+	},
+	{
+		"id": "event.create.thankYou.detail\n",
+		"defaultMessage": "Посмотреть событие"
+	},
+	{
+		"id": "trash.create.thankYou.detail",
+		"defaultMessage": "Посмотреть отчет"
 	}
 ]

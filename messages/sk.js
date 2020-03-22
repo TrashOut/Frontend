@@ -227,7 +227,7 @@ export default [
 	},
 	{
 		"id": "global.generalError",
-		"defaultMessage": "Huups, niečo sa pokazilo :("
+		"defaultMessage": "Huups, niečo sa pokazilo"
 	},
 	{
 		"id": "global.noInternetConnection",
@@ -427,7 +427,7 @@ export default [
 	},
 	{
 		"id": "profile.validation.invalidEmail",
-		"defaultMessage": "Huups, vložili ste neplatný email :("
+		"defaultMessage": "Huups, vložili ste neplatnú emailovú adresu"
 	},
 	{
 		"id": "profile.validation.enterPassword",
@@ -435,7 +435,7 @@ export default [
 	},
 	{
 		"id": "profile.validation.invalidPasswordOrEmail",
-		"defaultMessage": "Huups, Vaše heslo a email nesedia :("
+		"defaultMessage": "Huups, Vaše heslo a email nesedia"
 	},
 	{
 		"id": "profile.enterEmail",
@@ -739,7 +739,7 @@ export default [
 	},
 	{
 		"id": "global.dbError",
-		"defaultMessage": "Huups, nepodarilo sa nám to uložiť :(."
+		"defaultMessage": "Huups, nepodarilo sa nám to uložiť"
 	},
 	{
 		"id": "global.gps",
@@ -951,7 +951,7 @@ export default [
 	},
 	{
 		"id": "home.didYouKnow",
-		"defaultMessage": "Novinky a aktualizácie"
+		"defaultMessage": "Novinky a aktuality"
 	},
 	{
 		"id": "home.nearestRecyclingPoints",
@@ -1303,11 +1303,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.allowedTypes",
-		"defaultMessage": "Druh odpadu, aký tu môžete odkladať"
+		"defaultMessage": "Druh odpadu, aký tu môžete odovzdať"
 	},
 	{
 		"id": "collectionPoint.other",
-		"defaultMessage": "Viac recyklačných miest okolo vás"
+		"defaultMessage": "Viac zberných miest okolo vás"
 	},
 	{
 		"id": "global.filter.noResult",
@@ -1315,7 +1315,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.filter.header",
-		"defaultMessage": "Filter pre recyklačné miesta"
+		"defaultMessage": "Filter pre zberné miesta"
 	},
 	{
 		"id": "trash.filter.header",
@@ -1395,7 +1395,7 @@ export default [
 	},
 	{
 		"id": "profile.youUpdated",
-		"defaultMessage": "Vaše aktualizácie"
+		"defaultMessage": "Vaše aktivity"
 	},
 	{
 		"id": "profile.youCleaned",
@@ -1795,7 +1795,7 @@ export default [
 	},
 	{
 		"id": "notifications.reportedCollectionPoints",
-		"defaultMessage": "Hlásené recyklačné miesta"
+		"defaultMessage": "Hlásené zberné miesta"
 	},
 	{
 		"id": "notifications.users.approve",
@@ -1955,7 +1955,7 @@ export default [
 	},
 	{
 		"id": "event.confirmation.joinEvent",
-		"defaultMessage": "Naozaj sa chcete zúčastniť udalosti?"
+		"defaultMessage": "Potvrďte svoju účasť. Informácie o účastníkoch sú organizátorom k dispozícii, aby im pomohli s prípravami"
 	},
 	{
 		"id": "trash.confirmation.markSpam",
@@ -2523,7 +2523,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.validation.markAsNoLongerExistsFailed",
-		"defaultMessage": "Označenie zbernom mieste, ktoré sa už nepodarilo"
+		"defaultMessage": "Označenie zberného miesta ako spam sa nepodarilo"
 	},
 	{
 		"id": "collectionPoint.validation.markAsNoLongerExistsFailed.success",
@@ -2963,7 +2963,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.create.images",
-		"defaultMessage": "Prosím, vyberte obrázok alebo logo recyklačného miesta. Nie je to nevyhnutné, ale pomôže ostatným nájsť miesto ľahšie."
+		"defaultMessage": "Prosím, vyberte obrázok alebo logo zberného miesta. Nie je to nevyhnutné, ale pomôže ostatným nájsť miesto ľahšie."
 	},
 	{
 		"id": "global.phone.placeholder",
@@ -3011,7 +3011,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.update.success",
-		"defaultMessage": "Recyklačné miesto bolo úspešne aktualizované"
+		"defaultMessage": "Zberné miesto bolo úspešne aktualizované"
 	},
 	{
 		"id": "user.editArea",
@@ -3107,15 +3107,15 @@ export default [
 	},
 	{
 		"id": "collectionPoint.delete.confirmation",
-		"defaultMessage": "Naozaj chcete odstrániť toto recyklačné miesto?"
+		"defaultMessage": "Naozaj chcete odstrániť toto zberné miesto?"
 	},
 	{
 		"id": "collectionPoint.detail.header",
-		"defaultMessage": "Detail recyklačného miesta"
+		"defaultMessage": "Detail zberného miesta"
 	},
 	{
 		"id": "collectionPoint.create.success",
-		"defaultMessage": "Recyklačné miesto bolo úspešne vytvorené"
+		"defaultMessage": "Zberné miesto bolo úspešne vytvorené"
 	},
 	{
 		"id": "organization.create.success",
@@ -3307,11 +3307,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.gpsLocation",
-		"defaultMessage": "Recyklačné miesto GPS"
+		"defaultMessage": "Zberné miesto GPS"
 	},
 	{
 		"id": "collectionPoint.gpsMap",
-		"defaultMessage": "Recyklačné miesto na mape"
+		"defaultMessage": "Zberné miesto na mape"
 	},
 	{
 		"id": "collectionPoint.category.recyclabes",
@@ -3343,7 +3343,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.category",
-		"defaultMessage": "Kategória recyklačného miesta"
+		"defaultMessage": "Kategória zberného miesta"
 	},
 	{
 		"id": "user.editArea.success",
@@ -3367,11 +3367,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.remove.success",
-		"defaultMessage": "Recyklačné miesto bolo úspešne odstránené"
+		"defaultMessage": "Zberné miesto bolo úspešne odstránené"
 	},
 	{
 		"id": "collectionPoint.markedAsSpam.alreadyMarked",
-		"defaultMessage": "Toto recyklačné miesto je už označené ako SPAM"
+		"defaultMessage": "Toto zberné miesto je už označené ako SPAM"
 	},
 	{
 		"id": "event.detail.when",
@@ -3423,7 +3423,7 @@ export default [
 	},
 	{
 		"id": "event.detail.collectionPoints",
-		"defaultMessage": "Recyklačné miesta"
+		"defaultMessage": "Zberné miesta"
 	},
 	{
 		"id": "event.detail.joinedUsers",
@@ -3511,7 +3511,7 @@ export default [
 	},
 	{
 		"id": "event.create.collectionPoints",
-		"defaultMessage": "Recyklačné miesta v oblasti"
+		"defaultMessage": "Zberné miesta v oblasti"
 	},
 	{
 		"id": "event.filter.upcomingOrOld",
@@ -4079,7 +4079,7 @@ export default [
 	},
 	{
 		"id": "global.phone.hint",
-		"defaultMessage": "Číslo s predvoľnou začínajúce +/ 00"
+		"defaultMessage": "Číslo s predvoľbou začínajúce +/ 00"
 	},
 	{
 		"id": "profile.currentPassword",
@@ -4091,15 +4091,15 @@ export default [
 	},
 	{
 		"id": "collectionPoint.created.success",
-		"defaultMessage": "Recyklačný bod bol úspešne vytvorený"
+		"defaultMessage": "Zberné miesto bolo úspešne vytvorené"
 	},
 	{
 		"id": "collectionPoint.markedAsSpam.success",
-		"defaultMessage": "Recyklačný bod bol úspešne označený ako spam."
+		"defaultMessage": "Zberné miesto bolo úspešne označené ako spam."
 	},
 	{
 		"id": "collectionPoint.removed.success",
-		"defaultMessage": "Recyklačný bod bol úspešne odstránený"
+		"defaultMessage": "Zberné miesto bolo úspešne odstránené"
 	},
 	{
 		"id": "profile.passwordChanged.success",
@@ -4619,7 +4619,7 @@ export default [
 	},
 	{
 		"id": "event.addToCalendar",
-		"defaultMessage": "Chcete udalosť pridať do kalendára?"
+		"defaultMessage": "Pridať do kalendára"
 	},
 	{
 		"id": "global.add",
@@ -4728,5 +4728,133 @@ export default [
 	{
 		"id": "global.internet.error.offline",
 		"defaultMessage": "Vaše mobilné zariadenie nie je pripojené k internetu. Urobte fotografiu a nahláste skládku \nneskôr prostredníctvom stránky www.admin.trashout.ngo."
+	},
+	{
+		"id": "global.images.requirements",
+		"defaultMessage": "Používajte obrázky s pomerom strán 1: 2 alebo menším (nie širokouhlý obrázok) a veľkosťou do 2 MB."
+	},
+	{
+		"id": "home.nearestRecyclingPoint",
+		"defaultMessage": "Najbližšie zberné miesto"
+	},
+	{
+		"id": "home.recycling_point_add_new_do_later",
+		"defaultMessage": "Zrušiť"
+	},
+	{
+		"id": "home.recycling_point_add_new_go_to_web",
+		"defaultMessage": "Pridať teraz"
+	},
+	{
+		"id": "home.recycling_point_add_new_redirect",
+		"defaultMessage": "Zberné miesto je zatiaľ možné pridať len z webovej aplikácie do ktorej sa prihlásite cez webový prehliadač"
+	},
+	{
+		"id": "info.frequentlyAskedQuestions",
+		"defaultMessage": "Často kladené otázky"
+	},
+	{
+		"id": "info.supportUs",
+		"defaultMessage": "Podporiť projekt"
+	},
+	{
+		"id": "home.recycling_point_edit_redirect",
+		"defaultMessage": "Zberné miesto je zatiaľ možné upravovať len z webovej aplikácie, do ktorej sa prihlásite cez webový prehliada"
+	},
+	{
+		"id": "collectionPoint.email_is_missing",
+		"defaultMessage": "Pridať emailovú adresu"
+	},
+	{
+		"id": "collectionPoint.phone_is_missing",
+		"defaultMessage": "Pridať telefónne číslo"
+	},
+	{
+		"id": "collectionPoint.web_is_missing",
+		"defaultMessage": "Pridať webovú adresu"
+	},
+	{
+		"id": "event.meeting_point",
+		"defaultMessage": "Miesto stretnutia"
+	},
+	{
+		"id": "home.recycling_point_add_new_tittle",
+		"defaultMessage": "Pridať zberné miesto"
+	},
+	{
+		"id": "home.recycling_point_edit_title",
+		"defaultMessage": "Upraviť zberné miesto"
+	},
+	{
+		"id": "home.recycling_point_edit_go_to_web",
+		"defaultMessage": "Upraviť teraz"
+	},
+	{
+		"id": "home.recycling_point_edit_do_later\n",
+		"defaultMessage": "Zrušiť"
+	},
+	{
+		"id": "event.event_edit_title",
+		"defaultMessage": "Upraviť podujatie"
+	},
+	{
+		"id": "event.event_edit_redirect\n",
+		"defaultMessage": "Čistiace podujatia je zatiaľ možné upravovať len z našej webovej aplikácie, do ktorej sa prihlásite cez webový prehliadač"
+	},
+	{
+		"id": "event.event_edit_do_later\n",
+		"defaultMessage": "Zrušiť"
+	},
+	{
+		"id": "event.event_edit_go_to_web\n",
+		"defaultMessage": "Upraviť teraz"
+	},
+	{
+		"id": "event.event_joinEventTitle",
+		"defaultMessage": "Pridať sa k udalosti"
+	},
+	{
+		"id": "home.orderTrashPickup",
+		"defaultMessage": "Objednať odvoz odpadu"
+	},
+	{
+		"id": "event.create_event_meeting_date_title",
+		"defaultMessage": "Dátum stretnutia"
+	},
+	{
+		"id": "notification_new_trash_formatter",
+		"defaultMessage": "Našli ste {number} nových alebo aktualizovaných skládok"
+	},
+	{
+		"id": "about_version_date_formatted",
+		"defaultMessage": "Verzia z {string}"
+	},
+	{
+		"id": "skip_btn",
+		"defaultMessage": "Preskočiť"
+	},
+	{
+		"id": "event.create.thankYou.sentence1",
+		"defaultMessage": "Ďakujeme za vytvorenie podujatia"
+	},
+	{
+		"id": "event.create.thankYou.sentence2",
+		"defaultMessage": "Ste skvelý/á"
+	},
+	{
+		"id": "event.create.thankYou.sentence3",
+		"defaultMessage": "Nezabudnite aktualizovať skládky po ukončení podujatia"
+	},
+	{
+		"id": "event.create.thankYou.shareTitle",
+		"defaultMessage": "Zdieľať s priateľmi"
+	},
+	{
+		"id": "event.create.thankYou.detail\n",
+		"defaultMessage": "Prezrieť podujatie"
+	},
+	{
+		"id": "trash.create.thankYou.detail",
+		"defaultMessage": "Prezrieť hlásenie"
 	}
 ]
