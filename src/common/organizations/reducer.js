@@ -53,6 +53,7 @@ const organizationReducer = (state = new State(), action) => {
         .setIn(['item', 'usersCount'], action.payload[1] ? action.payload[1].count : 0)
         .setIn(['item', 'area'], action.payload[2] ? new Area(action.payload[2]) : null)
         .setIn(['item', 'parent'], action.payload[3] ? new Organization(action.payload[3]) : null)
+        .setIn(['item', 'statistics'], action.payload[4] ? action.payload[4].stats : null)
         .set('isFetching', false);
     }
     default:

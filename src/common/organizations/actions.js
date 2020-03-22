@@ -120,8 +120,9 @@ export const fetchOrganization = (id) => ({ token }) => {
     const parent = (organization.parentId && organization.parentId > 0)
       ? await api.getOrganization(organization.parentId, token)
       : null;
+    const statistics = await api.getOrganizationStatistics(id, token);
 
-    return [organization, usersCount, area, parent]; // Second param for users
+    return [organization, usersCount, area, parent, statistics]; // Second param for users
   };
 
   return {
@@ -129,6 +130,7 @@ export const fetchOrganization = (id) => ({ token }) => {
     payload: promise(),
   };
 };
+
 
 export const removeOrganization = (id) => ({ token }) => ({
   type: REMOVE_ORGANIZATION,

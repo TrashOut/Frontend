@@ -143,7 +143,7 @@
     };
     $.fn.getClusterIcon = function(cleaned, moreLess, stillHere, updateNeeded) {
       var index;
-      index = 1;
+      index = 2;
       if (updateNeeded === 0) {
         if (cleaned > (stillHere + moreLess)) {
           index = 4;
@@ -157,18 +157,18 @@
           index = 8;
         }
       } else if (updateNeeded === (stillHere + moreLess + cleaned)) {
-        index = 10;
+        index = 8;
       } else {
         if (cleaned >= updateNeeded) {
-          index = 5;
+          index = 4;
         } else if ((cleaned > 0) && (updateNeeded > cleaned)) {
-          index = 6;
+          index = 2;
         } else if (((stillHere + moreLess - updateNeeded) >= updateNeeded) && (cleaned === 0)) {
-          index = 3;
+          index = 8;
         } else if (((stillHere + moreLess - updateNeeded) < updateNeeded) && (cleaned === 0)) {
-          index = 7;
+          index = 8;
         } else {
-          index = 1;
+          index = 2;
         }
       }
       return index;

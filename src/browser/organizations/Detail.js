@@ -92,6 +92,8 @@ export default class Detail extends Component {
     updateOrganization: React.PropTypes.func,
     user: React.PropTypes.object,
     users: React.PropTypes.object,
+    statistics: React.PropTypes.object,
+    organization: React.PropTypes.object,
   };
 
   state = {
@@ -119,8 +121,8 @@ export default class Detail extends Component {
   }
 
   renderInfoBox(canManage) {
-    const { addConfirm, updateOrganization, formatDate, item, msg } = this.props;
-
+    const { addConfirm, updateOrganization, formatDate, item, msg, organization } = this.props;
+    const { cleaned, reported, updated } = organization.statistics;
     return (
       <div className="row">
         <div className="col s12 m5">
@@ -139,6 +141,17 @@ export default class Detail extends Component {
           />
         </div>
         <div className="col s12 m7">
+          <Box
+            className="col s12"
+            title={msg('profile.statistics.title')}
+            type="statisticsOrganization"
+            data={[
+              { label: msg('profile.youReported'), content: reported, image: 'reported' },
+              { label: msg('profile.youUpdated'), content: updated, image: 'updated' },
+              { label: msg('profile.youCleaned'), content: cleaned, image: 'cleaned' },
+            ]}
+            onClick={this.redirectToTrashes}
+          />
           <Box
             title={msg('organization.description')}
             class="col s12"

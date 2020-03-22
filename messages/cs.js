@@ -1071,7 +1071,7 @@ export default [
 	},
 	{
 		"id": "trash.size.bag",
-		"defaultMessage": "Vejde se do batohu"
+		"defaultMessage": "Vejde se do pytle"
 	},
 	{
 		"id": "trash.size.wheelbarrow",
@@ -1259,7 +1259,7 @@ export default [
 	},
 	{
 		"id": "event.create.youSelectedDumps_X",
-		"defaultMessage": "?"
+		"defaultMessage": "Vybrali ste {number} skládok"
 	},
 	{
 		"id": "event.create.setDate",
@@ -1919,7 +1919,7 @@ export default [
 	},
 	{
 		"id": "event.filter.startTimeTo",
-		"defaultMessage": "Datum zahájení události na"
+		"defaultMessage": "Datum a čas ukončení události"
 	},
 	{
 		"id": "global.pickOne",
@@ -1955,7 +1955,7 @@ export default [
 	},
 	{
 		"id": "event.confirmation.joinEvent",
-		"defaultMessage": "Opravdu se chcete zůčastnit události?"
+		"defaultMessage": "Potvrďte vaši účast. Pořadatelé mají k dispozici informace o účastnících, aby jim pomohli s přípravami"
 	},
 	{
 		"id": "trash.confirmation.markSpam",
@@ -3879,7 +3879,7 @@ export default [
 	},
 	{
 		"id": "mail.eventCreate.greeting",
-		"defaultMessage": "Milý"
+		"defaultMessage": "Milý/á"
 	},
 	{
 		"id": "mail.eventCreate.eventInfo1",
@@ -3923,7 +3923,7 @@ export default [
 	},
 	{
 		"id": "mail.eventFeedback.eventFeedback2",
-		"defaultMessage": "která se konala včera. Jsi úžasný! Díky vašemu úsilí je toto místo nyní čistší."
+		"defaultMessage": "která se konala včera. Jste úžasný/á! Díky vašemu úsilí je toto místo nyní čistší."
 	},
 	{
 		"id": "mail.eventFeedback.eventFeedback3",
@@ -4728,5 +4728,133 @@ export default [
 	{
 		"id": "global.internet.error.offline",
 		"defaultMessage": "Vaše mobilní zařízení není připojeno k internetu. Udělejte fotografii a nahlaste skládku\npozději prostřednictvím stránky www.admin.trashout.ngo."
+	},
+	{
+		"id": "global.images.requirements",
+		"defaultMessage": "Použijte obrázky s poměrem stran 1: 2 nebo méně (ne širokoúhlý obrázky) a s velikostí do 2 MB."
+	},
+	{
+		"id": "home.nearestRecyclingPoint",
+		"defaultMessage": "Nejbližší sběrné místo"
+	},
+	{
+		"id": "home.recycling_point_add_new_do_later",
+		"defaultMessage": "Zrušit"
+	},
+	{
+		"id": "home.recycling_point_add_new_go_to_web",
+		"defaultMessage": "Přidat nyní"
+	},
+	{
+		"id": "home.recycling_point_add_new_redirect",
+		"defaultMessage": "Sběrné místo lze přidat pouze z webové aplikace, do které se můžete přihlásit pomocí webového prohlížeče"
+	},
+	{
+		"id": "info.frequentlyAskedQuestions",
+		"defaultMessage": "Často kladené otázky"
+	},
+	{
+		"id": "info.supportUs",
+		"defaultMessage": "Podpořit projekt"
+	},
+	{
+		"id": "home.recycling_point_edit_redirect",
+		"defaultMessage": "V současné době lze sběrné místo upravovat pouze z webové aplikace, ke které přistupíte prostřednictvím webového prohlížeče"
+	},
+	{
+		"id": "collectionPoint.email_is_missing",
+		"defaultMessage": "Přidat e-mailovou adresu"
+	},
+	{
+		"id": "collectionPoint.phone_is_missing",
+		"defaultMessage": "Přidat telefoní číslo"
+	},
+	{
+		"id": "collectionPoint.web_is_missing",
+		"defaultMessage": "Přidat webovou adresu"
+	},
+	{
+		"id": "event.meeting_point",
+		"defaultMessage": "Místo setkání"
+	},
+	{
+		"id": "home.recycling_point_add_new_tittle",
+		"defaultMessage": "Přidat sběrné místo"
+	},
+	{
+		"id": "home.recycling_point_edit_title",
+		"defaultMessage": "Upravit sběrné místo"
+	},
+	{
+		"id": "home.recycling_point_edit_go_to_web",
+		"defaultMessage": "Upravit nyní"
+	},
+	{
+		"id": "home.recycling_point_edit_do_later\n",
+		"defaultMessage": "Zrušit"
+	},
+	{
+		"id": "event.event_edit_title",
+		"defaultMessage": "Upravit událost"
+	},
+	{
+		"id": "event.event_edit_redirect\n",
+		"defaultMessage": "V současné době lze události upravovat pouze z naší webové aplikace, ke které přistupíte prostřednictvím webového prohlížeče"
+	},
+	{
+		"id": "event.event_edit_do_later\n",
+		"defaultMessage": "Zrušit"
+	},
+	{
+		"id": "event.event_edit_go_to_web\n",
+		"defaultMessage": "Upravit nyní"
+	},
+	{
+		"id": "event.event_joinEventTitle",
+		"defaultMessage": "Přidat se k události"
+	},
+	{
+		"id": "home.orderTrashPickup",
+		"defaultMessage": "Objednat odvoz odpadu"
+	},
+	{
+		"id": "event.create_event_meeting_date_title",
+		"defaultMessage": "Datum schůzky"
+	},
+	{
+		"id": "notification_new_trash_formatter",
+		"defaultMessage": "Našli jste {number} hlásení"
+	},
+	{
+		"id": "about_version_date_formatted",
+		"defaultMessage": "Verze z {string}"
+	},
+	{
+		"id": "skip_btn",
+		"defaultMessage": "PŘESKOČIT"
+	},
+	{
+		"id": "event.create.thankYou.sentence1",
+		"defaultMessage": "Děkujeme za vytvoření této události"
+	},
+	{
+		"id": "event.create.thankYou.sentence2",
+		"defaultMessage": "Jste úžasný/á!"
+	},
+	{
+		"id": "event.create.thankYou.sentence3",
+		"defaultMessage": "Nezapomeňte aktualizovat všechny skládky, které jste během události vyčistili"
+	},
+	{
+		"id": "event.create.thankYou.shareTitle",
+		"defaultMessage": "Sdílejte s ostatními"
+	},
+	{
+		"id": "event.create.thankYou.detail\n",
+		"defaultMessage": "Zobrazit událost"
+	},
+	{
+		"id": "trash.create.thankYou.detail",
+		"defaultMessage": "Zobrazit hlášení"
 	}
 ]

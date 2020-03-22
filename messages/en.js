@@ -47,7 +47,7 @@ export default [
 	},
 	{
 		"id": "global.menu.collectionPoints",
-		"defaultMessage": "Recycling Points"
+		"defaultMessage": "Collection Points"
 	},
 	{
 		"id": "global.showAll",
@@ -955,7 +955,7 @@ export default [
 	},
 	{
 		"id": "home.nearestRecyclingPoints",
-		"defaultMessage": "Nearest Recycling Point"
+		"defaultMessage": "Nearest collection Points"
 	},
 	{
 		"id": "collectionPoint.size.recyclingBin",
@@ -971,19 +971,19 @@ export default [
 	},
 	{
 		"id": "collectionPoint.header",
-		"defaultMessage": "Recycling Points"
+		"defaultMessage": "Collection Points"
 	},
 	{
 		"id": "collectionPoint.list.header",
-		"defaultMessage": "Recycling Point List"
+		"defaultMessage": "Collection Point List"
 	},
 	{
 		"id": "collectionPoint.create.header",
-		"defaultMessage": "Create Recycling Point"
+		"defaultMessage": "Create Collection Point"
 	},
 	{
 		"id": "collectionPoint.edit.header",
-		"defaultMessage": "Edit Recycling Point"
+		"defaultMessage": "Edit Collection Point"
 	},
 	{
 		"id": "collectionPoint.edit.firstStep",
@@ -1007,15 +1007,15 @@ export default [
 	},
 	{
 		"id": "collectionPoint.location",
-		"defaultMessage": "Address of recycling point"
+		"defaultMessage": "Address of collection point"
 	},
 	{
 		"id": "collectionPoint.size",
-		"defaultMessage": "Size of Recycling Point"
+		"defaultMessage": "Size of Collection Point"
 	},
 	{
 		"id": "collectionPoint.type",
-		"defaultMessage": "Recycling point type"
+		"defaultMessage": "Collection point type"
 	},
 	{
 		"id": "home.recentActivity.header",
@@ -1111,7 +1111,7 @@ export default [
 	},
 	{
 		"id": "trash.accessibility.underWater",
-		"defaultMessage": "Located under water"
+		"defaultMessage": "Under water/ on the waterside"
 	},
 	{
 		"id": "trash.accessibility.notForGeneralCleanup",
@@ -1307,7 +1307,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.other",
-		"defaultMessage": "More Recycling Points Around You"
+		"defaultMessage": "More collection Points Around You"
 	},
 	{
 		"id": "global.filter.noResult",
@@ -1315,7 +1315,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.filter.header",
-		"defaultMessage": "Recycling Point Filter"
+		"defaultMessage": "collection Point Filter"
 	},
 	{
 		"id": "trash.filter.header",
@@ -1327,7 +1327,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.filter.size",
-		"defaultMessage": "Size of Recycling Point"
+		"defaultMessage": "Size of collection Point"
 	},
 	{
 		"id": "collectionPoint.filter.types",
@@ -1755,7 +1755,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.filter.ids",
-		"defaultMessage": "Recycling Points IDs"
+		"defaultMessage": "Collection Points IDs"
 	},
 	{
 		"id": "collectionPoint.create.openDaysAddException",
@@ -1795,7 +1795,7 @@ export default [
 	},
 	{
 		"id": "notifications.reportedCollectionPoints",
-		"defaultMessage": "Reported Recycling Points"
+		"defaultMessage": "Reported Collection Points"
 	},
 	{
 		"id": "notifications.users.approve",
@@ -1955,7 +1955,7 @@ export default [
 	},
 	{
 		"id": "event.confirmation.joinEvent",
-		"defaultMessage": "Do you really want to join event?"
+		"defaultMessage": "Please confirm your attendance. Information about attendees is available for the organisers in order to help them with preparations"
 	},
 	{
 		"id": "trash.confirmation.markSpam",
@@ -2963,7 +2963,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.create.images",
-		"defaultMessage": "Please select Image or Logo of Recycling Point. It's not necessary, but it helps others to find the place easier. "
+		"defaultMessage": "Please select Image or Logo of collection Point. It's not necessary, but it helps others to find the place easier. "
 	},
 	{
 		"id": "global.phone.placeholder",
@@ -3011,7 +3011,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.update.success",
-		"defaultMessage": "Recycling point was successfully updated."
+		"defaultMessage": "Collection point was successfully updated."
 	},
 	{
 		"id": "user.editArea",
@@ -3107,15 +3107,15 @@ export default [
 	},
 	{
 		"id": "collectionPoint.delete.confirmation",
-		"defaultMessage": "Do you really want to delete this Recycling Point?"
+		"defaultMessage": "Do you really want to delete this Collection Point?"
 	},
 	{
 		"id": "collectionPoint.detail.header",
-		"defaultMessage": "Recycling Point Detail"
+		"defaultMessage": "Collection Point Detail"
 	},
 	{
 		"id": "collectionPoint.create.success",
-		"defaultMessage": "Recycling point was successfully created."
+		"defaultMessage": "Collection point was successfully created."
 	},
 	{
 		"id": "organization.create.success",
@@ -3307,11 +3307,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.gpsLocation",
-		"defaultMessage": "Recycling point GPS"
+		"defaultMessage": "Collection point GPS"
 	},
 	{
 		"id": "collectionPoint.gpsMap",
-		"defaultMessage": "Recycling point on map"
+		"defaultMessage": "Collection point on map"
 	},
 	{
 		"id": "collectionPoint.category.recyclabes",
@@ -3367,11 +3367,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.remove.success",
-		"defaultMessage": "Recycling point was successfully removed."
+		"defaultMessage": "Collection point was successfully removed."
 	},
 	{
 		"id": "collectionPoint.markedAsSpam.alreadyMarked",
-		"defaultMessage": "This Recycling Point is already marked as SPAM."
+		"defaultMessage": "This Collection Point is already marked as SPAM."
 	},
 	{
 		"id": "event.detail.when",
@@ -3423,7 +3423,7 @@ export default [
 	},
 	{
 		"id": "event.detail.collectionPoints",
-		"defaultMessage": "Recycling Points"
+		"defaultMessage": "Collection Points"
 	},
 	{
 		"id": "event.detail.joinedUsers",
@@ -3511,7 +3511,7 @@ export default [
 	},
 	{
 		"id": "event.create.collectionPoints",
-		"defaultMessage": "Recycling Points in area"
+		"defaultMessage": "Collection Points in area"
 	},
 	{
 		"id": "event.filter.upcomingOrOld",
@@ -4091,15 +4091,15 @@ export default [
 	},
 	{
 		"id": "collectionPoint.created.success",
-		"defaultMessage": "Recycling point was successfully created"
+		"defaultMessage": "Collection point was successfully created"
 	},
 	{
 		"id": "collectionPoint.markedAsSpam.success",
-		"defaultMessage": "Recycling point was successfully marked as spam."
+		"defaultMessage": "Collection point was successfully marked as spam."
 	},
 	{
 		"id": "collectionPoint.removed.success",
-		"defaultMessage": "Recycling point was successfully removed"
+		"defaultMessage": "Collection point was successfully removed"
 	},
 	{
 		"id": "profile.passwordChanged.success",
@@ -4619,7 +4619,7 @@ export default [
 	},
 	{
 		"id": "event.addToCalendar",
-		"defaultMessage": "Add to calendar"
+		"defaultMessage": "Add to my calendar"
 	},
 	{
 		"id": "global.add",
@@ -4728,5 +4728,133 @@ export default [
 	{
 		"id": "global.internet.error.offline",
 		"defaultMessage": "Your device is not connected to the internet. Take a picture and report it later via www.admin.trashout.ngo."
+	},
+	{
+		"id": "global.images.requirements",
+		"defaultMessage": "Please use images with aspect ratio 1:2 or smaller (not a widescreen image) and with size up to 2 MB."
+	},
+	{
+		"id": "home.nearestRecyclingPoint",
+		"defaultMessage": "Nearest collection Point"
+	},
+	{
+		"id": "home.recycling_point_add_new_do_later",
+		"defaultMessage": "Cancel"
+	},
+	{
+		"id": "home.recycling_point_add_new_go_to_web",
+		"defaultMessage": "Add now"
+	},
+	{
+		"id": "home.recycling_point_add_new_redirect",
+		"defaultMessage": "The collection point can only be added from the web application to which you can log in via a web browser"
+	},
+	{
+		"id": "info.frequentlyAskedQuestions",
+		"defaultMessage": "Frequently Asked Questions"
+	},
+	{
+		"id": "info.supportUs",
+		"defaultMessage": "Support us"
+	},
+	{
+		"id": "home.recycling_point_edit_redirect",
+		"defaultMessage": "At the moment, the collection point can only be edited from the web application that is accessible through a web browser"
+	},
+	{
+		"id": "collectionPoint.email_is_missing",
+		"defaultMessage": "Add email address"
+	},
+	{
+		"id": "collectionPoint.phone_is_missing",
+		"defaultMessage": "Add phone number"
+	},
+	{
+		"id": "collectionPoint.web_is_missing",
+		"defaultMessage": "Add web address"
+	},
+	{
+		"id": "event.meeting_point",
+		"defaultMessage": "Meeting point"
+	},
+	{
+		"id": "home.recycling_point_add_new_tittle",
+		"defaultMessage": "Add a collection point"
+	},
+	{
+		"id": "home.recycling_point_edit_title",
+		"defaultMessage": "Update collection point"
+	},
+	{
+		"id": "home.recycling_point_edit_go_to_web",
+		"defaultMessage": "Edit now"
+	},
+	{
+		"id": "home.recycling_point_edit_do_later\n",
+		"defaultMessage": "Cancel"
+	},
+	{
+		"id": "event.event_edit_title",
+		"defaultMessage": "Edit this event"
+	},
+	{
+		"id": "event.event_edit_redirect\n",
+		"defaultMessage": "Events can only be edited from the TrashOut web application that is accessible through a web browser"
+	},
+	{
+		"id": "event.event_edit_do_later\n",
+		"defaultMessage": "Cancel"
+	},
+	{
+		"id": "event.event_edit_go_to_web\n",
+		"defaultMessage": "Edit now"
+	},
+	{
+		"id": "event.event_joinEventTitle",
+		"defaultMessage": "Join this event"
+	},
+	{
+		"id": "home.orderTrashPickup",
+		"defaultMessage": "Order waste pickup"
+	},
+	{
+		"id": "event.create_event_meeting_date_title",
+		"defaultMessage": "Meeting Date"
+	},
+	{
+		"id": "notification_new_trash_formatter",
+		"defaultMessage": "You hunt {number} new or updated trashes."
+	},
+	{
+		"id": "about_version_date_formatted",
+		"defaultMessage": "Version from {string}"
+	},
+	{
+		"id": "skip_btn",
+		"defaultMessage": "SKIP"
+	},
+	{
+		"id": "event.create.thankYou.sentence1",
+		"defaultMessage": "Thank you for creating this event"
+	},
+	{
+		"id": "event.create.thankYou.sentence2",
+		"defaultMessage": "You are awesome!"
+	},
+	{
+		"id": "event.create.thankYou.sentence3",
+		"defaultMessage": "Do not forget to update all dumps you cleaned during the event"
+	},
+	{
+		"id": "event.create.thankYou.shareTitle",
+		"defaultMessage": "Share with others"
+	},
+	{
+		"id": "event.create.thankYou.detail\n",
+		"defaultMessage": "See event"
+	},
+	{
+		"id": "trash.create.thankYou.detail",
+		"defaultMessage": "See report"
 	}
 ]

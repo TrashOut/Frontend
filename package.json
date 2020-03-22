@@ -5,6 +5,8 @@
     "ava": "ava",
     "ava:watch": "ava --watch",
     "build": "gulp build",
+    "postinstalldev": "gulp build --development",
+    "startdev": "gulp --development",
     "postinstall": "gulp build --production",
     "start": "gulp --production",
     "test": "gulp test",
