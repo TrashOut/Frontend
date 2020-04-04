@@ -4856,5 +4856,21 @@ export default [
 	{
 		"id": "trash.create.thankYou.detail",
 		"defaultMessage": "Посмотреть отчет"
+	},
+	{
+		"id": "organization.statistics.title",
+		"defaultMessage": "Статистика о деятельности участников"
+	},
+	{
+		"id": "organization.dumpsReported",
+		"defaultMessage": "Отчеты"
+	},
+	{
+		"id": "organization.dumpsUpdated",
+		"defaultMessage": "Обновления"
+	},
+	{
+		"id": "organization.dumpsCleaned",
+		"defaultMessage": "Отвалы убраны"
 	}
 ]

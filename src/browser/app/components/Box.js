@@ -63,7 +63,7 @@ export default class Box extends Component {
     className: 'col s12',
     type: 'text',
     showIfEmpty: true,
-  }
+  };
 
   getGoogleMapImage(lat, lng, width = 400.0) {
     const { googleMapsApiKey } = this.props;
@@ -110,11 +110,11 @@ export default class Box extends Component {
   renderStatisticImage(image) {
     switch (image) {
       case 'cleaned':
-        return '/widget/assets/images/icons/ic_list_cleaned.png';
+        return '/widget/assets/images/icons/icon_cleaned.png';
       case 'reported':
-        return '/widget/assets/images/icons/ic_list_reported.png';
+        return '/widget/assets/images/icons/icon_reported.png';
       case 'updated':
-        return '/widget/assets/images/icons/ic_list_unknown.png';
+        return '/widget/assets/images/icons/icon_update.png';
       default:
         return '';
     }
@@ -139,8 +139,6 @@ export default class Box extends Component {
           <div style={styles.statisticsOrganization.label}>{x.label}</div>
         </div>
       </div>
-
-
     );
     return <div>{result}</div>;
   }
@@ -256,12 +254,6 @@ const styles = {
     margin: 'auto',
     float: 'left',
   },
-  image: {
-    float: 'left',
-    display: 'block',
-    width: '15px',
-    height: '15px',
-  },
   statisticsOrganization: {
     display: 'flex',
     flexDirection: 'column',
@@ -272,6 +264,13 @@ const styles = {
         cursor: 'pointer',
         color: Colors.primary,
       },
+    },
+    image: {
+      float: 'left',
+      display: 'block',
+      width: '55px',
+      height: '55px',
+      margin: 'auto auto auto auto',
     },
     content: {
       fontSize: '28px',
