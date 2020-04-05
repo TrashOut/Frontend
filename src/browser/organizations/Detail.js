@@ -120,6 +120,17 @@ export default class Detail extends Component {
     return addConfirm('organization.leave', { onSubmit: () => leaveOrganization(item.id, user.id) });
   }
 
+  @autobind
+  redirectToTrashes() {
+    const { push, setTable, users } = this.props;
+    if (users.isFetching) return null;
+    const usersArray = users.items.toArray();
+    const usersToFilter = [];
+    usersArray.forEach(user => usersToFilter.push(user.id));
+    setTable('TABLE_TYPE_TRASH', { userIds: usersToFilter });
+    push(routesList.userTrashList);
+  }
+
   renderInfoBox(canManage) {
     const { addConfirm, updateOrganization, formatDate, item, msg, organization } = this.props;
     const { cleaned, reported, updated } = organization.statistics;
@@ -143,12 +154,12 @@ export default class Detail extends Component {
         <div className="col s12 m7">
           <Box
             className="col s12"
-            title={msg('profile.statistics.title')}
+            title={msg('organization.statistics.title')}
             type="statisticsOrganization"
             data={[
-              { label: msg('profile.youReported'), content: reported, image: 'reported' },
-              { label: msg('profile.youUpdated'), content: updated, image: 'updated' },
-              { label: msg('profile.youCleaned'), content: cleaned, image: 'cleaned' },
+              { label: msg('organization.dumpsReported'), content: reported, image: 'reported' },
+              { label: msg('organization.dumpsUpdated'), content: updated, image: 'updated' },
+              { label: msg('organization.dumpsCleaned'), content: cleaned, image: 'cleaned' },
             ]}
             onClick={this.redirectToTrashes}
           />

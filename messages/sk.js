@@ -4856,5 +4856,21 @@ export default [
 	{
 		"id": "trash.create.thankYou.detail",
 		"defaultMessage": "Prezrieť hlásenie"
+	},
+	{
+		"id": "organization.statistics.title",
+		"defaultMessage": "Štatistiky o aktivitách členov organizácie"
+	},
+	{
+		"id": "organization.dumpsReported",
+		"defaultMessage": "Hlásenia"
+	},
+	{
+		"id": "organization.dumpsUpdated",
+		"defaultMessage": "Aktualizácie"
+	},
+	{
+		"id": "organization.dumpsCleaned",
+		"defaultMessage": "Vyčistené skládky"
 	}
 ]

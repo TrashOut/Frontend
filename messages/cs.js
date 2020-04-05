@@ -1287,7 +1287,7 @@ export default [
 	},
 	{
 		"id": "event.header_X",
-		"defaultMessage": "?"
+		"defaultMessage": "Čistící událost: {string}"
 	},
 	{
 		"id": "event.validation.cannotBeAddedToCalendar",
@@ -1915,7 +1915,7 @@ export default [
 	},
 	{
 		"id": "event.filter.startTimeFrom",
-		"defaultMessage": "Datum zahájení události od"
+		"defaultMessage": "Datum a čas zahájení události "
 	},
 	{
 		"id": "event.filter.startTimeTo",
@@ -2411,7 +2411,7 @@ export default [
 	},
 	{
 		"id": "user.validation.confirmPasswordRequired",
-		"defaultMessage": "???"
+		"defaultMessage": "Potvrďte heslo"
 	},
 	{
 		"id": "user.login.create.error",
@@ -4856,5 +4856,21 @@ export default [
 	{
 		"id": "trash.create.thankYou.detail",
 		"defaultMessage": "Zobrazit hlášení"
+	},
+	{
+		"id": "organization.statistics.title",
+		"defaultMessage": "Statistiky o aktivitách členů organizace"
+	},
+	{
+		"id": "organization.dumpsReported",
+		"defaultMessage": "Počet hlášení"
+	},
+	{
+		"id": "organization.dumpsUpdated",
+		"defaultMessage": "Počet aktualizací"
+	},
+	{
+		"id": "organization.dumpsCleaned",
+		"defaultMessage": "Vyčištěné skládky"
 	}
 ]

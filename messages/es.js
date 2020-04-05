@@ -4856,5 +4856,21 @@ export default [
 	{
 		"id": "trash.create.thankYou.detail",
 		"defaultMessage": "Ver informe"
+	},
+	{
+		"id": "organization.statistics.title",
+		"defaultMessage": "Estadísticas sobre las actividades de los miembros."
+	},
+	{
+		"id": "organization.dumpsReported",
+		"defaultMessage": "Informes"
+	},
+	{
+		"id": "organization.dumpsUpdated",
+		"defaultMessage": "Actualizaciones"
+	},
+	{
+		"id": "organization.dumpsCleaned",
+		"defaultMessage": "Vertederos limpiados"
 	}
 ]

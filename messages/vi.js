@@ -1,97 +1,97 @@
 /* eslint-disable */
-/* TrashOut React localization file - language: sq*/
+/* TrashOut React localization file - language: vi*/
 export default [
 	{
 		"id": "tab.profile",
-		"defaultMessage": "Profili"
+		"defaultMessage": "#tab.profile"
 	},
 	{
 		"id": "global.nearby",
-		"defaultMessage": "Afër"
+		"defaultMessage": "#global.nearby"
 	},
 	{
 		"id": "tab.home",
-		"defaultMessage": "Kreu"
+		"defaultMessage": "#tab.home"
 	},
 	{
 		"id": "tab.dumps",
-		"defaultMessage": "Vend-grumbullime"
+		"defaultMessage": "#tab.dumps"
 	},
 	{
 		"id": "tab.news",
-		"defaultMessage": "Lajme"
+		"defaultMessage": "#tab.news"
 	},
 	{
 		"id": "tab.recycling",
-		"defaultMessage": "Riciklimi"
+		"defaultMessage": "#tab.recycling"
 	},
 	{
 		"id": "global.menu.events",
-		"defaultMessage": "Evente"
+		"defaultMessage": "#global.menu.events"
 	},
 	{
 		"id": "global.menu.geoAreas",
-		"defaultMessage": "Zonat Gjeografike"
+		"defaultMessage": "#global.menu.geoAreas"
 	},
 	{
 		"id": "global.menu.notifications",
-		"defaultMessage": "Njoftime"
+		"defaultMessage": "#global.menu.notifications"
 	},
 	{
 		"id": "global.menu.organizations",
-		"defaultMessage": "Organizata"
+		"defaultMessage": "#global.menu.organizations"
 	},
 	{
 		"id": "global.menu.dumps",
-		"defaultMessage": "Vend-grumbullime"
+		"defaultMessage": "#global.menu.dumps"
 	},
 	{
 		"id": "global.menu.collectionPoints",
-		"defaultMessage": "Pika Riciklimi"
+		"defaultMessage": "#global.menu.collectionPoints"
 	},
 	{
 		"id": "global.showAll",
-		"defaultMessage": "Trego të gjitha"
+		"defaultMessage": "#global.showAll"
 	},
 	{
 		"id": "global.save",
-		"defaultMessage": "Ruaj"
+		"defaultMessage": "#global.save"
 	},
 	{
 		"id": "global.back",
-		"defaultMessage": "Pas"
+		"defaultMessage": "#global.back"
 	},
 	{
 		"id": "global.cancel",
-		"defaultMessage": "Anullo"
+		"defaultMessage": "#global.cancel"
 	},
 	{
 		"id": "global.signIn",
-		"defaultMessage": "Hyr"
+		"defaultMessage": "#global.signIn"
 	},
 	{
 		"id": "global.signOut",
-		"defaultMessage": "Dil"
+		"defaultMessage": "#global.signOut"
 	},
 	{
 		"id": "global.createNewAccount",
-		"defaultMessage": "Krijo llogari"
+		"defaultMessage": "#global.createNewAccount"
 	},
 	{
 		"id": "global.saveImage",
-		"defaultMessage": "Ruaj foton"
+		"defaultMessage": "#global.saveImage"
 	},
 	{
 		"id": "global.email",
-		"defaultMessage": "E-mail"
+		"defaultMessage": "#global.email"
 	},
 	{
 		"id": "global.password",
-		"defaultMessage": "Fjalëkalim"
+		"defaultMessage": "#global.password"
 	},
 	{
 		"id": "global.showDetail",
-		"defaultMessage": "Trego detaje"
+		"defaultMessage": "#global.showDetail"
 	},
 	{
 		"id": "global.processSigning",
@@ -99,7 +99,7 @@ export default [
 	},
 	{
 		"id": "global.update",
-		"defaultMessage": "përditëso"
+		"defaultMessage": "#global.update"
 	},
 	{
 		"id": "global.deleteError",
@@ -107,11 +107,11 @@ export default [
 	},
 	{
 		"id": "global.cancelFilter",
-		"defaultMessage": "Anullo filtrin"
+		"defaultMessage": "#global.cancelFilter"
 	},
 	{
 		"id": "global.export",
-		"defaultMessage": "Eksporto"
+		"defaultMessage": "#global.export"
 	},
 	{
 		"id": "global.hideFilter",
@@ -123,7 +123,7 @@ export default [
 	},
 	{
 		"id": "global.nextStep",
-		"defaultMessage": "Hapi tjetër"
+		"defaultMessage": "#global.nextStep"
 	},
 	{
 		"id": "global.submitFilter",
@@ -131,7 +131,7 @@ export default [
 	},
 	{
 		"id": "global.reportSpam",
-		"defaultMessage": "Raporto si SPAM"
+		"defaultMessage": "#global.reportSpam"
 	},
 	{
 		"id": "global.loading",
@@ -139,19 +139,19 @@ export default [
 	},
 	{
 		"id": "global.ok",
-		"defaultMessage": "Ok"
+		"defaultMessage": "#global.ok"
 	},
 	{
 		"id": "global.yes",
-		"defaultMessage": "Po"
+		"defaultMessage": "#global.yes"
 	},
 	{
 		"id": "global.no",
-		"defaultMessage": "Jo"
+		"defaultMessage": "#global.no"
 	},
 	{
 		"id": "global.or",
-		"defaultMessage": "ose"
+		"defaultMessage": "#global.or"
 	},
 	{
 		"id": "global.saving",
@@ -163,7 +163,7 @@ export default [
 	},
 	{
 		"id": "global.iUnderstand",
-		"defaultMessage": "Kuptoj"
+		"defaultMessage": "#global.iUnderstand"
 	},
 	{
 		"id": "global.done",
@@ -171,7 +171,7 @@ export default [
 	},
 	{
 		"id": "global.optional",
-		"defaultMessage": "opsionale"
+		"defaultMessage": "#global.optional"
 	},
 	{
 		"id": "trash.types.automotive",
@@ -183,15 +183,15 @@ export default [
 	},
 	{
 		"id": "trash.types.plastic",
-		"defaultMessage": "Plastik"
+		"defaultMessage": "#trash.types.plastic"
 	},
 	{
 		"id": "trash.types.domestic",
-		"defaultMessage": "Shtëpiake"
+		"defaultMessage": "#trash.types.domestic"
 	},
 	{
 		"id": "trash.types.electronic",
-		"defaultMessage": "Elektronike"
+		"defaultMessage": "#trash.types.electronic"
 	},
 	{
 		"id": "trash.types.deadAnimals",
@@ -199,11 +199,11 @@ export default [
 	},
 	{
 		"id": "trash.types.metal",
-		"defaultMessage": "Metal"
+		"defaultMessage": "#trash.types.metal"
 	},
 	{
 		"id": "trash.types.liquid",
-		"defaultMessage": "Lëngje"
+		"defaultMessage": "#trash.types.liquid"
 	},
 	{
 		"id": "trash.types.dangerous",
@@ -211,7 +211,7 @@ export default [
 	},
 	{
 		"id": "trash.types.organic",
-		"defaultMessage": "Organike"
+		"defaultMessage": "#trash.types.organic"
 	},
 	{
 		"id": "trash.validation.typeRequired",
@@ -219,11 +219,11 @@ export default [
 	},
 	{
 		"id": "global.meters",
-		"defaultMessage": "metra"
+		"defaultMessage": "#global.meters"
 	},
 	{
 		"id": "global.km",
-		"defaultMessage": "km"
+		"defaultMessage": "#global.km"
 	},
 	{
 		"id": "global.generalError",
@@ -235,7 +235,7 @@ export default [
 	},
 	{
 		"id": "global.uknownLocality",
-		"defaultMessage": "Vendndodhje e panjohur"
+		"defaultMessage": "#global.uknownLocality"
 	},
 	{
 		"id": "global.pleaseUpdateApp",
@@ -259,7 +259,7 @@ export default [
 	},
 	{
 		"id": "global.close",
-		"defaultMessage": "Mbyll"
+		"defaultMessage": "#global.close"
 	},
 	{
 		"id": "global.userNotLogged",
@@ -267,11 +267,11 @@ export default [
 	},
 	{
 		"id": "global.now",
-		"defaultMessage": "tani"
+		"defaultMessage": "#global.now"
 	},
 	{
 		"id": "profile.header",
-		"defaultMessage": "Profili"
+		"defaultMessage": "#profile.header"
 	},
 	{
 		"id": "global.welcomeText",
@@ -279,11 +279,11 @@ export default [
 	},
 	{
 		"id": "info.header.aboutApp",
-		"defaultMessage": "Rreth app TrashOut"
+		"defaultMessage": "#info.header.aboutApp"
 	},
 	{
 		"id": "global.aboutProject",
-		"defaultMessage": "TrashOut është një projekt mjedisor i cili synon hartimin dhe monitorimin e të gjitha vend-grumbullimeve të paligjshme anembanë botës.\n\nQëllimi ynë është që të përfshijmë qytetarët, qeveritë, bashkitë dhe organizatat në mënyrë që së bashku të kontribuojmë për një botë më të pastër për të gjithë.\n\nFaleminderit që u bashkuat me komunitetin mjedisor TrashOut dhe e mbani aktiv."
+		"defaultMessage": "#global.aboutProject"
 	},
 	{
 		"id": "global.writeReview",
@@ -291,11 +291,11 @@ export default [
 	},
 	{
 		"id": "info.privatePolicy",
-		"defaultMessage": "Politika e Privatësisë"
+		"defaultMessage": "#info.privatePolicy"
 	},
 	{
 		"id": "info.termsAndConditions",
-		"defaultMessage": "Terma dhe Kushte"
+		"defaultMessage": "#info.termsAndConditions"
 	},
 	{
 		"id": "info.feedbackAndSupport",
@@ -303,11 +303,11 @@ export default [
 	},
 	{
 		"id": "info.donate",
-		"defaultMessage": "Dhuro"
+		"defaultMessage": "#info.donate"
 	},
 	{
 		"id": "info.whyDonate",
-		"defaultMessage": "Pse të dhuroni për TrashOut?"
+		"defaultMessage": "#info.whyDonate"
 	},
 	{
 		"id": "info.donateText",
@@ -315,19 +315,19 @@ export default [
 	},
 	{
 		"id": "profile.gpsCoordinatesFormat",
-		"defaultMessage": "Formati i Koordinatave GPS"
+		"defaultMessage": "#profile.gpsCoordinatesFormat"
 	},
 	{
 		"id": "user.facebook",
-		"defaultMessage": "Facebook"
+		"defaultMessage": "#user.facebook"
 	},
 	{
 		"id": "user.twitter",
-		"defaultMessage": "Twitter"
+		"defaultMessage": "#user.twitter"
 	},
 	{
 		"id": "globa.cancel",
-		"defaultMessage": "Anullo ndryshimet"
+		"defaultMessage": "#globa.cancel"
 	},
 	{
 		"id": "profile.reported",
@@ -347,7 +347,7 @@ export default [
 	},
 	{
 		"id": "global.confirm",
-		"defaultMessage": "konfirmo"
+		"defaultMessage": "#global.confirm"
 	},
 	{
 		"id": "global.error.noData",
@@ -359,7 +359,7 @@ export default [
 	},
 	{
 		"id": "global.allow",
-		"defaultMessage": "Lejo"
+		"defaultMessage": "#global.allow"
 	},
 	{
 		"id": "trash.loadingTrashMap",
@@ -367,7 +367,7 @@ export default [
 	},
 	{
 		"id": "user.username",
-		"defaultMessage": "Përdoruesi"
+		"defaultMessage": "#user.username"
 	},
 	{
 		"id": "profile.wrongPassword",
@@ -375,19 +375,19 @@ export default [
 	},
 	{
 		"id": "global.organization",
-		"defaultMessage": "Organizata"
+		"defaultMessage": "#global.organization"
 	},
 	{
 		"id": "profile.assignOrganization",
-		"defaultMessage": "Përcakto organizatën"
+		"defaultMessage": "#profile.assignOrganization"
 	},
 	{
 		"id": "profile.assign",
-		"defaultMessage": "Përcakto"
+		"defaultMessage": "#profile.assign"
 	},
 	{
 		"id": "global.organizations",
-		"defaultMessage": "Organizatat"
+		"defaultMessage": "#global.organizations"
 	},
 	{
 		"id": "profile.badges",
@@ -395,7 +395,7 @@ export default [
 	},
 	{
 		"id": "profile.info",
-		"defaultMessage": "Info"
+		"defaultMessage": "#profile.info"
 	},
 	{
 		"id": "profile.noInfo",
@@ -415,15 +415,15 @@ export default [
 	},
 	{
 		"id": "user.roles.administrator",
-		"defaultMessage": "Administrator"
+		"defaultMessage": "#user.roles.administrator"
 	},
 	{
 		"id": "profile.logoutQuestion",
-		"defaultMessage": "Dëshironi të dilni?"
+		"defaultMessage": "#profile.logoutQuestion"
 	},
 	{
 		"id": "profile.whyRegister",
-		"defaultMessage": "Aktivitetet tuaja u sinkronizuan.\nJu do të merrni pikë për aktivitetet tuaja.\n"
+		"defaultMessage": "#profile.whyRegister"
 	},
 	{
 		"id": "profile.validation.invalidEmail",
@@ -447,7 +447,7 @@ export default [
 	},
 	{
 		"id": "profile.resetPassword",
-		"defaultMessage": "Harrova fjalëkalimin"
+		"defaultMessage": "#profile.resetPassword"
 	},
 	{
 		"id": "profile.signedInStatus",
@@ -455,19 +455,19 @@ export default [
 	},
 	{
 		"id": "user.firstName",
-		"defaultMessage": "Emri"
+		"defaultMessage": "#user.firstName"
 	},
 	{
 		"id": "user.lastName",
-		"defaultMessage": "Mbiemri"
+		"defaultMessage": "#user.lastName"
 	},
 	{
 		"id": "user.name",
-		"defaultMessage": "Emri"
+		"defaultMessage": "#user.name"
 	},
 	{
 		"id": "user.password",
-		"defaultMessage": "Fjalëkalimi"
+		"defaultMessage": "#user.password"
 	},
 	{
 		"id": "user.reEnterPassword",
@@ -483,19 +483,19 @@ export default [
 	},
 	{
 		"id": "user.info",
-		"defaultMessage": "Rreth teje"
+		"defaultMessage": "#user.info"
 	},
 	{
 		"id": "user.header",
-		"defaultMessage": "Përdoruesit"
+		"defaultMessage": "#user.header"
 	},
 	{
 		"id": "user.changePassword",
-		"defaultMessage": "Ndysho Fjalëkalimin"
+		"defaultMessage": "#user.changePassword"
 	},
 	{
 		"id": "user.bulk.changeRole",
-		"defaultMessage": "Ndrysho rolin"
+		"defaultMessage": "#user.bulk.changeRole"
 	},
 	{
 		"id": "profile.noInternetWhileRegister",
@@ -515,11 +515,11 @@ export default [
 	},
 	{
 		"id": "profile.welcome",
-		"defaultMessage": "Mirësevini"
+		"defaultMessage": "#profile.welcome"
 	},
 	{
 		"id": "profile.signOut",
-		"defaultMessage": "Dil"
+		"defaultMessage": "#profile.signOut"
 	},
 	{
 		"id": "profile.validation.passwordRequired",
@@ -547,23 +547,23 @@ export default [
 	},
 	{
 		"id": "profile.organization.remove",
-		"defaultMessage": "Anullo antarësinë"
+		"defaultMessage": "#profile.organization.remove"
 	},
 	{
 		"id": "trash.accuracy",
-		"defaultMessage": "Saktësi"
+		"defaultMessage": "#trash.accuracy"
 	},
 	{
 		"id": "trash.metersAway",
-		"defaultMessage": "metra larg"
+		"defaultMessage": "#trash.metersAway"
 	},
 	{
 		"id": "trash.trashType",
-		"defaultMessage": "Lloji i Mbetjeve"
+		"defaultMessage": "#trash.trashType"
 	},
 	{
 		"id": "trash.trashSize",
-		"defaultMessage": "Madhësia e Mbetjeve"
+		"defaultMessage": "#trash.trashSize"
 	},
 	{
 		"id": "trash.cameraError",
@@ -579,7 +579,7 @@ export default [
 	},
 	{
 		"id": "trash.removeImage",
-		"defaultMessage": "Hiq imazhin"
+		"defaultMessage": "#trash.removeImage"
 	},
 	{
 		"id": "trash.removeImageConfirm",
@@ -599,7 +599,7 @@ export default [
 	},
 	{
 		"id": "trash.create.sendWasInterruptedHeader",
-		"defaultMessage": "Dërgimi u ndërpre"
+		"defaultMessage": "#trash.create.sendWasInterruptedHeader"
 	},
 	{
 		"id": "trash.create.sendWasInterruptedText",
@@ -627,7 +627,7 @@ export default [
 	},
 	{
 		"id": "trash.address",
-		"defaultMessage": "Vendodhja"
+		"defaultMessage": "#trash.address"
 	},
 	{
 		"id": "trash.gpsLocation",
@@ -655,7 +655,7 @@ export default [
 	},
 	{
 		"id": "trash.comments",
-		"defaultMessage": "Komente"
+		"defaultMessage": "#trash.comments"
 	},
 	{
 		"id": "global.fetchError",
@@ -671,7 +671,7 @@ export default [
 	},
 	{
 		"id": "global.detail",
-		"defaultMessage": "Detaje"
+		"defaultMessage": "#global.detail"
 	},
 	{
 		"id": "global.serviceUnavaliable",
@@ -695,11 +695,11 @@ export default [
 	},
 	{
 		"id": "global.share",
-		"defaultMessage": "Shpërnda"
+		"defaultMessage": "#global.share"
 	},
 	{
 		"id": "global.facebookShare",
-		"defaultMessage": "Shpërnda në Facebook"
+		"defaultMessage": "#global.facebookShare"
 	},
 	{
 		"id": "trash.isCleaned",
@@ -719,7 +719,7 @@ export default [
 	},
 	{
 		"id": "global.enableGps",
-		"defaultMessage": "Lejo shërbimin e vendodhjes"
+		"defaultMessage": "#global.enableGps"
 	},
 	{
 		"id": "trash.loadingDumps",
@@ -743,15 +743,15 @@ export default [
 	},
 	{
 		"id": "global.gps",
-		"defaultMessage": "GPS"
+		"defaultMessage": "#global.gps"
 	},
 	{
 		"id": "global.search",
-		"defaultMessage": "kërko"
+		"defaultMessage": "#global.search"
 	},
 	{
 		"id": "global.remove",
-		"defaultMessage": "Hiq"
+		"defaultMessage": "#global.remove"
 	},
 	{
 		"id": "global.allowGpsInPhone",
@@ -759,7 +759,7 @@ export default [
 	},
 	{
 		"id": "global.settings",
-		"defaultMessage": "Parametrat"
+		"defaultMessage": "#global.settings"
 	},
 	{
 		"id": "trash.detail.header",
@@ -771,7 +771,7 @@ export default [
 	},
 	{
 		"id": "statistics.header",
-		"defaultMessage": "Statistika"
+		"defaultMessage": "#statistics.header"
 	},
 	{
 		"id": "statistics.hint",
@@ -779,7 +779,7 @@ export default [
 	},
 	{
 		"id": "statistics.show",
-		"defaultMessage": "trego statistikat"
+		"defaultMessage": "#statistics.show"
 	},
 	{
 		"id": "global.selectArea",
@@ -799,15 +799,15 @@ export default [
 	},
 	{
 		"id": "event.header",
-		"defaultMessage": "Evente Pastrimi"
+		"defaultMessage": "#event.header"
 	},
 	{
 		"id": "event.create.header",
-		"defaultMessage": "Krijo një event"
+		"defaultMessage": "#event.create.header"
 	},
 	{
 		"id": "event.name",
-		"defaultMessage": "Emri eventit"
+		"defaultMessage": "#event.name"
 	},
 	{
 		"id": "event.duration",
@@ -815,15 +815,15 @@ export default [
 	},
 	{
 		"id": "event.about",
-		"defaultMessage": "Rreth eventit"
+		"defaultMessage": "#event.about"
 	},
 	{
 		"id": "event.equipment",
-		"defaultMessage": "Pajisje"
+		"defaultMessage": "#event.equipment"
 	},
 	{
 		"id": "event.whatWeHave",
-		"defaultMessage": "Çfarë Disponojmë"
+		"defaultMessage": "#event.whatWeHave"
 	},
 	{
 		"id": "event.whatBring",
@@ -839,55 +839,55 @@ export default [
 	},
 	{
 		"id": "event.meetingPoint",
-		"defaultMessage": "PIka e takimit"
+		"defaultMessage": "#event.meetingPoint"
 	},
 	{
 		"id": "global.city",
-		"defaultMessage": "Qyteti"
+		"defaultMessage": "#global.city"
 	},
 	{
 		"id": "global.street",
-		"defaultMessage": "Rruga dhe numri"
+		"defaultMessage": "#global.street"
 	},
 	{
 		"id": "event.contact",
-		"defaultMessage": "Kontakti"
+		"defaultMessage": "#event.contact"
 	},
 	{
 		"id": "global.phone",
-		"defaultMessage": "Telefoni"
+		"defaultMessage": "#global.phone"
 	},
 	{
 		"id": "global.create",
-		"defaultMessage": "Krijo"
+		"defaultMessage": "#global.create"
 	},
 	{
 		"id": "event.startDate",
-		"defaultMessage": "Dita e fillimit të eventit"
+		"defaultMessage": "#event.startDate"
 	},
 	{
 		"id": "event.startTime",
-		"defaultMessage": "Ora e fillimit të eventit"
+		"defaultMessage": "#event.startTime"
 	},
 	{
 		"id": "event.days",
-		"defaultMessage": "ditë"
+		"defaultMessage": "#event.days"
 	},
 	{
 		"id": "event.hours",
-		"defaultMessage": "orë"
+		"defaultMessage": "#event.hours"
 	},
 	{
 		"id": "event.validation.checkName",
-		"defaultMessage": "Kontrolloni emrin e eventit"
+		"defaultMessage": "#event.validation.checkName"
 	},
 	{
 		"id": "event.validation.durationInvalid",
-		"defaultMessage": "Kontrolloni datën dhe kohëzgjatjen e eventit"
+		"defaultMessage": "#event.validation.durationInvalid"
 	},
 	{
 		"id": "event.validation.checkAddress",
-		"defaultMessage": "Kontrolloni adresën"
+		"defaultMessage": "#event.validation.checkAddress"
 	},
 	{
 		"id": "event.validation.checkEmail",
@@ -899,7 +899,7 @@ export default [
 	},
 	{
 		"id": "event.created",
-		"defaultMessage": "Eventi u krijua me seukse"
+		"defaultMessage": "#event.created"
 	},
 	{
 		"id": "event.signToJoin",
@@ -907,7 +907,7 @@ export default [
 	},
 	{
 		"id": "event.join",
-		"defaultMessage": "Bashkohu"
+		"defaultMessage": "#event.join"
 	},
 	{
 		"id": "event.leave",
@@ -915,27 +915,27 @@ export default [
 	},
 	{
 		"id": "event.share",
-		"defaultMessage": "Shpërndaje"
+		"defaultMessage": "#event.share"
 	},
 	{
 		"id": "event.delete",
-		"defaultMessage": "Anulloje"
+		"defaultMessage": "#event.delete"
 	},
 	{
 		"id": "event.delete.confirmation",
-		"defaultMessage": "Dëshironi ta anulloni këtë event?"
+		"defaultMessage": "#event.delete.confirmation"
 	},
 	{
 		"id": "event.deleteSuccess",
-		"defaultMessage": "Eventi u anullua"
+		"defaultMessage": "#event.deleteSuccess"
 	},
 	{
 		"id": "event.meetingAddress",
-		"defaultMessage": "Adresa e takimit"
+		"defaultMessage": "#event.meetingAddress"
 	},
 	{
 		"id": "event.when",
-		"defaultMessage": "Kur"
+		"defaultMessage": "#event.when"
 	},
 	{
 		"id": "event.navigateTo",
@@ -951,7 +951,7 @@ export default [
 	},
 	{
 		"id": "home.didYouKnow",
-		"defaultMessage": "Lajme dhe Përditësime"
+		"defaultMessage": "#home.didYouKnow"
 	},
 	{
 		"id": "home.nearestRecyclingPoints",
@@ -959,27 +959,27 @@ export default [
 	},
 	{
 		"id": "collectionPoint.size.recyclingBin",
-		"defaultMessage": "Kosh"
+		"defaultMessage": "#collectionPoint.size.recyclingBin"
 	},
 	{
 		"id": "collectionPoint.size.recyclingCenter",
-		"defaultMessage": "Qendër"
+		"defaultMessage": "#collectionPoint.size.recyclingCenter"
 	},
 	{
 		"id": "collectionPoint.size.all",
-		"defaultMessage": "Të gjitha"
+		"defaultMessage": "#collectionPoint.size.all"
 	},
 	{
 		"id": "collectionPoint.header",
-		"defaultMessage": "Pika Riciklimi"
+		"defaultMessage": "#collectionPoint.header"
 	},
 	{
 		"id": "collectionPoint.list.header",
-		"defaultMessage": "Lista e Pikës së Riciklimit"
+		"defaultMessage": "#collectionPoint.list.header"
 	},
 	{
 		"id": "collectionPoint.create.header",
-		"defaultMessage": "Krijo Pikë Riciklimi"
+		"defaultMessage": "#collectionPoint.create.header"
 	},
 	{
 		"id": "collectionPoint.edit.header",
@@ -987,7 +987,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.edit.firstStep",
-		"defaultMessage": "Informacion i Përgjithshëm"
+		"defaultMessage": "#collectionPoint.edit.firstStep"
 	},
 	{
 		"id": "collectionPoint.edit.secondStep",
@@ -995,27 +995,27 @@ export default [
 	},
 	{
 		"id": "collectionPoint.edit.thirdStep",
-		"defaultMessage": "Zgjidhni Imazhet"
+		"defaultMessage": "#collectionPoint.edit.thirdStep"
 	},
 	{
 		"id": "collectionPoint.id",
-		"defaultMessage": "ID"
+		"defaultMessage": "#collectionPoint.id"
 	},
 	{
 		"id": "collectionPoint.name",
-		"defaultMessage": "Emri"
+		"defaultMessage": "#collectionPoint.name"
 	},
 	{
 		"id": "collectionPoint.location",
-		"defaultMessage": "Adresa e pikës së riciklimit"
+		"defaultMessage": "#collectionPoint.location"
 	},
 	{
 		"id": "collectionPoint.size",
-		"defaultMessage": "Madhësia e pikës së riciklimit"
+		"defaultMessage": "#collectionPoint.size"
 	},
 	{
 		"id": "collectionPoint.type",
-		"defaultMessage": "Lloji i pikës së riciklimit"
+		"defaultMessage": "#collectionPoint.type"
 	},
 	{
 		"id": "home.recentActivity.header",
@@ -1027,7 +1027,7 @@ export default [
 	},
 	{
 		"id": "events.header",
-		"defaultMessage": "Evente"
+		"defaultMessage": "#events.header"
 	},
 	{
 		"id": "home.events.text",
@@ -1035,11 +1035,11 @@ export default [
 	},
 	{
 		"id": "home.numberDumpsWorldwide",
-		"defaultMessage": "Numri i vend-grumbullimeve në botë"
+		"defaultMessage": "#home.numberDumpsWorldwide"
 	},
 	{
 		"id": "home.more",
-		"defaultMessage": "Më shumë statistika"
+		"defaultMessage": "#home.more"
 	},
 	{
 		"id": "global.noCameraSupport",
@@ -1047,7 +1047,7 @@ export default [
 	},
 	{
 		"id": "global.create.send",
-		"defaultMessage": "Dërgo"
+		"defaultMessage": "#global.create.send"
 	},
 	{
 		"id": "trash.edit.header",
@@ -1055,19 +1055,19 @@ export default [
 	},
 	{
 		"id": "trash.create.addPhoto",
-		"defaultMessage": "Shto fotografi"
+		"defaultMessage": "#trash.create.addPhoto"
 	},
 	{
 		"id": "trash.create.takeAnotherPhoto",
-		"defaultMessage": "Bëj një foto tjetër"
+		"defaultMessage": "#trash.create.takeAnotherPhoto"
 	},
 	{
 		"id": "trash.create.takeAtLeast2Photos",
-		"defaultMessage": "Bëj të paktën dy foto"
+		"defaultMessage": "#trash.create.takeAtLeast2Photos"
 	},
 	{
 		"id": "trash.create.ofIllegalDump",
-		"defaultMessage": "të vend-grumbullimit ilegal"
+		"defaultMessage": "#trash.create.ofIllegalDump"
 	},
 	{
 		"id": "trash.size.bag",
@@ -1079,19 +1079,19 @@ export default [
 	},
 	{
 		"id": "trash.size.carNeeded",
-		"defaultMessage": "Nevojitet makinë"
+		"defaultMessage": "#trash.size.carNeeded"
 	},
 	{
 		"id": "trash.validation.sizeRequired",
-		"defaultMessage": "Kërkohet madhësia"
+		"defaultMessage": "#trash.validation.sizeRequired"
 	},
 	{
 		"id": "trash.id",
-		"defaultMessage": "ID"
+		"defaultMessage": "#trash.id"
 	},
 	{
 		"id": "trash.url",
-		"defaultMessage": "Url"
+		"defaultMessage": "#trash.url"
 	},
 	{
 		"id": "trash.updateTime",
@@ -1107,11 +1107,11 @@ export default [
 	},
 	{
 		"id": "trash.accessibility.inCave",
-		"defaultMessage": "Ndodhet në shpellë"
+		"defaultMessage": "#trash.accessibility.inCave"
 	},
 	{
 		"id": "trash.accessibility.underWater",
-		"defaultMessage": "Ndodhet nën ujë"
+		"defaultMessage": "#trash.accessibility.underWater"
 	},
 	{
 		"id": "trash.accessibility.notForGeneralCleanup",
@@ -1123,7 +1123,7 @@ export default [
 	},
 	{
 		"id": "global.status",
-		"defaultMessage": "Statusi"
+		"defaultMessage": "#global.status"
 	},
 	{
 		"id": "trash.status",
@@ -1135,15 +1135,15 @@ export default [
 	},
 	{
 		"id": "global.note",
-		"defaultMessage": "Shënim"
+		"defaultMessage": "#global.note"
 	},
 	{
 		"id": "global.validation.noteRequired",
-		"defaultMessage": "Shënim"
+		"defaultMessage": "#global.validation.noteRequired"
 	},
 	{
 		"id": "trash.sendAnonymously",
-		"defaultMessage": "Dërgo anonim"
+		"defaultMessage": "#trash.sendAnonymously"
 	},
 	{
 		"id": "trash.create.additionalInfo.hint",
@@ -1167,7 +1167,7 @@ export default [
 	},
 	{
 		"id": "trash.create.validation.notFilledRequiredFileds",
-		"defaultMessage": "Nuk i plotësuat të gjitha fushat"
+		"defaultMessage": "#trash.create.validation.notFilledRequiredFileds"
 	},
 	{
 		"id": "trash.create.uploadPhotoError",
@@ -1175,7 +1175,7 @@ export default [
 	},
 	{
 		"id": "trash.create.successfullyReported",
-		"defaultMessage": "Ky vend-grumbullim u raportua me sukses"
+		"defaultMessage": "#trash.create.successfullyReported"
 	},
 	{
 		"id": "trash.create.successfullyUpdated",
@@ -1275,7 +1275,7 @@ export default [
 	},
 	{
 		"id": "global.minutes",
-		"defaultMessage": "minuta"
+		"defaultMessage": "#global.minutes"
 	},
 	{
 		"id": "global.noAddress",
@@ -1359,11 +1359,11 @@ export default [
 	},
 	{
 		"id": "profile.other",
-		"defaultMessage": "Tjetër"
+		"defaultMessage": "#profile.other"
 	},
 	{
 		"id": "profile.logout",
-		"defaultMessage": "Dil"
+		"defaultMessage": "#profile.logout"
 	},
 	{
 		"id": "global.edit",
@@ -1371,7 +1371,7 @@ export default [
 	},
 	{
 		"id": "trash.anonymous",
-		"defaultMessage": "Anonim"
+		"defaultMessage": "#trash.anonymous"
 	},
 	{
 		"id": "global.phoneNotSet",
@@ -1407,11 +1407,11 @@ export default [
 	},
 	{
 		"id": "profile.yourProfile",
-		"defaultMessage": "Profili Juaj"
+		"defaultMessage": "#profile.yourProfile"
 	},
 	{
 		"id": "profile.selectOrganization",
-		"defaultMessage": "Zgjidh një Organizatë"
+		"defaultMessage": "#profile.selectOrganization"
 	},
 	{
 		"id": "profile.uploadFotoError",
@@ -1423,11 +1423,11 @@ export default [
 	},
 	{
 		"id": "profile.edit.success",
-		"defaultMessage": "Profili juaj u përditësua me sukses"
+		"defaultMessage": "#profile.edit.success"
 	},
 	{
 		"id": "global.pullToRefresh",
-		"defaultMessage": "Tërhiqe për të rifreskuar"
+		"defaultMessage": "#global.pullToRefresh"
 	},
 	{
 		"id": "trash.accuracyOfLocationSmaller",
@@ -1435,7 +1435,7 @@ export default [
 	},
 	{
 		"id": "global.sendEmail.error",
-		"defaultMessage": "Nuk është e mundur të dërgohet e-mail."
+		"defaultMessage": "#global.sendEmail.error"
 	},
 	{
 		"id": "trash.illegalDumpIn_X",
@@ -1463,7 +1463,7 @@ export default [
 	},
 	{
 		"id": "trashHunter",
-		"defaultMessage": "Gjuetar Mbeturinash"
+		"defaultMessage": "#trashHunter"
 	},
 	{
 		"id": "trashHunter.text",
@@ -1471,11 +1471,11 @@ export default [
 	},
 	{
 		"id": "trashHunter.startHunting",
-		"defaultMessage": "Fillo Gjuetinë"
+		"defaultMessage": "#trashHunter.startHunting"
 	},
 	{
 		"id": "trashHunter.huntingArea",
-		"defaultMessage": "Zona e Gjuetisë"
+		"defaultMessage": "#trashHunter.huntingArea"
 	},
 	{
 		"id": "trashHunter.stopHunting",
@@ -1495,27 +1495,27 @@ export default [
 	},
 	{
 		"id": "trash.filter.lastUpdate.noLimit",
-		"defaultMessage": "Pa limit"
+		"defaultMessage": "#trash.filter.lastUpdate.noLimit"
 	},
 	{
 		"id": "trash.filter.lastUpdate.lastWeek",
-		"defaultMessage": "Java e Kaluar"
+		"defaultMessage": "#trash.filter.lastUpdate.lastWeek"
 	},
 	{
 		"id": "trash.filter.lastUpdate.lastYear",
-		"defaultMessage": "Viti i Kaluar"
+		"defaultMessage": "#trash.filter.lastUpdate.lastYear"
 	},
 	{
 		"id": "trash.filter.lastUpdate.today",
-		"defaultMessage": "Sot"
+		"defaultMessage": "#trash.filter.lastUpdate.today"
 	},
 	{
 		"id": "trash.filter.lastUpdate.lastMonth",
-		"defaultMessage": "Muaji i Kaluar"
+		"defaultMessage": "#trash.filter.lastUpdate.lastMonth"
 	},
 	{
 		"id": "collectionPoint.types.paper",
-		"defaultMessage": "letër"
+		"defaultMessage": "#collectionPoint.types.paper"
 	},
 	{
 		"id": "collectionPoint.types.glassAll",
@@ -1535,11 +1535,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.metal",
-		"defaultMessage": "metal"
+		"defaultMessage": "#collectionPoint.types.metal"
 	},
 	{
 		"id": "collectionPoint.types.plastic",
-		"defaultMessage": "plastik"
+		"defaultMessage": "#collectionPoint.types.plastic"
 	},
 	{
 		"id": "collectionPoint.types.dangerous",
@@ -1547,11 +1547,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.cardboard",
-		"defaultMessage": "karton"
+		"defaultMessage": "#collectionPoint.types.cardboard"
 	},
 	{
 		"id": "collectionPoint.types.clothes",
-		"defaultMessage": "rroba"
+		"defaultMessage": "#collectionPoint.types.clothes"
 	},
 	{
 		"id": "collectionPoint.types.biodegradable",
@@ -1559,11 +1559,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.electronic",
-		"defaultMessage": "elektronike"
+		"defaultMessage": "#collectionPoint.types.electronic"
 	},
 	{
 		"id": "collectionPoint.types.everything",
-		"defaultMessage": "gjithçka"
+		"defaultMessage": "#collectionPoint.types.everything"
 	},
 	{
 		"id": "collectionPoint.types.recyclables",
@@ -1575,15 +1575,15 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.battery",
-		"defaultMessage": "bateri"
+		"defaultMessage": "#collectionPoint.types.battery"
 	},
 	{
 		"id": "collectionPoint.types.tires",
-		"defaultMessage": "goma"
+		"defaultMessage": "#collectionPoint.types.tires"
 	},
 	{
 		"id": "collectionPoint.types.iron",
-		"defaultMessage": "hekur"
+		"defaultMessage": "#collectionPoint.types.iron"
 	},
 	{
 		"id": "collectionPoint.types.woodenAndUpholsteredFurniture",
@@ -1591,15 +1591,15 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.carpets",
-		"defaultMessage": "tapete"
+		"defaultMessage": "#collectionPoint.types.carpets"
 	},
 	{
 		"id": "collectionPoint.types.wooden",
-		"defaultMessage": "druri"
+		"defaultMessage": "#collectionPoint.types.wooden"
 	},
 	{
 		"id": "collectionPoint.types.window",
-		"defaultMessage": "dritare"
+		"defaultMessage": "#collectionPoint.types.window"
 	},
 	{
 		"id": "collectionPoint.types.buildingRubble",
@@ -1607,7 +1607,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.oil",
-		"defaultMessage": "vaj"
+		"defaultMessage": "#collectionPoint.types.oil"
 	},
 	{
 		"id": "collectionPoint.types.fluorescentLamps",
@@ -1623,7 +1623,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.color",
-		"defaultMessage": "ngjyrë"
+		"defaultMessage": "#collectionPoint.types.color"
 	},
 	{
 		"id": "collectionPoint.types.thinner",
@@ -1631,15 +1631,15 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.mirror",
-		"defaultMessage": "pasqyrë"
+		"defaultMessage": "#collectionPoint.types.mirror"
 	},
 	{
 		"id": "collectionPoint.types.carParts",
-		"defaultMessage": "pjesë makinash"
+		"defaultMessage": "#collectionPoint.types.carParts"
 	},
 	{
 		"id": "collectionPoint.types.medicines",
-		"defaultMessage": "ilaçe"
+		"defaultMessage": "#collectionPoint.types.medicines"
 	},
 	{
 		"id": "collectionPoint.types.materialsFromBituminousPaper",
@@ -1663,7 +1663,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.glassWool",
-		"defaultMessage": "lesh xhami"
+		"defaultMessage": "#collectionPoint.types.glassWool"
 	},
 	{
 		"id": "collectionPoint.types.cinder",
@@ -1671,7 +1671,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.asphalt",
-		"defaultMessage": "asfalt"
+		"defaultMessage": "#collectionPoint.types.asphalt"
 	},
 	{
 		"id": "collectionPoint.types.bitumenPaper",
@@ -1683,31 +1683,31 @@ export default [
 	},
 	{
 		"id": "trash.lastUpdate.today",
-		"defaultMessage": "sot"
+		"defaultMessage": "#trash.lastUpdate.today"
 	},
 	{
 		"id": "trash.lastUpdate.yesterday",
-		"defaultMessage": "dje"
+		"defaultMessage": "#trash.lastUpdate.yesterday"
 	},
 	{
 		"id": "trash.lastUpdate.thisWeek",
-		"defaultMessage": "këtë javë"
+		"defaultMessage": "#trash.lastUpdate.thisWeek"
 	},
 	{
 		"id": "trash.lastUpdate.moreThanWeekAgo",
-		"defaultMessage": "më shumë se një javë"
+		"defaultMessage": "#trash.lastUpdate.moreThanWeekAgo"
 	},
 	{
 		"id": "trash.lastUpdate.moreThanMonthAgo",
-		"defaultMessage": "më shumë se një muaj"
+		"defaultMessage": "#trash.lastUpdate.moreThanMonthAgo"
 	},
 	{
 		"id": "trash.lastUpdate.moreThanSixMonthAgo",
-		"defaultMessage": "më shumë se 6 muaj"
+		"defaultMessage": "#trash.lastUpdate.moreThanSixMonthAgo"
 	},
 	{
 		"id": "trash.lastUpdate.moreThanYearAgo",
-		"defaultMessage": "më shumë se një vit"
+		"defaultMessage": "#trash.lastUpdate.moreThanYearAgo"
 	},
 	{
 		"id": "global.validation.imagesRequired",
@@ -1715,11 +1715,11 @@ export default [
 	},
 	{
 		"id": "trash.create.firstStep",
-		"defaultMessage": "Informacion i Përgjithshëm"
+		"defaultMessage": "#trash.create.firstStep"
 	},
 	{
 		"id": "trash.create.secondStep",
-		"defaultMessage": "Informacion Shtesë"
+		"defaultMessage": "#trash.create.secondStep"
 	},
 	{
 		"id": "trash.create.thirdStep",
@@ -1731,19 +1731,19 @@ export default [
 	},
 	{
 		"id": "trash.history",
-		"defaultMessage": "Historiku"
+		"defaultMessage": "#trash.history"
 	},
 	{
 		"id": "trash.created",
-		"defaultMessage": "Raportuar"
+		"defaultMessage": "#trash.created"
 	},
 	{
 		"id": "global.facebookLogin",
-		"defaultMessage": "Hyr me Facebook"
+		"defaultMessage": "#global.facebookLogin"
 	},
 	{
 		"id": "global.login",
-		"defaultMessage": "Hyr"
+		"defaultMessage": "#global.login"
 	},
 	{
 		"id": "global.backToLogin",
@@ -1751,7 +1751,7 @@ export default [
 	},
 	{
 		"id": "notifications.header",
-		"defaultMessage": "Njoftime"
+		"defaultMessage": "#notifications.header"
 	},
 	{
 		"id": "collectionPoint.filter.ids",
@@ -1763,15 +1763,15 @@ export default [
 	},
 	{
 		"id": "collectionPoint.note",
-		"defaultMessage": "Shënim"
+		"defaultMessage": "#collectionPoint.note"
 	},
 	{
 		"id": "global.reviewed",
-		"defaultMessage": "Rishikuar"
+		"defaultMessage": "#global.reviewed"
 	},
 	{
 		"id": "global.reviewed.true",
-		"defaultMessage": "vetëm rishikuar"
+		"defaultMessage": "#global.reviewed.true"
 	},
 	{
 		"id": "global.reviewed.false",
@@ -1799,7 +1799,7 @@ export default [
 	},
 	{
 		"id": "notifications.users.approve",
-		"defaultMessage": "Aprovo"
+		"defaultMessage": "#notifications.users.approve"
 	},
 	{
 		"id": "notifications.users.deny",
@@ -1807,63 +1807,63 @@ export default [
 	},
 	{
 		"id": "notifications.spam.confirm",
-		"defaultMessage": "Konfirmo si Spam"
+		"defaultMessage": "#notifications.spam.confirm"
 	},
 	{
 		"id": "notifications.spam.deny",
-		"defaultMessage": "Jo Spam"
+		"defaultMessage": "#notifications.spam.deny"
 	},
 	{
 		"id": "global.days.Friday",
-		"defaultMessage": "E Premte"
+		"defaultMessage": "#global.days.Friday"
 	},
 	{
 		"id": "global.days.Monday",
-		"defaultMessage": "E Hënë"
+		"defaultMessage": "#global.days.Monday"
 	},
 	{
 		"id": "global.days.Saturday",
-		"defaultMessage": "E Shtunë"
+		"defaultMessage": "#global.days.Saturday"
 	},
 	{
 		"id": "global.days.Sunday",
-		"defaultMessage": "E Diel"
+		"defaultMessage": "#global.days.Sunday"
 	},
 	{
 		"id": "global.days.Thursday",
-		"defaultMessage": "E Enjte"
+		"defaultMessage": "#global.days.Thursday"
 	},
 	{
 		"id": "global.days.Tuesday",
-		"defaultMessage": "E Martë"
+		"defaultMessage": "#global.days.Tuesday"
 	},
 	{
 		"id": "global.days.Wednesday",
-		"defaultMessage": "E Mërkurë"
+		"defaultMessage": "#global.days.Wednesday"
 	},
 	{
 		"id": "global.form.aa1",
-		"defaultMessage": "Zona Administrative 1"
+		"defaultMessage": "#global.form.aa1"
 	},
 	{
 		"id": "global.form.aa2",
-		"defaultMessage": "Zona Administrative 2"
+		"defaultMessage": "#global.form.aa2"
 	},
 	{
 		"id": "global.form.aa3",
-		"defaultMessage": "Zona Administrative 3"
+		"defaultMessage": "#global.form.aa3"
 	},
 	{
 		"id": "event.childFriendly",
-		"defaultMessage": "Miqësor për fëmijët"
+		"defaultMessage": "#event.childFriendly"
 	},
 	{
 		"id": "event.childFriendly.false",
-		"defaultMessage": "Jo"
+		"defaultMessage": "#event.childFriendly.false"
 	},
 	{
 		"id": "event.childFriendly.true",
-		"defaultMessage": "Po"
+		"defaultMessage": "#event.childFriendly.true"
 	},
 	{
 		"id": "event.edit.header",
@@ -1871,7 +1871,7 @@ export default [
 	},
 	{
 		"id": "event.description",
-		"defaultMessage": "Përshkrim"
+		"defaultMessage": "#event.description"
 	},
 	{
 		"id": "event.filter.header",
@@ -1879,7 +1879,7 @@ export default [
 	},
 	{
 		"id": "event.id",
-		"defaultMessage": "ID"
+		"defaultMessage": "#event.id"
 	},
 	{
 		"id": "event.filter.ids",
@@ -1887,19 +1887,19 @@ export default [
 	},
 	{
 		"id": "event.list.header",
-		"defaultMessage": "Lista e Eventeve"
+		"defaultMessage": "#event.list.header"
 	},
 	{
 		"id": "user.birthday",
-		"defaultMessage": "Datëlindja"
+		"defaultMessage": "#user.birthday"
 	},
 	{
 		"id": "global.form.continent",
-		"defaultMessage": "Kontinent"
+		"defaultMessage": "#global.form.continent"
 	},
 	{
 		"id": "global.form.country",
-		"defaultMessage": "Shtet"
+		"defaultMessage": "#global.form.country"
 	},
 	{
 		"id": "trash.filter.anyActivityDateFrom",
@@ -1911,7 +1911,7 @@ export default [
 	},
 	{
 		"id": "global.day",
-		"defaultMessage": "Ditë"
+		"defaultMessage": "#global.day"
 	},
 	{
 		"id": "event.filter.startTimeFrom",
@@ -1923,15 +1923,15 @@ export default [
 	},
 	{
 		"id": "global.pickOne",
-		"defaultMessage": "Zgjidh Një"
+		"defaultMessage": "#global.pickOne"
 	},
 	{
 		"id": "profile.edit.profileImage",
-		"defaultMessage": "Imazhi Profilit"
+		"defaultMessage": "#profile.edit.profileImage"
 	},
 	{
 		"id": "global.table",
-		"defaultMessage": "List"
+		"defaultMessage": "#global.table"
 	},
 	{
 		"id": "event.confirmation.createEvent",
@@ -1951,7 +1951,7 @@ export default [
 	},
 	{
 		"id": "global.confirmation.header",
-		"defaultMessage": "Konfirmo"
+		"defaultMessage": "#global.confirmation.header"
 	},
 	{
 		"id": "event.confirmation.joinEvent",
@@ -1979,11 +1979,11 @@ export default [
 	},
 	{
 		"id": "global.selectFile",
-		"defaultMessage": "Zgjidhni Skedarin"
+		"defaultMessage": "#global.selectFile"
 	},
 	{
 		"id": "global.selectFiles",
-		"defaultMessage": "Zgjidhni Skedaret"
+		"defaultMessage": "#global.selectFiles"
 	},
 	{
 		"id": "trash.removeActivity",
@@ -1999,11 +1999,11 @@ export default [
 	},
 	{
 		"id": "global.required",
-		"defaultMessage": "I Nevojshëm"
+		"defaultMessage": "#global.required"
 	},
 	{
 		"id": "global.typeAddress",
-		"defaultMessage": "Fusni adresën"
+		"defaultMessage": "#global.typeAddress"
 	},
 	{
 		"id": "user.filter.header",
@@ -2023,11 +2023,11 @@ export default [
 	},
 	{
 		"id": "user.roles.manager",
-		"defaultMessage": "Manaxher"
+		"defaultMessage": "#user.roles.manager"
 	},
 	{
 		"id": "user.roles.user",
-		"defaultMessage": "Përdorues"
+		"defaultMessage": "#user.roles.user"
 	},
 	{
 		"id": "profile.edit.header",
@@ -2043,7 +2043,7 @@ export default [
 	},
 	{
 		"id": "profile.changePassword",
-		"defaultMessage": "Ndrysho Fjalëkalimin"
+		"defaultMessage": "#profile.changePassword"
 	},
 	{
 		"id": "user.filter.emails",
@@ -2087,7 +2087,7 @@ export default [
 	},
 	{
 		"id": "global.map",
-		"defaultMessage": "Harta"
+		"defaultMessage": "#global.map"
 	},
 	{
 		"id": "collectionPoint.validation.timeFromMustBeGreater",
@@ -2135,7 +2135,7 @@ export default [
 	},
 	{
 		"id": "organizations.name",
-		"defaultMessage": "Emri i Organizatës"
+		"defaultMessage": "#organizations.name"
 	},
 	{
 		"id": "organizations.id",
@@ -2147,11 +2147,11 @@ export default [
 	},
 	{
 		"id": "profile.oldPassword",
-		"defaultMessage": "Fjalëkalim i Vjetër"
+		"defaultMessage": "#profile.oldPassword"
 	},
 	{
 		"id": "user.google",
-		"defaultMessage": "Google"
+		"defaultMessage": "#user.google"
 	},
 	{
 		"id": "user.newsletter",
@@ -2183,59 +2183,59 @@ export default [
 	},
 	{
 		"id": "global.image",
-		"defaultMessage": "Imazh"
+		"defaultMessage": "#global.image"
 	},
 	{
 		"id": "global.images",
-		"defaultMessage": "Imazhe"
+		"defaultMessage": "#global.images"
 	},
 	{
 		"id": "global.url",
-		"defaultMessage": "Faqe Webi (URL)"
+		"defaultMessage": "#global.url"
 	},
 	{
 		"id": "global.menu.users",
-		"defaultMessage": "Përdoruesit"
+		"defaultMessage": "#global.menu.users"
 	},
 	{
 		"id": "global.menu.news",
-		"defaultMessage": "Lajme"
+		"defaultMessage": "#global.menu.news"
 	},
 	{
 		"id": "user.points",
-		"defaultMessage": "Pika"
+		"defaultMessage": "#user.points"
 	},
 	{
 		"id": "global.itemsPerPage",
-		"defaultMessage": "Artikuj për Faqe"
+		"defaultMessage": "#global.itemsPerPage"
 	},
 	{
 		"id": "news.id",
-		"defaultMessage": "ID"
+		"defaultMessage": "#news.id"
 	},
 	{
 		"id": "news.title",
-		"defaultMessage": "Titulli"
+		"defaultMessage": "#news.title"
 	},
 	{
 		"id": "news.language",
-		"defaultMessage": "Gjuha"
+		"defaultMessage": "#news.language"
 	},
 	{
 		"id": "event.create.failed",
-		"defaultMessage": "Krijimi eventit dështoi"
+		"defaultMessage": "#event.create.failed"
 	},
 	{
 		"id": "home.helpUsToCleanIt",
-		"defaultMessage": "Na ndihmoni ta pastrojmë!"
+		"defaultMessage": "#home.helpUsToCleanIt"
 	},
 	{
 		"id": "global.processing",
-		"defaultMessage": "Në përpunim"
+		"defaultMessage": "#global.processing"
 	},
 	{
 		"id": "global.validation.unknownError",
-		"defaultMessage": "Gabim i panjohur"
+		"defaultMessage": "#global.validation.unknownError"
 	},
 	{
 		"id": "trash.message.noNearByTrash",
@@ -2243,27 +2243,27 @@ export default [
 	},
 	{
 		"id": "trash.message.updateThisTrash",
-		"defaultMessage": "Përditëso këtë vend-grumbullim"
+		"defaultMessage": "#trash.message.updateThisTrash"
 	},
 	{
 		"id": "trash.create.TakeSomePictures",
-		"defaultMessage": "Bëj disa foto të këtij vendi"
+		"defaultMessage": "#trash.create.TakeSomePictures"
 	},
 	{
 		"id": "global.information",
-		"defaultMessage": "Informacion"
+		"defaultMessage": "#global.information"
 	},
 	{
 		"id": "trash.detail.reportToMunicipality",
-		"defaultMessage": "Dërgo me Email"
+		"defaultMessage": "#trash.detail.reportToMunicipality"
 	},
 	{
 		"id": "trash.detail.sendNotification",
-		"defaultMessage": "Dërgo njoftim"
+		"defaultMessage": "#trash.detail.sendNotification"
 	},
 	{
 		"id": "trash.detail.spam",
-		"defaultMessage": "Është Ky Raportim Spam?"
+		"defaultMessage": "#trash.detail.spam"
 	},
 	{
 		"id": "trash.detail.spamText",
@@ -2271,11 +2271,11 @@ export default [
 	},
 	{
 		"id": "trash.detail.municipalityText",
-		"defaultMessage": "Dërgo këtë raportim me e-mail bashkisë ose një organizate mjedisore"
+		"defaultMessage": "#trash.detail.municipalityText"
 	},
 	{
 		"id": "trash.detail.noCleaningEvent",
-		"defaultMessage": "Nuk ka event pastrimi për këtë vend-grumbullim"
+		"defaultMessage": "#trash.detail.noCleaningEvent"
 	},
 	{
 		"id": "trash.detail.ofThisIllegalDump",
@@ -2283,15 +2283,15 @@ export default [
 	},
 	{
 		"id": "trash.detail.fromDifferentAngle",
-		"defaultMessage": "nga kënd / distancë tjetër"
+		"defaultMessage": "#trash.detail.fromDifferentAngle"
 	},
 	{
 		"id": "global.camera",
-		"defaultMessage": "Kamera"
+		"defaultMessage": "#global.camera"
 	},
 	{
 		"id": "global.gallery",
-		"defaultMessage": "Galeri"
+		"defaultMessage": "#global.gallery"
 	},
 	{
 		"id": "global.camera.photoSource",
@@ -2299,51 +2299,51 @@ export default [
 	},
 	{
 		"id": "global.time.year",
-		"defaultMessage": "vit"
+		"defaultMessage": "#global.time.year"
 	},
 	{
 		"id": "global.time.month",
-		"defaultMessage": "muaj"
+		"defaultMessage": "#global.time.month"
 	},
 	{
 		"id": "global.time.week",
-		"defaultMessage": "javë"
+		"defaultMessage": "#global.time.week"
 	},
 	{
 		"id": "global.time.day",
-		"defaultMessage": "ditë"
+		"defaultMessage": "#global.time.day"
 	},
 	{
 		"id": "global.time.hour",
-		"defaultMessage": "orë"
+		"defaultMessage": "#global.time.hour"
 	},
 	{
 		"id": "global.time.minute",
-		"defaultMessage": "minutë"
+		"defaultMessage": "#global.time.minute"
 	},
 	{
 		"id": "global.time.second",
-		"defaultMessage": "sekond"
+		"defaultMessage": "#global.time.second"
 	},
 	{
 		"id": "global.time.0secAgo",
-		"defaultMessage": "para 0 sekondash"
+		"defaultMessage": "#global.time.0secAgo"
 	},
 	{
 		"id": "global.time.0sec",
-		"defaultMessage": "0 sekonda"
+		"defaultMessage": "#global.time.0sec"
 	},
 	{
 		"id": "global.time.ago",
-		"defaultMessage": "\"para\""
+		"defaultMessage": "#global.time.ago"
 	},
 	{
 		"id": "global.sendEmail",
-		"defaultMessage": "Dërgo e-mail"
+		"defaultMessage": "#global.sendEmail"
 	},
 	{
 		"id": "global.validation.warning",
-		"defaultMessage": "Paralajmërim"
+		"defaultMessage": "#global.validation.warning"
 	},
 	{
 		"id": "global.validation.noEmailClientInstalled",
@@ -2367,11 +2367,11 @@ export default [
 	},
 	{
 		"id": "event.detail.pleaseBring",
-		"defaultMessage": "Çfarë Na Duhet"
+		"defaultMessage": "#event.detail.pleaseBring"
 	},
 	{
 		"id": "global.cropImage",
-		"defaultMessage": "Prisni Imazhin"
+		"defaultMessage": "#global.cropImage"
 	},
 	{
 		"id": "collectionPoint.disposeTypes",
@@ -2379,7 +2379,7 @@ export default [
 	},
 	{
 		"id": "global.readMore",
-		"defaultMessage": "Lexo më shumë"
+		"defaultMessage": "#global.readMore"
 	},
 	{
 		"id": "user.validation.nonEmptyOrganization",
@@ -2387,15 +2387,15 @@ export default [
 	},
 	{
 		"id": "global.gpsFormat",
-		"defaultMessage": "Formati i Koordinatave GPS"
+		"defaultMessage": "#global.gpsFormat"
 	},
 	{
 		"id": "global.locationFormatDegreesExample",
-		"defaultMessage": "48.654684, 19.1676514"
+		"defaultMessage": "#global.locationFormatDegreesExample"
 	},
 	{
 		"id": "global.signup",
-		"defaultMessage": "Regjistrohu"
+		"defaultMessage": "#global.signup"
 	},
 	{
 		"id": "user.login.validation.unknownError",
@@ -2407,7 +2407,7 @@ export default [
 	},
 	{
 		"id": "user.login.validation.autentification_filed",
-		"defaultMessage": "Autentifikimi dështoi."
+		"defaultMessage": "#user.login.validation.autentification_filed"
 	},
 	{
 		"id": "user.validation.confirmPasswordRequired",
@@ -2443,15 +2443,15 @@ export default [
 	},
 	{
 		"id": "user.login.canceled",
-		"defaultMessage": "Hyrja u anullua"
+		"defaultMessage": "#user.login.canceled"
 	},
 	{
 		"id": "global.validation.noNetwork",
-		"defaultMessage": "S'ka rrjet"
+		"defaultMessage": "#global.validation.noNetwork"
 	},
 	{
 		"id": "global.commingSoon",
-		"defaultMessage": "Vjen sëshpejti"
+		"defaultMessage": "#global.commingSoon"
 	},
 	{
 		"id": "trash.edit.spamText",
@@ -2539,39 +2539,39 @@ export default [
 	},
 	{
 		"id": "news.other",
-		"defaultMessage": "Lajme të Tjera"
+		"defaultMessage": "#news.other"
 	},
 	{
 		"id": "news.empty",
-		"defaultMessage": "Nuk ka lajme"
+		"defaultMessage": "#news.empty"
 	},
 	{
 		"id": "news.detail.attachedPhoto",
-		"defaultMessage": "Foto bashkangjitur"
+		"defaultMessage": "#news.detail.attachedPhoto"
 	},
 	{
 		"id": "news.detail.attachedVideo",
-		"defaultMessage": "Viedo të bashkangjitura"
+		"defaultMessage": "#news.detail.attachedVideo"
 	},
 	{
 		"id": "event.organizeAction",
-		"defaultMessage": "Dua të organizoj një aksion pastrimi"
+		"defaultMessage": "#event.organizeAction"
 	},
 	{
 		"id": "event.actionNotification",
-		"defaultMessage": "Dua të marrë njoftime rreth aksioneve të pastrimit"
+		"defaultMessage": "#event.actionNotification"
 	},
 	{
 		"id": "event.user.email",
-		"defaultMessage": "E-maili juaj"
+		"defaultMessage": "#event.user.email"
 	},
 	{
 		"id": "event.user.phone",
-		"defaultMessage": "Telefoni juaj"
+		"defaultMessage": "#event.user.phone"
 	},
 	{
 		"id": "event.cleaningAction",
-		"defaultMessage": "Aksioni pastrimit"
+		"defaultMessage": "#event.cleaningAction"
 	},
 	{
 		"id": "collectionPoint.activity",
@@ -2583,11 +2583,11 @@ export default [
 	},
 	{
 		"id": "global.worldwide",
-		"defaultMessage": "Botëror"
+		"defaultMessage": "#global.worldwide"
 	},
 	{
 		"id": "home.statisticsInArea",
-		"defaultMessage": "Statistikat për Zonën e Zgjedhur"
+		"defaultMessage": "#home.statisticsInArea"
 	},
 	{
 		"id": "trashHunter.finished",
@@ -2595,7 +2595,7 @@ export default [
 	},
 	{
 		"id": "global.noData",
-		"defaultMessage": "Nuk ka të dhëna"
+		"defaultMessage": "#global.noData"
 	},
 	{
 		"id": "home.upcommingEvents",
@@ -2791,35 +2791,35 @@ export default [
 	},
 	{
 		"id": "geo.selectArea",
-		"defaultMessage": "Përzgjidh"
+		"defaultMessage": "#geo.selectArea"
 	},
 	{
 		"id": "geo.managers",
-		"defaultMessage": "Menaxherët"
+		"defaultMessage": "#geo.managers"
 	},
 	{
 		"id": "geo.users",
-		"defaultMessage": "Përdoruesit"
+		"defaultMessage": "#geo.users"
 	},
 	{
 		"id": "geo.aliases",
-		"defaultMessage": "Emërtimet"
+		"defaultMessage": "#geo.aliases"
 	},
 	{
 		"id": "geo.admins",
-		"defaultMessage": "Administratorët"
+		"defaultMessage": "#geo.admins"
 	},
 	{
 		"id": "user.id",
-		"defaultMessage": "ID"
+		"defaultMessage": "#user.id"
 	},
 	{
 		"id": "geo.continent",
-		"defaultMessage": "Kontinet"
+		"defaultMessage": "#geo.continent"
 	},
 	{
 		"id": "geo.country",
-		"defaultMessage": "Shteti"
+		"defaultMessage": "#geo.country"
 	},
 	{
 		"id": "geo.aa1",
@@ -2851,63 +2851,63 @@ export default [
 	},
 	{
 		"id": "geo.removeAdmin",
-		"defaultMessage": "Hiq Administratorin"
+		"defaultMessage": "#geo.removeAdmin"
 	},
 	{
 		"id": "geo.removeAlias",
-		"defaultMessage": "Hiq Emërtimet"
+		"defaultMessage": "#geo.removeAlias"
 	},
 	{
 		"id": "geo.addAdmin",
-		"defaultMessage": "Shto Admin"
+		"defaultMessage": "#geo.addAdmin"
 	},
 	{
 		"id": "geo.addAlias",
-		"defaultMessage": "Shto Emërtim"
+		"defaultMessage": "#geo.addAlias"
 	},
 	{
 		"id": "global.findUser",
-		"defaultMessage": "Gjej Përdoruesit me E-mail"
+		"defaultMessage": "#global.findUser"
 	},
 	{
 		"id": "global.selectUser",
-		"defaultMessage": "Zgjidh Përdoruesin"
+		"defaultMessage": "#global.selectUser"
 	},
 	{
 		"id": "organizations.header",
-		"defaultMessage": "Organizatat"
+		"defaultMessage": "#organizations.header"
 	},
 	{
 		"id": "organizations.list.header",
-		"defaultMessage": "Lista e Oranizatave"
+		"defaultMessage": "#organizations.list.header"
 	},
 	{
 		"id": "news.header",
-		"defaultMessage": "Lajme"
+		"defaultMessage": "#news.header"
 	},
 	{
 		"id": "news.list.header",
-		"defaultMessage": "Lista e Lajmeve"
+		"defaultMessage": "#news.list.header"
 	},
 	{
 		"id": "trash.create",
-		"defaultMessage": "Raportim"
+		"defaultMessage": "#trash.create"
 	},
 	{
 		"id": "global.accountCreated",
-		"defaultMessage": "LLogaria u krijua"
+		"defaultMessage": "#global.accountCreated"
 	},
 	{
 		"id": "global.activateAccount",
-		"defaultMessage": "Hapni e-mailin dhe aktivizoni llogarinë"
+		"defaultMessage": "#global.activateAccount"
 	},
 	{
 		"id": "user.myProfile",
-		"defaultMessage": "Profili Im"
+		"defaultMessage": "#user.myProfile"
 	},
 	{
 		"id": "user.addArea",
-		"defaultMessage": "Shto Zonat e Interesit"
+		"defaultMessage": "#user.addArea"
 	},
 	{
 		"id": "user.generateApiKey",
@@ -2915,7 +2915,7 @@ export default [
 	},
 	{
 		"id": "user.aboutMe",
-		"defaultMessage": "Rreth meje"
+		"defaultMessage": "#user.aboutMe"
 	},
 	{
 		"id": "trash.markedAsSpam.success",
@@ -2927,27 +2927,27 @@ export default [
 	},
 	{
 		"id": "profile.avatar",
-		"defaultMessage": "Avatari Juaj"
+		"defaultMessage": "#profile.avatar"
 	},
 	{
 		"id": "user.contacts",
-		"defaultMessage": "Kontakte"
+		"defaultMessage": "#user.contacts"
 	},
 	{
 		"id": "user.roles.superAdmin",
-		"defaultMessage": "SuperAdministrator"
+		"defaultMessage": "#user.roles.superAdmin"
 	},
 	{
 		"id": "profile.myEvents",
-		"defaultMessage": "Eventet e Mia"
+		"defaultMessage": "#profile.myEvents"
 	},
 	{
 		"id": "organization.description",
-		"defaultMessage": "Përshkrimi"
+		"defaultMessage": "#organization.description"
 	},
 	{
 		"id": "user.geo.notificationFrequency",
-		"defaultMessage": "Frekuenca e Njoftimit"
+		"defaultMessage": "#user.geo.notificationFrequency"
 	},
 	{
 		"id": "user.reviewed",
@@ -2955,7 +2955,7 @@ export default [
 	},
 	{
 		"id": "user.created",
-		"defaultMessage": "Llogaria u krijua"
+		"defaultMessage": "#user.created"
 	},
 	{
 		"id": "trash.create.successs",
@@ -2967,27 +2967,27 @@ export default [
 	},
 	{
 		"id": "global.phone.placeholder",
-		"defaultMessage": "+3552444024"
+		"defaultMessage": "#global.phone.placeholder"
 	},
 	{
 		"id": "global.email.placeholder",
-		"defaultMessage": "emri@shembull.com"
+		"defaultMessage": "#global.email.placeholder"
 	},
 	{
 		"id": "organization.detail.header",
-		"defaultMessage": "Detajet e organizatës"
+		"defaultMessage": "#organization.detail.header"
 	},
 	{
 		"id": "organization.join",
-		"defaultMessage": "Bashkohu me Organizatën"
+		"defaultMessage": "#organization.join"
 	},
 	{
 		"id": "organization.leave",
-		"defaultMessage": "Largohu nga Organizata"
+		"defaultMessage": "#organization.leave"
 	},
 	{
 		"id": "organization.edit",
-		"defaultMessage": "Ndrysho Organizatën"
+		"defaultMessage": "#organization.edit"
 	},
 	{
 		"id": "trash.removeActivity.success",
@@ -3003,91 +3003,91 @@ export default [
 	},
 	{
 		"id": "collectionPoint.contact.header",
-		"defaultMessage": "Kontakte"
+		"defaultMessage": "#collectionPoint.contact.header"
 	},
 	{
 		"id": "global.url.placeholder",
-		"defaultMessage": "https://www.trashout.ngo"
+		"defaultMessage": "#global.url.placeholder"
 	},
 	{
 		"id": "collectionPoint.update.success",
-		"defaultMessage": "Pika e riciklimit u përditësua me sukses."
+		"defaultMessage": "#collectionPoint.update.success"
 	},
 	{
 		"id": "user.editArea",
-		"defaultMessage": "Ndrysho Zonën e interesit"
+		"defaultMessage": "#user.editArea"
 	},
 	{
 		"id": "user.geo.notificationFrequency.perHour",
-		"defaultMessage": "Për orë"
+		"defaultMessage": "#user.geo.notificationFrequency.perHour"
 	},
 	{
 		"id": "user.geo.notificationFrequency.never",
-		"defaultMessage": "Asnjëherë"
+		"defaultMessage": "#user.geo.notificationFrequency.never"
 	},
 	{
 		"id": "user.geo.notificationFrequency.perDay",
-		"defaultMessage": "Për ditë"
+		"defaultMessage": "#user.geo.notificationFrequency.perDay"
 	},
 	{
 		"id": "user.geo.notificationFrequency.perWeek",
-		"defaultMessage": "Për javë"
+		"defaultMessage": "#user.geo.notificationFrequency.perWeek"
 	},
 	{
 		"id": "user.geo.notificationFrequency.perMonth",
-		"defaultMessage": "Për muaj"
+		"defaultMessage": "#user.geo.notificationFrequency.perMonth"
 	},
 	{
 		"id": "user.level",
-		"defaultMessage": "Niveli"
+		"defaultMessage": "#user.level"
 	},
 	{
 		"id": "geo.userAdd.success",
-		"defaultMessage": "Përdoruesi u shtua me sukses."
+		"defaultMessage": "#geo.userAdd.success"
 	},
 	{
 		"id": "geo.userDelete.success",
-		"defaultMessage": "Roli i përdoruesit u fshi me sukses."
+		"defaultMessage": "#geo.userDelete.success"
 	},
 	{
 		"id": "global.validation.noteTooLong",
-		"defaultMessage": "Shënimi është shumë i gjatë. Maksimuni 180 karaktere."
+		"defaultMessage": "#global.validation.noteTooLong"
 	},
 	{
 		"id": "user.newsletter.enabled.true",
-		"defaultMessage": "Njoftimi u aktivizua"
+		"defaultMessage": "#user.newsletter.enabled.true"
 	},
 	{
 		"id": "user.newsletter.enabled.false",
-		"defaultMessage": "Njoftimi u fshi"
+		"defaultMessage": "#user.newsletter.enabled.false"
 	},
 	{
 		"id": "profile.removeAccount.title",
-		"defaultMessage": "Fshi profilin"
+		"defaultMessage": "#profile.removeAccount.title"
 	},
 	{
 		"id": "profile.removeAccount",
-		"defaultMessage": "Fshi profilin"
+		"defaultMessage": "#profile.removeAccount"
 	},
 	{
 		"id": "user.filter.minPoints",
-		"defaultMessage": "Minimumi i pikëve"
+		"defaultMessage": "#user.filter.minPoints"
 	},
 	{
 		"id": "user.filter.maxPoints",
-		"defaultMessage": "Maksimumi i pikëve"
+		"defaultMessage": "#user.filter.maxPoints"
 	},
 	{
 		"id": "profile.statistics.title",
-		"defaultMessage": "Statistikat e aktivitetit tuaj"
+		"defaultMessage": "#profile.statistics.title"
 	},
 	{
 		"id": "user.detail.header",
-		"defaultMessage": "Detajet e Përdoruesit"
+		"defaultMessage": "#user.detail.header"
 	},
 	{
 		"id": "organization.sendInvitations",
-		"defaultMessage": "Dërgo ftesë"
+		"defaultMessage": "#organization.sendInvitations"
 	},
 	{
 		"id": "organization.addManager",
@@ -3095,47 +3095,47 @@ export default [
 	},
 	{
 		"id": "organization.contacts",
-		"defaultMessage": "Kontakte"
+		"defaultMessage": "#organization.contacts"
 	},
 	{
 		"id": "organization.created",
-		"defaultMessage": "U Krijua"
+		"defaultMessage": "#organization.created"
 	},
 	{
 		"id": "organization.members",
-		"defaultMessage": "Anëtarët"
+		"defaultMessage": "#organization.members"
 	},
 	{
 		"id": "collectionPoint.delete.confirmation",
-		"defaultMessage": "Dëshironi ta fshini këtë Pikë Riciklimi?"
+		"defaultMessage": "#collectionPoint.delete.confirmation"
 	},
 	{
 		"id": "collectionPoint.detail.header",
-		"defaultMessage": "Detaji i Ikës së Riciklimit"
+		"defaultMessage": "#collectionPoint.detail.header"
 	},
 	{
 		"id": "collectionPoint.create.success",
-		"defaultMessage": "Pika e riciklimit u krijua me sukses."
+		"defaultMessage": "#collectionPoint.create.success"
 	},
 	{
 		"id": "organization.create.success",
-		"defaultMessage": "Organizata u krijua me sukses."
+		"defaultMessage": "#organization.create.success"
 	},
 	{
 		"id": "organization.create.firstStep",
-		"defaultMessage": "Informacion i Përgjithshëm"
+		"defaultMessage": "#organization.create.firstStep"
 	},
 	{
 		"id": "organization.create.secondStep",
-		"defaultMessage": "Zona e Organizatës dhe Organizata Mëmë"
+		"defaultMessage": "#organization.create.secondStep"
 	},
 	{
 		"id": "organization.create.thirdStep",
-		"defaultMessage": "Zgjidh Logon"
+		"defaultMessage": "#organization.create.thirdStep"
 	},
 	{
 		"id": "organization.join.success",
-		"defaultMessage": "Ju u bashkuat me sukses organizatës në platformën TrashOut."
+		"defaultMessage": "#organization.join.success"
 	},
 	{
 		"id": "organization.leave.success",
@@ -3143,27 +3143,27 @@ export default [
 	},
 	{
 		"id": "organization.update.success",
-		"defaultMessage": "Organizata u përditësua me sukses"
+		"defaultMessage": "#organization.update.success"
 	},
 	{
 		"id": "organization.parent",
-		"defaultMessage": "Organizata mëmë"
+		"defaultMessage": "#organization.parent"
 	},
 	{
 		"id": "organization.logo",
-		"defaultMessage": "Logo e organizatës"
+		"defaultMessage": "#organization.logo"
 	},
 	{
 		"id": "organization.confirmation.leave",
-		"defaultMessage": "Dëshironi të largoheni nga kjo Organizatë?"
+		"defaultMessage": "#organization.confirmation.leave"
 	},
 	{
 		"id": "organization.confirmation.join",
-		"defaultMessage": "Dëshironi ti bashkoheni kësaj Organizate?"
+		"defaultMessage": "#organization.confirmation.join"
 	},
 	{
 		"id": "organization.confirmation.delete",
-		"defaultMessage": "Dëshironi ta fashini Organizatën?"
+		"defaultMessage": "#organization.confirmation.delete"
 	},
 	{
 		"id": "organization.invitation.selectFile",
@@ -3183,7 +3183,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.validation.dayRequired",
-		"defaultMessage": "Zgjidhni të paktën një ditë"
+		"defaultMessage": "#collectionPoint.validation.dayRequired"
 	},
 	{
 		"id": "collectionPoint.validation.timeFromRequired",
@@ -3499,19 +3499,19 @@ export default [
 	},
 	{
 		"id": "event.validation.startDateRequired",
-		"defaultMessage": "Data e Fillimit të Eventit është i nevojshëm"
+		"defaultMessage": "#event.validation.startDateRequired"
 	},
 	{
 		"id": "event.validation.startTimeRequired",
-		"defaultMessage": "KOha e fillimit është e nevojshme"
+		"defaultMessage": "#event.validation.startTimeRequired"
 	},
 	{
 		"id": "global.noResult",
-		"defaultMessage": "S'ka rezultate."
+		"defaultMessage": "#global.noResult"
 	},
 	{
 		"id": "event.create.collectionPoints",
-		"defaultMessage": "Pika Riciklimi në zonë"
+		"defaultMessage": "#event.create.collectionPoints"
 	},
 	{
 		"id": "event.filter.upcomingOrOld",
@@ -3527,7 +3527,7 @@ export default [
 	},
 	{
 		"id": "event.feedback.images",
-		"defaultMessage": "Shto foto nga eventi"
+		"defaultMessage": "#event.feedback.images"
 	},
 	{
 		"id": "event.create.setLocationDescription",
@@ -3551,15 +3551,15 @@ export default [
 	},
 	{
 		"id": "user.detail.organizations",
-		"defaultMessage": "Organizatat"
+		"defaultMessage": "#user.detail.organizations"
 	},
 	{
 		"id": "user.detail.areas",
-		"defaultMessage": "Zonat"
+		"defaultMessage": "#user.detail.areas"
 	},
 	{
 		"id": "user.detail.events",
-		"defaultMessage": "Eventet"
+		"defaultMessage": "#user.detail.events"
 	},
 	{
 		"id": "user.detail.reportedDumps",
@@ -3579,7 +3579,7 @@ export default [
 	},
 	{
 		"id": "news.author",
-		"defaultMessage": "Autori"
+		"defaultMessage": "#news.author"
 	},
 	{
 		"id": "news.created",
@@ -3587,7 +3587,7 @@ export default [
 	},
 	{
 		"id": "news.area",
-		"defaultMessage": "Zona gjeografike"
+		"defaultMessage": "#news.area"
 	},
 	{
 		"id": "news.timesShared",
@@ -3595,7 +3595,7 @@ export default [
 	},
 	{
 		"id": "news.create.firstStep",
-		"defaultMessage": "Informacion Bazë"
+		"defaultMessage": "#news.create.firstStep"
 	},
 	{
 		"id": "news.create.secondStep",
@@ -3603,35 +3603,35 @@ export default [
 	},
 	{
 		"id": "news.create.thirdStep",
-		"defaultMessage": "Imazhet"
+		"defaultMessage": "#news.create.thirdStep"
 	},
 	{
 		"id": "news.content",
-		"defaultMessage": "Përmbajtja"
+		"defaultMessage": "#news.content"
 	},
 	{
 		"id": "news.body",
-		"defaultMessage": "Trupi"
+		"defaultMessage": "#news.body"
 	},
 	{
 		"id": "news.images",
-		"defaultMessage": "Imazhet"
+		"defaultMessage": "#news.images"
 	},
 	{
 		"id": "news.success.update",
-		"defaultMessage": "Artikulli u përditësua me sukses."
+		"defaultMessage": "#news.success.update"
 	},
 	{
 		"id": "news.success.deleted",
-		"defaultMessage": "Artikulli u fshi me sukses."
+		"defaultMessage": "#news.success.deleted"
 	},
 	{
 		"id": "news.success.created",
-		"defaultMessage": "Artikulli u krijua me sukses."
+		"defaultMessage": "#news.success.created"
 	},
 	{
 		"id": "news.detail.header",
-		"defaultMessage": "Detajet e artikullit"
+		"defaultMessage": "#news.detail.header"
 	},
 	{
 		"id": "news.delete.confirmation",
@@ -3679,15 +3679,15 @@ export default [
 	},
 	{
 		"id": "global.form.selectArea",
-		"defaultMessage": "Zgjidh Zonën"
+		"defaultMessage": "#global.form.selectArea"
 	},
 	{
 		"id": "event.meetingPoint.listHeader",
-		"defaultMessage": "Pika e Takimit"
+		"defaultMessage": "#event.meetingPoint.listHeader"
 	},
 	{
 		"id": "global.select",
-		"defaultMessage": "Zgjidh"
+		"defaultMessage": "#global.select"
 	},
 	{
 		"id": "export.selectAttributes",
@@ -3699,7 +3699,7 @@ export default [
 	},
 	{
 		"id": "export.itemsPerFile.currentValue",
-		"defaultMessage": "Vlera"
+		"defaultMessage": "#export.itemsPerFile.currentValue"
 	},
 	{
 		"id": "export.preparingExport",
@@ -3707,11 +3707,11 @@ export default [
 	},
 	{
 		"id": "global.latitude",
-		"defaultMessage": "Gjatësia"
+		"defaultMessage": "#global.latitude"
 	},
 	{
 		"id": "global.longitude",
-		"defaultMessage": "Gjerësia"
+		"defaultMessage": "#global.longitude"
 	},
 	{
 		"id": "collectionPoint.created",
@@ -3723,11 +3723,11 @@ export default [
 	},
 	{
 		"id": "user.export.eventOrganizer",
-		"defaultMessage": "Organizatori i Eventit"
+		"defaultMessage": "#user.export.eventOrganizer"
 	},
 	{
 		"id": "user.export.volunteerCleanup",
-		"defaultMessage": "Pastrim Vullnetar"
+		"defaultMessage": "#user.export.volunteerCleanup"
 	},
 	{
 		"id": "trash.image",
@@ -3739,19 +3739,19 @@ export default [
 	},
 	{
 		"id": "user.eventOrganizer.yes",
-		"defaultMessage": "Dua të organizoj ose të ndihmoj në organizimin  e çdo eventi pastrimi"
+		"defaultMessage": "#user.eventOrganizer.yes"
 	},
 	{
 		"id": "user.eventOrganizer.no",
-		"defaultMessage": "Nuk dua të organizoj ose të ndihmoj në organizimin  e çdo eventi pastrimi"
+		"defaultMessage": "#user.eventOrganizer.no"
 	},
 	{
 		"id": "user.volunteerCleanup.yes",
-		"defaultMessage": "Dua të marr pjesë në evente pastrimi"
+		"defaultMessage": "#user.volunteerCleanup.yes"
 	},
 	{
 		"id": "user.volunteerCleanup.no",
-		"defaultMessage": "Nuk dua të marr pjesë në evente pastrimi"
+		"defaultMessage": "#user.volunteerCleanup.no"
 	},
 	{
 		"id": "user.widget.firstStep",
@@ -3759,7 +3759,7 @@ export default [
 	},
 	{
 		"id": "user.widget.secondStep",
-		"defaultMessage": "Parametrat"
+		"defaultMessage": "#user.widget.secondStep"
 	},
 	{
 		"id": "user.widget.thirdStep",
@@ -3775,11 +3775,11 @@ export default [
 	},
 	{
 		"id": "user.widget.trashMap",
-		"defaultMessage": "Harta e Mbeturinave"
+		"defaultMessage": "#user.widget.trashMap"
 	},
 	{
 		"id": "user.widget.eventDetail",
-		"defaultMessage": "Detajet e eventit"
+		"defaultMessage": "#user.widget.eventDetail"
 	},
 	{
 		"id": "user.widget.trashStatistics",
@@ -3795,11 +3795,11 @@ export default [
 	},
 	{
 		"id": "user.apiKey.generate",
-		"defaultMessage": "Gjenero"
+		"defaultMessage": "#user.apiKey.generate"
 	},
 	{
 		"id": "user.apiKey.regenerate",
-		"defaultMessage": "Ri-gjenero"
+		"defaultMessage": "#user.apiKey.regenerate"
 	},
 	{
 		"id": "user.apiKey.yourKey",
@@ -3819,11 +3819,11 @@ export default [
 	},
 	{
 		"id": "organizations.logo",
-		"defaultMessage": "Logo"
+		"defaultMessage": "#organizations.logo"
 	},
 	{
 		"id": "organizations.address",
-		"defaultMessage": "Adresa"
+		"defaultMessage": "#organizations.address"
 	},
 	{
 		"id": "mail.eventConfirm.greeting",
@@ -3839,31 +3839,31 @@ export default [
 	},
 	{
 		"id": "mail.eventConfirm.eventInfo3",
-		"defaultMessage": "te"
+		"defaultMessage": "#mail.eventConfirm.eventInfo3"
 	},
 	{
 		"id": "mail.eventConfirm.eventInfo4",
-		"defaultMessage": "Pika e takimit është te"
+		"defaultMessage": "#mail.eventConfirm.eventInfo4"
 	},
 	{
 		"id": "mail.eventConfirm.eventInfo5",
-		"defaultMessage": "Mund të konfirmoni pjesëmarrjen tuaj?"
+		"defaultMessage": "#mail.eventConfirm.eventInfo5"
 	},
 	{
 		"id": "mail.eventConfirm.confirmButton",
-		"defaultMessage": "Po"
+		"defaultMessage": "#mail.eventConfirm.confirmButton"
 	},
 	{
 		"id": "mail.eventConfirm.eventDetail1",
-		"defaultMessage": "Për më shumë detaje dhe kontakte"
+		"defaultMessage": "#mail.eventConfirm.eventDetail1"
 	},
 	{
 		"id": "mail.eventConfirm.eventDetail2",
-		"defaultMessage": "detajet e eventit"
+		"defaultMessage": "#mail.eventConfirm.eventDetail2"
 	},
 	{
 		"id": "mail.eventConfirm.eventDetail3",
-		"defaultMessage": "në aplikacionin TrashOut."
+		"defaultMessage": "#mail.eventConfirm.eventDetail3"
 	},
 	{
 		"id": "mail.eventConfirm.thanks",
@@ -3871,7 +3871,7 @@ export default [
 	},
 	{
 		"id": "mail.eventConfirm.organizer",
-		"defaultMessage": "Organizatori i eventit është"
+		"defaultMessage": "#mail.eventConfirm.organizer"
 	},
 	{
 		"id": "mail.eventConfirm.footer",
@@ -3895,7 +3895,7 @@ export default [
 	},
 	{
 		"id": "mail.eventCreate.detailButton",
-		"defaultMessage": "Shiko detajet e eventit"
+		"defaultMessage": "#mail.eventCreate.detailButton"
 	},
 	{
 		"id": "mail.eventCreate.eventConfirmation",
@@ -4087,11 +4087,11 @@ export default [
 	},
 	{
 		"id": "user.addToArea.success",
-		"defaultMessage": "Zona u shtua me sukses"
+		"defaultMessage": "#user.addToArea.success"
 	},
 	{
 		"id": "collectionPoint.created.success",
-		"defaultMessage": "Pika e riciklimit u krijua me sukses"
+		"defaultMessage": "#collectionPoint.created.success"
 	},
 	{
 		"id": "collectionPoint.markedAsSpam.success",
@@ -4099,15 +4099,15 @@ export default [
 	},
 	{
 		"id": "collectionPoint.removed.success",
-		"defaultMessage": "Pika e riciklimit u fshi me sukses"
+		"defaultMessage": "#collectionPoint.removed.success"
 	},
 	{
 		"id": "profile.passwordChanged.success",
-		"defaultMessage": "Fjalëkalimi u ndryshua me sukses."
+		"defaultMessage": "#profile.passwordChanged.success"
 	},
 	{
 		"id": "profile.emailChanged.success",
-		"defaultMessage": "E-maili u ndryshua me sukses."
+		"defaultMessage": "#profile.emailChanged.success"
 	},
 	{
 		"id": "profile.signedOut.success",
@@ -4115,11 +4115,11 @@ export default [
 	},
 	{
 		"id": "event.removed.success",
-		"defaultMessage": "Eventi u fshi me sukses"
+		"defaultMessage": "#event.removed.success"
 	},
 	{
 		"id": "event.confirmed.success",
-		"defaultMessage": "Eventi u konfirmua me sukses"
+		"defaultMessage": "#event.confirmed.success"
 	},
 	{
 		"id": "event.unjoined.success",
@@ -4143,11 +4143,11 @@ export default [
 	},
 	{
 		"id": "organization.removed.success",
-		"defaultMessage": "Organizata u  fshi me sukses."
+		"defaultMessage": "#organization.removed.success"
 	},
 	{
 		"id": "organization.invitationSent.success",
-		"defaultMessage": "Ftesa u dërgua me sukses."
+		"defaultMessage": "#organization.invitationSent.success"
 	},
 	{
 		"id": "geo.rootSet.success",
@@ -4179,27 +4179,27 @@ export default [
 	},
 	{
 		"id": "user.widget.map",
-		"defaultMessage": "Zgjidh qendrën e hartës"
+		"defaultMessage": "#user.widget.map"
 	},
 	{
 		"id": "user.widget.map.lat",
-		"defaultMessage": "Gjerësia"
+		"defaultMessage": "#user.widget.map.lat"
 	},
 	{
 		"id": "user.widget.map.lng",
-		"defaultMessage": "Gjatësia"
+		"defaultMessage": "#user.widget.map.lng"
 	},
 	{
 		"id": "user.widget.map.zoom",
-		"defaultMessage": "Niveli i zmadhimit"
+		"defaultMessage": "#user.widget.map.zoom"
 	},
 	{
 		"id": "user.widget.filterLastUpdate",
-		"defaultMessage": "Data e Përditësimit të Fundit"
+		"defaultMessage": "#user.widget.filterLastUpdate"
 	},
 	{
 		"id": "user.widget.event.id",
-		"defaultMessage": "ID e Eventit"
+		"defaultMessage": "#user.widget.event.id"
 	},
 	{
 		"id": "global.trashoutURL",
@@ -4227,19 +4227,19 @@ export default [
 	},
 	{
 		"id": "global.currentImage",
-		"defaultMessage": "Imazhi Aktual"
+		"defaultMessage": "#global.currentImage"
 	},
 	{
 		"id": "global.videos",
-		"defaultMessage": "Videot"
+		"defaultMessage": "#global.videos"
 	},
 	{
 		"id": "geo.removeManager",
-		"defaultMessage": "Fshi Menaxherin"
+		"defaultMessage": "#geo.removeManager"
 	},
 	{
 		"id": "global.pageNotFound",
-		"defaultMessage": "Faqja Nuk u Gjet"
+		"defaultMessage": "#global.pageNotFound"
 	},
 	{
 		"id": "profile.widget.validation.typeNeeded",
@@ -4311,7 +4311,7 @@ export default [
 	},
 	{
 		"id": "news.videoUrl",
-		"defaultMessage": "URL e Videos"
+		"defaultMessage": "#news.videoUrl"
 	},
 	{
 		"id": "global.addNext",
@@ -4323,7 +4323,7 @@ export default [
 	},
 	{
 		"id": "global.image.mainImage",
-		"defaultMessage": "Imazhi kryesor"
+		"defaultMessage": "#global.image.mainImage"
 	},
 	{
 		"id": "global.image.setAsMain",
@@ -4339,11 +4339,11 @@ export default [
 	},
 	{
 		"id": "global.photos",
-		"defaultMessage": "Fotot"
+		"defaultMessage": "#global.photos"
 	},
 	{
 		"id": "global.list",
-		"defaultMessage": "Lista"
+		"defaultMessage": "#global.list"
 	},
 	{
 		"id": "global.dumps",
@@ -4351,7 +4351,7 @@ export default [
 	},
 	{
 		"id": "global.lastUpdate",
-		"defaultMessage": "Përditësimi i fundit"
+		"defaultMessage": "#global.lastUpdate"
 	},
 	{
 		"id": "global.subscribe",
@@ -4371,7 +4371,7 @@ export default [
 	},
 	{
 		"id": "user.emailNotFound",
-		"defaultMessage": "Pvrdoruesi nuk u gjet në TrashOut"
+		"defaultMessage": "#user.emailNotFound"
 	},
 	{
 		"id": "global.trashoutShareDescription",
@@ -4407,7 +4407,7 @@ export default [
 	},
 	{
 		"id": "trash.types.glass",
-		"defaultMessage": "Xham"
+		"defaultMessage": "#trash.types.glass"
 	},
 	{
 		"id": "global.occupation",
@@ -4419,15 +4419,15 @@ export default [
 	},
 	{
 		"id": "trash.create.thankYou.title",
-		"defaultMessage": "Faleminderit!"
+		"defaultMessage": "#trash.create.thankYou.title"
 	},
 	{
 		"id": "trash.create.thankYou.sentence1",
-		"defaultMessage": "Faleminderit për raportimin!"
+		"defaultMessage": "#trash.create.thankYou.sentence1"
 	},
 	{
 		"id": "trash.create.thankYou.sentence2",
-		"defaultMessage": "Jeni i mrekullueshëm!"
+		"defaultMessage": "#trash.create.thankYou.sentence2"
 	},
 	{
 		"id": "trash.create.thankYou.sentence3",
@@ -4455,7 +4455,7 @@ export default [
 	},
 	{
 		"id": "organization.removeUser",
-		"defaultMessage": "Fshi përdoruesin"
+		"defaultMessage": "#organization.removeUser"
 	},
 	{
 		"id": "profile.widget.languageNeeded",
@@ -4467,11 +4467,11 @@ export default [
 	},
 	{
 		"id": "global.register",
-		"defaultMessage": "Regjistrohu"
+		"defaultMessage": "#global.register"
 	},
 	{
 		"id": "tutorial.signup.withoutSignIn",
-		"defaultMessage": "Përdore pa u regjistruar"
+		"defaultMessage": "#tutorial.signup.withoutSignIn"
 	},
 	{
 		"id": "user.activity.title.thisDump",
@@ -4619,15 +4619,15 @@ export default [
 	},
 	{
 		"id": "event.addToCalendar",
-		"defaultMessage": "Shto në kalendar"
+		"defaultMessage": "#event.addToCalendar"
 	},
 	{
 		"id": "global.add",
-		"defaultMessage": "Shto"
+		"defaultMessage": "#global.add"
 	},
 	{
 		"id": "profile.myEvents.timeDecision.ongoing",
-		"defaultMessage": "Në vazhdim"
+		"defaultMessage": "#profile.myEvents.timeDecision.ongoing"
 	},
 	{
 		"id": "mail.eventConfirm.subject",
@@ -4663,11 +4663,11 @@ export default [
 	},
 	{
 		"id": "mail.newsletter.trashLink",
-		"defaultMessage": "Linku"
+		"defaultMessage": "#mail.newsletter.trashLink"
 	},
 	{
 		"id": "collectionPoint.validation.chooseDay",
-		"defaultMessage": "Zgjidhni ditën"
+		"defaultMessage": "#collectionPoint.validation.chooseDay"
 	},
 	{
 		"id": "collectionPoint.validation.dayIsUsed",
@@ -4675,7 +4675,7 @@ export default [
 	},
 	{
 		"id": "statistics.countryPicker.header",
-		"defaultMessage": "Zgjidhni shtetin"
+		"defaultMessage": "#statistics.countryPicker.header"
 	},
 	{
 		"id": "notification.recentActivity.header",
@@ -4695,15 +4695,15 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
-		"defaultMessage": "Politika e Privatësisë"
+		"defaultMessage": "#global.signUp.acceptRegister.privatePolicy"
 	},
 	{
 		"id": "global.signUp.acceptRegister.and",
-		"defaultMessage": "dhe"
+		"defaultMessage": "#global.signUp.acceptRegister.and"
 	},
 	{
 		"id": "global.signUp.acceptRegister.terms",
-		"defaultMessage": "Terma dhe Kushte"
+		"defaultMessage": "#global.signUp.acceptRegister.terms"
 	},
 	{
 		"id": "global.error.api.text",
@@ -4723,7 +4723,7 @@ export default [
 	},
 	{
 		"id": "global.cookiesPolicy.link",
-		"defaultMessage": "Politika e Privatësisë"
+		"defaultMessage": "#global.cookiesPolicy.link"
 	},
 	{
 		"id": "global.internet.error.offline",
@@ -4751,11 +4751,11 @@ export default [
 	},
 	{
 		"id": "info.frequentlyAskedQuestions",
-		"defaultMessage": "Pyetjet e bëra më shpesh"
+		"defaultMessage": "#info.frequentlyAskedQuestions"
 	},
 	{
 		"id": "info.supportUs",
-		"defaultMessage": "Na mbështetni"
+		"defaultMessage": "#info.supportUs"
 	},
 	{
 		"id": "home.recycling_point_edit_redirect",
@@ -4815,7 +4815,7 @@ export default [
 	},
 	{
 		"id": "home.orderTrashPickup",
-		"defaultMessage": "Porositni marrjen e mbeturinave"
+		"defaultMessage": "#home.orderTrashPickup"
 	},
 	{
 		"id": "event.create_event_meeting_date_title",

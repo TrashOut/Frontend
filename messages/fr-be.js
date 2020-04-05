@@ -1,5 +1,5 @@
 /* eslint-disable */
-/* TrashOut React localization file - language: fr*/
+/* TrashOut React localization file - language: fr-be*/
 export default [
 	{
 		"id": "tab.profile",
@@ -7,7 +7,7 @@ export default [
 	},
 	{
 		"id": "global.nearby",
-		"defaultMessage": "A proximité"
+		"defaultMessage": "Proche"
 	},
 	{
 		"id": "tab.home",
@@ -15,23 +15,23 @@ export default [
 	},
 	{
 		"id": "tab.dumps",
-		"defaultMessage": "Décharges"
+		"defaultMessage": "Dumps"
 	},
 	{
 		"id": "tab.news",
-		"defaultMessage": "Actu"
+		"defaultMessage": "Nouvelles"
 	},
 	{
 		"id": "tab.recycling",
-		"defaultMessage": "Collecte"
+		"defaultMessage": "Recyclage"
 	},
 	{
 		"id": "global.menu.events",
-		"defaultMessage": "Évènements"
+		"defaultMessage": "Événements"
 	},
 	{
 		"id": "global.menu.geoAreas",
-		"defaultMessage": "Secteurs géographiques"
+		"defaultMessage": "Zones géographiques"
 	},
 	{
 		"id": "global.menu.notifications",
@@ -39,23 +39,23 @@ export default [
 	},
 	{
 		"id": "global.menu.organizations",
-		"defaultMessage": "Organisations"
+		"defaultMessage": "Les organisations"
 	},
 	{
 		"id": "global.menu.dumps",
-		"defaultMessage": "Décharges"
+		"defaultMessage": "Dumps"
 	},
 	{
 		"id": "global.menu.collectionPoints",
-		"defaultMessage": "Collecte"
+		"defaultMessage": "Points de collecte"
 	},
 	{
 		"id": "global.showAll",
-		"defaultMessage": "Tout afficher"
+		"defaultMessage": "Afficher tout"
 	},
 	{
 		"id": "global.save",
-		"defaultMessage": "Sauver"
+		"defaultMessage": "sauvegarder"
 	},
 	{
 		"id": "global.back",
@@ -67,23 +67,23 @@ export default [
 	},
 	{
 		"id": "global.signIn",
-		"defaultMessage": "Connexion"
+		"defaultMessage": "Se connecter"
 	},
 	{
 		"id": "global.signOut",
-		"defaultMessage": "Déconexion"
+		"defaultMessage": "Déconnexion"
 	},
 	{
 		"id": "global.createNewAccount",
-		"defaultMessage": "Créer nouveau compte"
+		"defaultMessage": "Créer un nouveau compte"
 	},
 	{
 		"id": "global.saveImage",
-		"defaultMessage": "Enregistrer image"
+		"defaultMessage": "Enregistrer l'image"
 	},
 	{
 		"id": "global.email",
-		"defaultMessage": "Mail"
+		"defaultMessage": "Email"
 	},
 	{
 		"id": "global.password",
@@ -91,47 +91,47 @@ export default [
 	},
 	{
 		"id": "global.showDetail",
-		"defaultMessage": "Afficher détails"
+		"defaultMessage": "Montrer les détails"
 	},
 	{
 		"id": "global.processSigning",
-		"defaultMessage": "Inscription"
+		"defaultMessage": "Signature du processus"
 	},
 	{
 		"id": "global.update",
-		"defaultMessage": "Mettre à jour"
+		"defaultMessage": "mise à jour"
 	},
 	{
 		"id": "global.deleteError",
-		"defaultMessage": "Une erreur est arrivée pendant la suppression de cette entrée"
+		"defaultMessage": "Une erreur s'est produite lors de la suppression de cette entrée"
 	},
 	{
 		"id": "global.cancelFilter",
-		"defaultMessage": "Supprimer filtre"
+		"defaultMessage": "Annuler le filtre"
 	},
 	{
 		"id": "global.export",
-		"defaultMessage": "Exporter"
+		"defaultMessage": "Exportation"
 	},
 	{
 		"id": "global.hideFilter",
-		"defaultMessage": "Masquer filtre"
+		"defaultMessage": "Masquer le filtre"
 	},
 	{
 		"id": "global.showFilter",
-		"defaultMessage": "Afficher filtre"
+		"defaultMessage": "Afficher le filtre"
 	},
 	{
 		"id": "global.nextStep",
-		"defaultMessage": "Etape suivante"
+		"defaultMessage": "L'étape suivante"
 	},
 	{
 		"id": "global.submitFilter",
-		"defaultMessage": "Appliquer filtre"
+		"defaultMessage": "Soumettre un filtre"
 	},
 	{
 		"id": "global.reportSpam",
-		"defaultMessage": "Signaler comme inapproprié"
+		"defaultMessage": "Signaler comme indésirable"
 	},
 	{
 		"id": "global.loading",
@@ -139,7 +139,7 @@ export default [
 	},
 	{
 		"id": "global.ok",
-		"defaultMessage": "OK"
+		"defaultMessage": "D'accord"
 	},
 	{
 		"id": "global.yes",
@@ -155,15 +155,15 @@ export default [
 	},
 	{
 		"id": "global.saving",
-		"defaultMessage": "Sauvegarde"
+		"defaultMessage": "Économie"
 	},
 	{
 		"id": "global.sending",
-		"defaultMessage": "Envoi"
+		"defaultMessage": "Envoi en cours"
 	},
 	{
 		"id": "global.iUnderstand",
-		"defaultMessage": "J'ai compris"
+		"defaultMessage": "je comprends"
 	},
 	{
 		"id": "global.done",
@@ -171,7 +171,7 @@ export default [
 	},
 	{
 		"id": "global.optional",
-		"defaultMessage": "en option"
+		"defaultMessage": "optionnel"
 	},
 	{
 		"id": "trash.types.automotive",
@@ -187,15 +187,15 @@ export default [
 	},
 	{
 		"id": "trash.types.domestic",
-		"defaultMessage": "Ordures ménagères"
+		"defaultMessage": "Ménage"
 	},
 	{
 		"id": "trash.types.electronic",
-		"defaultMessage": "Electronique"
+		"defaultMessage": "Électronique"
 	},
 	{
 		"id": "trash.types.deadAnimals",
-		"defaultMessage": "Carcasses animales"
+		"defaultMessage": "Carcasse animale"
 	},
 	{
 		"id": "trash.types.metal",
@@ -211,11 +211,11 @@ export default [
 	},
 	{
 		"id": "trash.types.organic",
-		"defaultMessage": "Végétaux"
+		"defaultMessage": "Biologique"
 	},
 	{
 		"id": "trash.validation.typeRequired",
-		"defaultMessage": "Type requis"
+		"defaultMessage": "Le type est requis"
 	},
 	{
 		"id": "global.meters",
@@ -227,11 +227,11 @@ export default [
 	},
 	{
 		"id": "global.generalError",
-		"defaultMessage": "Désolé, mais quelque chose s'est mal passé"
+		"defaultMessage": "Nous sommes désolés, mais quelque chose s'est mal passé."
 	},
 	{
 		"id": "global.noInternetConnection",
-		"defaultMessage": "Désolé, aucun accès internet disponible"
+		"defaultMessage": "Désolé, je n'ai pas de connexion Internet."
 	},
 	{
 		"id": "global.uknownLocality",
@@ -239,23 +239,23 @@ export default [
 	},
 	{
 		"id": "global.pleaseUpdateApp",
-		"defaultMessage": "Il y a une nouvelle version de l'appli TrashOut. Veuillez vous mettre à jour."
+		"defaultMessage": "Il existe une nouvelle version de l'application TrashOut. Veuillez mettre à jour votre version actuelle."
 	},
 	{
 		"id": "global.successfullySignedOut",
-		"defaultMessage": "Vous êtes désinscrit avec succès"
+		"defaultMessage": "Vous avez été déconnecté avec succès"
 	},
 	{
 		"id": "global.geoTurnedOff",
-		"defaultMessage": "La localisation de votre appareil est désactivée. Veuillez l'activer dans Paramètres -> Services de localisation."
+		"defaultMessage": "Votre appareil est géo désactivé - veuillez l'activer dans Paramètres -> Services de localisation."
 	},
 	{
 		"id": "global.geoDisallowed",
-		"defaultMessage": "L'appli TrashOut n'a pas accès à votre position. Veuillez l'autoriser dans Paramètres -> Services de localisation"
+		"defaultMessage": "Vous avez interdit à l'application TrashOut d'exécuter des services de géolocalisation. Veuillez l'activer dans Paramètres -> Services de localisation."
 	},
 	{
 		"id": "global.geoDisallowedBySystem",
-		"defaultMessage": "L'appareil a supprimé l'accès à la localisation pour l'appli TrashOut. "
+		"defaultMessage": "Votre système n'a pas autorisé l'application TrashOut à exécuter des services de géolocalisation. "
 	},
 	{
 		"id": "global.close",
@@ -263,7 +263,7 @@ export default [
 	},
 	{
 		"id": "global.userNotLogged",
-		"defaultMessage": "Nous nous excusons, mais nous avons dû vous déconnecter.\nMerci de vous reconnecter."
+		"defaultMessage": "Désolé pour le dérangement, vous êtes maintenant déconnecté.\nVeuillez vous reconnecter."
 	},
 	{
 		"id": "global.now",
@@ -275,19 +275,19 @@ export default [
 	},
 	{
 		"id": "global.welcomeText",
-		"defaultMessage": "Signaler vous permet de déclarer une décharge sauvage partout dans le monde. Signaler est la première étape vers le nettoyage.\n\nAllez ! Trouvez une décharge sauvage en pressant le bouton \"Signaler décharge\" !"
+		"defaultMessage": "Report Trash vous permet de signaler des décharges illégales partout dans le monde. Le signalement est la première étape qui mène au nettoyage.\n\nALLEZ, localisez les décharges illégales en appuyant sur le bouton «Signaler la corbeille»!"
 	},
 	{
 		"id": "info.header.aboutApp",
-		"defaultMessage": "A propos de l'appli TrashOut"
+		"defaultMessage": "À propos de l'application TrashOut"
 	},
 	{
 		"id": "global.aboutProject",
-		"defaultMessage": "TrashOut est un projet environnemental qui vise à cartographier et à suivre les décharges sauvages dans le monde entier.\n\nNotre but est d'impliquer les citoyens, gouvernements, autorités locales et organisations pour que ensemble, nous puissions contribuer à un monde plus propre.\n\nMerci de rejoindre la communauté TrashOut et de la faire vivre."
+		"defaultMessage": "TrashOut est un projet environnemental qui vise à cartographier et surveiller toutes les décharges illégales dans le monde.\n\nNotre objectif est d'impliquer les citoyens, les gouvernements, les municipalités et les organisations afin que nous puissions ensemble contribuer à un monde plus propre pour tous.\n\nMerci d'avoir rejoint la communauté environnementale TrashOut et de l'avoir maintenue."
 	},
 	{
 		"id": "global.writeReview",
-		"defaultMessage": "Écrire un avis"
+		"defaultMessage": "Ecrire une critique"
 	},
 	{
 		"id": "info.privatePolicy",
@@ -295,23 +295,23 @@ export default [
 	},
 	{
 		"id": "info.termsAndConditions",
-		"defaultMessage": "Conditions d'utilisation"
+		"defaultMessage": "Termes et conditions"
 	},
 	{
 		"id": "info.feedbackAndSupport",
-		"defaultMessage": "Commentaires & assistance"
+		"defaultMessage": "Commentaires et assistance"
 	},
 	{
 		"id": "info.donate",
-		"defaultMessage": "Effectuer un don"
+		"defaultMessage": "Faire un don"
 	},
 	{
 		"id": "info.whyDonate",
-		"defaultMessage": "Pourquoi donner à TrashOut ?"
+		"defaultMessage": "Pourquoi faire un don à TrashOut?"
 	},
 	{
 		"id": "info.donateText",
-		"defaultMessage": "Merci pour votre don ! Grace à lui nous pouvons faire tourner nos serveurs, mettre à jour et améliorer TrashOut, ajouter de nouvelles fonctionnalités, et, plus important, contribuer à un monde plus propre. "
+		"defaultMessage": "Grâce à vos dons, nous pouvons exécuter nos serveurs, mettre à jour et améliorer l'application TrashOut, ajouter de nouvelles fonctionnalités et, surtout, poursuivre notre mission de nettoyer le monde. "
 	},
 	{
 		"id": "profile.gpsCoordinatesFormat",
@@ -327,7 +327,7 @@ export default [
 	},
 	{
 		"id": "globa.cancel",
-		"defaultMessage": "Abandonner modifications"
+		"defaultMessage": "Annuler les modifications"
 	},
 	{
 		"id": "profile.reported",
@@ -343,19 +343,19 @@ export default [
 	},
 	{
 		"id": "trash.removingTrash",
-		"defaultMessage": "Suppression de la décharge..."
+		"defaultMessage": "Enlever les déchets…"
 	},
 	{
 		"id": "global.confirm",
-		"defaultMessage": "comfirmer"
+		"defaultMessage": "confirmer"
 	},
 	{
 		"id": "global.error.noData",
-		"defaultMessage": "Oups, nous attendons que le serveur donne plus d'informations. Attendez une seconde, s'il vous plait."
+		"defaultMessage": "Oups, nous attendons que le serveur nous donne plus d'informations. Donnez-nous une seconde."
 	},
 	{
 		"id": "trash.youHaveToBeClose",
-		"defaultMessage": "Vous devez être proche de la décharge pour la mettre à jour"
+		"defaultMessage": "Vous devez être près du dépotoir pour le mettre à jour."
 	},
 	{
 		"id": "global.allow",
@@ -363,7 +363,7 @@ export default [
 	},
 	{
 		"id": "trash.loadingTrashMap",
-		"defaultMessage": "Chargement de la carte des décharges..."
+		"defaultMessage": "Chargement de TrashMap ..."
 	},
 	{
 		"id": "user.username",
@@ -371,7 +371,7 @@ export default [
 	},
 	{
 		"id": "profile.wrongPassword",
-		"defaultMessage": "Oups, vous avez saisi un mauvais mot de passe"
+		"defaultMessage": "Oups, vous avez entré un mauvais mot de passe."
 	},
 	{
 		"id": "global.organization",
@@ -379,15 +379,15 @@ export default [
 	},
 	{
 		"id": "profile.assignOrganization",
-		"defaultMessage": "Choisissez une organisation"
+		"defaultMessage": "Attribuer une organisation"
 	},
 	{
 		"id": "profile.assign",
-		"defaultMessage": "Choisir"
+		"defaultMessage": "Attribuer"
 	},
 	{
 		"id": "global.organizations",
-		"defaultMessage": "Organisations"
+		"defaultMessage": "Les organisations"
 	},
 	{
 		"id": "profile.badges",
@@ -399,15 +399,15 @@ export default [
 	},
 	{
 		"id": "profile.noInfo",
-		"defaultMessage": "Partager des informations avec la communauté TrashOut"
+		"defaultMessage": "Partagez des informations avec la communauté TrashOut."
 	},
 	{
 		"id": "profile.authorizing",
-		"defaultMessage": "Autoriser"
+		"defaultMessage": "Autorisation"
 	},
 	{
 		"id": "profile.syncing",
-		"defaultMessage": "Synchronizer"
+		"defaultMessage": "Synchronisation"
 	},
 	{
 		"id": "profile.badge",
@@ -419,31 +419,31 @@ export default [
 	},
 	{
 		"id": "profile.logoutQuestion",
-		"defaultMessage": "Voulez-vous vraiment vous déconnecter ?"
+		"defaultMessage": "Voulez-vous vraiment vous déconnecter?"
 	},
 	{
 		"id": "profile.whyRegister",
-		"defaultMessage": "Toutes vos activités seront conservées.\nVous gagnerez des points pour vos actions.\nC'est gratuit."
+		"defaultMessage": "Toute votre activité sera synchronisée.\nVous obtiendrez des points pour vos activités."
 	},
 	{
 		"id": "profile.validation.invalidEmail",
-		"defaultMessage": "Oups, l'adresse mail semble invalide"
+		"defaultMessage": "Oups, l'e-mail que vous avez entré semble invalide"
 	},
 	{
 		"id": "profile.validation.enterPassword",
-		"defaultMessage": "Oups, saisissez votre mot de passe à nouveau s'il vous plait"
+		"defaultMessage": "Oups, veuillez entrer votre mot de passe"
 	},
 	{
 		"id": "profile.validation.invalidPasswordOrEmail",
-		"defaultMessage": "Oups, votre mot de passe et votre mail ne correspondent pas"
+		"defaultMessage": "Oups, votre mot de passe et votre e-mail ne correspondent pas"
 	},
 	{
 		"id": "profile.enterEmail",
-		"defaultMessage": "S'il vous plait, saisissez l'adresse mail utilisée lors de votre inscription"
+		"defaultMessage": "Veuillez saisir une adresse e-mail que vous avez utilisée précédemment pour vous inscrire à TrashOut"
 	},
 	{
 		"id": "profile.emailExists",
-		"defaultMessage": "Oups, il semble que quelqu'un d'autre utilise cette adresse mail"
+		"defaultMessage": "Oups, il semble que quelqu'un soit déjà inscrit avec cet e-mail"
 	},
 	{
 		"id": "profile.resetPassword",
@@ -451,7 +451,7 @@ export default [
 	},
 	{
 		"id": "profile.signedInStatus",
-		"defaultMessage": "Vous êtes maintenant inscrit... "
+		"defaultMessage": "Vous êtes maintenant connecté… "
 	},
 	{
 		"id": "user.firstName",
@@ -459,7 +459,7 @@ export default [
 	},
 	{
 		"id": "user.lastName",
-		"defaultMessage": "Nom"
+		"defaultMessage": "Nom de famille"
 	},
 	{
 		"id": "user.name",
@@ -471,19 +471,19 @@ export default [
 	},
 	{
 		"id": "user.reEnterPassword",
-		"defaultMessage": "Re-saisissez votre mot de passe"
+		"defaultMessage": "Retaper le mot de passe"
 	},
 	{
 		"id": "user.validation.passwordTooShort",
-		"defaultMessage": "Oups, veuillez saisir un mot de passe plus long, au moins 8 caractères"
+		"defaultMessage": "Oups, entrez un mot de passe plus long. Au moins 8 caractères."
 	},
 	{
 		"id": "user.validation.passwordsNotMatch",
-		"defaultMessage": "Oups, les mots de passe ne correspondent pas"
+		"defaultMessage": "Oups, votre mot de passe ressaisi ne correspond pas."
 	},
 	{
 		"id": "user.info",
-		"defaultMessage": "A propos de vous"
+		"defaultMessage": "Au propos de vous"
 	},
 	{
 		"id": "user.header",
@@ -491,27 +491,27 @@ export default [
 	},
 	{
 		"id": "user.changePassword",
-		"defaultMessage": "Modifier mot de passe"
+		"defaultMessage": "Changer le mot de passe"
 	},
 	{
 		"id": "user.bulk.changeRole",
-		"defaultMessage": "Modifier role"
+		"defaultMessage": "Changer de rôle"
 	},
 	{
 		"id": "profile.noInternetWhileRegister",
-		"defaultMessage": "Oups, impossible de vous inscrire sans accès internet.\nS'il vous plait ré-essayez une fois en ligne."
+		"defaultMessage": "Oups, nous ne pouvons pas vous enregistrer sans accès à Internet.\nVeuillez revenir lorsque vous serez de retour en ligne"
 	},
 	{
 		"id": "profile.noInternetWhileSignIn",
-		"defaultMessage": "Oups, impossible de vous inscrire sans accès internet.\nS'il vous plait ré-essayez une fois en ligne."
+		"defaultMessage": "Oups, nous ne pouvons pas vous connecter sans accès Internet.\nVeuillez revenir lorsque vous serez de retour en ligne."
 	},
 	{
 		"id": "profile.noName",
-		"defaultMessage": "Vous n'avez pas saisi de nom"
+		"defaultMessage": "Aucun nom fourni"
 	},
 	{
 		"id": "profile.resetPasswordInfoToMail",
-		"defaultMessage": "Les informations concernant la réinitialisation de votre mot de passe ont été envoyées sur votre adresse mail."
+		"defaultMessage": "Des informations sur la réinitialisation de votre mot de passe ont été envoyées à votre adresse e-mail."
 	},
 	{
 		"id": "profile.welcome",
@@ -519,35 +519,35 @@ export default [
 	},
 	{
 		"id": "profile.signOut",
-		"defaultMessage": "Déconexion"
+		"defaultMessage": "Déconnexion"
 	},
 	{
 		"id": "profile.validation.passwordRequired",
-		"defaultMessage": "Saisissez votre mot de passe, s'il vous plait."
+		"defaultMessage": "Veuillez saisir votre mot de passe."
 	},
 	{
 		"id": "profile.validation.emailRequired",
-		"defaultMessage": "Saisissez votre adresse mail, s'il vous plait."
+		"defaultMessage": "S'il vous plait entrez une adresse mail."
 	},
 	{
 		"id": "profile.validation.mailAndPasswordrequired",
-		"defaultMessage": "Saisissez votre adresse mail et votre mot de passe, s'il vous plait."
+		"defaultMessage": "Veuillez saisir votre adresse e-mail et votre mot de passe."
 	},
 	{
 		"id": "profile.validation.somethingMissing",
-		"defaultMessage": "Oups, vous n'avez pas rempli tous les champs requis"
+		"defaultMessage": "Oups, vous n'avez pas rempli tous les champs."
 	},
 	{
 		"id": "profile.userNotRegistered",
-		"defaultMessage": "Oups, cet utilisateur n'est pas inscrit"
+		"defaultMessage": "Oups, cet utilisateur n'est pas enregistré"
 	},
 	{
 		"id": "profile.signOutNoInternet",
-		"defaultMessage": "Oups, impossible de vous déconnecter sans accès internet.\nS'il vous plait ré-essayez une fois en ligne."
+		"defaultMessage": "Oups, nous ne pouvons pas vous déconnecter sans accès à Internet.\nVeuillez revenir lorsque vous êtes en ligne"
 	},
 	{
 		"id": "profile.organization.remove",
-		"defaultMessage": "Quitter l'organisation"
+		"defaultMessage": "Annuler l'adhésion"
 	},
 	{
 		"id": "trash.accuracy",
@@ -559,51 +559,51 @@ export default [
 	},
 	{
 		"id": "trash.trashType",
-		"defaultMessage": "Type de déchets"
+		"defaultMessage": "Type de poubelle"
 	},
 	{
 		"id": "trash.trashSize",
-		"defaultMessage": "Taille de la décharge"
+		"defaultMessage": "Taille de la corbeille"
 	},
 	{
 		"id": "trash.cameraError",
-		"defaultMessage": "Oups, il semble y avoir un problème avec l'appareil photo"
+		"defaultMessage": "Oups, quelque chose s'est mal passé avec la caméra"
 	},
 	{
 		"id": "trash.create.notEnoughtData",
-		"defaultMessage": "Pouvez-vous donner plus de détails ?"
+		"defaultMessage": "Pouvez-vous nous fournir plus de données?"
 	},
 	{
 		"id": "trash.create.takeAtLeastOnePhoto",
-		"defaultMessage": "Prenez au moins une photo"
+		"defaultMessage": "Prendre au moins une photo "
 	},
 	{
 		"id": "trash.removeImage",
-		"defaultMessage": "Supprimer image"
+		"defaultMessage": "Supprimer l'image"
 	},
 	{
 		"id": "trash.removeImageConfirm",
-		"defaultMessage": "Voulez-vous supprimer la photo choisie ?"
+		"defaultMessage": "Voulez-vous supprimer la photo sélectionnée?"
 	},
 	{
 		"id": "trash.create.noGps",
-		"defaultMessage": "Position GPS manquante"
+		"defaultMessage": "Pas de GPS"
 	},
 	{
 		"id": "trash.create.noInternetHeader",
-		"defaultMessage": "Pas d'internet disponible !"
+		"defaultMessage": "Tu es hors ligne!"
 	},
 	{
 		"id": "trash.create.noInternetText",
-		"defaultMessage": "Ce signalement sera envoyée plus tard. Votre appareil est hors ligne.\n\nLorsque vous serez en ligne, lancez l'appli TrashOut et votre signalement sera envoyé automatiquement."
+		"defaultMessage": "Ce vidage illégal sera soumis ultérieurement, car votre téléphone est hors ligne.\n\nLorsque vous vous connectez, veuillez activer l'application TrashOut et votre rapport sera soumis automatiquement."
 	},
 	{
 		"id": "trash.create.sendWasInterruptedHeader",
-		"defaultMessage": "L'envoi a été interrompu"
+		"defaultMessage": "L'envoi a été interrompu."
 	},
 	{
 		"id": "trash.create.sendWasInterruptedText",
-		"defaultMessage": "Ne vous inquiétez pas. Votre signalement est sauvegardé et nous essaierons de l'envoyer au prochain lancement de l'appli."
+		"defaultMessage": "Ne t'inquiète pas. Nous avons enregistré votre progression et nous essaierons d'envoyer votre rapport juste après avoir redémarré TrashOut."
 	},
 	{
 		"id": "trash.status.cleaned",
@@ -619,7 +619,7 @@ export default [
 	},
 	{
 		"id": "trash.status.stillHere",
-		"defaultMessage": "Inchangé"
+		"defaultMessage": "C'est toujours là"
 	},
 	{
 		"id": "trash.updated",
@@ -627,47 +627,47 @@ export default [
 	},
 	{
 		"id": "trash.address",
-		"defaultMessage": "Localisation"
+		"defaultMessage": "Emplacement"
 	},
 	{
 		"id": "trash.gpsLocation",
-		"defaultMessage": "Position GPS"
+		"defaultMessage": "Localisation GPS"
 	},
 	{
 		"id": "trash.accuracyOfLocation",
-		"defaultMessage": "Précision de la position"
+		"defaultMessage": "Précision de l'emplacement"
 	},
 	{
 		"id": "trash.delete.confirmation",
-		"defaultMessage": "Voulez-vous vraiment supprimer ce signalement ?"
+		"defaultMessage": "Voulez-vous vraiment supprimer ce rapport?"
 	},
 	{
 		"id": "trash.delete.success",
-		"defaultMessage": "Signalement supprimé avec succès"
+		"defaultMessage": "La corbeille a été supprimée avec succès."
 	},
 	{
 		"id": "trash.create.success",
-		"defaultMessage": "Décharge signalée avec succès. Merci"
+		"defaultMessage": "La corbeille a été signalée avec succès. Je vous remercie."
 	},
 	{
 		"id": "trash.photosOfTrash",
-		"defaultMessage": "Photos de cette décharge"
+		"defaultMessage": "Photos de cette corbeille"
 	},
 	{
 		"id": "trash.comments",
-		"defaultMessage": "Commentaires"
+		"defaultMessage": "commentaires"
 	},
 	{
 		"id": "global.fetchError",
-		"defaultMessage": "Nous rencontrons un problème ponctuel avec notre serveur. Nous faisons de notre mieux pour le résoudre au plus vite. Veuillez réessayer plus tard."
+		"defaultMessage": "Nous rencontrons un problème temporaire avec notre serveur. Nous faisons de notre mieux pour y remédier bientôt. Merci de revenir plus tard."
 	},
 	{
 		"id": "trash.discardChanges",
-		"defaultMessage": "Abandonner tous les changements ?"
+		"defaultMessage": "Ignorer toutes les modifications?"
 	},
 	{
 		"id": "trash.spam.comfirmation",
-		"defaultMessage": "Voulez-vous vraiment signaler cette décharge comme inappropriée ?"
+		"defaultMessage": "Voulez-vous vraiment signaler cette poubelle comme spam?"
 	},
 	{
 		"id": "global.detail",
@@ -675,23 +675,23 @@ export default [
 	},
 	{
 		"id": "global.serviceUnavaliable",
-		"defaultMessage": "Le service est temporairement indisponible, veuillez réessayer plus tard"
+		"defaultMessage": "Notre service est temporairement indisponible, veuillez réessayer plus tard"
 	},
 	{
 		"id": "global.markedAsSpam",
-		"defaultMessage": "Marqué comme inapproprié"
+		"defaultMessage": "Marqué comme SPAM"
 	},
 	{
 		"id": "global.spams.false",
-		"defaultMessage": "refuse le spam"
+		"defaultMessage": "ne veut pas de spams"
 	},
 	{
 		"id": "global.spams.true",
-		"defaultMessage": "accepte le spam"
+		"defaultMessage": "veulent des spams"
 	},
 	{
 		"id": "global.pickAll",
-		"defaultMessage": "Sélectionner tout"
+		"defaultMessage": "Choisissez tout"
 	},
 	{
 		"id": "global.share",
@@ -703,7 +703,7 @@ export default [
 	},
 	{
 		"id": "trash.isCleaned",
-		"defaultMessage": "C'est nettoyé"
+		"defaultMessage": "C'est déjà nettoyé"
 	},
 	{
 		"id": "trash.cleanedByMe",
@@ -711,35 +711,35 @@ export default [
 	},
 	{
 		"id": "home.loadingNearDumps",
-		"defaultMessage": "Charge les décharges sauvages à proximité"
+		"defaultMessage": "Chargement de décharges illégales à proximité"
 	},
 	{
 		"id": "home.noDumpsNear",
-		"defaultMessage": "Aucune décharge sauvage à proximité"
+		"defaultMessage": "Pas de décharges illégales à proximité"
 	},
 	{
 		"id": "global.enableGps",
-		"defaultMessage": "Autoriser la localisation"
+		"defaultMessage": "Autoriser les services de localisation"
 	},
 	{
 		"id": "trash.loadingDumps",
-		"defaultMessage": "Chargement des décharges à proximité..."
+		"defaultMessage": "Chargement des décharges dans votre région ..."
 	},
 	{
 		"id": "global.loadingError",
-		"defaultMessage": "\"connectez-vous s'il vous plaît à internet pour pouvoir accéder à cette section.\""
+		"defaultMessage": "\"Veuillez vous connecter à Internet pour voir cette section.\""
 	},
 	{
 		"id": "trash.edit.betterLocation",
-		"defaultMessage": "Essaie d'améliorer la localisation"
+		"defaultMessage": "Essayer d'obtenir un meilleur emplacement"
 	},
 	{
 		"id": "trash.create.error",
-		"defaultMessage": "L'envoi a été interrompu"
+		"defaultMessage": "L'envoi a été interrompu."
 	},
 	{
 		"id": "global.dbError",
-		"defaultMessage": "Oups, impossible de sauvegarder les données."
+		"defaultMessage": "Oups, nous n'avons PAS pu enregistrer les données."
 	},
 	{
 		"id": "global.gps",
@@ -747,27 +747,27 @@ export default [
 	},
 	{
 		"id": "global.search",
-		"defaultMessage": "recherche"
+		"defaultMessage": "chercher"
 	},
 	{
 		"id": "global.remove",
-		"defaultMessage": "Supprimer"
+		"defaultMessage": "Retirer"
 	},
 	{
 		"id": "global.allowGpsInPhone",
-		"defaultMessage": "TrashOut utilise votre position pour afficher les décharges autour de vous. Veuillez l'activer dans les paramètres de votre appareil."
+		"defaultMessage": "TrashOut souhaite utiliser votre position pour afficher des décharges autour de vous. Veuillez l'activer dans les paramètres de votre téléphone."
 	},
 	{
 		"id": "global.settings",
-		"defaultMessage": "Paramètres"
+		"defaultMessage": "Réglages"
 	},
 	{
 		"id": "trash.detail.header",
-		"defaultMessage": "Détails de la décharge"
+		"defaultMessage": "Détail de la corbeille"
 	},
 	{
 		"id": "organizations.assignToOrganization",
-		"defaultMessage": "Assigner à une organisation"
+		"defaultMessage": "Attribuer aux organisations disponibles"
 	},
 	{
 		"id": "statistics.header",
@@ -775,15 +775,15 @@ export default [
 	},
 	{
 		"id": "statistics.hint",
-		"defaultMessage": "Afficher les statistiques au niveau mondial ou par pays."
+		"defaultMessage": "Consultez les statistiques mondiales ou les statistiques par pays."
 	},
 	{
 		"id": "statistics.show",
-		"defaultMessage": "afficher statistiques"
+		"defaultMessage": "Montrez les statistiques"
 	},
 	{
 		"id": "global.selectArea",
-		"defaultMessage": "Choisir secteur"
+		"defaultMessage": "Sélectionnez une zone"
 	},
 	{
 		"id": "notifications.reported",
@@ -795,31 +795,31 @@ export default [
 	},
 	{
 		"id": "notification.noEmailAddress",
-		"defaultMessage": "Désolé, nous n'avons aucune adresses mail pour ce secteur. Veuillez la saisir manuellement."
+		"defaultMessage": "Désolé, aucune adresse e-mail n'a été définie pour cette zone. Veuillez l'insérer manuellement."
 	},
 	{
 		"id": "event.header",
-		"defaultMessage": "Évènements"
+		"defaultMessage": "Événements de nettoyage"
 	},
 	{
 		"id": "event.create.header",
-		"defaultMessage": "Créer un évènement"
+		"defaultMessage": "Créer un événement"
 	},
 	{
 		"id": "event.name",
-		"defaultMessage": "Nom de l'évènement"
+		"defaultMessage": "Nom de l'événement"
 	},
 	{
 		"id": "event.duration",
-		"defaultMessage": "Choisissez la durée de l'évènement"
+		"defaultMessage": "Choisissez la durée d'un événement"
 	},
 	{
 		"id": "event.about",
-		"defaultMessage": "A propos de l'évènement"
+		"defaultMessage": "À propos d'un événement"
 	},
 	{
 		"id": "event.equipment",
-		"defaultMessage": "Matériel"
+		"defaultMessage": "Équipement"
 	},
 	{
 		"id": "event.whatWeHave",
@@ -827,19 +827,19 @@ export default [
 	},
 	{
 		"id": "event.whatBring",
-		"defaultMessage": "Ce que vous pouvez apporter"
+		"defaultMessage": "Ce que les participants peuvent apporter"
 	},
 	{
 		"id": "event.whatWeHave.hint",
-		"defaultMessage": "Ex: Gants, sacs, brouettes..."
+		"defaultMessage": "Ex: Gants, sacs, brouettes ..."
 	},
 	{
 		"id": "event.wahtBring.hint",
-		"defaultMessage": "Ex: Pelles, sacs, eau..."
+		"defaultMessage": "Ex: Pelle, sacs, eau ..."
 	},
 	{
 		"id": "event.meetingPoint",
-		"defaultMessage": "Lieu de rendez-vous"
+		"defaultMessage": "Point de rencontre"
 	},
 	{
 		"id": "global.city",
@@ -847,7 +847,7 @@ export default [
 	},
 	{
 		"id": "global.street",
-		"defaultMessage": "Numéro et rue"
+		"defaultMessage": "rue et numéro"
 	},
 	{
 		"id": "event.contact",
@@ -863,15 +863,15 @@ export default [
 	},
 	{
 		"id": "event.startDate",
-		"defaultMessage": "Date de début de l'évènement"
+		"defaultMessage": "Date de début d'un événement"
 	},
 	{
 		"id": "event.startTime",
-		"defaultMessage": "Heure de début de l'évènement"
+		"defaultMessage": "Heure de début d'un événement"
 	},
 	{
 		"id": "event.days",
-		"defaultMessage": "jours"
+		"defaultMessage": "journées"
 	},
 	{
 		"id": "event.hours",
@@ -879,39 +879,39 @@ export default [
 	},
 	{
 		"id": "event.validation.checkName",
-		"defaultMessage": "Vérifiez le nom de l'évènement."
+		"defaultMessage": "Veuillez vérifier le nom d'un événement."
 	},
 	{
 		"id": "event.validation.durationInvalid",
-		"defaultMessage": "Vérifiez la date et la durée de l'évènement"
+		"defaultMessage": "Veuillez vérifier la date et la durée d'un événement."
 	},
 	{
 		"id": "event.validation.checkAddress",
-		"defaultMessage": "Vérifiez l'adresse"
+		"defaultMessage": "Veuillez vérifier l'adresse."
 	},
 	{
 		"id": "event.validation.checkEmail",
-		"defaultMessage": "Vérifiez l'adresse mail dans les informations de contact."
+		"defaultMessage": "Veuillez vérifier l'e-mail dans les coordonnées."
 	},
 	{
 		"id": "event.validation.checkPhone",
-		"defaultMessage": "Vérifiez le numéro de téléphone dans les informations du contact."
+		"defaultMessage": "Veuillez vérifier le numéro de téléphone dans les coordonnées."
 	},
 	{
 		"id": "event.created",
-		"defaultMessage": "Évènement créé avec succès."
+		"defaultMessage": "L'événement a été créé avec succès."
 	},
 	{
 		"id": "event.signToJoin",
-		"defaultMessage": "Connectez-vous pour vous inscrire à cet évènement."
+		"defaultMessage": "Veuillez vous connecter pour participer à cet événement."
 	},
 	{
 		"id": "event.join",
-		"defaultMessage": "Participer"
+		"defaultMessage": "Joindre"
 	},
 	{
 		"id": "event.leave",
-		"defaultMessage": "Se désinscrire"
+		"defaultMessage": "Laisser"
 	},
 	{
 		"id": "event.share",
@@ -919,19 +919,19 @@ export default [
 	},
 	{
 		"id": "event.delete",
-		"defaultMessage": "Supprimer"
+		"defaultMessage": "Annule ça"
 	},
 	{
 		"id": "event.delete.confirmation",
-		"defaultMessage": "Souhaitez-vous annuler cet évènement?"
+		"defaultMessage": "Voulez-vous annuler cet événement?"
 	},
 	{
 		"id": "event.deleteSuccess",
-		"defaultMessage": "L'évènementa été annulé"
+		"defaultMessage": "L'événement a été annulé."
 	},
 	{
 		"id": "event.meetingAddress",
-		"defaultMessage": "Adresse"
+		"defaultMessage": "Adresse de la réunion"
 	},
 	{
 		"id": "event.when",
@@ -939,15 +939,15 @@ export default [
 	},
 	{
 		"id": "event.navigateTo",
-		"defaultMessage": "Voulez-vous être guidé vers ce site ?"
+		"defaultMessage": "Souhaitez-vous naviguer vers cet endroit?"
 	},
 	{
 		"id": "home.nearestDumps",
-		"defaultMessage": "Décharges les plus proches"
+		"defaultMessage": "Dumps les plus proches"
 	},
 	{
 		"id": "home.goAndFindDumps",
-		"defaultMessage": "Allez ! Cherchez et mettez à jour ces décharges"
+		"defaultMessage": "Allez, trouvez et mettez à jour ces vidages"
 	},
 	{
 		"id": "home.didYouKnow",
@@ -963,7 +963,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.size.recyclingCenter",
-		"defaultMessage": "Déchèterie"
+		"defaultMessage": "Centre"
 	},
 	{
 		"id": "collectionPoint.size.all",
@@ -979,11 +979,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.create.header",
-		"defaultMessage": "Ajouter un point de collecte"
+		"defaultMessage": "Créer un point de collecte"
 	},
 	{
 		"id": "collectionPoint.edit.header",
-		"defaultMessage": "Modifier point de collecte"
+		"defaultMessage": "Modifier le point de collecte"
 	},
 	{
 		"id": "collectionPoint.edit.firstStep",
@@ -991,15 +991,15 @@ export default [
 	},
 	{
 		"id": "collectionPoint.edit.secondStep",
-		"defaultMessage": "Horaires d'ouverture et description"
+		"defaultMessage": "Heures d'ouverture et description"
 	},
 	{
 		"id": "collectionPoint.edit.thirdStep",
-		"defaultMessage": "Illustrations"
+		"defaultMessage": "Choisissez des images"
 	},
 	{
 		"id": "collectionPoint.id",
-		"defaultMessage": "ID"
+		"defaultMessage": "Identifiant"
 	},
 	{
 		"id": "collectionPoint.name",
@@ -1019,19 +1019,19 @@ export default [
 	},
 	{
 		"id": "home.recentActivity.header",
-		"defaultMessage": "Activités récentes des décharges que vous suivez"
+		"defaultMessage": "Activité récente sur les décharges que vous suivez"
 	},
 	{
 		"id": "home.recentActivity.noActivity",
-		"defaultMessage": "Aucune activité récente"
+		"defaultMessage": "Aucune activité récente."
 	},
 	{
 		"id": "events.header",
-		"defaultMessage": "Évènements"
+		"defaultMessage": "Événements"
 	},
 	{
 		"id": "home.events.text",
-		"defaultMessage": "Évènements à venir à proximité"
+		"defaultMessage": "Événements à venir dans votre quartier"
 	},
 	{
 		"id": "home.numberDumpsWorldwide",
@@ -1039,11 +1039,11 @@ export default [
 	},
 	{
 		"id": "home.more",
-		"defaultMessage": "Statistiques supplémentaires"
+		"defaultMessage": "Plus de statistiques"
 	},
 	{
 		"id": "global.noCameraSupport",
-		"defaultMessage": "Votre appareil n'a pas d'appareil photo."
+		"defaultMessage": "Votre appareil ne prend pas en charge l'appareil photo."
 	},
 	{
 		"id": "global.create.send",
@@ -1051,7 +1051,7 @@ export default [
 	},
 	{
 		"id": "trash.edit.header",
-		"defaultMessage": "Modifier décharge"
+		"defaultMessage": "Modifier le point de corbeille"
 	},
 	{
 		"id": "trash.create.addPhoto",
@@ -1059,15 +1059,15 @@ export default [
 	},
 	{
 		"id": "trash.create.takeAnotherPhoto",
-		"defaultMessage": "Prendre une autre photo"
+		"defaultMessage": "Prenez une autre photo"
 	},
 	{
 		"id": "trash.create.takeAtLeast2Photos",
-		"defaultMessage": "Prendre au moins deux photos"
+		"defaultMessage": "Prenez au moins deux photos"
 	},
 	{
 		"id": "trash.create.ofIllegalDump",
-		"defaultMessage": "de la décharge sauvage"
+		"defaultMessage": "du dépotoir illégal"
 	},
 	{
 		"id": "trash.size.bag",
@@ -1075,11 +1075,11 @@ export default [
 	},
 	{
 		"id": "trash.size.wheelbarrow",
-		"defaultMessage": "Tient dans une brouette"
+		"defaultMessage": "Convient à une brouette"
 	},
 	{
 		"id": "trash.size.carNeeded",
-		"defaultMessage": "Besoin d'un véhicule"
+		"defaultMessage": "Voiture nécessaire"
 	},
 	{
 		"id": "trash.validation.sizeRequired",
@@ -1087,7 +1087,7 @@ export default [
 	},
 	{
 		"id": "trash.id",
-		"defaultMessage": "ID"
+		"defaultMessage": "Identifiant"
 	},
 	{
 		"id": "trash.url",
@@ -1095,11 +1095,11 @@ export default [
 	},
 	{
 		"id": "trash.updateTime",
-		"defaultMessage": "Heure de mise à jour"
+		"defaultMessage": "Temps de mise à jour"
 	},
 	{
 		"id": "trash.accessibility",
-		"defaultMessage": "Accessibilité de la décharge"
+		"defaultMessage": "Accessibilité de la corbeille"
 	},
 	{
 		"id": "trash.accessibility.byCar",
@@ -1107,15 +1107,15 @@ export default [
 	},
 	{
 		"id": "trash.accessibility.inCave",
-		"defaultMessage": "Situé sous terre"
+		"defaultMessage": "Situé dans une grotte"
 	},
 	{
 		"id": "trash.accessibility.underWater",
-		"defaultMessage": "Situé sous l'eau"
+		"defaultMessage": "Sous l'eau / au bord de l'eau"
 	},
 	{
 		"id": "trash.accessibility.notForGeneralCleanup",
-		"defaultMessage": "Besoin d'une prise en charge spécifique"
+		"defaultMessage": "Pas pour le nettoyage général"
 	},
 	{
 		"id": "trash.valiadation.accessibilityRequired",
@@ -1123,31 +1123,31 @@ export default [
 	},
 	{
 		"id": "global.status",
-		"defaultMessage": "État"
+		"defaultMessage": "Statut"
 	},
 	{
 		"id": "trash.status",
-		"defaultMessage": "État de la décharge"
+		"defaultMessage": "Statut de la corbeille"
 	},
 	{
 		"id": "trash.note",
-		"defaultMessage": "Informations complémentaires"
+		"defaultMessage": "Information additionnelle"
 	},
 	{
 		"id": "global.note",
-		"defaultMessage": "Remarques"
+		"defaultMessage": "Remarque"
 	},
 	{
 		"id": "global.validation.noteRequired",
-		"defaultMessage": "Remarques requise"
+		"defaultMessage": "Remarque requise"
 	},
 	{
 		"id": "trash.sendAnonymously",
-		"defaultMessage": "Envoi anonyme"
+		"defaultMessage": "Envoyer anonymement"
 	},
 	{
 		"id": "trash.create.additionalInfo.hint",
-		"defaultMessage": "À proximité de... Contient des produits de la marque... Je l'ai trouvé quand..."
+		"defaultMessage": "Il est à proximité ... Il contient des produits de marque spécifique ... Je l'ai trouvé quand ..."
 	},
 	{
 		"id": "trash.create.takeLeastOnePhoto",
@@ -1159,11 +1159,11 @@ export default [
 	},
 	{
 		"id": "trash.edit.youAreMoreThan100FromDump",
-		"defaultMessage": "Vous êtes à plus de 100m de la décharge ou votre localisation est imprécise"
+		"defaultMessage": "Vous êtes à plus de 100 m d'une décharge ou vous avez une mauvaise précision"
 	},
 	{
 		"id": "trash.edit.badAccurancy",
-		"defaultMessage": "Votre localisation est imprécise"
+		"defaultMessage": "Vous avez une mauvaise précision"
 	},
 	{
 		"id": "trash.create.validation.notFilledRequiredFileds",
@@ -1171,23 +1171,23 @@ export default [
 	},
 	{
 		"id": "trash.create.uploadPhotoError",
-		"defaultMessage": "Impossible d'envoyer des photos, veuillez réessayer ultérieurement."
+		"defaultMessage": "Impossible de télécharger des photos, veuillez réessayer plus tard"
 	},
 	{
 		"id": "trash.create.successfullyReported",
-		"defaultMessage": "Cette décharge a été signalée avec succès"
+		"defaultMessage": "Ce vidage a été signalé avec succès"
 	},
 	{
 		"id": "trash.create.successfullyUpdated",
-		"defaultMessage": "Signalement correctement mis à jour"
+		"defaultMessage": "Ce vidage a été mis à jour avec succès"
 	},
 	{
 		"id": "trash.dumpsDistance",
-		"defaultMessage": "Distance de la décharge"
+		"defaultMessage": "Distance des décharges"
 	},
 	{
 		"id": "trash.edit.getCloser",
-		"defaultMessage": "Approchez-vous à moins de 100m"
+		"defaultMessage": "Rapprochez-vous de 100 m"
 	},
 	{
 		"id": "event.create.dumpsToBeCleaned",
@@ -1195,15 +1195,15 @@ export default [
 	},
 	{
 		"id": "event.create.dumpIsAlreadySelected",
-		"defaultMessage": "Décharge déjà choisie"
+		"defaultMessage": "Le vidage est déjà sélectionné"
 	},
 	{
 		"id": "event.eventDate",
-		"defaultMessage": "Date de l'évènement"
+		"defaultMessage": "Date de l'événement"
 	},
 	{
 		"id": "event.start",
-		"defaultMessage": "Début de l'évènement"
+		"defaultMessage": "Début de l'événement"
 	},
 	{
 		"id": "event.end",
@@ -1211,43 +1211,43 @@ export default [
 	},
 	{
 		"id": "event.description.hint",
-		"defaultMessage": "Description (ex: rendez-vous à côté de...)"
+		"defaultMessage": "Description (par exemple: Rendez-vous à côté de ...)"
 	},
 	{
 		"id": "event.whatBringFull",
-		"defaultMessage": "Ce que les participants doivent apporter (ex: gants, eau...)"
+		"defaultMessage": "Ce que les participants doivent apporter (par exemple: gants, eau ...)"
 	},
 	{
 		"id": "event.whatWeHaveFull",
-		"defaultMessage": "Ce que nous avons (ex: gants...)"
+		"defaultMessage": "Ce que nous avons (ex: gants ...)"
 	},
 	{
 		"id": "event.create.setLocationOnMap",
-		"defaultMessage": "Définir position sur la carte"
+		"defaultMessage": "Définir l'emplacement sur la carte"
 	},
 	{
 		"id": "event.create.selectDumpsOnMap",
-		"defaultMessage": "Choisir les décharges depuis la carte"
+		"defaultMessage": "Sélectionnez les décharges sur la carte"
 	},
 	{
 		"id": "event.create.saved",
-		"defaultMessage": "Merci, l'évènement a été créé. Vous pouvez modifier cet évènement et voir les participants ici : https://admin.trashout.ngo"
+		"defaultMessage": "Merci, l'événement a été créé avec succès. Vous pouvez modifier votre événement et voir les participants sur www.admin.trashout.ngo."
 	},
 	{
 		"id": "event.create.validation.setStartFirst",
-		"defaultMessage": "Vous devez d'abord définir le début de l'évènement"
+		"defaultMessage": "Vous devez d'abord définir le début d'une réunion"
 	},
 	{
 		"id": "event.create.validation.setMeetingPointFirst",
-		"defaultMessage": "Vous devez d'abord définir un lieu de rendez-vous"
+		"defaultMessage": "Vous devez d'abord définir le point de rencontre"
 	},
 	{
 		"id": "event.create.setLocation",
-		"defaultMessage": "Définir secteur"
+		"defaultMessage": "Définir l'emplacement"
 	},
 	{
 		"id": "event.searchForLocation",
-		"defaultMessage": "Recherche de position"
+		"defaultMessage": "Rechercher un lieu"
 	},
 	{
 		"id": "event.noAddressFound",
@@ -1259,11 +1259,11 @@ export default [
 	},
 	{
 		"id": "event.create.youSelectedDumps_X",
-		"defaultMessage": "Vous avez choisi {number} décharges"
+		"defaultMessage": "Vous avez sélectionné% d dumps"
 	},
 	{
 		"id": "event.create.setDate",
-		"defaultMessage": "Définir la date"
+		"defaultMessage": "Régler la date"
 	},
 	{
 		"id": "event.listOfDumpsToBeCleaned",
@@ -1271,7 +1271,7 @@ export default [
 	},
 	{
 		"id": "global.direction",
-		"defaultMessage": "Itinéraire"
+		"defaultMessage": "instructions"
 	},
 	{
 		"id": "global.minutes",
@@ -1279,31 +1279,31 @@ export default [
 	},
 	{
 		"id": "global.noAddress",
-		"defaultMessage": "Aucune adresse"
+		"defaultMessage": "Pas d'adresse"
 	},
 	{
 		"id": "global.noDateToSave",
-		"defaultMessage": "Aucune date à sauvegarder"
+		"defaultMessage": "Aucune date à enregistrer"
 	},
 	{
 		"id": "event.header_X",
-		"defaultMessage": "Évènement : {string}"
+		"defaultMessage": "Événement de nettoyage:% s"
 	},
 	{
 		"id": "event.validation.cannotBeAddedToCalendar",
-		"defaultMessage": "L'évènement ne peut pas être rajouté à votre agenda"
+		"defaultMessage": "L'événement de nettoyage ne peut pas être ajouté à votre calendrier"
 	},
 	{
 		"id": "event.addedToCalender.success",
-		"defaultMessage": "Évènement ajouté à votre agenda"
+		"defaultMessage": "L'événement de nettoyage a été ajouté à votre calendrier"
 	},
 	{
 		"id": "global.enableAccessToCalendar",
-		"defaultMessage": "Autorisez l'accès à votre agenda dans le paramétrage"
+		"defaultMessage": "Activer l'accès au calendrier dans les paramètres"
 	},
 	{
 		"id": "collectionPoint.allowedTypes",
-		"defaultMessage": "Types de déchets acceptés"
+		"defaultMessage": "Type de déchets que vous pouvez éliminer ici"
 	},
 	{
 		"id": "collectionPoint.other",
@@ -1311,15 +1311,15 @@ export default [
 	},
 	{
 		"id": "global.filter.noResult",
-		"defaultMessage": "Aucun résultat. Modifiez les paramètres du filtre"
+		"defaultMessage": "Aucun résultat, modifiez les options de filtre"
 	},
 	{
 		"id": "collectionPoint.filter.header",
-		"defaultMessage": "Filtre des points de collecte"
+		"defaultMessage": "filtre de point de collecte"
 	},
 	{
 		"id": "trash.filter.header",
-		"defaultMessage": "Filtrer les décharges"
+		"defaultMessage": "Filtre poubelle"
 	},
 	{
 		"id": "global.filter",
@@ -1327,31 +1327,31 @@ export default [
 	},
 	{
 		"id": "collectionPoint.filter.size",
-		"defaultMessage": "Taille de la déchèterie"
+		"defaultMessage": "Taille du point de collecte"
 	},
 	{
 		"id": "collectionPoint.filter.types",
-		"defaultMessage": "Types de déchets acceptés"
+		"defaultMessage": "Type de corbeille à éliminer"
 	},
 	{
 		"id": "collectionPoint.openingHours",
-		"defaultMessage": "Heures d'ouverture"
+		"defaultMessage": "Horaires d'ouvertures"
 	},
 	{
 		"id": "global.noLongerExistQuestion",
-		"defaultMessage": "N'existe plus ?"
+		"defaultMessage": "N'existe pas?"
 	},
 	{
 		"id": "global.forgotPassword",
-		"defaultMessage": "Mot de passe oublié ?"
+		"defaultMessage": "Mot de passe oublié?"
 	},
 	{
 		"id": "user.validation.firstNameRequired",
-		"defaultMessage": "Prénom requis"
+		"defaultMessage": "Le prénom est requis"
 	},
 	{
 		"id": "user.validation.lastNameRequired",
-		"defaultMessage": "Nom requis"
+		"defaultMessage": "Le nom est obligatoire"
 	},
 	{
 		"id": "profile.yourActivities",
@@ -1359,15 +1359,15 @@ export default [
 	},
 	{
 		"id": "profile.other",
-		"defaultMessage": "Autres"
+		"defaultMessage": "Autre"
 	},
 	{
 		"id": "profile.logout",
-		"defaultMessage": "Déconnexion"
+		"defaultMessage": "Se déconnecter"
 	},
 	{
 		"id": "global.edit",
-		"defaultMessage": "Modifier"
+		"defaultMessage": "Éditer"
 	},
 	{
 		"id": "trash.anonymous",
@@ -1375,23 +1375,23 @@ export default [
 	},
 	{
 		"id": "global.phoneNotSet",
-		"defaultMessage": "Téléphone non renseigné"
+		"defaultMessage": "Téléphone non configuré"
 	},
 	{
 		"id": "profile.earnedPoints_X",
-		"defaultMessage": "Vous avez gagné {number} points. Mettez à jour d'autres signalements pour en gagner d'autres. Merci !"
+		"defaultMessage": "Vous avez gagné% d points jusqu'à présent! Mettez à jour plus de vidages pour en recevoir plus. Je vous remercie!"
 	},
 	{
 		"id": "profile.points_X",
-		"defaultMessage": "{number} points"
+		"defaultMessage": "% d points"
 	},
 	{
 		"id": "global.numberOfTimes_X",
-		"defaultMessage": "{number}x"
+		"defaultMessage": "% dx"
 	},
 	{
 		"id": "profile.youReported",
-		"defaultMessage": "Vos signalements"
+		"defaultMessage": "Vos rapports"
 	},
 	{
 		"id": "profile.youUpdated",
@@ -1399,11 +1399,11 @@ export default [
 	},
 	{
 		"id": "profile.youCleaned",
-		"defaultMessage": "Vos ramassages"
+		"defaultMessage": "Décharges nettoyées"
 	},
 	{
 		"id": "profile.header.editProfile.header",
-		"defaultMessage": "Modifier profil"
+		"defaultMessage": "Editer le profil"
 	},
 	{
 		"id": "profile.yourProfile",
@@ -1411,15 +1411,15 @@ export default [
 	},
 	{
 		"id": "profile.selectOrganization",
-		"defaultMessage": "Choisissez une organisation"
+		"defaultMessage": "Sélectionnez une organisation"
 	},
 	{
 		"id": "profile.uploadFotoError",
-		"defaultMessage": "Impossible d'envoyer une photo, veuillez réessayer ultérieurement."
+		"defaultMessage": "Impossible de télécharger une photo, veuillez réessayer plus tard"
 	},
 	{
 		"id": "profile.edit.error",
-		"defaultMessage": "Impossible de mettre à jour le profil utilisateur, veuillez réessayer ultérieurement."
+		"defaultMessage": "Impossible de mettre à jour le profil utilisateur, réessayez plus tard"
 	},
 	{
 		"id": "profile.edit.success",
@@ -1427,27 +1427,27 @@ export default [
 	},
 	{
 		"id": "global.pullToRefresh",
-		"defaultMessage": "Balayez pour rafraichir"
+		"defaultMessage": "Tirer pour rafraîchir"
 	},
 	{
 		"id": "trash.accuracyOfLocationSmaller",
-		"defaultMessage": "Précision de la position : < "
+		"defaultMessage": "Précision de l'emplacement: < "
 	},
 	{
 		"id": "global.sendEmail.error",
-		"defaultMessage": "Il est impossible d'envoyer un mail."
+		"defaultMessage": "Il n'est pas possible d'envoyer un e-mail."
 	},
 	{
 		"id": "trash.illegalDumpIn_X",
-		"defaultMessage": "Décharges sauvages dans {string}"
+		"defaultMessage": "Dump illégal dans% s"
 	},
 	{
 		"id": "trash.reportedDetailsonWeb_X",
-		"defaultMessage": "Décharge signalée. Plus d'infos à propos des décharges sauvages disponibles à cette adresse : {string}"
+		"defaultMessage": "Un déversement illégal a été signalé! Des détails sur le vidage illégal sont disponibles sur le site Web:% s"
 	},
 	{
 		"id": "trash.messageWasReceived",
-		"defaultMessage": "Merci, message reçu"
+		"defaultMessage": "Merci, un message a été reçu"
 	},
 	{
 		"id": "global.noDate",
@@ -1455,47 +1455,47 @@ export default [
 	},
 	{
 		"id": "global.unknow",
-		"defaultMessage": "inconnu"
+		"defaultMessage": "inconnue"
 	},
 	{
 		"id": "trash.filter.dateOfLastUpdate",
-		"defaultMessage": "Date de dernière mise à jour"
+		"defaultMessage": "Date de la dernière mise à jour"
 	},
 	{
 		"id": "trashHunter",
-		"defaultMessage": "Chasse à la décharge"
+		"defaultMessage": "Chasseur de déchets"
 	},
 	{
 		"id": "trashHunter.text",
-		"defaultMessage": "Activez le mode \"Chasse à la décharge\" pour recevoir des notifications sur les décharges sauvages autour de vous"
+		"defaultMessage": "Activez le \"mode Trash Hunter\" pour recevoir des notifications sur les décharges illégales autour de vous"
 	},
 	{
 		"id": "trashHunter.startHunting",
-		"defaultMessage": "Démarrer la chasse"
+		"defaultMessage": "Commencer la chasse"
 	},
 	{
 		"id": "trashHunter.huntingArea",
-		"defaultMessage": "Secteur de chasse"
+		"defaultMessage": "Zone de chasse"
 	},
 	{
 		"id": "trashHunter.stopHunting",
-		"defaultMessage": "Arrêter la chasse"
+		"defaultMessage": "ARRÊTEZ LA CHASSE"
 	},
 	{
 		"id": "trash.foundDumps_X",
-		"defaultMessage": "Trouvé {number} décharges"
+		"defaultMessage": "Vidages trouvés:% d"
 	},
 	{
 		"id": "trashHunter.turnedOnInfo",
-		"defaultMessage": "Le mode \"Chasse à la décharge\" a été activé et le sera pour la période suivante."
+		"defaultMessage": "Le \"mode Trash Hunter\" a été activé et sera actif pour la période suivante."
 	},
 	{
 		"id": "trash.updateNeeded",
-		"defaultMessage": "Besoin de mise à jour"
+		"defaultMessage": "Mise à jour nécessaire"
 	},
 	{
 		"id": "trash.filter.lastUpdate.noLimit",
-		"defaultMessage": "Pas de limite"
+		"defaultMessage": "Sans limites"
 	},
 	{
 		"id": "trash.filter.lastUpdate.lastWeek",
@@ -1503,7 +1503,7 @@ export default [
 	},
 	{
 		"id": "trash.filter.lastUpdate.lastYear",
-		"defaultMessage": "L'an dernier"
+		"defaultMessage": "L'année dernière"
 	},
 	{
 		"id": "trash.filter.lastUpdate.today",
@@ -1519,7 +1519,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.glassAll",
-		"defaultMessage": "tous verres"
+		"defaultMessage": "tout verre"
 	},
 	{
 		"id": "collectionPoint.types.glassGreen",
@@ -1527,7 +1527,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.glassGold",
-		"defaultMessage": "verre brun"
+		"defaultMessage": "verre d'or"
 	},
 	{
 		"id": "collectionPoint.types.glassWhite",
@@ -1539,7 +1539,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.plastic",
-		"defaultMessage": "plastique"
+		"defaultMessage": "Plastique"
 	},
 	{
 		"id": "collectionPoint.types.dangerous",
@@ -1547,7 +1547,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.cardboard",
-		"defaultMessage": "carton"
+		"defaultMessage": "papier carton"
 	},
 	{
 		"id": "collectionPoint.types.clothes",
@@ -1563,7 +1563,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.everything",
-		"defaultMessage": "tout venant"
+		"defaultMessage": "tout"
 	},
 	{
 		"id": "collectionPoint.types.recyclables",
@@ -1571,7 +1571,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.wiredGlass",
-		"defaultMessage": "verre armé"
+		"defaultMessage": "verre câblé"
 	},
 	{
 		"id": "collectionPoint.types.battery",
@@ -1583,19 +1583,19 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.iron",
-		"defaultMessage": "ferraille"
+		"defaultMessage": "le fer"
 	},
 	{
 		"id": "collectionPoint.types.woodenAndUpholsteredFurniture",
-		"defaultMessage": "Meubles en bois et tissus"
+		"defaultMessage": "meubles en bois et rembourrés"
 	},
 	{
 		"id": "collectionPoint.types.carpets",
-		"defaultMessage": "tapis"
+		"defaultMessage": "les tapis"
 	},
 	{
 		"id": "collectionPoint.types.wooden",
-		"defaultMessage": "bois"
+		"defaultMessage": "en bois"
 	},
 	{
 		"id": "collectionPoint.types.window",
@@ -1603,11 +1603,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.buildingRubble",
-		"defaultMessage": "gravats"
+		"defaultMessage": "décombres de construction"
 	},
 	{
 		"id": "collectionPoint.types.oil",
-		"defaultMessage": "huile"
+		"defaultMessage": "pétrole"
 	},
 	{
 		"id": "collectionPoint.types.fluorescentLamps",
@@ -1615,19 +1615,19 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.neonLamps",
-		"defaultMessage": "néon"
+		"defaultMessage": "lampes au néon"
 	},
 	{
 		"id": "collectionPoint.types.lightBulbs",
-		"defaultMessage": "Ampoules"
+		"defaultMessage": "ampoules"
 	},
 	{
 		"id": "collectionPoint.types.color",
-		"defaultMessage": "Peinture"
+		"defaultMessage": "Couleur"
 	},
 	{
 		"id": "collectionPoint.types.thinner",
-		"defaultMessage": "solvants"
+		"defaultMessage": "plus mince"
 	},
 	{
 		"id": "collectionPoint.types.mirror",
@@ -1635,7 +1635,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.carParts",
-		"defaultMessage": "automobile"
+		"defaultMessage": "pièces de voiture"
 	},
 	{
 		"id": "collectionPoint.types.medicines",
@@ -1643,11 +1643,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.materialsFromBituminousPaper",
-		"defaultMessage": "matériaux bitumés"
+		"defaultMessage": "matériaux en papier bitumineux"
 	},
 	{
 		"id": "collectionPoint.types.eternitCoverings",
-		"defaultMessage": "fibrociment"
+		"defaultMessage": "revêtements éternit"
 	},
 	{
 		"id": "collectionPoint.types.asbestos",
@@ -1671,11 +1671,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.types.asphalt",
-		"defaultMessage": "bitume"
+		"defaultMessage": "asphalte"
 	},
 	{
 		"id": "collectionPoint.types.bitumenPaper",
-		"defaultMessage": "rouleaux bitumeux"
+		"defaultMessage": "papier bitume"
 	},
 	{
 		"id": "global.undefined",
@@ -1683,7 +1683,7 @@ export default [
 	},
 	{
 		"id": "trash.lastUpdate.today",
-		"defaultMessage": "Aujourd'hui"
+		"defaultMessage": "aujourd'hui"
 	},
 	{
 		"id": "trash.lastUpdate.yesterday",
@@ -1711,7 +1711,7 @@ export default [
 	},
 	{
 		"id": "global.validation.imagesRequired",
-		"defaultMessage": "images requises"
+		"defaultMessage": "Les images sont obligatoires"
 	},
 	{
 		"id": "trash.create.firstStep",
@@ -1719,11 +1719,11 @@ export default [
 	},
 	{
 		"id": "trash.create.secondStep",
-		"defaultMessage": "Informations complémentaires"
+		"defaultMessage": "Information additionnelle"
 	},
 	{
 		"id": "trash.create.thirdStep",
-		"defaultMessage": "Choisir images"
+		"defaultMessage": "Choisissez des images"
 	},
 	{
 		"id": "trash.header",
@@ -1731,23 +1731,23 @@ export default [
 	},
 	{
 		"id": "trash.history",
-		"defaultMessage": "Historique"
+		"defaultMessage": "Histoire"
 	},
 	{
 		"id": "trash.created",
-		"defaultMessage": "Signalement"
+		"defaultMessage": "Signalé"
 	},
 	{
 		"id": "global.facebookLogin",
-		"defaultMessage": "Connecter avec Facebook"
+		"defaultMessage": "Se connecter avec Facebook"
 	},
 	{
 		"id": "global.login",
-		"defaultMessage": "Connection"
+		"defaultMessage": "S'identifier"
 	},
 	{
 		"id": "global.backToLogin",
-		"defaultMessage": "Retour à la page de connexion"
+		"defaultMessage": "Retour connexion"
 	},
 	{
 		"id": "notifications.header",
@@ -1755,47 +1755,47 @@ export default [
 	},
 	{
 		"id": "collectionPoint.filter.ids",
-		"defaultMessage": "IDs des points de collecte"
+		"defaultMessage": "ID des points de collecte"
 	},
 	{
 		"id": "collectionPoint.create.openDaysAddException",
-		"defaultMessage": "Ajouter horaires spécifiques"
+		"defaultMessage": "Ajouter des heures d'exception"
 	},
 	{
 		"id": "collectionPoint.note",
-		"defaultMessage": "Remarques"
+		"defaultMessage": "Remarque"
 	},
 	{
 		"id": "global.reviewed",
-		"defaultMessage": "Validé"
+		"defaultMessage": "Revu"
 	},
 	{
 		"id": "global.reviewed.true",
-		"defaultMessage": "validés exclusivement"
+		"defaultMessage": "seulement révisé"
 	},
 	{
 		"id": "global.reviewed.false",
-		"defaultMessage": "Non validés exclusivement"
+		"defaultMessage": "seulement non révisé"
 	},
 	{
 		"id": "trash.filter.ids",
-		"defaultMessage": "IDs décharge"
+		"defaultMessage": "ID de corbeille"
 	},
 	{
 		"id": "trash.filter.userIds",
-		"defaultMessage": "IDs signaleurs"
+		"defaultMessage": "ID utilisateur"
 	},
 	{
 		"id": "notifications.unreviewedUsers",
-		"defaultMessage": "Utilisateurs non validés"
+		"defaultMessage": "Utilisateurs non révisés"
 	},
 	{
 		"id": "notifications.reportedTrashes",
-		"defaultMessage": "Décharges signalées"
+		"defaultMessage": "Corbeilles signalées"
 	},
 	{
 		"id": "notifications.reportedCollectionPoints",
-		"defaultMessage": "Points de collecte renseignés"
+		"defaultMessage": "Points de collecte signalés"
 	},
 	{
 		"id": "notifications.users.approve",
@@ -1803,15 +1803,15 @@ export default [
 	},
 	{
 		"id": "notifications.users.deny",
-		"defaultMessage": "Supprimer activités"
+		"defaultMessage": "Supprimer des activités"
 	},
 	{
 		"id": "notifications.spam.confirm",
-		"defaultMessage": "Confirmer comme inapproprié"
+		"defaultMessage": "Confirmer comme spam"
 	},
 	{
 		"id": "notifications.spam.deny",
-		"defaultMessage": "N'est pas inapproprié"
+		"defaultMessage": "Pas de spam"
 	},
 	{
 		"id": "global.days.Friday",
@@ -1823,11 +1823,11 @@ export default [
 	},
 	{
 		"id": "global.days.Saturday",
-		"defaultMessage": "Samedi"
+		"defaultMessage": "samedi"
 	},
 	{
 		"id": "global.days.Sunday",
-		"defaultMessage": "Dimanche"
+		"defaultMessage": "dimanche"
 	},
 	{
 		"id": "global.days.Thursday",
@@ -1843,19 +1843,19 @@ export default [
 	},
 	{
 		"id": "global.form.aa1",
-		"defaultMessage": "Secteur administratif 1"
+		"defaultMessage": "Zone administrative 1"
 	},
 	{
 		"id": "global.form.aa2",
-		"defaultMessage": "Secteur administratif 2"
+		"defaultMessage": "Zone administrative 2"
 	},
 	{
 		"id": "global.form.aa3",
-		"defaultMessage": "Secteur administratif 3"
+		"defaultMessage": "Zone administrative 3"
 	},
 	{
 		"id": "event.childFriendly",
-		"defaultMessage": "Enfants bienvenus"
+		"defaultMessage": "Adapté aux enfants"
 	},
 	{
 		"id": "event.childFriendly.false",
@@ -1867,31 +1867,31 @@ export default [
 	},
 	{
 		"id": "event.edit.header",
-		"defaultMessage": "Modifier évènement"
+		"defaultMessage": "Modifier l'événement"
 	},
 	{
 		"id": "event.description",
-		"defaultMessage": "Description"
+		"defaultMessage": "La description"
 	},
 	{
 		"id": "event.filter.header",
-		"defaultMessage": "Filtre d'évènement"
+		"defaultMessage": "Filtre d'événement"
 	},
 	{
 		"id": "event.id",
-		"defaultMessage": "ID"
+		"defaultMessage": "Identifiant"
 	},
 	{
 		"id": "event.filter.ids",
-		"defaultMessage": "IDs des évènements"
+		"defaultMessage": "ID d'événement"
 	},
 	{
 		"id": "event.list.header",
-		"defaultMessage": "Liste des évènements"
+		"defaultMessage": "Liste des événements"
 	},
 	{
 		"id": "user.birthday",
-		"defaultMessage": "Date de naissance"
+		"defaultMessage": "Anniversaire"
 	},
 	{
 		"id": "global.form.continent",
@@ -1903,27 +1903,27 @@ export default [
 	},
 	{
 		"id": "trash.filter.anyActivityDateFrom",
-		"defaultMessage": "Toute activité depuis le"
+		"defaultMessage": "Toute activité de"
 	},
 	{
 		"id": "trash.filter.anyActivityDateTo",
-		"defaultMessage": "Toute activité jusqu'au"
+		"defaultMessage": "Toute activité à"
 	},
 	{
 		"id": "global.day",
-		"defaultMessage": "Jour"
+		"defaultMessage": "journée"
 	},
 	{
 		"id": "event.filter.startTimeFrom",
-		"defaultMessage": "Début de l'évènement : date et heure"
+		"defaultMessage": "Début de l'événement: date et heure"
 	},
 	{
 		"id": "event.filter.startTimeTo",
-		"defaultMessage": "Fin de l'évènement : date et heure"
+		"defaultMessage": "Fin de l'événement: date et heure"
 	},
 	{
 		"id": "global.pickOne",
-		"defaultMessage": "Sélectionner un seul"
+		"defaultMessage": "Choisissez un"
 	},
 	{
 		"id": "profile.edit.profileImage",
@@ -1931,23 +1931,23 @@ export default [
 	},
 	{
 		"id": "global.table",
-		"defaultMessage": "Liste"
+		"defaultMessage": "liste"
 	},
 	{
 		"id": "event.confirmation.createEvent",
-		"defaultMessage": "Voulez-vous vraiment créer un évènement ?"
+		"defaultMessage": "Voulez-vous vraiment créer un événement?"
 	},
 	{
 		"id": "trash.confirmation.deleteActivity",
-		"defaultMessage": "Voulez-vous vraiment supprimer cette activité ?"
+		"defaultMessage": "Voulez-vous vraiment supprimer l'activité?"
 	},
 	{
 		"id": "trash.confirmation.deleteImage",
-		"defaultMessage": "Voulez-vous vraiment supprimer cette image ?"
+		"defaultMessage": "Voulez-vous vraiment supprimer l'image?"
 	},
 	{
 		"id": "trash.confirmation.deleteTrash",
-		"defaultMessage": "Voulez-vous vraiment supprimer cette décharge ?"
+		"defaultMessage": "Voulez-vous vraiment supprimer la corbeille?"
 	},
 	{
 		"id": "global.confirmation.header",
@@ -1959,71 +1959,71 @@ export default [
 	},
 	{
 		"id": "trash.confirmation.markSpam",
-		"defaultMessage": "Voulez-vous vraiment signaler cette décharge comme inappropriée ?"
+		"defaultMessage": "Voulez-vous vraiment marquer ce vidage comme spam?"
 	},
 	{
 		"id": "global.confirmation.reject",
-		"defaultMessage": "voulez-vous vraiment rejeter"
+		"defaultMessage": "veux vraiment rejeter"
 	},
 	{
 		"id": "event.confirmation.unjoinEvent",
-		"defaultMessage": "Voulez-vous vraiment vous désinscrire à cet évènement ?"
+		"defaultMessage": "Voulez-vous vraiment quitter l'événement?"
 	},
 	{
 		"id": "global.unsubscribe",
-		"defaultMessage": "Voulez-vous vraiment vous désabonner ?"
+		"defaultMessage": "Voulez-vous vraiment vous désinscrire?"
 	},
 	{
 		"id": "notifications.user.approve",
-		"defaultMessage": "Valider cet utilisateur ?"
+		"defaultMessage": "Voulez-vous vraiment approuver l'utilisateur?"
 	},
 	{
 		"id": "global.selectFile",
-		"defaultMessage": "Choisir un fichier"
+		"defaultMessage": "Choisir le dossier"
 	},
 	{
 		"id": "global.selectFiles",
-		"defaultMessage": "Choisir des fichiers"
+		"defaultMessage": "Sélectionnez les fichiers"
 	},
 	{
 		"id": "trash.removeActivity",
-		"defaultMessage": "Supprimer activité"
+		"defaultMessage": "Supprimer l'activité"
 	},
 	{
 		"id": "event.validation.areaToBig",
-		"defaultMessage": "Secteur trop vaste"
+		"defaultMessage": "Zone trop grande"
 	},
 	{
 		"id": "event.validation.areaRequired",
-		"defaultMessage": "Secteur requise"
+		"defaultMessage": "Surface requise"
 	},
 	{
 		"id": "global.required",
-		"defaultMessage": "Requis"
+		"defaultMessage": "Obligatoire"
 	},
 	{
 		"id": "global.typeAddress",
-		"defaultMessage": "Adresse"
+		"defaultMessage": "Saisissez l'adresse"
 	},
 	{
 		"id": "user.filter.header",
-		"defaultMessage": "Filtre utilisateurs"
+		"defaultMessage": "Filtre utilisateur"
 	},
 	{
 		"id": "user.filter.userIds",
-		"defaultMessage": "IDs utilisateurs"
+		"defaultMessage": "ID utilisateur"
 	},
 	{
 		"id": "user.list.header",
-		"defaultMessage": "Liste des utilisateurs"
+		"defaultMessage": "Liste d'utilisateurs"
 	},
 	{
 		"id": "user.roles.admin",
-		"defaultMessage": "Administrateur"
+		"defaultMessage": "Admin"
 	},
 	{
 		"id": "user.roles.manager",
-		"defaultMessage": "Représentant"
+		"defaultMessage": "Directeur"
 	},
 	{
 		"id": "user.roles.user",
@@ -2039,51 +2039,51 @@ export default [
 	},
 	{
 		"id": "profile.edit.otherInfo",
-		"defaultMessage": "Autres informations"
+		"defaultMessage": "Les autres informations"
 	},
 	{
 		"id": "profile.changePassword",
-		"defaultMessage": "Changer mot de passe"
+		"defaultMessage": "Changer le mot de passe"
 	},
 	{
 		"id": "user.filter.emails",
-		"defaultMessage": "Liste d'adresses mail (séparée par des virgules sans espace)"
+		"defaultMessage": "Liste des e-mails (séparés par une virgule sans espace)"
 	},
 	{
 		"id": "user.filter.organizationIds",
-		"defaultMessage": "iDs des organisations"
+		"defaultMessage": "ID d'organisation"
 	},
 	{
 		"id": "global.pageNotFound.header",
-		"defaultMessage": "Cette page n'existe pas"
+		"defaultMessage": "Cette page n'est pas disponible"
 	},
 	{
 		"id": "global.pageNotFound.text",
-		"defaultMessage": "Soit le lien est cassé, soit la page a été supprimée."
+		"defaultMessage": "Le lien est peut-être rompu ou la page a peut-être été supprimée."
 	},
 	{
 		"id": "global.pageNotFound.continue",
-		"defaultMessage": "Poursuivez ici, s'il vous plaît."
+		"defaultMessage": "Continuez ici s'il vous plaît."
 	},
 	{
 		"id": "collectionPoint.create.everyDayFromAm",
-		"defaultMessage": "Ouvert de (matin)"
+		"defaultMessage": "Ouvert à partir de (AM)"
 	},
 	{
 		"id": "collectionPoint.create.everyDayFromPm",
-		"defaultMessage": "Ouvert de (après midi)"
+		"defaultMessage": "Ouvert à partir de (PM)"
 	},
 	{
 		"id": "collectionPoint.create.everyDayToAm",
-		"defaultMessage": "Ouvert jusqu'à (matin)"
+		"defaultMessage": "Ouvert à (AM)"
 	},
 	{
 		"id": "collectionPoint.create.everyDayToPm",
-		"defaultMessage": "Ouvert jusqu'à (après midi)"
+		"defaultMessage": "Ouvert à (PM)"
 	},
 	{
 		"id": "collectionPoint.create.chooseDay",
-		"defaultMessage": "Choisir un jour"
+		"defaultMessage": "Choisissez le jour"
 	},
 	{
 		"id": "global.map",
@@ -2091,51 +2091,51 @@ export default [
 	},
 	{
 		"id": "collectionPoint.validation.timeFromMustBeGreater",
-		"defaultMessage": "L'heure de début (après midi) doit être supérieure"
+		"defaultMessage": "L'heure DE (PM) doit être supérieure"
 	},
 	{
 		"id": "collectionPoint.validation.timeToMustBeGreater",
-		"defaultMessage": "L'heure de fin doit être supérieure à celle de début"
+		"defaultMessage": "Le temps TO doit être supérieur au temps FROM"
 	},
 	{
 		"id": "global.validation.tooLong",
-		"defaultMessage": "La valeur est trop grande"
+		"defaultMessage": "La valeur est trop longue"
 	},
 	{
 		"id": "global.validation.urlInvalid",
-		"defaultMessage": "URL invalide (ex: http://www.google.com)"
+		"defaultMessage": "URL incorrecte (par exemple: http://www.google.com)"
 	},
 	{
 		"id": "global.validation.passwordTooLong",
-		"defaultMessage": "Mot de passe trop long"
+		"defaultMessage": "Le mot de passe est trop long"
 	},
 	{
 		"id": "global.validation.phoneInvalid",
-		"defaultMessage": "Oups, le numéro de téléphone semble invalide"
+		"defaultMessage": "Oups, le téléphone que vous avez entré semble invalide :("
 	},
 	{
 		"id": "global.validation.phoneRequired",
-		"defaultMessage": "Veuillez renseigner le numéro de téléphone"
+		"defaultMessage": "Veuillez remplir le numéro de téléphone"
 	},
 	{
 		"id": "trash.validation.statusRequired",
-		"defaultMessage": "Etat requis"
+		"defaultMessage": "Le statut est obligatoire"
 	},
 	{
 		"id": "event.validation.nameRequired",
-		"defaultMessage": "Nom requis"
+		"defaultMessage": "Le nom est requis"
 	},
 	{
 		"id": "global.validation.locationRequired",
-		"defaultMessage": "Position requise"
+		"defaultMessage": "Emplacement requis"
 	},
 	{
 		"id": "user.validation.passwordShouldContain",
-		"defaultMessage": "Le mot de passe doit au moins contenir 1 majuscule, 1 minuscule et 1 chiffre."
+		"defaultMessage": "Les mots de passe doivent contenir au moins 1 lettre majuscule, 1 lettre minuscule et 1 chiffre."
 	},
 	{
 		"id": "organizations.name",
-		"defaultMessage": "Nom de l'organisation"
+		"defaultMessage": "nom de l'organisation"
 	},
 	{
 		"id": "organizations.id",
@@ -2143,11 +2143,11 @@ export default [
 	},
 	{
 		"id": "profile.newPassword",
-		"defaultMessage": "Nouveau mot de passe"
+		"defaultMessage": "nouveau mot de passe"
 	},
 	{
 		"id": "profile.oldPassword",
-		"defaultMessage": "Ancien mot de passe"
+		"defaultMessage": "ancien mot de passe"
 	},
 	{
 		"id": "user.google",
@@ -2155,27 +2155,27 @@ export default [
 	},
 	{
 		"id": "user.newsletter",
-		"defaultMessage": "Mail d'information en cours d'envoi"
+		"defaultMessage": "Envoi d'e-mails de newsletter"
 	},
 	{
 		"id": "collectionPoint.openDays",
-		"defaultMessage": "Jours d'ouverture"
+		"defaultMessage": "Jours ouverts"
 	},
 	{
 		"id": "collectionPoint.fromAm",
-		"defaultMessage": "Depuis (matin)"
+		"defaultMessage": "Depuis AM"
 	},
 	{
 		"id": "collectionPoint.fromPm",
-		"defaultMessage": "Depuis (après midi)"
+		"defaultMessage": "De PM"
 	},
 	{
 		"id": "collectionPoint.toAm",
-		"defaultMessage": "Jusqu'à (matin)"
+		"defaultMessage": "À AM"
 	},
 	{
 		"id": "collectionPoint.toPm",
-		"defaultMessage": "Jusqu'à (après midi)"
+		"defaultMessage": "À PM"
 	},
 	{
 		"id": "collectionPoint.startTime",
@@ -2191,7 +2191,7 @@ export default [
 	},
 	{
 		"id": "global.url",
-		"defaultMessage": "Site web (URL)"
+		"defaultMessage": "Page Web (URL)"
 	},
 	{
 		"id": "global.menu.users",
@@ -2199,7 +2199,7 @@ export default [
 	},
 	{
 		"id": "global.menu.news",
-		"defaultMessage": "Actualités"
+		"defaultMessage": "Nouvelles"
 	},
 	{
 		"id": "user.points",
@@ -2207,11 +2207,11 @@ export default [
 	},
 	{
 		"id": "global.itemsPerPage",
-		"defaultMessage": "Éléments par page"
+		"defaultMessage": "Objets par page"
 	},
 	{
 		"id": "news.id",
-		"defaultMessage": "ID"
+		"defaultMessage": "Identifiant"
 	},
 	{
 		"id": "news.title",
@@ -2223,15 +2223,15 @@ export default [
 	},
 	{
 		"id": "event.create.failed",
-		"defaultMessage": "La création de l'évènement a échoué"
+		"defaultMessage": "La création de l'événement a échoué"
 	},
 	{
 		"id": "home.helpUsToCleanIt",
-		"defaultMessage": "Aidez-nous à le nettoyer !"
+		"defaultMessage": "Aidez-nous à le nettoyer!"
 	},
 	{
 		"id": "global.processing",
-		"defaultMessage": "Traitement en cours"
+		"defaultMessage": "En traitement"
 	},
 	{
 		"id": "global.validation.unknownError",
@@ -2239,7 +2239,7 @@ export default [
 	},
 	{
 		"id": "trash.message.noNearByTrash",
-		"defaultMessage": "Aucune décharge à proximité"
+		"defaultMessage": "Pas de poubelle à proximité"
 	},
 	{
 		"id": "trash.message.updateThisTrash",
@@ -2247,7 +2247,7 @@ export default [
 	},
 	{
 		"id": "trash.create.TakeSomePictures",
-		"defaultMessage": "Prenez quelques photos de cet endroit"
+		"defaultMessage": "Prenez des photos de cet endroit"
 	},
 	{
 		"id": "global.information",
@@ -2255,39 +2255,39 @@ export default [
 	},
 	{
 		"id": "trash.detail.reportToMunicipality",
-		"defaultMessage": "Envoyer par mail"
+		"defaultMessage": "Envoyé par email"
 	},
 	{
 		"id": "trash.detail.sendNotification",
-		"defaultMessage": "Envoyer notification"
+		"defaultMessage": "Envoyer une notification"
 	},
 	{
 		"id": "trash.detail.spam",
-		"defaultMessage": "Est-ce que ce signalement est inapproprié ?"
+		"defaultMessage": "Ce rapport est-il un spam?"
 	},
 	{
 		"id": "trash.detail.spamText",
-		"defaultMessage": "En quoi ce signalement est inapproprié ou indésirable ?"
+		"defaultMessage": "Pensez-vous que ce rapport n'est pas pertinent ou contient des éléments indésirables?"
 	},
 	{
 		"id": "trash.detail.municipalityText",
-		"defaultMessage": "Envoyer ce signalement par mail aux autorités locales ou ONG environnementale"
+		"defaultMessage": "Envoyer ce rapport par e-mail à la municipalité locale ou à une ONG environnementale"
 	},
 	{
 		"id": "trash.detail.noCleaningEvent",
-		"defaultMessage": "Il n'y a pas d'évènement pour cette décharge"
+		"defaultMessage": "Il n'y a pas d'événement de nettoyage pour ce vidage"
 	},
 	{
 		"id": "trash.detail.ofThisIllegalDump",
-		"defaultMessage": "de cette décharge sauvage"
+		"defaultMessage": "de cette décharge illégale"
 	},
 	{
 		"id": "trash.detail.fromDifferentAngle",
-		"defaultMessage": "d'un angle / distance différent"
+		"defaultMessage": "sous différents angles / distances"
 	},
 	{
 		"id": "global.camera",
-		"defaultMessage": "Appareil photo"
+		"defaultMessage": "Caméra"
 	},
 	{
 		"id": "global.gallery",
@@ -2295,7 +2295,7 @@ export default [
 	},
 	{
 		"id": "global.camera.photoSource",
-		"defaultMessage": "Source pour les photos"
+		"defaultMessage": "Source de photo"
 	},
 	{
 		"id": "global.time.year",
@@ -2307,11 +2307,11 @@ export default [
 	},
 	{
 		"id": "global.time.week",
-		"defaultMessage": "semaine"
+		"defaultMessage": "la semaine"
 	},
 	{
 		"id": "global.time.day",
-		"defaultMessage": "jour"
+		"defaultMessage": "journée"
 	},
 	{
 		"id": "global.time.hour",
@@ -2327,39 +2327,39 @@ export default [
 	},
 	{
 		"id": "global.time.0secAgo",
-		"defaultMessage": "il y a 0 seconde"
+		"defaultMessage": "Il y a 0 secondes"
 	},
 	{
 		"id": "global.time.0sec",
-		"defaultMessage": "0 seconde"
+		"defaultMessage": "0 secondes"
 	},
 	{
 		"id": "global.time.ago",
-		"defaultMessage": "\"il y a\""
+		"defaultMessage": "\"depuis\""
 	},
 	{
 		"id": "global.sendEmail",
-		"defaultMessage": "Envoyer mail"
+		"defaultMessage": "Envoyer un e-mail"
 	},
 	{
 		"id": "global.validation.warning",
-		"defaultMessage": "Alerte"
+		"defaultMessage": "avertissement"
 	},
 	{
 		"id": "global.validation.noEmailClientInstalled",
-		"defaultMessage": "Aucun client de messagerie installé"
+		"defaultMessage": "Aucun client de messagerie électronique installé"
 	},
 	{
 		"id": "trash.edit.greaterDistanceText",
-		"defaultMessage": "Vous êtes à plus de 100m de la décharge. Vous devez vous en rapprocher."
+		"defaultMessage": "La distance est supérieure à 100 m des déchets. Vous devez être près de la décharge."
 	},
 	{
 		"id": "trash.edit.minPhotosText",
-		"defaultMessage": "Pour créer ou mettre à jour une décharge vous devez prendre au moins {number} photo(s)"
+		"defaultMessage": "Pour créer ou mettre à jour la corbeille, vous devez prendre au moins% d photo"
 	},
 	{
 		"id": "trash.validation.mustSelectMeetingPoint",
-		"defaultMessage": "Vous devez d'abord définir un lieu de rendez-vous"
+		"defaultMessage": "Vous devez d'abord choisir le poste de réunion"
 	},
 	{
 		"id": "event.detail.bring",
@@ -2367,23 +2367,23 @@ export default [
 	},
 	{
 		"id": "event.detail.pleaseBring",
-		"defaultMessage": "Nous avons besoin de"
+		"defaultMessage": "Ce dont nous avons besoin"
 	},
 	{
 		"id": "global.cropImage",
-		"defaultMessage": "Redimensionner"
+		"defaultMessage": "Recadrer l'image"
 	},
 	{
 		"id": "collectionPoint.disposeTypes",
-		"defaultMessage": "Types de déchets acceptés"
+		"defaultMessage": "Type de corbeille à éliminer"
 	},
 	{
 		"id": "global.readMore",
-		"defaultMessage": "Plus d'informations"
+		"defaultMessage": "Lire la suite"
 	},
 	{
 		"id": "user.validation.nonEmptyOrganization",
-		"defaultMessage": "Vous n'avez pas choisi d'organisation. Choisissez-en une dans votre profil."
+		"defaultMessage": "Vous n'avez pas sélectionné d'organisation. Sélectionnez l'entreprise ou l'organisation dans le profil d'édition."
 	},
 	{
 		"id": "global.gpsFormat",
@@ -2391,39 +2391,39 @@ export default [
 	},
 	{
 		"id": "global.locationFormatDegreesExample",
-		"defaultMessage": "\n48.5359576, 2.2716631"
+		"defaultMessage": "48.654684, 19.1676514"
 	},
 	{
 		"id": "global.signup",
-		"defaultMessage": "Inscription"
+		"defaultMessage": "S'inscrire"
 	},
 	{
 		"id": "user.login.validation.unknownError",
-		"defaultMessage": "Erreur de connexion - erreur serveur inconnue"
+		"defaultMessage": "Erreur de connexion - erreur de serveur inconnue"
 	},
 	{
 		"id": "user.login.validation.notFirebaseUser",
-		"defaultMessage": "Erreur de connexion - N'est pas un utilisateur Firebase"
+		"defaultMessage": "Erreur de connexion - pas un utilisateur Firebase"
 	},
 	{
 		"id": "user.login.validation.autentification_filed",
-		"defaultMessage": "Erreur de connexion"
+		"defaultMessage": "Authentification échouée."
 	},
 	{
 		"id": "user.validation.confirmPasswordRequired",
-		"defaultMessage": "Mot de passe de confirmation requis"
+		"defaultMessage": "Confirmer le mot de passe doit être entré"
 	},
 	{
 		"id": "user.login.create.error",
-		"defaultMessage": "Erreur de connexion - erreur de création utilisateur"
+		"defaultMessage": "Erreur de connexion - créer une erreur utilisateur"
 	},
 	{
 		"id": "user.login.linkError",
-		"defaultMessage": "Erreur lors de l'association de compte"
+		"defaultMessage": "Erreur de liaison de l'utilisateur"
 	},
 	{
 		"id": "user.register.notExists",
-		"defaultMessage": "Utilisateur inconnu. Veuillez modifier l'adresse mail ou créer un compte."
+		"defaultMessage": "L'utilisateur n'existe pas. Veuillez modifier l'adresse e-mail ou vous inscrire."
 	},
 	{
 		"id": "user.register.success",
@@ -2435,11 +2435,11 @@ export default [
 	},
 	{
 		"id": "user.login.getToken",
-		"defaultMessage": "Erreur lors de la récupération du token utilisateur"
+		"defaultMessage": "Échec de l'obtention du jeton utilisateur"
 	},
 	{
 		"id": "user.login.anonymous.linkError",
-		"defaultMessage": "Erreur lors de l'association avec utilisateur anonyme"
+		"defaultMessage": "Échec de la liaison avec un utilisateur anonyme"
 	},
 	{
 		"id": "user.login.canceled",
@@ -2451,91 +2451,91 @@ export default [
 	},
 	{
 		"id": "global.commingSoon",
-		"defaultMessage": "Prochainement"
+		"defaultMessage": "Bientôt disponible"
 	},
 	{
 		"id": "trash.edit.spamText",
-		"defaultMessage": "Voulez-vous vraiment signaler cette décharge comme inappropriée ?"
+		"defaultMessage": "Voulez-vous vraiment marquer ce point de la corbeille comme SPAM?"
 	},
 	{
 		"id": "trash.detail.loadingFailed",
-		"defaultMessage": "Echec du chargement des détails de la décharge."
+		"defaultMessage": "Échec du chargement du détail de la corbeille."
 	},
 	{
 		"id": "trash.create.markAsSpamFailed",
-		"defaultMessage": "Le signalement comme inapproprié a échoué"
+		"defaultMessage": "Marquage de la corbeille comme échec du SPAM"
 	},
 	{
 		"id": "trash.create.markAsSpamSuccessful",
-		"defaultMessage": "Le signalement comme indésirable a réussi"
+		"defaultMessage": "Marquer le point de la corbeille comme un SPAM réussi"
 	},
 	{
 		"id": "event.joinEventFailed",
-		"defaultMessage": "L'inscription à l'évènement a échoué"
+		"defaultMessage": "Échec de l'inscription à l'événement"
 	},
 	{
 		"id": "event.joinEventSuccessful",
-		"defaultMessage": "Vous êtes inscrit à l'évènement"
+		"defaultMessage": "L'événement a été joint"
 	},
 	{
 		"id": "event.joinEventConfirmationMessage",
-		"defaultMessage": "Voulez-vous vraiment vous inscrire à cet évènement ?"
+		"defaultMessage": "Voulez-vous vraiment participer à l'événement?"
 	},
 	{
 		"id": "trash.report.locationAccuracyMessage",
-		"defaultMessage": "La précision de la position doit être améliorée"
+		"defaultMessage": "Précision de l'emplacement Essayer d'obtenir un meilleur emplacement"
 	},
 	{
 		"id": "user.resetPassword.message",
-		"defaultMessage": "Voulez-vous vraiment réinitialiser votre mot de passe ?"
+		"defaultMessage": "Voulez-vous vraiment réinitialiser le mot de passe?"
 	},
 	{
 		"id": "user.validation.resetPassword.failed",
-		"defaultMessage": "La réinitialisation du mot de passe a échoué"
+		"defaultMessage": "Échec de la réinitialisation du mot de passe"
 	},
 	{
 		"id": "user.validation.resetPassword.success",
-		"defaultMessage": "Réinitialisation du mot de passe réussie. Vérifiez vos mails."
+		"defaultMessage": "Réinitialisation du mot de passe réussie. Merci de consulter vos emails."
 	},
 	{
 		"id": "trash.validation.createFailed",
-		"defaultMessage": "La création de la décharge a échoué"
+		"defaultMessage": "Échec de la création de la corbeille"
 	},
 	{
 		"id": "trash.validation.updateFailed",
-		"defaultMessage": "La modification de la décharge a échoué"
+		"defaultMessage": "Échec de la mise à jour de la corbeille"
 	},
 	{
 		"id": "collectionPoint.zeroNearbyAvailable",
-		"defaultMessage": "Aucun centre de collecte à proximité"
+		"defaultMessage": "Aucun point de collecte disponible à proximité"
 	},
 	{
 		"id": "user.validation.authFbMalformed",
-		"defaultMessage": "Connexion Facebook expirée ou erronnée"
+		"defaultMessage": "Le jeton Facebook est un identifiant ou est mal formé ou a expiré"
 	},
 	{
 		"id": "user.validation.authFbCollision",
-		"defaultMessage": "Un compte existe déjà. Veuillez vous connecter avec une adresse mail."
+		"defaultMessage": "Un compte existe déjà. Veuillez vous connecter par e-mail."
 	},
 	{
 		"id": "user.validation.authFbInvalid",
-		"defaultMessage": "Le compte utilisateur a été désactivé, supprimé ou ses droits ne sont plus valides"
+		"defaultMessage": "Le compte de l'utilisateur a été désactivé, supprimé ou ses informations d'identification ne sont plus valides"
 	},
 	{
 		"id": "collectionPoint.validation.markAsNoLongerExistsFailed",
-		"defaultMessage": "Le signalement du point de collecte comme n'existant plus à échoué"
+		"defaultMessage": "Échec du marquage du point de collecte qui n'existe plus"
 	},
 	{
 		"id": "collectionPoint.validation.markAsNoLongerExistsFailed.success",
-		"defaultMessage": "Le signalement du point de collecte comme n'existant plus à réussi"
+		"defaultMessage": "Marquage du point de collecte qui n'existe plus réussi"
 	},
 	{
 		"id": "collectionPoint.markAsNoLongerExistsFailed.message",
-		"defaultMessage": "Voulez-vous vraiment signaler ce point de collecte comme n'existant plus ?"
+		"defaultMessage": "Voulez-vous vraiment marquer le point de collecte comme s'il n'existe plus?"
 	},
 	{
 		"id": "event.validation.selectTrash",
-		"defaultMessage": "Vous devez choisir au moins une décharge"
+		"defaultMessage": "Vous devez sélectionner au moins une corbeille"
 	},
 	{
 		"id": "news.other",
@@ -2543,11 +2543,11 @@ export default [
 	},
 	{
 		"id": "news.empty",
-		"defaultMessage": "Aucune actualité"
+		"defaultMessage": "Pas de nouvelles"
 	},
 	{
 		"id": "news.detail.attachedPhoto",
-		"defaultMessage": "Photos attachées"
+		"defaultMessage": "Photo ci-jointe"
 	},
 	{
 		"id": "news.detail.attachedVideo",
@@ -2555,51 +2555,51 @@ export default [
 	},
 	{
 		"id": "event.organizeAction",
-		"defaultMessage": "Je souhaiterais organiser un évènement"
+		"defaultMessage": "Je souhaite organiser une action de nettoyage"
 	},
 	{
 		"id": "event.actionNotification",
-		"defaultMessage": "Je souhaite recevoir les notifications à propos des évènements"
+		"defaultMessage": "Je souhaite recevoir des notifications sur les actions de nettoyage"
 	},
 	{
 		"id": "event.user.email",
-		"defaultMessage": "Votre mail"
+		"defaultMessage": "Votre e-mail"
 	},
 	{
 		"id": "event.user.phone",
-		"defaultMessage": "Votre téléphone"
+		"defaultMessage": "Ton téléphone"
 	},
 	{
 		"id": "event.cleaningAction",
-		"defaultMessage": "Action"
+		"defaultMessage": "Action de nettoyage"
 	},
 	{
 		"id": "collectionPoint.activity",
-		"defaultMessage": "Activités du point de collecte"
+		"defaultMessage": "Activité du point de corbeille"
 	},
 	{
 		"id": "event.activity",
-		"defaultMessage": "Activités de l'évènement"
+		"defaultMessage": "Activité événementielle"
 	},
 	{
 		"id": "global.worldwide",
-		"defaultMessage": "Monde entier"
+		"defaultMessage": "À l'échelle mondiale"
 	},
 	{
 		"id": "home.statisticsInArea",
-		"defaultMessage": "Statistiques pour le secteur choisi"
+		"defaultMessage": "Statistiques pour une zone sélectionnée"
 	},
 	{
 		"id": "trashHunter.finished",
-		"defaultMessage": "Chasse à la décharge terminée"
+		"defaultMessage": "Mode de chasse terminé"
 	},
 	{
 		"id": "global.noData",
-		"defaultMessage": "Aucune donnée"
+		"defaultMessage": "Pas de données"
 	},
 	{
 		"id": "home.upcommingEvents",
-		"defaultMessage": "Évènements à venir à proximité"
+		"defaultMessage": "Événements à venir dans votre quartier"
 	},
 	{
 		"id": "home.noUserActivities",
@@ -2607,19 +2607,19 @@ export default [
 	},
 	{
 		"id": "home.userActivities",
-		"defaultMessage": "Activités utilisateur"
+		"defaultMessage": "Activités des utilisateurs"
 	},
 	{
 		"id": "widget.statistics.barChart",
-		"defaultMessage": "Histogramme"
+		"defaultMessage": "Diagramme à bandes"
 	},
 	{
 		"id": "widget.statistics.donutChart",
-		"defaultMessage": "Diagramme en anneau"
+		"defaultMessage": "Graphique en beignet"
 	},
 	{
 		"id": "widget.statistics.chartStatus",
-		"defaultMessage": "Par état"
+		"defaultMessage": "Par statut"
 	},
 	{
 		"id": "widget.statistics.chartAccessibility",
@@ -2635,27 +2635,27 @@ export default [
 	},
 	{
 		"id": "widget.statistics.breakdownOfDumps",
-		"defaultMessage": "Répartition des décharges dans"
+		"defaultMessage": "Répartition des décharges illégales dans"
 	},
 	{
 		"id": "widget.statistics.lastUpdatedDumps",
-		"defaultMessage": "Dernières décharges mises à jour dans"
+		"defaultMessage": "Derniers vidages mis à jour dans"
 	},
 	{
 		"id": "profile.validation.emptyOrganization",
-		"defaultMessage": "Vous n'avez pas choisi d'organisation"
+		"defaultMessage": "Vous n'avez sélectionné aucune organisation"
 	},
 	{
 		"id": "news.noArticles",
-		"defaultMessage": "Il n'y a encore aucun article, veuillez réessayer plus tard."
+		"defaultMessage": "Il n'y a pas encore d'articles, veuillez revenir plus tard."
 	},
 	{
 		"id": "event.dontWantOrganize",
-		"defaultMessage": "Je ne souhaite pas organiser d'évènement"
+		"defaultMessage": "Je ne veux pas organiser ou aider à l'organisation d'un événement de nettoyage"
 	},
 	{
 		"id": "event.dontWantReceiveNotification",
-		"defaultMessage": "Je ne souhaite pas recevoir d'information à propos des évènements"
+		"defaultMessage": "Je ne souhaite pas recevoir d'informations sur les événements de nettoyage"
 	},
 	{
 		"id": "global.language.english",
@@ -2663,11 +2663,11 @@ export default [
 	},
 	{
 		"id": "global.language.czech",
-		"defaultMessage": "Tchèque"
+		"defaultMessage": "tchèque"
 	},
 	{
 		"id": "global.language.germany",
-		"defaultMessage": "Allemand"
+		"defaultMessage": "allemand"
 	},
 	{
 		"id": "global.language.espana",
@@ -2675,11 +2675,11 @@ export default [
 	},
 	{
 		"id": "global.language.slovakia",
-		"defaultMessage": "Slovaque"
+		"defaultMessage": "slovaque"
 	},
 	{
 		"id": "global.locationFormatDrmsExample",
-		"defaultMessage": "46°01'27.9\" N, 1°01'54.7\" E"
+		"defaultMessage": "49 ° 10'24 \"N, 18 ° 49'0\" E"
 	},
 	{
 		"id": "trash.create.ofCleanedDump",
@@ -2687,59 +2687,59 @@ export default [
 	},
 	{
 		"id": "trash.edit.title",
-		"defaultMessage": "Modifier une décharge"
+		"defaultMessage": "Mettre à jour un vidage"
 	},
 	{
 		"id": "trash.create.title",
-		"defaultMessage": "Signaler une décharge"
+		"defaultMessage": "Dump de rapport"
 	},
 	{
 		"id": "tutorial.title.1",
-		"defaultMessage": "Nous sommes ravis de vous voir !"
+		"defaultMessage": "Nous sommes heureux de vous voir!"
 	},
 	{
 		"id": "tutorial.text.1",
-		"defaultMessage": "Utilisez TrashOut pour localiser et suivre les décharges sauvages dans le monde entier."
+		"defaultMessage": "Utilisez TrashOut pour localiser et surveiller les décharges illégales dans le monde entier."
 	},
 	{
 		"id": "tutorial.title.2",
-		"defaultMessage": "C'est facile !"
+		"defaultMessage": "C'est facile!"
 	},
 	{
 		"id": "tutorial.text.2",
-		"defaultMessage": "Lorsque vous trouvez une décharge sauvage, appuyez sur '+' ou le bouton signaler et remplissez le formulaire."
+		"defaultMessage": "Lorsque vous voyez un vidage illégal, appuyez sur le bouton plus ou signaler, prenez une photo et remplissez tous les détails."
 	},
 	{
 		"id": "tutorial.title.3",
-		"defaultMessage": "Décharge sauvage signalée !"
+		"defaultMessage": "Un vidage illégal est signalé!"
 	},
 	{
 		"id": "tutorial.text.3",
-		"defaultMessage": "Les autorités locales, citoyens ou ONGs peuvent être informés des décharges sauvages dans leur voisinage"
+		"defaultMessage": "Les municipalités locales, les citoyens ou les ONG peuvent être informés des décharges illégales dans leur quartier."
 	},
 	{
 		"id": "tutorial.title.4",
-		"defaultMessage": "TrashOut propose plus !"
+		"defaultMessage": "TrashOut offre plus!"
 	},
 	{
 		"id": "tutorial.text.4",
-		"defaultMessage": "Trouvez le point de collecte le plus proche pour vos déchets, organisez un évènement ou découvrez en plus sur l'environnement."
+		"defaultMessage": "Trouvez le point de collecte le plus proche pour vos déchets encombrants, organisez un événement de nettoyage ou apprenez-en plus sur l'environnement."
 	},
 	{
 		"id": "tutorial.title.5",
-		"defaultMessage": "Rejoignez nous !"
+		"defaultMessage": "Rejoignez-nous!"
 	},
 	{
 		"id": "tutorial.text.5",
-		"defaultMessage": "Créez un compte pour suivre vos activités et gagner des points verts. Assurez-vous d'avoir activé la localisation et les notification pour tirer pleinement partie de l'appli."
+		"defaultMessage": "Créez votre compte pour suivre vos activités et gagner des points verts. Assurez-vous d'autoriser le GPS et les notifications à tirer pleinement parti de TrashOut."
 	},
 	{
 		"id": "profile.update.success",
-		"defaultMessage": "Votre profil a été modifié avec succès"
+		"defaultMessage": "Votre profil a été mis à jour avec succès"
 	},
 	{
 		"id": "profile.myAreas",
-		"defaultMessage": "Mes secteurs favoris"
+		"defaultMessage": "Mes domaines"
 	},
 	{
 		"id": "profile.myOrganizations",
@@ -2747,55 +2747,55 @@ export default [
 	},
 	{
 		"id": "profile.role",
-		"defaultMessage": "Role"
+		"defaultMessage": "Rôle"
 	},
 	{
 		"id": "geo.header",
-		"defaultMessage": "Secteurs géographiques"
+		"defaultMessage": "Zones géographiques"
 	},
 	{
 		"id": "geo.admin.myAreas",
-		"defaultMessage": "Secteurs que j'administre"
+		"defaultMessage": "Domaines que j'administre"
 	},
 	{
 		"id": "geo.admin.areaDetail",
-		"defaultMessage": "Détails du secteur"
+		"defaultMessage": "Détail de la zone"
 	},
 	{
 		"id": "geo.id",
-		"defaultMessage": "ID"
+		"defaultMessage": "Identifiant"
 	},
 	{
 		"id": "geo.type",
-		"defaultMessage": "Type de secteur"
+		"defaultMessage": "Type de zone"
 	},
 	{
 		"id": "geo.name",
-		"defaultMessage": "Nom du secteur"
+		"defaultMessage": "Nom de zone"
 	},
 	{
 		"id": "geo.addManager",
-		"defaultMessage": "Ajouter représentant"
+		"defaultMessage": "Ajouter un gestionnaire"
 	},
 	{
 		"id": "geo.selectSpecificArea",
-		"defaultMessage": "Choisissez un secteur spécifique"
+		"defaultMessage": "Sélectionnez une zone spécifique"
 	},
 	{
 		"id": "geo.selectedArea",
-		"defaultMessage": "Secteur choisi"
+		"defaultMessage": "Zone sélectionnée"
 	},
 	{
 		"id": "geo.selectArea.header",
-		"defaultMessage": "Choisissez un secteur"
+		"defaultMessage": "Sélectionnez une zone"
 	},
 	{
 		"id": "geo.selectArea",
-		"defaultMessage": "Choisissez"
+		"defaultMessage": "Sélectionner"
 	},
 	{
 		"id": "geo.managers",
-		"defaultMessage": "Représentants"
+		"defaultMessage": "Managers"
 	},
 	{
 		"id": "geo.users",
@@ -2811,7 +2811,7 @@ export default [
 	},
 	{
 		"id": "user.id",
-		"defaultMessage": "ID"
+		"defaultMessage": "Identifiant"
 	},
 	{
 		"id": "geo.continent",
@@ -2823,15 +2823,15 @@ export default [
 	},
 	{
 		"id": "geo.aa1",
-		"defaultMessage": "Secteur administratif 1"
+		"defaultMessage": "Zone administrative 1"
 	},
 	{
 		"id": "geo.aa2",
-		"defaultMessage": "Secteur administratif 2"
+		"defaultMessage": "Zone administrative 2"
 	},
 	{
 		"id": "geo.aa3",
-		"defaultMessage": "Secteur administratif 3"
+		"defaultMessage": "Zone administrative 3"
 	},
 	{
 		"id": "global.form.locality",
@@ -2843,39 +2843,39 @@ export default [
 	},
 	{
 		"id": "global.form.subLocality",
-		"defaultMessage": "Sous localité"
+		"defaultMessage": "Sublocalité"
 	},
 	{
 		"id": "geo.sublocality",
-		"defaultMessage": "Sous localité"
+		"defaultMessage": "Sublocalité"
 	},
 	{
 		"id": "geo.removeAdmin",
-		"defaultMessage": "Supprimer admin"
+		"defaultMessage": "Supprimer l'administrateur"
 	},
 	{
 		"id": "geo.removeAlias",
-		"defaultMessage": "Supprimer alias"
+		"defaultMessage": "Supprimer l'alias"
 	},
 	{
 		"id": "geo.addAdmin",
-		"defaultMessage": "Ajouter admin"
+		"defaultMessage": "Ajouter un administrateur"
 	},
 	{
 		"id": "geo.addAlias",
-		"defaultMessage": "Ajouter Alias"
+		"defaultMessage": "Ajouter un alias"
 	},
 	{
 		"id": "global.findUser",
-		"defaultMessage": "Trouvez utilisateurs a partir de leurs mails"
+		"defaultMessage": "Rechercher des utilisateurs par e-mail"
 	},
 	{
 		"id": "global.selectUser",
-		"defaultMessage": "Choisir utilisateur"
+		"defaultMessage": "Sélectionnez un utilisateur"
 	},
 	{
 		"id": "organizations.header",
-		"defaultMessage": "Organisations"
+		"defaultMessage": "Les organisations"
 	},
 	{
 		"id": "organizations.list.header",
@@ -2883,7 +2883,7 @@ export default [
 	},
 	{
 		"id": "news.header",
-		"defaultMessage": "Actualités"
+		"defaultMessage": "Nouvelles"
 	},
 	{
 		"id": "news.list.header",
@@ -2891,15 +2891,15 @@ export default [
 	},
 	{
 		"id": "trash.create",
-		"defaultMessage": "Signaler"
+		"defaultMessage": "rapport"
 	},
 	{
 		"id": "global.accountCreated",
-		"defaultMessage": "Compte créé"
+		"defaultMessage": "Le compte a été créé"
 	},
 	{
 		"id": "global.activateAccount",
-		"defaultMessage": "Regardez vos mails pour activer votre compte"
+		"defaultMessage": "Accédez à votre e-mail pour activer votre compte"
 	},
 	{
 		"id": "user.myProfile",
@@ -2907,27 +2907,27 @@ export default [
 	},
 	{
 		"id": "user.addArea",
-		"defaultMessage": "Ajouter un secteur d'intérêt"
+		"defaultMessage": "Ajouter des domaines d'intérêt"
 	},
 	{
 		"id": "user.generateApiKey",
-		"defaultMessage": "Créer une clé API"
+		"defaultMessage": "Générer une clé API"
 	},
 	{
 		"id": "user.aboutMe",
-		"defaultMessage": "A propos de moi"
+		"defaultMessage": "À propos de moi"
 	},
 	{
 		"id": "trash.markedAsSpam.success",
-		"defaultMessage": "Merci de garder notre base de données à jour ! Nos administrateurs vont examiner votre signalement."
+		"defaultMessage": "Merci d'avoir gardé notre base de données à jour! Nos administrateurs examineront votre rapport."
 	},
 	{
 		"id": "trash.markedAsSpam.alreadyMarked",
-		"defaultMessage": "Cette décharge a déjà été signalée comme inappropriée"
+		"defaultMessage": "Cette corbeille est déjà marquée comme SPAM."
 	},
 	{
 		"id": "profile.avatar",
-		"defaultMessage": "Avatar"
+		"defaultMessage": "Votre avatar"
 	},
 	{
 		"id": "user.contacts",
@@ -2935,23 +2935,23 @@ export default [
 	},
 	{
 		"id": "user.roles.superAdmin",
-		"defaultMessage": "SuperAdmin"
+		"defaultMessage": "SuperAdministrateur"
 	},
 	{
 		"id": "profile.myEvents",
-		"defaultMessage": "Mes évènements"
+		"defaultMessage": "Mes événements"
 	},
 	{
 		"id": "organization.description",
-		"defaultMessage": "Description"
+		"defaultMessage": "La description"
 	},
 	{
 		"id": "user.geo.notificationFrequency",
-		"defaultMessage": "Fréquence de notification"
+		"defaultMessage": "Fréquence des notifications"
 	},
 	{
 		"id": "user.reviewed",
-		"defaultMessage": "Utilisateur validé"
+		"defaultMessage": "Utilisateur évalué"
 	},
 	{
 		"id": "user.created",
@@ -2963,11 +2963,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.create.images",
-		"defaultMessage": "Veuillez ajouter une photo ou un logo de la déchèterie. Ce n'est pas obligatoire, mais aidera à la trouver."
+		"defaultMessage": "Veuillez sélectionner l'image ou le logo du point de collecte. Ce n'est pas nécessaire, mais cela aide les autres à trouver l'endroit plus facilement. "
 	},
 	{
 		"id": "global.phone.placeholder",
-		"defaultMessage": "+33123456789"
+		"defaultMessage": "+420123456789"
 	},
 	{
 		"id": "global.email.placeholder",
@@ -2979,7 +2979,7 @@ export default [
 	},
 	{
 		"id": "organization.join",
-		"defaultMessage": "Rejoindre organisation"
+		"defaultMessage": "Rejoignez l'organisation"
 	},
 	{
 		"id": "organization.leave",
@@ -2987,19 +2987,19 @@ export default [
 	},
 	{
 		"id": "organization.edit",
-		"defaultMessage": "Modifier organisation"
+		"defaultMessage": "Modifier l'organisation"
 	},
 	{
 		"id": "trash.removeActivity.success",
-		"defaultMessage": "Activité supprimée avec succès."
+		"defaultMessage": "L'activité de la corbeille a été supprimée avec succès."
 	},
 	{
 		"id": "trash.update.success",
-		"defaultMessage": "Décharge mise à jour avec succès"
+		"defaultMessage": "La corbeille a été mise à jour avec succès."
 	},
 	{
 		"id": "geo.noAliasExists",
-		"defaultMessage": "Aucun Alias pour le secteur choisi"
+		"defaultMessage": "Aucun alias n'existe pour la zone sélectionnée"
 	},
 	{
 		"id": "collectionPoint.contact.header",
@@ -3015,7 +3015,7 @@ export default [
 	},
 	{
 		"id": "user.editArea",
-		"defaultMessage": "Modifier secteur favori"
+		"defaultMessage": "Modifier la zone d'intérêt"
 	},
 	{
 		"id": "user.geo.notificationFrequency.perHour",
@@ -3043,15 +3043,15 @@ export default [
 	},
 	{
 		"id": "geo.userAdd.success",
-		"defaultMessage": "Utilisateur ajouté avec succès"
+		"defaultMessage": "L'utilisateur a été ajouté avec succès."
 	},
 	{
 		"id": "geo.userDelete.success",
-		"defaultMessage": "Le role de l'utilisateur a été supprimé avec succès"
+		"defaultMessage": "Le rôle de l'utilisateur a été supprimé avec succès."
 	},
 	{
 		"id": "global.validation.noteTooLong",
-		"defaultMessage": "Remarques est trop longue. 180 caractères maximum."
+		"defaultMessage": "La note est trop longue. Le maximum est de 180 caractères."
 	},
 	{
 		"id": "user.newsletter.enabled.true",
@@ -3063,35 +3063,35 @@ export default [
 	},
 	{
 		"id": "profile.removeAccount.title",
-		"defaultMessage": "Supprimer profil"
+		"defaultMessage": "Supprimer le profil"
 	},
 	{
 		"id": "profile.removeAccount",
-		"defaultMessage": "Supprimer profil"
+		"defaultMessage": "Supprimer le profil"
 	},
 	{
 		"id": "user.filter.minPoints",
-		"defaultMessage": "Nombre de points minimum"
+		"defaultMessage": "Points minimum"
 	},
 	{
 		"id": "user.filter.maxPoints",
-		"defaultMessage": "Nombre de points maximum"
+		"defaultMessage": "Points maximum"
 	},
 	{
 		"id": "profile.statistics.title",
-		"defaultMessage": "Statistiques de vos activités"
+		"defaultMessage": "Statistiques sur vos activités"
 	},
 	{
 		"id": "user.detail.header",
-		"defaultMessage": "Détails utilisateur"
+		"defaultMessage": "Détails de l'utilisateur"
 	},
 	{
 		"id": "organization.sendInvitations",
-		"defaultMessage": "Envoyer invitation"
+		"defaultMessage": "Envoyer une invitation"
 	},
 	{
 		"id": "organization.addManager",
-		"defaultMessage": "Ajouter un représentant à l'organisation"
+		"defaultMessage": "Ajouter un responsable d'organisation"
 	},
 	{
 		"id": "organization.contacts",
@@ -3099,7 +3099,7 @@ export default [
 	},
 	{
 		"id": "organization.created",
-		"defaultMessage": "Date de création"
+		"defaultMessage": "Créé"
 	},
 	{
 		"id": "organization.members",
@@ -3107,19 +3107,19 @@ export default [
 	},
 	{
 		"id": "collectionPoint.delete.confirmation",
-		"defaultMessage": "Voulez-vous vraiment supprimer ce point de collecte ?"
+		"defaultMessage": "Voulez-vous vraiment supprimer ce point de collecte?"
 	},
 	{
 		"id": "collectionPoint.detail.header",
-		"defaultMessage": "Détails du point de collecte"
+		"defaultMessage": "Détail du point de collecte"
 	},
 	{
 		"id": "collectionPoint.create.success",
-		"defaultMessage": "Point de collecte créé avec succès"
+		"defaultMessage": "Le point de collecte a été créé avec succès."
 	},
 	{
 		"id": "organization.create.success",
-		"defaultMessage": "Organisation créée avec succès"
+		"defaultMessage": "L'organisation a été créée avec succès."
 	},
 	{
 		"id": "organization.create.firstStep",
@@ -3127,19 +3127,19 @@ export default [
 	},
 	{
 		"id": "organization.create.secondStep",
-		"defaultMessage": "Organisation mère et secteur de compétence"
+		"defaultMessage": "Zone d'organisation et organisation mère"
 	},
 	{
 		"id": "organization.create.thirdStep",
-		"defaultMessage": "Choisissez un logo"
+		"defaultMessage": "Choisissez le logo"
 	},
 	{
 		"id": "organization.join.success",
-		"defaultMessage": "Vous avez rejoint avec succès cette organisation sur la plate-forme TrashOut."
+		"defaultMessage": "Vous avez rejoint avec succès cette organisation sur la plateforme TrashOut."
 	},
 	{
 		"id": "organization.leave.success",
-		"defaultMessage": "Vous avez quitté l'organisation avec succès"
+		"defaultMessage": "Le départ de l'organisation a réussi"
 	},
 	{
 		"id": "organization.update.success",
@@ -3147,7 +3147,7 @@ export default [
 	},
 	{
 		"id": "organization.parent",
-		"defaultMessage": "Organization mère"
+		"defaultMessage": "Organisation mère"
 	},
 	{
 		"id": "organization.logo",
@@ -3155,47 +3155,47 @@ export default [
 	},
 	{
 		"id": "organization.confirmation.leave",
-		"defaultMessage": "Voulez-vous vraiment quitter cette organisation"
+		"defaultMessage": "Voulez-vous vraiment quitter cette organisation?"
 	},
 	{
 		"id": "organization.confirmation.join",
-		"defaultMessage": "Voulez-vous vraiment rejoindre cette organisation ?"
+		"defaultMessage": "Voulez-vous rejoindre cette organisation?"
 	},
 	{
 		"id": "organization.confirmation.delete",
-		"defaultMessage": "Voulez-vous vraiment supprimer cette organisation ?"
+		"defaultMessage": "Voulez-vous vraiment supprimer l'organisation?"
 	},
 	{
 		"id": "organization.invitation.selectFile",
-		"defaultMessage": "Choisissez un fichier avec un mail par ligne (.csv, .txt)"
+		"defaultMessage": "Sélectionnez le fichier avec un e-mail sur chaque ligne (.csv, .txt)"
 	},
 	{
 		"id": "organization.invitation.writeEmails",
-		"defaultMessage": "Listez les mails en les séparant par des virgules ou par des sauts de ligne"
+		"defaultMessage": "Écrire des e-mails séparés par une virgule ou sur une nouvelle ligne"
 	},
 	{
 		"id": "organization.invitation.writeEmails.placeholder",
-		"defaultMessage": "john@doe.com, john@exemple.com"
+		"defaultMessage": "john@doe.com, john@example.com"
 	},
 	{
 		"id": "collectionPoint.validation.nameRequired",
-		"defaultMessage": "Nom requis"
+		"defaultMessage": "Le nom est requis"
 	},
 	{
 		"id": "collectionPoint.validation.dayRequired",
-		"defaultMessage": "Veuillez choisir au moins un jour"
+		"defaultMessage": "Veuillez sélectionner au moins un jour"
 	},
 	{
 		"id": "collectionPoint.validation.timeFromRequired",
-		"defaultMessage": "Heure de début requise"
+		"defaultMessage": "Time From est requis"
 	},
 	{
 		"id": "collectionPoint.validation.timeToRequired",
-		"defaultMessage": "Heure de fin requise"
+		"defaultMessage": "Time To est requis"
 	},
 	{
 		"id": "collectionPoint.validation.typeRequired",
-		"defaultMessage": "Type requis"
+		"defaultMessage": "Le type est requis"
 	},
 	{
 		"id": "user.roles.organization.member",
@@ -3203,7 +3203,7 @@ export default [
 	},
 	{
 		"id": "organization.create.fourthStep",
-		"defaultMessage": "Modèle de mail d'invitation"
+		"defaultMessage": "Modèle de courrier d'invitation"
 	},
 	{
 		"id": "organization.mailSubject",
@@ -3215,23 +3215,23 @@ export default [
 	},
 	{
 		"id": "organization.parentOrganization.select",
-		"defaultMessage": "Choisir organisation mère"
+		"defaultMessage": "Sélectionnez l'organisation parente"
 	},
 	{
 		"id": "organization.validation.nameRequired",
-		"defaultMessage": "Nom d'organisation requis"
+		"defaultMessage": "Nom de l'organisation requis"
 	},
 	{
 		"id": "organization.location",
-		"defaultMessage": "Adresse de l'organisation"
+		"defaultMessage": "Emplacement de l'organisation"
 	},
 	{
 		"id": "event.detail.header",
-		"defaultMessage": "Détails de l'évènement"
+		"defaultMessage": "Détail de l'événement de nettoyage"
 	},
 	{
 		"id": "user.levelDescription",
-		"defaultMessage": "Vous avez {currentPoints} points. Gagnez {nextLevel} de plus pour atteindre le niveau suivant. Signalez et mettez à jour des décharges ou participez à des évènements."
+		"defaultMessage": "Vous avez {currentPoints} points. Obtenez {nextLevel} de plus pour atteindre le niveau suivant. Signaler et mettre à jour les vidages ou assister à des événements de nettoyage."
 	},
 	{
 		"id": "profile.preferences",
@@ -3239,27 +3239,27 @@ export default [
 	},
 	{
 		"id": "user.eventOrganizer",
-		"defaultMessage": "Je souhaite organiser ou participer à des évènements"
+		"defaultMessage": "Je souhaite organiser ou aider à l'organisation d'événements de nettoyage"
 	},
 	{
 		"id": "user.volunteerCleanup",
-		"defaultMessage": "Je souhaite participer à des évènements"
+		"defaultMessage": "Je veux participer à des événements de nettoyage"
 	},
 	{
 		"id": "profile.myAreas.description",
-		"defaultMessage": "Secteurs que vous avez choisi de suivre dans les paramètres de votre profil. Choisissez la fréquence de notification par mail à propos des décharges signalées et nettoyées. Soyez informé chaque jour, semaine ou mois sur les activités dans le secteur qui vous intéresse."
+		"defaultMessage": "Zones que vous avez sélectionnées pour surveiller dans vos paramètres de profil. Ensemble\nnotifications par e-mail régulières sur les vidages signalés et nettoyés. Recevez une notification\nquotidiennement, hebdomadairement ou mensuellement pour rester informé des activités dans le lieu qui vous tient à cœur."
 	},
 	{
 		"id": "profile.myOrganizations.description",
-		"defaultMessage": "Organisations que vous avez créé ou qui font partie de l'appli TrashOut."
+		"defaultMessage": "Les organisations que vous avez créées ou dont vous faites partie dans l'application TrashOut."
 	},
 	{
 		"id": "profile.myEvents.description",
-		"defaultMessage": "Évènements que vous avez créé ou auxquels vous êtes inscrit, futurs et passés"
+		"defaultMessage": "Tous les événements, futurs et passés, que vous avez organisés ou auxquels vous avez participé."
 	},
 	{
 		"id": "profile.myEvents.userRole",
-		"defaultMessage": "Créateur / Participant"
+		"defaultMessage": "Créateur / Inscrit"
 	},
 	{
 		"id": "profile.myEvents.timeDecision",
@@ -3271,7 +3271,7 @@ export default [
 	},
 	{
 		"id": "profile.myEvents.userRole.joined",
-		"defaultMessage": "Inscrit"
+		"defaultMessage": "Rejoint"
 	},
 	{
 		"id": "profile.myEvents.timeDecision.future",
@@ -3287,35 +3287,35 @@ export default [
 	},
 	{
 		"id": "event.create.secondStep",
-		"defaultMessage": "Choisissez les déchets à ramasser"
+		"defaultMessage": "Sélectionnez les décharges à nettoyer"
 	},
 	{
 		"id": "event.create.thirdStep",
-		"defaultMessage": "Lieu de rendez-vous"
+		"defaultMessage": "Point de rencontre"
 	},
 	{
 		"id": "global.findPlace",
-		"defaultMessage": "Trouver lieu"
+		"defaultMessage": "Trouver un lieu"
 	},
 	{
 		"id": "event.map.removeRectangle",
-		"defaultMessage": "Supprimer rectangle"
+		"defaultMessage": "Supprimer le rectangle"
 	},
 	{
 		"id": "event.detail.duration",
-		"defaultMessage": "Durée de l'évènement"
+		"defaultMessage": "Durée de l'événement"
 	},
 	{
 		"id": "collectionPoint.gpsLocation",
-		"defaultMessage": "Coordonnées GPS"
+		"defaultMessage": "Point de collecte GPS"
 	},
 	{
 		"id": "collectionPoint.gpsMap",
-		"defaultMessage": "Carte"
+		"defaultMessage": "Point de collecte sur la carte"
 	},
 	{
 		"id": "collectionPoint.category.recyclabes",
-		"defaultMessage": "Recyclables"
+		"defaultMessage": "Recyclabes"
 	},
 	{
 		"id": "collectionPoint.category.dangerous",
@@ -3327,7 +3327,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.category.household",
-		"defaultMessage": "Ménager"
+		"defaultMessage": "Ménage"
 	},
 	{
 		"id": "collectionPoint.category.automotive",
@@ -3339,31 +3339,31 @@ export default [
 	},
 	{
 		"id": "collectionPoint.category.everything",
-		"defaultMessage": "Tout venant"
+		"defaultMessage": "Tout"
 	},
 	{
 		"id": "collectionPoint.category",
-		"defaultMessage": "Catégories de déchets acceptés"
+		"defaultMessage": "Catégorie de type de point de recyclage"
 	},
 	{
 		"id": "user.editArea.success",
-		"defaultMessage": "Secteur mis à jour avec succès"
+		"defaultMessage": "La zone a été mise à jour avec succès"
 	},
 	{
 		"id": "user.roles.organization.manager",
-		"defaultMessage": "Représentant"
+		"defaultMessage": "Directeur"
 	},
 	{
 		"id": "user.roles.organization",
-		"defaultMessage": "Objet de l'organisation"
+		"defaultMessage": "Rôle de l'organisation"
 	},
 	{
 		"id": "profile.changeEmail",
-		"defaultMessage": "Modifier mail"
+		"defaultMessage": "Changer l'e-mail"
 	},
 	{
 		"id": "profile.newEmail",
-		"defaultMessage": "Nouvelle adresse mail"
+		"defaultMessage": "Nouveau courriel"
 	},
 	{
 		"id": "collectionPoint.remove.success",
@@ -3371,7 +3371,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.markedAsSpam.alreadyMarked",
-		"defaultMessage": "Ce point de collecte est déjà signalé comme inapproprié"
+		"defaultMessage": "Ce point de collecte est déjà marqué comme SPAM."
 	},
 	{
 		"id": "event.detail.when",
@@ -3383,7 +3383,7 @@ export default [
 	},
 	{
 		"id": "event.detail.time",
-		"defaultMessage": "Heure"
+		"defaultMessage": "Temps"
 	},
 	{
 		"id": "event.detail.timeZone",
@@ -3403,23 +3403,23 @@ export default [
 	},
 	{
 		"id": "event.detail.organizer.function",
-		"defaultMessage": "Organisation, rôle dans l'organisation"
+		"defaultMessage": "Organisation, rôle au sein de l'organisation"
 	},
 	{
 		"id": "event.detail.map",
-		"defaultMessage": "Carte avec lieu de rendez-vous et sites à nettoyer"
+		"defaultMessage": "Carte avec point de rencontre et zone à nettoyer"
 	},
 	{
 		"id": "event.detail.images",
-		"defaultMessage": "Photos de l'évènement"
+		"defaultMessage": "Images de l'événement"
 	},
 	{
 		"id": "global.showWholeGallery",
-		"defaultMessage": "Voir toute la galerie"
+		"defaultMessage": "Afficher toute la galerie"
 	},
 	{
 		"id": "event.detail.dumpsToBeCleaned",
-		"defaultMessage": "Sites à nettoyer"
+		"defaultMessage": "Décharges à nettoyer"
 	},
 	{
 		"id": "event.detail.collectionPoints",
@@ -3427,27 +3427,27 @@ export default [
 	},
 	{
 		"id": "event.detail.joinedUsers",
-		"defaultMessage": "Participants"
+		"defaultMessage": "Utilisateurs joints"
 	},
 	{
 		"id": "event.feedback.header",
-		"defaultMessage": "Commentaire sur l'évènement"
+		"defaultMessage": "Retour d'information"
 	},
 	{
 		"id": "event.feedback.guessGuestCount",
-		"defaultMessage": "Estimation du nombre de participants"
+		"defaultMessage": "Devinez le nombre d'invités"
 	},
 	{
 		"id": "event.feedback.guessCollectTrashCount",
-		"defaultMessage": "Estimation de la quantité de déchets collectés"
+		"defaultMessage": "Devinez la quantité de déchets nettoyés"
 	},
 	{
 		"id": "event.feedback.addFeedback",
-		"defaultMessage": "Ajouter commentaire"
+		"defaultMessage": "Ajouter des commentaires"
 	},
 	{
 		"id": "event.userConfirm.header",
-		"defaultMessage": "Confirmer participation"
+		"defaultMessage": "Confirmer l'utilisateur"
 	},
 	{
 		"id": "event.userConfirm",
@@ -3455,11 +3455,11 @@ export default [
 	},
 	{
 		"id": "event.userConfirm.send",
-		"defaultMessage": "Envoyer confirmation"
+		"defaultMessage": "Envoyer une confirmation"
 	},
 	{
 		"id": "event.edit.otherInformation",
-		"defaultMessage": "Autres informations"
+		"defaultMessage": "les autres informations"
 	},
 	{
 		"id": "event.detail.attendeesCount",
@@ -3467,15 +3467,15 @@ export default [
 	},
 	{
 		"id": "event.organizer.phone",
-		"defaultMessage": "Téléphone :"
+		"defaultMessage": "Téléphone:"
 	},
 	{
 		"id": "event.organizer.email",
-		"defaultMessage": "Mail:"
+		"defaultMessage": "Email:"
 	},
 	{
 		"id": "event.detail.reports",
-		"defaultMessage": "Commentaires"
+		"defaultMessage": "Rapports"
 	},
 	{
 		"id": "event.detail.start",
@@ -3487,7 +3487,7 @@ export default [
 	},
 	{
 		"id": "global.imageRemoved.success",
-		"defaultMessage": "Image supprimée avec succès"
+		"defaultMessage": "L'image a été supprimée avec succès."
 	},
 	{
 		"id": "organization.usersCount",
@@ -3495,87 +3495,87 @@ export default [
 	},
 	{
 		"id": "event.validation.durationRequired",
-		"defaultMessage": "Durée requise"
+		"defaultMessage": "La durée est requise."
 	},
 	{
 		"id": "event.validation.startDateRequired",
-		"defaultMessage": "Date de début de l'évènement requise"
+		"defaultMessage": "La date de début de l'événement est requise"
 	},
 	{
 		"id": "event.validation.startTimeRequired",
-		"defaultMessage": "Heure de début requise"
+		"defaultMessage": "L'heure de début est requise"
 	},
 	{
 		"id": "global.noResult",
-		"defaultMessage": "Aucun résultat."
+		"defaultMessage": "Pas de résultat."
 	},
 	{
 		"id": "event.create.collectionPoints",
-		"defaultMessage": "Points de collecte sur ce secteur"
+		"defaultMessage": "Points de collecte dans la zone"
 	},
 	{
 		"id": "event.filter.upcomingOrOld",
-		"defaultMessage": "Afficher évènements à venir ou passés"
+		"defaultMessage": "Afficher à venir ou ancien"
 	},
 	{
 		"id": "event.filter.showUpcoming",
-		"defaultMessage": "A venir seulement"
+		"defaultMessage": "Afficher uniquement à venir"
 	},
 	{
 		"id": "event.filter.showOld",
-		"defaultMessage": "Passés seulement"
+		"defaultMessage": "Afficher seulement passé"
 	},
 	{
 		"id": "event.feedback.images",
-		"defaultMessage": "Ajouter des photos de l'évènement"
+		"defaultMessage": "Ajouter des photos de l'événement"
 	},
 	{
 		"id": "event.create.setLocationDescription",
-		"defaultMessage": "Tracez un rectangle sur la carte. Si le rectangle est inférieur à 30km vous pourrez voir les décharges individuellement."
+		"defaultMessage": "Veuillez dessiner un rectangle sur la carte. Si vous dessinez un rectangle de moins de 30 km, vous pourrez sélectionner des décharges spécifiques sur la carte."
 	},
 	{
 		"id": "event.create.largeAreaDescription",
-		"defaultMessage": "Vous avez choisi un vaste secteur, supérieur à 30kms. Les décharges ne seront pas affichées individuellement."
+		"defaultMessage": "Vous avez sélectionné une grande zone. C'est plus de 30 km. Les décharges spécifiques ne seront pas affichées sur la carte."
 	},
 	{
 		"id": "event.create.smallAreaDescription",
-		"defaultMessage": "Vous avez choisi une petit secteur. Les décharges vont être visibles."
+		"defaultMessage": "Vous avez sélectionné une petite zone. Les vidages seront affichés."
 	},
 	{
 		"id": "organization.invitation.description",
-		"defaultMessage": "Ici vous pouvez envoyer des mail d'invitation à d'autres personnes utilisatrices de TrashOut ou non en leur suggérant de rejoindre cette organisation et la plateforme TrashOut. Ces mails d'invitation sont créés et peuvent être modifiés par les administrateurs de cette organisation."
+		"defaultMessage": "De là, vous pouvez envoyer des invitations par e-mail à d'autres utilisateurs TrashOut ou à des personnes extérieures avec une suggestion de rejoindre cette organisation et la plate-forme TrashOut. Ils recevront un modèle d'invitation par e-mail, qui a été créé et peut être modifié par les responsables de cette organisation."
 	},
 	{
 		"id": "global.signingOut",
-		"defaultMessage": "Désinscription"
+		"defaultMessage": "Déconnecter"
 	},
 	{
 		"id": "user.detail.organizations",
-		"defaultMessage": "Organisations"
+		"defaultMessage": "Les organisations"
 	},
 	{
 		"id": "user.detail.areas",
-		"defaultMessage": "Secteurs"
+		"defaultMessage": "Domaines"
 	},
 	{
 		"id": "user.detail.events",
-		"defaultMessage": "Évènements"
+		"defaultMessage": "Événements"
 	},
 	{
 		"id": "user.detail.reportedDumps",
-		"defaultMessage": "Décharges signalées"
+		"defaultMessage": "Dumps signalés"
 	},
 	{
 		"id": "user.detail.updatedDumps",
-		"defaultMessage": "Décharges mises à jour"
+		"defaultMessage": "Dumps mis à jour"
 	},
 	{
 		"id": "user.filter.areaIds",
-		"defaultMessage": "IDs secteurs"
+		"defaultMessage": "Identifiants de zone"
 	},
 	{
 		"id": "news.tags",
-		"defaultMessage": "Tags"
+		"defaultMessage": "Mots clés"
 	},
 	{
 		"id": "news.author",
@@ -3583,11 +3583,11 @@ export default [
 	},
 	{
 		"id": "news.created",
-		"defaultMessage": "Date de création"
+		"defaultMessage": "Créé"
 	},
 	{
 		"id": "news.area",
-		"defaultMessage": "Secteur géographique"
+		"defaultMessage": "Zone géographique"
 	},
 	{
 		"id": "news.timesShared",
@@ -3595,11 +3595,11 @@ export default [
 	},
 	{
 		"id": "news.create.firstStep",
-		"defaultMessage": "Accroche"
+		"defaultMessage": "Informations de base"
 	},
 	{
 		"id": "news.create.secondStep",
-		"defaultMessage": "Contenu et tags"
+		"defaultMessage": "Contenu et balises"
 	},
 	{
 		"id": "news.create.thirdStep",
@@ -3619,79 +3619,79 @@ export default [
 	},
 	{
 		"id": "news.success.update",
-		"defaultMessage": "Article mis à jour avec succès."
+		"defaultMessage": "L'article a été mis à jour avec succès."
 	},
 	{
 		"id": "news.success.deleted",
-		"defaultMessage": "Article supprimé avec succès."
+		"defaultMessage": "L'article a été supprimé avec succès."
 	},
 	{
 		"id": "news.success.created",
-		"defaultMessage": "Article créé avec succès."
+		"defaultMessage": "L'article a été créé avec succès."
 	},
 	{
 		"id": "news.detail.header",
-		"defaultMessage": "Détails de l'article"
+		"defaultMessage": "Détail de l'article"
 	},
 	{
 		"id": "news.delete.confirmation",
-		"defaultMessage": "Voulez-vous supprimer cet article ?"
+		"defaultMessage": "Voulez-vous supprimer cet article?"
 	},
 	{
 		"id": "notifications.reviewedUser.detail",
-		"defaultMessage": "Détails utilisateur non-validé"
+		"defaultMessage": "Détails de l'utilisateur non révisé"
 	},
 	{
 		"id": "notifications.reviewedUser.trash.image",
-		"defaultMessage": "Photo de la décharge"
+		"defaultMessage": "Image de vidage"
 	},
 	{
 		"id": "notifications.reviewedUser.trash.id",
-		"defaultMessage": "ID décharge"
+		"defaultMessage": "ID de vidage"
 	},
 	{
 		"id": "notifications.reviewedUser.trash.action",
-		"defaultMessage": "Action"
+		"defaultMessage": "action"
 	},
 	{
 		"id": "notifications.reviewedUser.trash.created",
-		"defaultMessage": "Décharge créée"
+		"defaultMessage": "Dump créé"
 	},
 	{
 		"id": "event.endDate",
-		"defaultMessage": "Date de fin de l'évènement"
+		"defaultMessage": "Date de fin d'un événement"
 	},
 	{
 		"id": "event.endTime",
-		"defaultMessage": "Heure de fin de l'évènement"
+		"defaultMessage": "Heure de fin d'un événement"
 	},
 	{
 		"id": "event.addFeedback.success",
-		"defaultMessage": "Commentaire envoyé avec succès. Merci !"
+		"defaultMessage": "Les commentaires ont été soumis avec succès. Je vous remercie."
 	},
 	{
 		"id": "news.filter.keyword",
-		"defaultMessage": "Mots clés"
+		"defaultMessage": "Mot-clé"
 	},
 	{
 		"id": "global.note.hint",
-		"defaultMessage": "Mots clés"
+		"defaultMessage": "Mot-clé"
 	},
 	{
 		"id": "global.form.selectArea",
-		"defaultMessage": "Choisir secteur"
+		"defaultMessage": "Sélectionnez une zone"
 	},
 	{
 		"id": "event.meetingPoint.listHeader",
-		"defaultMessage": "Lieu de rendez-vous"
+		"defaultMessage": "Point de rencontre"
 	},
 	{
 		"id": "global.select",
-		"defaultMessage": "Choisir"
+		"defaultMessage": "Sélectionner"
 	},
 	{
 		"id": "export.selectAttributes",
-		"defaultMessage": "Choisissez les attributs à exporter"
+		"defaultMessage": "Sélectionnez les attributs à exporter"
 	},
 	{
 		"id": "export.itemsPerFile",
@@ -3703,7 +3703,7 @@ export default [
 	},
 	{
 		"id": "export.preparingExport",
-		"defaultMessage": "Export en cours de préparation..."
+		"defaultMessage": "L'exportation est en préparation ..."
 	},
 	{
 		"id": "global.latitude",
@@ -3715,47 +3715,47 @@ export default [
 	},
 	{
 		"id": "collectionPoint.created",
-		"defaultMessage": "Heure de création"
+		"defaultMessage": "Temps créé"
 	},
 	{
 		"id": "user.language",
-		"defaultMessage": "Langue pour les notifications par mail"
+		"defaultMessage": "Préférence de langue pour les notifications par e-mail"
 	},
 	{
 		"id": "user.export.eventOrganizer",
-		"defaultMessage": "Organisateur de l'évènement"
+		"defaultMessage": "Organisateur de l'événement"
 	},
 	{
 		"id": "user.export.volunteerCleanup",
-		"defaultMessage": "Volontaires"
+		"defaultMessage": "Nettoyage des bénévoles"
 	},
 	{
 		"id": "trash.image",
-		"defaultMessage": "Photo de la décharge"
+		"defaultMessage": "Image de corbeille"
 	},
 	{
 		"id": "user.generateWidget",
-		"defaultMessage": "Créer Widget"
+		"defaultMessage": "Générer un widget"
 	},
 	{
 		"id": "user.eventOrganizer.yes",
-		"defaultMessage": "Je souhaite créer ou participer à l'organisation d'un évènement"
+		"defaultMessage": "Je souhaite organiser ou aider à l'organisation de tout événement de nettoyage"
 	},
 	{
 		"id": "user.eventOrganizer.no",
-		"defaultMessage": "Je ne souhaite pas créer ou participer à l'organisation d'un évènement"
+		"defaultMessage": "Je ne veux pas organiser ou aider à l'organisation d'un événement de nettoyage"
 	},
 	{
 		"id": "user.volunteerCleanup.yes",
-		"defaultMessage": "Je souhaite participer à des évènements"
+		"defaultMessage": "Je veux participer à des événements de nettoyage"
 	},
 	{
 		"id": "user.volunteerCleanup.no",
-		"defaultMessage": "Je ne souhaite pas participer à des évènements"
+		"defaultMessage": "Je ne veux pas participer à des événements de nettoyage en tant que bénévole"
 	},
 	{
 		"id": "user.widget.firstStep",
-		"defaultMessage": "Choisir le type de Widget"
+		"defaultMessage": "Choisissez le type de widget"
 	},
 	{
 		"id": "user.widget.secondStep",
@@ -3763,27 +3763,27 @@ export default [
 	},
 	{
 		"id": "user.widget.thirdStep",
-		"defaultMessage": "Code du Widget"
+		"defaultMessage": "Code du widget"
 	},
 	{
 		"id": "user.widget.type",
-		"defaultMessage": "Type de Widget"
+		"defaultMessage": "Type de widget"
 	},
 	{
 		"id": "user.widget.trashDetail",
-		"defaultMessage": "Détail décharge"
+		"defaultMessage": "Widget de détail de la corbeille"
 	},
 	{
 		"id": "user.widget.trashMap",
-		"defaultMessage": "Carte des décharges"
+		"defaultMessage": "Trash Map"
 	},
 	{
 		"id": "user.widget.eventDetail",
-		"defaultMessage": "Détail évènement"
+		"defaultMessage": "Détail de l'événement"
 	},
 	{
 		"id": "user.widget.trashStatistics",
-		"defaultMessage": "Statistiques décharges"
+		"defaultMessage": "Widget de statistiques de corbeille"
 	},
 	{
 		"id": "user.apiKey",
@@ -3791,15 +3791,15 @@ export default [
 	},
 	{
 		"id": "user.apiKey.description",
-		"defaultMessage": "Voici votre clé API, elle peut être utilisée par les Widgets ou l'API"
+		"defaultMessage": "Il s'agit de votre clé API, qui peut être utilisée pour les widgets ou l'API"
 	},
 	{
 		"id": "user.apiKey.generate",
-		"defaultMessage": "Créer"
+		"defaultMessage": "produire"
 	},
 	{
 		"id": "user.apiKey.regenerate",
-		"defaultMessage": "Re-créer"
+		"defaultMessage": "Régénérer"
 	},
 	{
 		"id": "user.apiKey.yourKey",
@@ -3807,15 +3807,15 @@ export default [
 	},
 	{
 		"id": "user.apiKey.copy",
-		"defaultMessage": "Copier dans le presse papier"
+		"defaultMessage": "Copier dans le presse-papier"
 	},
 	{
 		"id": "user.apiKey.notFound",
-		"defaultMessage": "Clé API inconnue"
+		"defaultMessage": "Clé API introuvable"
 	},
 	{
 		"id": "user.widget.codeDescription",
-		"defaultMessage": "Voici le code du widget. Vous pouvez l'insérer dans vos pages web."
+		"defaultMessage": "Ceci est le code du widget. Vous venez de le mettre dans le code de votre page Web."
 	},
 	{
 		"id": "organizations.logo",
@@ -3827,15 +3827,15 @@ export default [
 	},
 	{
 		"id": "mail.eventConfirm.greeting",
-		"defaultMessage": "Cher"
+		"defaultMessage": "chère"
 	},
 	{
 		"id": "mail.eventConfirm.eventInfo1",
-		"defaultMessage": "vous vous êtes inscrit à l'évènement"
+		"defaultMessage": "nous avons remarqué que vous avez rejoint l'événement"
 	},
 	{
 		"id": "mail.eventConfirm.eventInfo2",
-		"defaultMessage": "sur TrashOut. Elle se déroule demain"
+		"defaultMessage": "dans l'application TrashOut. Ça se passe demain"
 	},
 	{
 		"id": "mail.eventConfirm.eventInfo3",
@@ -3843,11 +3843,11 @@ export default [
 	},
 	{
 		"id": "mail.eventConfirm.eventInfo4",
-		"defaultMessage": "Le lieu de rendez-vous est à"
+		"defaultMessage": "Le point de rencontre est à"
 	},
 	{
 		"id": "mail.eventConfirm.eventInfo5",
-		"defaultMessage": "Pouvez-vous confirmer votre participation ?"
+		"defaultMessage": "Pouvez-vous confirmer votre présence?"
 	},
 	{
 		"id": "mail.eventConfirm.confirmButton",
@@ -3855,79 +3855,79 @@ export default [
 	},
 	{
 		"id": "mail.eventConfirm.eventDetail1",
-		"defaultMessage": "Pour plus d'informations et renseignements"
+		"defaultMessage": "Pour plus de détails et contacts"
 	},
 	{
 		"id": "mail.eventConfirm.eventDetail2",
-		"defaultMessage": "renseignements"
+		"defaultMessage": "détail de l'événement"
 	},
 	{
 		"id": "mail.eventConfirm.eventDetail3",
-		"defaultMessage": "sur TrashOut"
+		"defaultMessage": "dans l'application TrashOut."
 	},
 	{
 		"id": "mail.eventConfirm.thanks",
-		"defaultMessage": "Merci de rendre notre monde plus propre."
+		"defaultMessage": "Merci d'avoir rendu notre monde plus propre pour tout le monde."
 	},
 	{
 		"id": "mail.eventConfirm.organizer",
-		"defaultMessage": "L'organisateur de l'évènement est"
+		"defaultMessage": "L'organisateur de l'événement est"
 	},
 	{
 		"id": "mail.eventConfirm.footer",
-		"defaultMessage": "Vous recevez ce mail car vous vous êtes inscrit à cet évènement sur TrashOut et accepté les conditions d'utilisation de l'application."
+		"defaultMessage": "Vous avez reçu cet e-mail parce que vous avez rejoint cet événement dans l'application TrashOut et accepté les termes et conditions de l'application TrashOut."
 	},
 	{
 		"id": "mail.eventCreate.greeting",
-		"defaultMessage": "Cher"
+		"defaultMessage": "chère"
 	},
 	{
 		"id": "mail.eventCreate.eventInfo1",
-		"defaultMessage": "nous avons vu que vous avez créé un évènement appelé"
+		"defaultMessage": "nous avons remarqué que vous avez créé un événement appelé"
 	},
 	{
 		"id": "mail.eventCreate.eventInfo2",
-		"defaultMessage": "sur TrashOut. Merci de prendre soin de l'environnement."
+		"defaultMessage": "dans l'application TrashOut. Merci de prendre soin de l'environnement."
 	},
 	{
 		"id": "mail.eventCreate.eventEdit",
-		"defaultMessage": "Dans le cas où vous souhaiteriez modifier ou annuler votre évènement"
+		"defaultMessage": "Si vous souhaitez modifier ou annuler votre événement"
 	},
 	{
 		"id": "mail.eventCreate.detailButton",
-		"defaultMessage": "Voir les détails de l'évènement"
+		"defaultMessage": "Voir les détails de l'événement"
 	},
 	{
 		"id": "mail.eventCreate.eventConfirmation",
-		"defaultMessage": "Notez que la veille de votre évènement nous demanderons aux personnes de confirmer leur participation. Le lendemain de l'évènement nous leur demanderons leur estimation du nombre de participants, combien de sacs de déchets qui ont été collectés et s'il souhaitent partager des photos. Vous pouvez consulter ces informations ici : https://admin.trashout.ngo"
+		"defaultMessage": "Sachez qu'un jour avant votre événement, nous demanderons aux personnes qui se sont jointes de confirmer leur présence. Un jour après l'événement, nous leur demanderons de deviner combien de personnes sont venues, combien de sacs de détritus ont été collectés et s'ils souhaitent partager des photos. Vérifiez les détails de l'événement sur admin.trashout.ngo pour voir ces informations. "
 	},
 	{
 		"id": "mail.eventCreate.wishing",
-		"defaultMessage": "Nous vous souhaitons un évènement réussi !"
+		"defaultMessage": "Nous vous souhaitons un événement réussi!"
 	},
 	{
 		"id": "mail.eventCreate.thanks",
-		"defaultMessage": "Merci de rendre le monde plus propre. N'oubliez pas d'utiliser l'appli TrashOut pour trouver et mettre à jour les décharges sauvages et en découvrir plus sur l'environnement."
+		"defaultMessage": "Merci d'avoir rendu notre monde plus propre pour tout le monde. N'oubliez pas d'utiliser l'application mobile TrashOut pour trouver et mettre à jour les décharges illégales et en savoir plus sur l'environnement."
 	},
 	{
 		"id": "mail.eventCreate.footer",
-		"defaultMessage": "Vous recevez ce mail car vous avez créé un évènement sur TrashOut et accepté les conditions d'utilisation."
+		"defaultMessage": "Vous avez reçu cet e-mail parce que vous avez créé un événement dans l'application TrashOut et accepté les termes et conditions de l'application TrashOut."
 	},
 	{
 		"id": "mail.eventFeedback.greeting",
-		"defaultMessage": "Cher"
+		"defaultMessage": "chère"
 	},
 	{
 		"id": "mail.eventFeedback.eventFeedback1",
-		"defaultMessage": "nous vous remercions pour votre participation"
+		"defaultMessage": "nous voulons vous remercier d'avoir participé à un événement de nettoyage"
 	},
 	{
 		"id": "mail.eventFeedback.eventFeedback2",
-		"defaultMessage": "qui s'est déroulé hier. Vous êtes formidable ! Merci pour vos efforts, vous avez rendu cet endroit plus propre."
+		"defaultMessage": "qui a eu lieu hier. Tu es incroyable! Grâce à vos efforts, cet emplacement est désormais plus propre."
 	},
 	{
 		"id": "mail.eventFeedback.eventFeedback3",
-		"defaultMessage": "Faites le buzz ! Indiquez la quantité de déchets ramassés, le nombre de participants et partagez vos photos. Donnez envie à chacun de rendre notre monde plus propre."
+		"defaultMessage": "Faites savoir aux autres à quel point vous avez réussi. Remplissez le nombre de sacs collectés, le nombre de participants et partagez vos photos. Inspirez les autres pour rendre le monde plus propre."
 	},
 	{
 		"id": "mail.eventFeedback.feedbackButton",
@@ -3935,19 +3935,19 @@ export default [
 	},
 	{
 		"id": "mail.eventFeedback.team",
-		"defaultMessage": "& l'équipe TrashOut."
+		"defaultMessage": "Et l'équipe TrashOut."
 	},
 	{
 		"id": "mail.eventFeedback.thanks",
-		"defaultMessage": "Merci de rendre notre monde plus propre. N'oubliez pas d'utiliser l'appli TrashOut pour trouver et mettre à jour les décharges sauvages et en découvrir plus sur l'environnement."
+		"defaultMessage": "Merci d'avoir rendu notre monde plus propre pour tout le monde. N'oubliez pas d'utiliser l'application mobile TrashOut pour trouver et mettre à jour les décharges illégales et en savoir plus sur l'environnement."
 	},
 	{
 		"id": "mail.eventFeedback.footer",
-		"defaultMessage": "Vous recevez ce mail car vous avez rejoint un évènement sur TrashOut et accepté les conditions d'utilisation."
+		"defaultMessage": "Vous avez reçu cet e-mail car vous avez rejoint un événement dans l'application TrashOut et accepté les termes et conditions de l'application TrashOut."
 	},
 	{
 		"id": "mail.organizationInvitation.greeting",
-		"defaultMessage": "Cher"
+		"defaultMessage": "chère"
 	},
 	{
 		"id": "mail.organizationInvitation.join1",
@@ -3955,15 +3955,15 @@ export default [
 	},
 	{
 		"id": "mail.organizationInvitation.join2",
-		"defaultMessage": "sur TrashOut par son représentant. Votre invitation :"
+		"defaultMessage": "dans l'application TrashOut par son manager. Ton invitation:"
 	},
 	{
 		"id": "mail.organizationInvitation.organizationButton",
-		"defaultMessage": "Voir les détails de l'organisation"
+		"defaultMessage": "Voir le détail de l'organisation"
 	},
 	{
 		"id": "mail.organizationInvitation.mobileApp1",
-		"defaultMessage": "TrashOut permet de signaler et de suivre les dépôts et décharges sauvages dans le monde entier. Ces données sont ensuite utilisées par diverses organisations et autorités locales pour rendre le monde plus propre. Téléchargez l'appli Trashout sur Android"
+		"defaultMessage": "L'application TrashOut permet aux gens de cartographier et de surveiller les décharges illégales et les déchets partout dans le monde. Ces données sont ensuite utilisées par diverses organisations et municipalités pour rendre notre monde plus propre. Téléchargez l'application mobile TrashOut pour Android"
 	},
 	{
 		"id": "mail.organizationInvitation.mobileApp2",
@@ -3971,7 +3971,7 @@ export default [
 	},
 	{
 		"id": "mail.organizationInvitation.mobileApp3",
-		"defaultMessage": "et sur iOS"
+		"defaultMessage": "et pour iOS"
 	},
 	{
 		"id": "mail.organizationInvitation.mobileApp4",
@@ -3979,35 +3979,35 @@ export default [
 	},
 	{
 		"id": "mail.organizationInvitation.footer",
-		"defaultMessage": "Vous recevez ce mail car un utilisateur de TrashOut vous a invité. Cet utilisateur est obligatoirement un membre ou un représentant d'organisation. Les utilisateurs décident qui inviter et quoi écrire dans l'invitation. Devenez utilisateur de TrashOut."
+		"defaultMessage": "Vous avez reçu cet e-mail car un utilisateur de l'application TrashOut vous a invité. Pour ce faire, cet utilisateur doit être membre ou responsable de l'organisation que vous avez été invité à rejoindre. Les utilisateurs décident qui inviter et quoi écrire dans l'invitation. Jusqu'à ce que vous rejoigniez TrashOut en tant qu'utilisateur"
 	},
 	{
 		"id": "mail.newsletter.greeting",
-		"defaultMessage": "Cher"
+		"defaultMessage": "chère"
 	},
 	{
 		"id": "mail.newsletter.p1",
-		"defaultMessage": "merci de préserver notre environnement. Vous êtes formidable ! Vous trouverez ci-dessous les activités récentes dans le secteur que vous avez choisi sur TrashOut."
+		"defaultMessage": "merci de prendre soin de notre environnement. Tu es incroyable! Veuillez voir ci-dessous les activités récentes dans la zone que vous avez sélectionnée dans l'application TrashOut."
 	},
 	{
 		"id": "mail.newsletter.area",
-		"defaultMessage": "Secteur"
+		"defaultMessage": "Zone"
 	},
 	{
 		"id": "mail.newsletter.heading1",
-		"defaultMessage": "Nouvelles décharges signalées"
+		"defaultMessage": "Nouveaux vidages signalés"
 	},
 	{
 		"id": "mail.newsletter.heading2",
-		"defaultMessage": "Décharges mises à jour qui sont toujours là"
+		"defaultMessage": "Dumps mis à jour qui sont toujours là"
 	},
 	{
 		"id": "mail.newsletter.heading3",
-		"defaultMessage": "Décharges nettoyées"
+		"defaultMessage": "Dumps nettoyés"
 	},
 	{
 		"id": "mail.newsletter.p2",
-		"defaultMessage": "Si vous souhaitez modifier la fréquence des mails d'information"
+		"defaultMessage": "Si vous souhaitez modifier la fréquence de cette notification par e-mail"
 	},
 	{
 		"id": "mail.newsletter.p3",
@@ -4015,15 +4015,15 @@ export default [
 	},
 	{
 		"id": "mail.newsletter.p4",
-		"defaultMessage": "sur TrashOut"
+		"defaultMessage": "dans l'application TrashOut."
 	},
 	{
 		"id": "mail.newsletter.p5",
-		"defaultMessage": "Merci de rendre notre monde plus propre pour tous. N'oubliez pas d'utiliser l'appli TrashOut pour trouver et mettre à jour des décharges sauvages et en découvrir plus sur l'environnement."
+		"defaultMessage": "Merci d'avoir rendu notre monde plus propre pour tout le monde. N'oubliez pas d'utiliser l'application mobile TrashOut pour trouver et mettre à jour les décharges illégales et en savoir plus sur l'environnement."
 	},
 	{
 		"id": "mail.newsletter.footer",
-		"defaultMessage": "Vous recevez ce mail car vous vous êtes abonné aux notifications de ce secteur sur TrashOut et accepté les condition d'utilisation de TrashOut. Vous pouvez modifier vos préférences à tout moment"
+		"defaultMessage": "Vous avez reçu cet e-mail parce que vous vous êtes abonné pour surveiller cette zone dans l'application TrashOut et que vous avez accepté les termes et conditions de l'application TrashOut. Vous pouvez modifier vos préférences à tout moment"
 	},
 	{
 		"id": "mail.newsletter.footerLink",
@@ -4031,43 +4031,43 @@ export default [
 	},
 	{
 		"id": "global.language.russia",
-		"defaultMessage": "Russe"
+		"defaultMessage": "russe"
 	},
 	{
 		"id": "user.stats.userReported",
-		"defaultMessage": "Signalements"
+		"defaultMessage": "Rapporté par l'utilisateur"
 	},
 	{
 		"id": "user.stats.userUpdated",
-		"defaultMessage": "Mises à jour"
+		"defaultMessage": "Utilisateur mis à jour"
 	},
 	{
 		"id": "user.stats.userCleaned",
-		"defaultMessage": "Ramassages"
+		"defaultMessage": "Nettoyé par l'utilisateur"
 	},
 	{
 		"id": "global.activateAccount.header",
-		"defaultMessage": "Vérifiez vos mails pour activer votre compte"
+		"defaultMessage": "Veuillez vérifier l'e-mail et activer le compte"
 	},
 	{
 		"id": "profile.changePassword.header",
-		"defaultMessage": "Modifier mot de passe"
+		"defaultMessage": "Changer l'en-tête du mot de passe"
 	},
 	{
 		"id": "global.validation.invalidtwitterUrl",
-		"defaultMessage": "URL Twitter invalide"
+		"defaultMessage": "URL Twiiter non valide"
 	},
 	{
 		"id": "global.validation.invalidgooglePlusUrl",
-		"defaultMessage": "URL Google+ invalide"
+		"defaultMessage": "URL Goolge Plus non valide"
 	},
 	{
 		"id": "global.validation.invalidfacebookUrl",
-		"defaultMessage": "URL Facebook invalide"
+		"defaultMessage": "URL Facebook non valide"
 	},
 	{
 		"id": "user.facebook.hint",
-		"defaultMessage": "Lien vers votre profil"
+		"defaultMessage": "Lien de votre profil"
 	},
 	{
 		"id": "user.twitter.hint",
@@ -4075,11 +4075,11 @@ export default [
 	},
 	{
 		"id": "user.google.hint",
-		"defaultMessage": "Lien vers votre profil"
+		"defaultMessage": "Lien de votre profil"
 	},
 	{
 		"id": "global.phone.hint",
-		"defaultMessage": "Numéro de téléphone commençant par + / 00"
+		"defaultMessage": "Le numéro de téléphone commence par + / 00"
 	},
 	{
 		"id": "profile.currentPassword",
@@ -4087,7 +4087,7 @@ export default [
 	},
 	{
 		"id": "user.addToArea.success",
-		"defaultMessage": "Secteur ajouté avec succès"
+		"defaultMessage": "La zone a été ajoutée avec succès"
 	},
 	{
 		"id": "collectionPoint.created.success",
@@ -4095,7 +4095,7 @@ export default [
 	},
 	{
 		"id": "collectionPoint.markedAsSpam.success",
-		"defaultMessage": "Le point de collecte a été signalé comme inapproprié."
+		"defaultMessage": "Le point de collecte a été correctement marqué comme spam."
 	},
 	{
 		"id": "collectionPoint.removed.success",
@@ -4103,83 +4103,83 @@ export default [
 	},
 	{
 		"id": "profile.passwordChanged.success",
-		"defaultMessage": "Mot de passe modifié avec succès"
+		"defaultMessage": "Le mot de passe a été modifié avec succès."
 	},
 	{
 		"id": "profile.emailChanged.success",
-		"defaultMessage": "Mail modifié avec succès"
+		"defaultMessage": "L'e-mail a été modifié avec succès."
 	},
 	{
 		"id": "profile.signedOut.success",
-		"defaultMessage": "Désinscription réussie"
+		"defaultMessage": "Déconnexion réussie."
 	},
 	{
 		"id": "event.removed.success",
-		"defaultMessage": "Évènement supprimé avec succès"
+		"defaultMessage": "L'événement a été supprimé avec succès"
 	},
 	{
 		"id": "event.confirmed.success",
-		"defaultMessage": "Évènement confirmé avec succès"
+		"defaultMessage": "L'événement a été confirmé avec succès"
 	},
 	{
 		"id": "event.unjoined.success",
-		"defaultMessage": "L'annulation de votre participation a été prise en compte"
+		"defaultMessage": "L'annulation de votre présence a été enregistrée. "
 	},
 	{
 		"id": "spam.resolved.success",
-		"defaultMessage": "Élément inapproprié résolu."
+		"defaultMessage": "Le spam a été résolu."
 	},
 	{
 		"id": "spam.removed.success",
-		"defaultMessage": "Élément inapproprié supprimé."
+		"defaultMessage": "Le spam a été supprimé."
 	},
 	{
 		"id": "user.approved.success",
-		"defaultMessage": "Utilisateur approuvé avec succès."
+		"defaultMessage": "L'utilisateur a été approuvé avec succès."
 	},
 	{
 		"id": "user.notApproved.success",
-		"defaultMessage": "Utilisateur non approuvé."
+		"defaultMessage": "L'utilisateur n'a pas été approuvé."
 	},
 	{
 		"id": "organization.removed.success",
-		"defaultMessage": "Organisation supprimée avec succès."
+		"defaultMessage": "L'organisation a bien été supprimée."
 	},
 	{
 		"id": "organization.invitationSent.success",
-		"defaultMessage": "Invitation envoyée avec succès."
+		"defaultMessage": "L'invitation a été envoyée avec succès."
 	},
 	{
 		"id": "geo.rootSet.success",
-		"defaultMessage": "Secteur principal renseigné avec succès."
+		"defaultMessage": "La racine de la zone a été définie avec succès."
 	},
 	{
 		"id": "geo.rootUnset.success",
-		"defaultMessage": "Secteur principal supprimé avec succès."
+		"defaultMessage": "La racine de la zone n'a pas été définie avec succès."
 	},
 	{
 		"id": "user.widget.height",
-		"defaultMessage": "Hauteur"
+		"defaultMessage": "Hauteur du widget"
 	},
 	{
 		"id": "user.widget.width",
-		"defaultMessage": "Largeur"
+		"defaultMessage": "Largeur du widget"
 	},
 	{
 		"id": "user.widget.language",
-		"defaultMessage": "Langue"
+		"defaultMessage": "Langue du widget"
 	},
 	{
 		"id": "user.widget.trash.id",
-		"defaultMessage": "ID décharge"
+		"defaultMessage": "ID de la corbeille"
 	},
 	{
 		"id": "user.widget.copy",
-		"defaultMessage": "Copier le code du Widget"
+		"defaultMessage": "Copier le code du widget"
 	},
 	{
 		"id": "user.widget.map",
-		"defaultMessage": "Choisir le centre de la carte"
+		"defaultMessage": "Sélectionnez le centre de la carte"
 	},
 	{
 		"id": "user.widget.map.lat",
@@ -4191,23 +4191,23 @@ export default [
 	},
 	{
 		"id": "user.widget.map.zoom",
-		"defaultMessage": "Niveau de zoom"
+		"defaultMessage": "Le niveau de zoom"
 	},
 	{
 		"id": "user.widget.filterLastUpdate",
-		"defaultMessage": "Date de dernière mise à jour"
+		"defaultMessage": "Date de la dernière mise à jour"
 	},
 	{
 		"id": "user.widget.event.id",
-		"defaultMessage": "ID évènement"
+		"defaultMessage": "ID d'événement"
 	},
 	{
 		"id": "global.trashoutURL",
-		"defaultMessage": "Admin Web URL"
+		"defaultMessage": "URL Web administrateur"
 	},
 	{
 		"id": "geo.createAlias",
-		"defaultMessage": "Créer Alias"
+		"defaultMessage": "Créer un alias"
 	},
 	{
 		"id": "user.confirmed",
@@ -4219,11 +4219,11 @@ export default [
 	},
 	{
 		"id": "user.confirmed.false",
-		"defaultMessage": "Non confirmé"
+		"defaultMessage": "Pas confirmé"
 	},
 	{
 		"id": "event.validation.eventShouldEndAfterStartDate",
-		"defaultMessage": "La date de début doit être avant la date de fin"
+		"defaultMessage": "La date de début de l'événement doit être antérieure à la date de fin"
 	},
 	{
 		"id": "global.currentImage",
@@ -4235,11 +4235,11 @@ export default [
 	},
 	{
 		"id": "geo.removeManager",
-		"defaultMessage": "Supprimer représentant"
+		"defaultMessage": "Supprimer le gestionnaire"
 	},
 	{
 		"id": "global.pageNotFound",
-		"defaultMessage": "Page introuvable"
+		"defaultMessage": "Page non trouvée"
 	},
 	{
 		"id": "profile.widget.validation.typeNeeded",
@@ -4247,55 +4247,55 @@ export default [
 	},
 	{
 		"id": "profile.widget.validation.heightFormat",
-		"defaultMessage": "Indiquer valeur telle que 1000 px / em / %"
+		"defaultMessage": "Insérez des valeurs comme 1000 px / em /%"
 	},
 	{
 		"id": "profile.widget.validation.widthFormat",
-		"defaultMessage": "Indiquer valeur telle que 1000 px / em / %"
+		"defaultMessage": "Insérez des valeurs comme 1000 px / em /%"
 	},
 	{
 		"id": "user.widget.height.hint",
-		"defaultMessage": "Indiquer valeur telle que 1000 px / em / %"
+		"defaultMessage": "Insérez des valeurs comme 1000 px / em /%"
 	},
 	{
 		"id": "user.widget.width.hint",
-		"defaultMessage": "Indiquer valeur telle que 1000 px / em / %"
+		"defaultMessage": "Insérez des valeurs comme 1000 px / em /%"
 	},
 	{
 		"id": "export.description",
-		"defaultMessage": "Vous pouvez modifier les éléments à exporter dans les filtres"
+		"defaultMessage": "Vous pouvez modifier les éléments à exporter dans le filtre"
 	},
 	{
 		"id": "global.oneOfRequired",
-		"defaultMessage": "Vous devez en saisir au moins un"
+		"defaultMessage": "Au moins un doit être rempli."
 	},
 	{
 		"id": "notifications.user.approve.header",
-		"defaultMessage": "Validation utilisateurs"
+		"defaultMessage": "Approuver l'utilisateur"
 	},
 	{
 		"id": "geo.description.admin",
-		"defaultMessage": "Dans cette section vous pouvez voir et ajouter des représentants pour les secteurs et sous-secteurs que vous administrez. Les représentants contrairement aux utilisateurs peuvent rajouter des articles qui seront visibles sur le site et l'appli au niveau mondial. De plus, vous pouvez voir les utilisateurs qui reçoivent des notifications sur les activités sur vos secteurs."
+		"defaultMessage": "Dans cette section, vous pouvez voir et ajouter des gestionnaires pour les zones et sous-zones que vous gérez. Les gestionnaires, comparés aux utilisateurs ordinaires, peuvent ajouter des articles, qui seront affichés à la fois dans les applications mobiles et Web dans le monde entier. De plus, vous pouvez voir les utilisateurs qui reçoivent des notifications par e-mail sur les activités dans vos zones."
 	},
 	{
 		"id": "geo.description.superAdmin",
-		"defaultMessage": "Dans cette section vous pouvez voir les administrateurs, représentants et utilisateurs. Vous pouvez également ajouter ou supprimer des administrateurs pour des secteurs et sous-secteurs. Vous pouvez aussi gérer les Alias."
+		"defaultMessage": "Dans cette section, vous pouvez voir les administrateurs, les gestionnaires et les utilisateurs. Vous pouvez ajouter ou supprimer des administrateurs pour les zones et les sous-zones. Vous pouvez également gérer des alias."
 	},
 	{
 		"id": "user.geo.description",
-		"defaultMessage": "Vous pouvez choisir les secteurs qui vous intéressent. Définissez des notifications par mail et leur fréquence. Vous pourrez ainsi rester informé à propos des décharges signalées et nettoyées sur ces secteurs. Vous pouvez suivre autant de zones que vous le souhaitez et changer vos préférences de notifications à tout moment."
+		"defaultMessage": "N'hésitez pas à choisir les domaines qui vous intéressent. Définissez les notifications par e-mail et leur fréquence, afin de rester informé des décharges signalées et nettoyées dans ces zones. Vous pouvez surveiller autant de zones que vous le souhaitez et modifier les paramètres des notifications à tout moment!"
 	},
 	{
 		"id": "geo.confirm.removeAdmin",
-		"defaultMessage": "Voulez-vous supprimer l'administrateur du secteur ?"
+		"defaultMessage": "Voulez-vous supprimer l'administrateur de la zone?"
 	},
 	{
 		"id": "geo.confirm.removeManager",
-		"defaultMessage": "Voulez-vous supprimer le représentant du secteur ?"
+		"defaultMessage": "Voulez-vous supprimer le gestionnaire de la zone?"
 	},
 	{
 		"id": "geo.addAlias.description",
-		"defaultMessage": "Vous pouvez créer des Alias ici. Mais soyez prudent c'est irréversible. Si par exemple vous créez un Alias \"Tchéquie\" pour la République tchèque, l'ensemble des secteurs seront regroupés sur la République tchèque."
+		"defaultMessage": "Vous pouvez créer un alias ici. Fais attention. Le processus est irréversible. Par exemple, vous pouvez créer un alias \"Czechia\" pour la République tchèque racine. Après cela, vous ne verrez dans les listes de zones que la République tchèque racine. "
 	},
 	{
 		"id": "global.all",
@@ -4303,11 +4303,11 @@ export default [
 	},
 	{
 		"id": "event.validation.endDateRequired",
-		"defaultMessage": "Date de fin de l'évènement requise"
+		"defaultMessage": "La date de fin de l'événement est requise"
 	},
 	{
 		"id": "event.validation.endTimeRequired",
-		"defaultMessage": "Heure de fin requise"
+		"defaultMessage": "L'heure de fin est requise"
 	},
 	{
 		"id": "news.videoUrl",
@@ -4315,11 +4315,11 @@ export default [
 	},
 	{
 		"id": "global.addNext",
-		"defaultMessage": "Ajout suivant"
+		"defaultMessage": "Ajouter suivant"
 	},
 	{
 		"id": "global.validation.sizeExceeded",
-		"defaultMessage": "La taille de certaines images est trop grande. La taille max est de 2MB"
+		"defaultMessage": "La taille d'une image a dépassé la limite. Téléchargez une image plus petite (max 2 Mo)."
 	},
 	{
 		"id": "global.image.mainImage",
@@ -4327,15 +4327,15 @@ export default [
 	},
 	{
 		"id": "global.image.setAsMain",
-		"defaultMessage": "Choisissez une image principale"
+		"defaultMessage": "Définir l'image comme principale"
 	},
 	{
 		"id": "news.validation.nameRequired",
-		"defaultMessage": "Nom requis"
+		"defaultMessage": "Nom (obligatoire"
 	},
 	{
 		"id": "spam.delete.permissionDenied",
-		"defaultMessage": "Vous n'avez pas la permission de supprimer cet élément inapproprié"
+		"defaultMessage": "Vous n'êtes pas autorisé à supprimer ce SPAM"
 	},
 	{
 		"id": "global.photos",
@@ -4343,11 +4343,11 @@ export default [
 	},
 	{
 		"id": "global.list",
-		"defaultMessage": "Liste"
+		"defaultMessage": "liste"
 	},
 	{
 		"id": "global.dumps",
-		"defaultMessage": "Décharges"
+		"defaultMessage": "Dumps"
 	},
 	{
 		"id": "global.lastUpdate",
@@ -4355,7 +4355,7 @@ export default [
 	},
 	{
 		"id": "global.subscribe",
-		"defaultMessage": "Abonnez-vous aux notifications par mail pour suivre l'actualité des secteurs qui vous intéressent"
+		"defaultMessage": "Définissez des notifications par e-mail régulières pour surveiller les domaines qui vous intéressent"
 	},
 	{
 		"id": "global.validation.invalidUrl",
@@ -4363,39 +4363,39 @@ export default [
 	},
 	{
 		"id": "spam.user.permissionDenied",
-		"defaultMessage": "Vous n'avez pas la possibilité d'approuver des utilisateurs."
+		"defaultMessage": "Vous n'êtes pas autorisé à approuver l'utilisateur."
 	},
 	{
 		"id": "trash.filter.area.hint",
-		"defaultMessage": "Dans cette section, vous choisissez le secteur que vous souhaitez voir. Vous pouvez filtrer depuis des continents jusqu'au plus petits secteurs comme les communes. Choisissez une option dans le menu déroulant ou laissez là sur \"Choisir\" et cliquez sur Soumettre."
+		"defaultMessage": "Dans cette section, vous choisissez la zone que vous souhaitez voir. Vous pouvez filtrer des continents jusqu'aux zones plus petites telles que les quartiers des villes. Sélectionnez une option dans le menu déroulant ou laissez-la sur \"sélectionner\" et cliquez sur soumettre."
 	},
 	{
 		"id": "user.emailNotFound",
-		"defaultMessage": "Utilisateur inconnu sur TrashOut"
+		"defaultMessage": "Utilisateur introuvable dans TrashOut"
 	},
 	{
 		"id": "global.trashoutShareDescription",
-		"defaultMessage": "TrashOut est un projet environnemental qui vise à cartographier toutes les décharges sauvages dans le monde et aider les citoyens à recycler plus."
+		"defaultMessage": "TrashOut est un projet environnemental qui vise à cartographier toutes les décharges illégales dans le monde et à aider les citoyens à recycler davantage."
 	},
 	{
 		"id": "collectionPoint.mapNavigation.message",
-		"defaultMessage": "Voulez-vous vraiment ouvrir l'appli de guidage ?"
+		"defaultMessage": "Voulez-vous vraiment ouvrir une autre application contenant des cartes pour vous naviguer?"
 	},
 	{
 		"id": "collectionPoint.phoneCall.message",
-		"defaultMessage": "Voulez-vous vraiment appeller ce centre de collecte ?"
+		"defaultMessage": "Voulez-vous vraiment appeler le point de collecte?"
 	},
 	{
 		"id": "collectionPoint.email.message",
-		"defaultMessage": "Voulez-vous vraiment ouvrir l'appli de messagerie ?"
+		"defaultMessage": "Voulez-vous vraiment ouvrir le composeur d'e-mails?"
 	},
 	{
 		"id": "global.validation.imageRatio",
-		"defaultMessage": "Vous ne pouvez pas utiliser une image trop large. Veuillez en choisir une autre. Le ratio doit être inférieur à 1:2."
+		"defaultMessage": "Vous ne pouvez pas utiliser d'images larges. Veuillez utiliser une autre image. Le rapport d'image doit être inférieur à 1: 2."
 	},
 	{
 		"id": "global.validation.maxiumNumberReached",
-		"defaultMessage": "Nombre maximum d'images atteint (vous pouvez envoyer un maximum de 20 fichiers)."
+		"defaultMessage": "Nombre maximum d'images téléchargées atteint (vous pouvez télécharger un maximum de 20 fichiers)."
 	},
 	{
 		"id": "global.error.api.title",
@@ -4403,7 +4403,7 @@ export default [
 	},
 	{
 		"id": "global.error.api.description",
-		"defaultMessage": "Une erreur API est arrivée. Veuillez rafraîchir la page."
+		"defaultMessage": "Une erreur s'est produite dans l'API. Veuillez actualiser la page."
 	},
 	{
 		"id": "trash.types.glass",
@@ -4411,35 +4411,35 @@ export default [
 	},
 	{
 		"id": "global.occupation",
-		"defaultMessage": "Profession"
+		"defaultMessage": "Occupation"
 	},
 	{
 		"id": "event.create.loginMessage",
-		"defaultMessage": "Vous devez être connecté pour créer un évènement"
+		"defaultMessage": "Vous devez être connecté pour créer un événement"
 	},
 	{
 		"id": "trash.create.thankYou.title",
-		"defaultMessage": "Merci !"
+		"defaultMessage": "Je vous remercie!"
 	},
 	{
 		"id": "trash.create.thankYou.sentence1",
-		"defaultMessage": "Merci pour votre signalement !"
+		"defaultMessage": "Je vous remercie pour votre rapport!"
 	},
 	{
 		"id": "trash.create.thankYou.sentence2",
-		"defaultMessage": "Vous êtes formidable !"
+		"defaultMessage": "Tu es incroyable!"
 	},
 	{
 		"id": "trash.create.thankYou.sentence3",
-		"defaultMessage": "N'oubliez pas de mettre à jour les décharges autour de vous ou de vous inscrire à des évènements"
+		"defaultMessage": "N'oubliez pas de mettre à jour les décharges autour de vous ou de participer à un événement de nettoyage."
 	},
 	{
 		"id": "trash.create.homeReportButton",
-		"defaultMessage": "Signaler décharge"
+		"defaultMessage": "Signaler un vidage illégal"
 	},
 	{
 		"id": "trash.create.thankYou.shareTitle",
-		"defaultMessage": "Partager"
+		"defaultMessage": "Partager avec les autres"
 	},
 	{
 		"id": "global.unauthorized",
@@ -4451,27 +4451,27 @@ export default [
 	},
 	{
 		"id": "global.unauthorized.text",
-		"defaultMessage": "Vous n'avez pas la permission d'accéder à cette page."
+		"defaultMessage": "Vous n'êtes pas autorisé à afficher cette page."
 	},
 	{
 		"id": "organization.removeUser",
-		"defaultMessage": "Supprimer utilisateur"
+		"defaultMessage": "Supprimer l'utilisateur"
 	},
 	{
 		"id": "profile.widget.languageNeeded",
-		"defaultMessage": "Langue requise"
+		"defaultMessage": "La langue est nécessaire"
 	},
 	{
 		"id": "news.validation.languageRequired",
-		"defaultMessage": "Langue requise"
+		"defaultMessage": "La langue est requise"
 	},
 	{
 		"id": "global.register",
-		"defaultMessage": "Enregistrer"
+		"defaultMessage": "S'inscrire"
 	},
 	{
 		"id": "tutorial.signup.withoutSignIn",
-		"defaultMessage": "Démarrer sans vous connecter"
+		"defaultMessage": "Commencez à utiliser sans vous connecter"
 	},
 	{
 		"id": "user.activity.title.thisDump",
@@ -4479,15 +4479,15 @@ export default [
 	},
 	{
 		"id": "trashHunter.lookingForDumps",
-		"defaultMessage": "Recherche de décharges à proximité"
+		"defaultMessage": "Recherche de décharges autour"
 	},
 	{
 		"id": "trash.detail.dump.mobileHeader",
-		"defaultMessage": "Décharge"
+		"defaultMessage": "Déverser"
 	},
 	{
 		"id": "trash.detail.missingPhoto",
-		"defaultMessage": "Aucune photo à afficher"
+		"defaultMessage": "Il n'y a pas de photo à montrer"
 	},
 	{
 		"id": "collectionPoint.detail.mobile.recycable",
@@ -4495,11 +4495,11 @@ export default [
 	},
 	{
 		"id": "collectionPoint.markedAsSpam.success.thanksMobile",
-		"defaultMessage": "Merci pour le signalement. Nous allons le vérifier."
+		"defaultMessage": "Merci pour l'information, nous allons vérifier."
 	},
 	{
 		"id": "collectionPoint.filter.selectAll",
-		"defaultMessage": "Tout choisir"
+		"defaultMessage": "Tout sélectionner"
 	},
 	{
 		"id": "profile.activity.mobileHeader",
@@ -4507,23 +4507,23 @@ export default [
 	},
 	{
 		"id": "info.aboutApp",
-		"defaultMessage": "TrashOut est un projet environnemental qui vise à cartographier et suivre les décharges sauvages dans le monde entier.\n\nNotre but est d'impliquer les citoyens, gouvernements, autorités locales et organisations pour que ensemble, nous puissions contribuer à un monde plus propre."
+		"defaultMessage": "TrashOut est un projet environnemental qui vise à cartographier et surveiller toutes les décharges illégales dans le monde.\n\nNotre objectif est d'impliquer les citoyens, les gouvernements, les municipalités et les organisations afin que nous puissions ensemble contribuer à un monde plus propre pour tous."
 	},
 	{
 		"id": "info.appVerison_X",
-		"defaultMessage": "Version du %@"
+		"defaultMessage": "Version de% @"
 	},
 	{
 		"id": "tutorial.register",
-		"defaultMessage": "Inscription / Connexion"
+		"defaultMessage": "S'inscrire / Se connecter"
 	},
 	{
 		"id": "global.distanceAttribute.away",
-		"defaultMessage": "de distance"
+		"defaultMessage": "une façon"
 	},
 	{
 		"id": "event.create.successMobile",
-		"defaultMessage": "Merci, évènement créé avec succès. Vous pouvez éditer votre évènement et voir les participants ici : https://admin.trashout.ngo"
+		"defaultMessage": "Merci, l'événement a été créé avec succès. Vous pouvez modifier votre événement et voir les participants sur www.admin.trashout.ngo."
 	},
 	{
 		"id": "home.recentActivity.you",
@@ -4535,11 +4535,11 @@ export default [
 	},
 	{
 		"id": "event.feedbackGuessGuestCount.required",
-		"defaultMessage": "L'estimation du nombre de participants est requise"
+		"defaultMessage": "Devinez le nombre d'invités est requis"
 	},
 	{
 		"id": "event.feedbackGuessTrashCount.required",
-		"defaultMessage": "Estimation de la quantité de déchets collectée requise"
+		"defaultMessage": "Devinez que le nombre de déchets est requis"
 	},
 	{
 		"id": "home.recentActivity.as",
@@ -4547,55 +4547,55 @@ export default [
 	},
 	{
 		"id": "global.cameraAccess",
-		"defaultMessage": "Nous avons besoin d'importer des photos de la décharge"
+		"defaultMessage": "Nous devons importer des photos de vidage"
 	},
 	{
 		"id": "event.feedback.integerRequired",
-		"defaultMessage": "Valeur entière requise"
+		"defaultMessage": "Entier requis"
 	},
 	{
 		"id": "organization.addManager.validation.managerRequired",
-		"defaultMessage": "Représentant requis"
+		"defaultMessage": "Le gestionnaire est requis"
 	},
 	{
 		"id": "organization.create.mailDescription",
-		"defaultMessage": "Ceci est un modèle d'invitation par mail à rejoindre votre organisation. Il peut être envoyé par les membres de votre organisation à d'autres personnes, utilisatrices de TrashOut ou non. Vous pouvez indiquer pourquoi elles devraient rejoindre TrashOut et votre organisation, ce que vous faites, quelle est votre vision, etc."
+		"defaultMessage": "Il s'agit d'un modèle d'invitation par e-mail à rejoindre votre organisation. Ceux-ci peuvent être envoyés par des membres de vos organisations à d'autres utilisateurs ou à des personnes extérieures. Vous pouvez dire ici pourquoi ils devraient rejoindre TrashOut et plus précisément votre organisation, que faites-vous en tant qu'organisation, quelle est votre vision, etc."
 	},
 	{
 		"id": "profile.widget.idNeeded",
-		"defaultMessage": "ID requis"
+		"defaultMessage": "Une pièce d'identité est requise"
 	},
 	{
 		"id": "mail.report.subject",
-		"defaultMessage": "Signalement de décharge sauvage !"
+		"defaultMessage": "Rapport de vidage illégal!"
 	},
 	{
 		"id": "mail.report.body",
-		"defaultMessage": "Une décharge sauvage a été signalée ! Des détails à propos de cette décharge peuvent être trouvés à cette adresse :"
+		"defaultMessage": "Rapport de vidage illégal! Des détails sur les décharges illégales sont disponibles sur le site Web:"
 	},
 	{
 		"id": "event.validation.eventShouldEndAfterStartTime",
-		"defaultMessage": "L'heure de début doit être avant l'heure de fin"
+		"defaultMessage": "L'heure de début de l'événement doit être antérieure à l'heure de fin"
 	},
 	{
 		"id": "global.errors.uploadError",
-		"defaultMessage": "L'envoi des image à Firebase a échoué"
+		"defaultMessage": "Échec du téléchargement des images vers Firebase"
 	},
 	{
 		"id": "geo.areaRemove.success",
-		"defaultMessage": "Le secteur a été supprimée avec succès"
+		"defaultMessage": "La zone a été supprimée avec succès"
 	},
 	{
 		"id": "global.login.errorNoUser",
-		"defaultMessage": "Il n'y a pas d'utilisateur correspondant à cet ID. Il a peut être été supprimé."
+		"defaultMessage": "Aucun enregistrement utilisateur ne correspond à cet identifiant. L'utilisateur a peut-être été supprimé."
 	},
 	{
 		"id": "global.register.identityError",
-		"defaultMessage": "Ce compte existe déjà. Un compte ne peut être lié qu'a une seule personne."
+		"defaultMessage": "Un compte existe déjà. Veuillez vous connecter avec votre compte Facebook."
 	},
 	{
 		"id": "trash.removeActivity.confirmation",
-		"defaultMessage": "Voulez-vous vraiment supprimer cette activité ?"
+		"defaultMessage": "Voulez-vous vraiment supprimer l'activité?"
 	},
 	{
 		"id": "global.other",
@@ -4603,23 +4603,23 @@ export default [
 	},
 	{
 		"id": "profile.delete.confirm",
-		"defaultMessage": "Voulez-vous vraiment supprimer votre compte ?"
+		"defaultMessage": "Voulez-vous vraiment supprimer votre profil?"
 	},
 	{
 		"id": "news.success.photo.deleted",
-		"defaultMessage": "Image supprimée"
+		"defaultMessage": "L'image de l'article a été supprimée"
 	},
 	{
 		"id": "global.resendVerificationEmail",
-		"defaultMessage": "Réenvoyer mail de validation"
+		"defaultMessage": "Renvoyer l'e-mail de vérification"
 	},
 	{
 		"id": "global.emailResent",
-		"defaultMessage": "Mail de validation envoyé à nouveau"
+		"defaultMessage": "L'e-mail de vérification a été envoyé à nouveau"
 	},
 	{
 		"id": "event.addToCalendar",
-		"defaultMessage": "Ajouter à l'agenda"
+		"defaultMessage": "Ajouter à mon calendrier"
 	},
 	{
 		"id": "global.add",
@@ -4631,23 +4631,23 @@ export default [
 	},
 	{
 		"id": "mail.eventConfirm.subject",
-		"defaultMessage": "TrashOut - confirmation de participation"
+		"defaultMessage": "TrashOut - confirmation de présence"
 	},
 	{
 		"id": "mail.eventFeedback.subject",
-		"defaultMessage": "TrashOut - comment s'est passé l'évènement d'hier ?"
+		"defaultMessage": "TrashOut - comment s'est passé l'événement hier?"
 	},
 	{
 		"id": "mail.newsletter.subject",
-		"defaultMessage": "TrashOut - nouvelles sur les décharges dans le secteur que vous suivez"
+		"defaultMessage": "TrashOut - informations sur les décharges dans la zone que vous surveillez"
 	},
 	{
 		"id": "user.validation.failedToReadFacebookProfile",
-		"defaultMessage": "Impossible d'accéder au compte Facebook"
+		"defaultMessage": "Impossible de lire les données du profil Facebook"
 	},
 	{
 		"id": "user.validation.facebookNotGrantedPermissionForEmail",
-		"defaultMessage": "Vous n'avez pas la permission d'accéder aux mails"
+		"defaultMessage": "Pas d'autorisation accordée pour le courrier électronique"
 	},
 	{
 		"id": "user.validation.firebaseUidNotReceived",
@@ -4659,7 +4659,7 @@ export default [
 	},
 	{
 		"id": "mail.newsletter.emptyBlock",
-		"defaultMessage": "Il n'y a pas de nouvelle activité dans cette catégorie sur la période choisie. Vous pouvez consulter l'ensemble des décharges"
+		"defaultMessage": "Il n'y a eu aucune nouvelle activité dans cette catégorie au cours d'une période donnée. Vous pouvez voir la liste de tous les vidages"
 	},
 	{
 		"id": "mail.newsletter.trashLink",
@@ -4667,27 +4667,27 @@ export default [
 	},
 	{
 		"id": "collectionPoint.validation.chooseDay",
-		"defaultMessage": "Veuillez choisir un jour"
+		"defaultMessage": "Veuillez sélectionner le jour"
 	},
 	{
 		"id": "collectionPoint.validation.dayIsUsed",
-		"defaultMessage": "Ce jour est déjà utilisé"
+		"defaultMessage": "Le jour est utilisé"
 	},
 	{
 		"id": "statistics.countryPicker.header",
-		"defaultMessage": "Choisir pays"
+		"defaultMessage": "Choisissez le pays"
 	},
 	{
 		"id": "notification.recentActivity.header",
-		"defaultMessage": "Votre signalement de décharge a été mis à jour"
+		"defaultMessage": "Votre rapport de vidage illégal a été mis à jour"
 	},
 	{
 		"id": "notification.recentActivity.text",
-		"defaultMessage": "Vérifiez son nouvel état sur TrashOut et restez informé"
+		"defaultMessage": "Découvrez son nouveau statut dans l'application TrashOut et restez toujours informé"
 	},
 	{
 		"id": "mail.eventCreate.subject",
-		"defaultMessage": "TrashOut - informations importantes à propos de l'évènement que vous avez créé"
+		"defaultMessage": "TrashOut - informations importantes sur l'événement que vous avez créé"
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
@@ -4703,19 +4703,19 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.terms",
-		"defaultMessage": "Conditions d'utilisation"
+		"defaultMessage": "Termes et conditions"
 	},
 	{
 		"id": "global.error.api.text",
-		"defaultMessage": "Nous rencontrons un problème ponctuel avec notre serveur. Nous faisons de notre mieux pour le résoudre au plus vite. Veuillez réessayer plus tard."
+		"defaultMessage": "Nous rencontrons un problème temporaire avec notre serveur. Nous faisons de notre mieux pour y remédier bientôt. Merci de revenir plus tard."
 	},
 	{
 		"id": "global.internet.offline",
-		"defaultMessage": "Connectez-vous à internet pour accéder à cette section"
+		"defaultMessage": "Veuillez vous connecter à Internet pour voir cette section."
 	},
 	{
 		"id": "global.cookiesPolicy",
-		"defaultMessage": "Ce site utilise des cookies pour améliorer le contenu affiché. Acceptez en cliquant sur le bouton \"Accepter\". Nous utilisons les cookies pour vous donner accès aux réseaux sociaux, analyser le trafic et l'activité des visiteurs sur le site ainsi que pour du marketing. Parfois nous partageons ces données anonymes avec des tiers. Lisez notre "
+		"defaultMessage": "Ce site Web utilise des cookies pour vous offrir la meilleure expérience. Acceptez en cliquant sur le bouton «Accepter». Nous utilisons des cookies pour être en mesure de fournir des fonctionnalités de médias sociaux, d'analyser notre trafic et le comportement des visiteurs sur notre site Web et à des fins de marketing. Parfois, nous partageons ces informations anonymisées avec les outils des tiers. Lisez notre "
 	},
 	{
 		"id": "global.acceptCookiesPolicy",
@@ -4727,11 +4727,11 @@ export default [
 	},
 	{
 		"id": "global.internet.error.offline",
-		"defaultMessage": "Votre appareil n'est pas connecté à internet. Prenez une photo et effectuez le signalement plus tard ici : https://admin.trashout.ngo"
+		"defaultMessage": "Votre appareil n'est pas connecté à Internet. Prenez une photo et signalez-la plus tard via www.admin.trashout.ngo."
 	},
 	{
 		"id": "global.images.requirements",
-		"defaultMessage": "Choisissez une image avec un ratio 1:2 ou moins (pas d'image large) d'une taille de 2MB max."
+		"defaultMessage": "Veuillez utiliser des images avec un rapport d'aspect de 1: 2 ou plus petit (pas une image grand écran) et avec une taille jusqu'à 2 Mo."
 	},
 	{
 		"id": "home.nearestRecyclingPoint",
@@ -4755,11 +4755,11 @@ export default [
 	},
 	{
 		"id": "info.supportUs",
-		"defaultMessage": "Nous soutenir"
+		"defaultMessage": "Soutenez-nous"
 	},
 	{
 		"id": "home.recycling_point_edit_redirect",
-		"defaultMessage": "Le point de collecte ne peut être modifié qu'à partir de l'application Web à laquelle vous pouvez accéder via un navigateur Web"
+		"defaultMessage": "Pour le moment, le point de collecte ne peut être modifié qu'à partir de l'application Web accessible via un navigateur Web"
 	},
 	{
 		"id": "collectionPoint.email_is_missing",
@@ -4799,7 +4799,7 @@ export default [
 	},
 	{
 		"id": "event.event_edit_redirect\n",
-		"defaultMessage": "Les événements ne peuvent être modifiés qu'à partir de l'application Web accessible via un navigateur Web"
+		"defaultMessage": "Les événements ne peuvent être modifiés qu'à partir de l'application Web TrashOut accessible via un navigateur Web"
 	},
 	{
 		"id": "event.event_edit_do_later\n",
@@ -4811,7 +4811,7 @@ export default [
 	},
 	{
 		"id": "event.event_joinEventTitle",
-		"defaultMessage": "Rejoignez l'événement"
+		"defaultMessage": "Rejoignez cet événement"
 	},
 	{
 		"id": "home.orderTrashPickup",
@@ -4823,15 +4823,15 @@ export default [
 	},
 	{
 		"id": "notification_new_trash_formatter",
-		"defaultMessage": "Vous avez créé ou ou mises à jour {number} décharge(s)."
+		"defaultMessage": "Vous recherchez% d poubelles nouvelles ou mises à jour."
 	},
 	{
 		"id": "about_version_date_formatted",
-		"defaultMessage": "Version de {string}"
+		"defaultMessage": "Version de% s"
 	},
 	{
 		"id": "skip_btn",
-		"defaultMessage": "Passer"
+		"defaultMessage": "SAUTER"
 	},
 	{
 		"id": "event.create.thankYou.sentence1",
@@ -4839,11 +4839,11 @@ export default [
 	},
 	{
 		"id": "event.create.thankYou.sentence2",
-		"defaultMessage": "Vous êtes formidable !"
+		"defaultMessage": "Tu es incroyable!"
 	},
 	{
 		"id": "event.create.thankYou.sentence3",
-		"defaultMessage": "N'oubliez pas de mettre à jour toutes les décharges que vous avez nettoyées lors de l'événement"
+		"defaultMessage": "N'oubliez pas de mettre à jour tous les dumps que vous avez nettoyés lors de l'événement"
 	},
 	{
 		"id": "event.create.thankYou.shareTitle",
@@ -4855,22 +4855,22 @@ export default [
 	},
 	{
 		"id": "trash.create.thankYou.detail",
-		"defaultMessage": "Voir le rapport"
+		"defaultMessage": "Voir rapport"
 	},
 	{
 		"id": "organization.statistics.title",
-		"defaultMessage": "Statistiques sur les activités des membres"
+		"defaultMessage": "#organization.statistics.title"
 	},
 	{
 		"id": "organization.dumpsReported",
-		"defaultMessage": "Rapports"
+		"defaultMessage": "#organization.dumpsReported"
 	},
 	{
 		"id": "organization.dumpsUpdated",
-		"defaultMessage": "Mises à jour"
+		"defaultMessage": "#organization.dumpsUpdated"
 	},
 	{
 		"id": "organization.dumpsCleaned",
-		"defaultMessage": "Décharges nettoyées"
+		"defaultMessage": "#organization.dumpsCleaned"
 	}
 ]

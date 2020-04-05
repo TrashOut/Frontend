@@ -4856,5 +4856,21 @@ export default [
 	{
 		"id": "trash.create.thankYou.detail",
 		"defaultMessage": "#trash.create.thankYou.detail"
+	},
+	{
+		"id": "organization.statistics.title",
+		"defaultMessage": "#organization.statistics.title"
+	},
+	{
+		"id": "organization.dumpsReported",
+		"defaultMessage": "#organization.dumpsReported"
+	},
+	{
+		"id": "organization.dumpsUpdated",
+		"defaultMessage": "#organization.dumpsUpdated"
+	},
+	{
+		"id": "organization.dumpsCleaned",
+		"defaultMessage": "#organization.dumpsCleaned"
 	}
 ]
