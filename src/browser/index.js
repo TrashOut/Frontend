@@ -35,8 +35,12 @@ const onWindowIntl = () => {
   const es = require('react-intl/locale-data/es');
   const ru = require('react-intl/locale-data/ru');
   const sk = require('react-intl/locale-data/sk');
+  const pt = require('react-intl/locale-data/pt');
+  const it = require('react-intl/locale-data/it');
+  const hu = require('react-intl/locale-data/hu');
+  const fr = require('react-intl/locale-data/fr');
 
-  [cs, en, de, es, ru, sk].forEach(locale => addLocaleData(locale));
+  [cs, en, de, es, ru, sk, pt, it, hu, fr].forEach(locale => addLocaleData(locale));
 
   require('./main');
 };
@@ -51,6 +55,10 @@ if (!window.Intl) {
     'intl/locale-data/jsonp/es.js',
     'intl/locale-data/jsonp/ru.js',
     'intl/locale-data/jsonp/sk.js',
+    'intl/locale-data/jsonp/pt.js',
+    'intl/locale-data/jsonp/it.js',
+    'intl/locale-data/jsonp/hu.js',
+    'intl/locale-data/jsonp/fr.js',
   ], (require) => {
     require('intl');
     require('intl/locale-data/jsonp/cs.js');
@@ -59,6 +67,10 @@ if (!window.Intl) {
     require('intl/locale-data/jsonp/es.js');
     require('intl/locale-data/jsonp/ru.js');
     require('intl/locale-data/jsonp/sk.js');
+    require('intl/locale-data/jsonp/pt.js');
+    require('intl/locale-data/jsonp/it.js');
+    require('intl/locale-data/jsonp/hu.js');
+    require('intl/locale-data/jsonp/fr.js');
 
     onWindowIntl();
   });

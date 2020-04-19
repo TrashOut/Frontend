@@ -45,7 +45,7 @@ import { toggleMenu } from '../../common/window/actions';
 import ExitToApp from 'material-ui/svg-icons/action/exit-to-app';
 // import { changeLanguage } from '../../common/users/actions';
 
-const languages = ['en', 'de', 'cs', 'sk', 'ru', 'es'];
+const languages = ['en', 'de', 'cs', 'sk', 'ru', 'es', 'pt', 'it', 'hu', 'fr'];
 
 @Radium
 @translate
@@ -170,6 +170,7 @@ export default class Header extends Component {
                 style={{
                   ...styles.languages.flag,
                   ...((key === languages.length - 1) ? styles.languages.flag.last : {}),
+                  ...((key === 4) ? styles.languages.flag.last : {}),
                   ...(((currentLocale === language)) ? styles.languages.flag.active : {}),
                 }}
               >
@@ -217,11 +218,13 @@ const styles = {
     marginTop: '50px',
     float: 'left',
     marginLeft: '30px',
+    marginRight: '40px',
     display: 'flex',
     flexWrap: 'wrap',
     flag: {
       cursor: 'pointer',
       color: 'white',
+      marginTop: '30px',
       borderRight: '1px solid white',
       padding: '0 8px',
       last: {

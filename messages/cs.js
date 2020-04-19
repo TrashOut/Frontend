@@ -1111,7 +1111,7 @@ export default [
 	},
 	{
 		"id": "trash.accessibility.underWater",
-		"defaultMessage": "pod vodou"
+		"defaultMessage": "Nachádzí se pod vodou"
 	},
 	{
 		"id": "trash.accessibility.notForGeneralCleanup",

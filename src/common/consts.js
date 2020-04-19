@@ -77,6 +77,10 @@ export const languages = {
   es: { id: 'es', globalId: 'es_ES', message: 'global.language.espana' },
   sk: { id: 'sk', globalId: 'sk_SK', message: 'global.language.slovakia' },
   ru: { id: 'ru', globalId: 'ru_RU', message: 'global.language.russia' },
+  pt: { id: 'pt', globalId: 'pt_AU', message: 'global.language.portuguese' },
+  it: { id: 'it', globalId: 'it_AU', message: 'global.language.italian' },
+  hu: { id: 'hu', globalId: 'hu_AU', message: 'global.language.hungarian' },
+  fr: { id: 'fr', globalId: 'fr_AU', message: 'global.language.france' },
 };
 
 export const areaTypes = {
