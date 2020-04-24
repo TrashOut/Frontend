@@ -955,7 +955,7 @@ export default [
 	},
 	{
 		"id": "home.nearestRecyclingPoints",
-		"defaultMessage": "Nächste Recyclingstelle"
+		"defaultMessage": "Nächste Recyclingpunkte"
 	},
 	{
 		"id": "collectionPoint.size.recyclingBin",
@@ -1955,7 +1955,7 @@ export default [
 	},
 	{
 		"id": "event.confirmation.joinEvent",
-		"defaultMessage": "Willst du wirklich an der Veranstaltung teilnehmen?"
+		"defaultMessage": "Bitte bestätigen Sie Ihre Teilnahme. Informationen zu den Teilnehmern stehen den Organisatoren zur Verfügung, um sie bei den Vorbereitungen zu unterstützen"
 	},
 	{
 		"id": "trash.confirmation.markSpam",
@@ -4728,5 +4728,149 @@ export default [
 	{
 		"id": "global.internet.error.offline",
 		"defaultMessage": "Ihr Mobilgerät ist nicht mit dem Internet verbunden. Machen Sie ein Foto und melden Sie es später über www.admin.trashout.ngo."
+	},
+	{
+		"id": "global.images.requirements",
+		"defaultMessage": "Verwenden Sie Bilder mit einem Seitenverhältnis von 1: 2 oder weniger (kein Breitbild) und bis zu 2 MB."
+	},
+	{
+		"id": "home.nearestRecyclingPoint",
+		"defaultMessage": "Nächster Recyclingpunkt"
+	},
+	{
+		"id": "home.recycling_point_add_new_do_later",
+		"defaultMessage": "Stornieren"
+	},
+	{
+		"id": "home.recycling_point_add_new_go_to_web",
+		"defaultMessage": "Jetzt hinzufügen"
+	},
+	{
+		"id": "home.recycling_point_add_new_redirect",
+		"defaultMessage": "Die Sammelstelle kann nur über Webanwendung hinzugefügt werden, in die Sie sich über einen Webbrowser einloggen können"
+	},
+	{
+		"id": "info.frequentlyAskedQuestions",
+		"defaultMessage": "Häufig gestellte Fragen"
+	},
+	{
+		"id": "info.supportUs",
+		"defaultMessage": "unterstütze uns"
+	},
+	{
+		"id": "home.recycling_point_edit_redirect",
+		"defaultMessage": "Der Sammelpunkt kann nur in der Webanwendung bearbeitet werden, auf die Sie über einen Webbrowser zugreifen können"
+	},
+	{
+		"id": "collectionPoint.email_is_missing",
+		"defaultMessage": "E-Mail-Adresse hinzufügen"
+	},
+	{
+		"id": "collectionPoint.phone_is_missing",
+		"defaultMessage": "Telefonnummer hinzufügen"
+	},
+	{
+		"id": "collectionPoint.web_is_missing",
+		"defaultMessage": "Webadresse hinzufügen"
+	},
+	{
+		"id": "event.meeting_point",
+		"defaultMessage": "Treffpunkt"
+	},
+	{
+		"id": "home.recycling_point_add_new_tittle",
+		"defaultMessage": "Sammelstelle hinzufügen"
+	},
+	{
+		"id": "home.recycling_point_edit_title",
+		"defaultMessage": "Aktualisieren Sie die Sammelstelle"
+	},
+	{
+		"id": "home.recycling_point_edit_go_to_web",
+		"defaultMessage": "Bearbeiten Sie jetzt"
+	},
+	{
+		"id": "home.recycling_point_edit_do_later\n",
+		"defaultMessage": "Stornieren"
+	},
+	{
+		"id": "event.event_edit_title",
+		"defaultMessage": "Bearbeiten Sie dieses Ereignis"
+	},
+	{
+		"id": "event.event_edit_redirect\n",
+		"defaultMessage": "Ereignisse können nur in der Webanwendung bearbeitet werden, auf die über einen Webbrowser zugegriffen werden kann"
+	},
+	{
+		"id": "event.event_edit_do_later\n",
+		"defaultMessage": "Stornieren"
+	},
+	{
+		"id": "event.event_edit_go_to_web\n",
+		"defaultMessage": "Bearbeiten Sie jetzt"
+	},
+	{
+		"id": "event.event_joinEventTitle",
+		"defaultMessage": "Mach mit bei der Veranstaltung"
+	},
+	{
+		"id": "home.orderTrashPickup",
+		"defaultMessage": "Müllabholung bestellen"
+	},
+	{
+		"id": "event.create_event_meeting_date_title",
+		"defaultMessage": "Datum des Treffens"
+	},
+	{
+		"id": "notification_new_trash_formatter",
+		"defaultMessage": "Sie suchen nach neuen oder aktualisierten Abfällen."
+	},
+	{
+		"id": "about_version_date_formatted",
+		"defaultMessage": "Version von% s"
+	},
+	{
+		"id": "skip_btn",
+		"defaultMessage": "ÜBERSPRINGEN"
+	},
+	{
+		"id": "event.create.thankYou.sentence1",
+		"defaultMessage": "Vielen Dank, dass Sie diese Veranstaltung erstellt haben"
+	},
+	{
+		"id": "event.create.thankYou.sentence2",
+		"defaultMessage": "Du bist toll!"
+	},
+	{
+		"id": "event.create.thankYou.sentence3",
+		"defaultMessage": "Vergessen Sie nicht, alle Dumps zu aktualisieren, die Sie während des Ereignisses bereinigt haben"
+	},
+	{
+		"id": "event.create.thankYou.shareTitle",
+		"defaultMessage": "Mit anderen teilen"
+	},
+	{
+		"id": "event.create.thankYou.detail\n",
+		"defaultMessage": "Siehe Veranstaltung"
+	},
+	{
+		"id": "trash.create.thankYou.detail",
+		"defaultMessage": "Siehe Bericht"
+	},
+	{
+		"id": "organization.statistics.title",
+		"defaultMessage": "Statistiken über die Aktivitäten der Mitglieder"
+	},
+	{
+		"id": "organization.dumpsReported",
+		"defaultMessage": "Berichte"
+	},
+	{
+		"id": "organization.dumpsUpdated",
+		"defaultMessage": "Aktualisierung"
+	},
+	{
+		"id": "organization.dumpsCleaned",
+		"defaultMessage": "Dumps gereinigt"
 	}
 ]

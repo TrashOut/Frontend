@@ -955,7 +955,7 @@ export default [
 	},
 	{
 		"id": "home.nearestRecyclingPoints",
-		"defaultMessage": "Punto de reciclaje más cercano"
+		"defaultMessage": "Puntos de reciclaje más cercanos"
 	},
 	{
 		"id": "collectionPoint.size.recyclingBin",
@@ -1955,7 +1955,7 @@ export default [
 	},
 	{
 		"id": "event.confirmation.joinEvent",
-		"defaultMessage": "¿Seguro de que quiere unirse al evento?"
+		"defaultMessage": "Por favor confirma tu asistencia. La información sobre los asistentes está disponible para los organizadores con el fin de ayudarlos con los preparativos."
 	},
 	{
 		"id": "trash.confirmation.markSpam",
@@ -4619,7 +4619,7 @@ export default [
 	},
 	{
 		"id": "event.addToCalendar",
-		"defaultMessage": "añadir al calendario"
+		"defaultMessage": "Añadir al calendario"
 	},
 	{
 		"id": "global.add",
@@ -4728,5 +4728,149 @@ export default [
 	{
 		"id": "global.internet.error.offline",
 		"defaultMessage": "Su dispositivo no está conectado a internet. Tome una fotografía e infórmela más tarde a través de www.admin.trashout.ngo."
+	},
+	{
+		"id": "global.images.requirements",
+		"defaultMessage": "Utilice imágenes con una relación de aspecto de 1: 2 o menor (no una imagen de pantalla panorámica) y con un tamaño de hasta 2 MB."
+	},
+	{
+		"id": "home.nearestRecyclingPoint",
+		"defaultMessage": "Punto de reciclaje más cercano"
+	},
+	{
+		"id": "home.recycling_point_add_new_do_later",
+		"defaultMessage": "cancelar"
+	},
+	{
+		"id": "home.recycling_point_add_new_go_to_web",
+		"defaultMessage": "Añadir ahora"
+	},
+	{
+		"id": "home.recycling_point_add_new_redirect",
+		"defaultMessage": "El punto de recopilación solo se puede agregar desde la aplicación web a la que puede iniciar sesión a través de un navegador web"
+	},
+	{
+		"id": "info.frequentlyAskedQuestions",
+		"defaultMessage": "Preguntas frecuentes"
+	},
+	{
+		"id": "info.supportUs",
+		"defaultMessage": "Apoyanos"
+	},
+	{
+		"id": "home.recycling_point_edit_redirect",
+		"defaultMessage": "El punto de recopilación solo se puede editar desde la aplicación web a la que accede a través de un navegador web"
+	},
+	{
+		"id": "collectionPoint.email_is_missing",
+		"defaultMessage": "Agregar dirección de correo electrónico"
+	},
+	{
+		"id": "collectionPoint.phone_is_missing",
+		"defaultMessage": "Agregar el número de teléfono"
+	},
+	{
+		"id": "collectionPoint.web_is_missing",
+		"defaultMessage": "Agregar dirección web"
+	},
+	{
+		"id": "event.meeting_point",
+		"defaultMessage": "Punto de encuentro"
+	},
+	{
+		"id": "home.recycling_point_add_new_tittle",
+		"defaultMessage": "Añadir punto de reciclaje"
+	},
+	{
+		"id": "home.recycling_point_edit_title",
+		"defaultMessage": "Actualizar punto de recogida"
+	},
+	{
+		"id": "home.recycling_point_edit_go_to_web",
+		"defaultMessage": "Editar ahora"
+	},
+	{
+		"id": "home.recycling_point_edit_do_later\n",
+		"defaultMessage": "Cancelar"
+	},
+	{
+		"id": "event.event_edit_title",
+		"defaultMessage": "Editar este evento"
+	},
+	{
+		"id": "event.event_edit_redirect\n",
+		"defaultMessage": "Los eventos solo se pueden editar desde la aplicación web a la que se puede acceder a través de un navegador web"
+	},
+	{
+		"id": "event.event_edit_do_later\n",
+		"defaultMessage": "Cancelar"
+	},
+	{
+		"id": "event.event_edit_go_to_web\n",
+		"defaultMessage": "Editar ahora"
+	},
+	{
+		"id": "event.event_joinEventTitle",
+		"defaultMessage": "Únete al evento"
+	},
+	{
+		"id": "home.orderTrashPickup",
+		"defaultMessage": "Orden de recogida de residuos"
+	},
+	{
+		"id": "event.create_event_meeting_date_title",
+		"defaultMessage": "Fecha de la reunión"
+	},
+	{
+		"id": "notification_new_trash_formatter",
+		"defaultMessage": "Cazas% d papeleras nuevas o actualizadas."
+	},
+	{
+		"id": "about_version_date_formatted",
+		"defaultMessage": "Versión de% s"
+	},
+	{
+		"id": "skip_btn",
+		"defaultMessage": "OMITIR"
+	},
+	{
+		"id": "event.create.thankYou.sentence1",
+		"defaultMessage": "Gracias por crear este evento."
+	},
+	{
+		"id": "event.create.thankYou.sentence2",
+		"defaultMessage": "¡Usted es maravilloso!"
+	},
+	{
+		"id": "event.create.thankYou.sentence3",
+		"defaultMessage": "No olvides actualizar todos los volcados que limpiaste durante el evento"
+	},
+	{
+		"id": "event.create.thankYou.shareTitle",
+		"defaultMessage": "Comparte con otros"
+	},
+	{
+		"id": "event.create.thankYou.detail\n",
+		"defaultMessage": "Ver evento"
+	},
+	{
+		"id": "trash.create.thankYou.detail",
+		"defaultMessage": "Ver informe"
+	},
+	{
+		"id": "organization.statistics.title",
+		"defaultMessage": "Estadísticas sobre las actividades de los miembros."
+	},
+	{
+		"id": "organization.dumpsReported",
+		"defaultMessage": "Informes"
+	},
+	{
+		"id": "organization.dumpsUpdated",
+		"defaultMessage": "Actualizaciones"
+	},
+	{
+		"id": "organization.dumpsCleaned",
+		"defaultMessage": "Vertederos limpiados"
 	}
 ]

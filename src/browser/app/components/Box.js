@@ -63,7 +63,7 @@ export default class Box extends Component {
     className: 'col s12',
     type: 'text',
     showIfEmpty: true,
-  }
+  };
 
   getGoogleMapImage(lat, lng, width = 400.0) {
     const { googleMapsApiKey } = this.props;
@@ -80,6 +80,8 @@ export default class Box extends Component {
         return this.renderDate();
       case 'statistics':
         return this.renderStatistics();
+      case 'statisticsOrganization':
+        return this.renderStatisticsOrganization();
       case 'checkboxes':
         return this.renderCheckboxes();
       default:
@@ -95,13 +97,49 @@ export default class Box extends Component {
           label={x.label}
           disabled={Boolean(true)}
           checked={!!x.value}
-          uncheckedIcon={<ToggleIndeterminateCheckBox />}
+          uncheckedIconuncheckedIcon={<ToggleIndeterminateCheckBox />}
           labelStyle={styles.checkboxes.text}
           style={styles.checkboxes}
         />
       </div>
     );
 
+    return <div>{result}</div>;
+  }
+
+  renderStatisticImage(image) {
+    switch (image) {
+      case 'cleaned':
+        return '/widget/assets/images/icons/icon_cleaned.png';
+      case 'reported':
+        return '/widget/assets/images/icons/icon_reported.png';
+      case 'updated':
+        return '/widget/assets/images/icons/icon_update.png';
+      default:
+        return '';
+    }
+  }
+
+  renderStatisticsOrganization() {
+    const { data, onClick } = this.props;
+    const result = data.map((x, key) =>
+      <div style={styles.statisticsBlock}>
+        <img style={styles.statisticsOrganization.image} alt="location" src={this.renderStatisticImage(x.image)} />
+        <div
+          key={key}
+          style={[
+            styles.statisticsOrganization,
+            parseInt(x.content, 10) && onClick && styles.statisticsOrganization.pointer,
+          ].filter(exists => exists)}
+          onClick={() => {
+            if (parseInt(x.content, 10) && onClick) onClick(x);
+          }}
+        >
+          <div style={styles.statisticsOrganization.content}>{x.content}</div>
+          <div style={styles.statisticsOrganization.label}>{x.label}</div>
+        </div>
+      </div>
+    );
     return <div>{result}</div>;
   }
 
@@ -211,6 +249,34 @@ export default class Box extends Component {
 const styles = {
   header: {
     fontSize: '16px',
+  },
+  statisticsBlock: {
+    margin: 'auto',
+    float: 'left',
+  },
+  statisticsOrganization: {
+    display: 'flex',
+    flexDirection: 'column',
+    float: 'right',
+    textAlign: 'center',
+    pointer: {
+      ':hover': {
+        cursor: 'pointer',
+        color: Colors.primary,
+      },
+    },
+    image: {
+      float: 'left',
+      display: 'block',
+      width: '55px',
+      height: '55px',
+      margin: 'auto auto auto auto',
+    },
+    content: {
+      fontSize: '28px',
+      fontWeight: 'bold',
+    },
+    margin: '0 16px',
   },
   statistics: {
     display: 'flex',

@@ -92,6 +92,8 @@ export default class Detail extends Component {
     updateOrganization: React.PropTypes.func,
     user: React.PropTypes.object,
     users: React.PropTypes.object,
+    statistics: React.PropTypes.object,
+    organization: React.PropTypes.object,
   };
 
   state = {
@@ -118,9 +120,20 @@ export default class Detail extends Component {
     return addConfirm('organization.leave', { onSubmit: () => leaveOrganization(item.id, user.id) });
   }
 
-  renderInfoBox(canManage) {
-    const { addConfirm, updateOrganization, formatDate, item, msg } = this.props;
+  @autobind
+  redirectToTrashes() {
+    const { push, setTable, users } = this.props;
+    if (users.isFetching) return null;
+    const usersArray = users.items.toArray();
+    const usersToFilter = [];
+    usersArray.forEach(user => usersToFilter.push(user.id));
+    setTable('TABLE_TYPE_TRASH', { userIds: usersToFilter });
+    push(routesList.userTrashList);
+  }
 
+  renderInfoBox(canManage) {
+    const { addConfirm, updateOrganization, formatDate, item, msg, organization } = this.props;
+    const { cleaned, reported, updated } = organization.statistics;
     return (
       <div className="row">
         <div className="col s12 m5">
@@ -139,6 +152,17 @@ export default class Detail extends Component {
           />
         </div>
         <div className="col s12 m7">
+          <Box
+            className="col s12"
+            title={msg('organization.statistics.title')}
+            type="statisticsOrganization"
+            data={[
+              { label: msg('organization.dumpsReported'), content: reported, image: 'reported' },
+              { label: msg('organization.dumpsUpdated'), content: updated, image: 'updated' },
+              { label: msg('organization.dumpsCleaned'), content: cleaned, image: 'cleaned' },
+            ]}
+            onClick={this.redirectToTrashes}
+          />
           <Box
             title={msg('organization.description')}
             class="col s12"
