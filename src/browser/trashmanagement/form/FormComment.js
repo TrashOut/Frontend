@@ -70,6 +70,11 @@ export default class Form extends Component {
               component={Input}
               label={msg('comment.body')}
               type="mdText"
+              toolbar={[
+                'bold',
+                'italic',
+                'link',
+              ]}
             />
           </div>
           <div className="col s12 m4">

@@ -561,7 +561,7 @@ const Input = ({
               autofocus: true,
               spellChecker: false,
               forceSync: false,
-              toolbar: [
+              toolbar: next.toolbar || [
                 'bold',
                 'italic',
                 'link',

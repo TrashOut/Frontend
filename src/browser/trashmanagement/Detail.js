@@ -42,6 +42,7 @@ import { Box } from '../app/components';
 import { connect } from 'react-redux';
 import { prepareEventFromTrashes } from '../../common/events/actions';
 import { push } from 'react-router-redux';
+import ReactMarkdown from 'react-markdown';
 import { removeImage, removeActivity, removeComment, markAsSpam, fetchDetail, removeTrash } from '../../common/trashmanagement/actions';
 import { trashTypes, trashSizes, trashAccessibility, trashStatuses } from '../../common/trashmanagement/consts';
 
@@ -184,7 +185,19 @@ let Comment = ({
         />
       </div>
       <div style={style.activity.content}>
-        <p style={{ marginTop: '0', paddingTop: '0' }}>{body}</p>
+        <ReactMarkdown
+          source={body}
+          softBreak="br"
+          allowedTypes={[
+            'Text',
+            'Paragraph',
+            'Softbreak',
+            'Link',
+            'Strong',
+            'Emph'
+          ]}
+          unwrapDisallowed
+        />
         {canBeDeleted &&
           <div style={style.deleteButton}>
             <RaisedButton
