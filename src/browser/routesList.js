@@ -56,6 +56,7 @@ export default {
   trashBase: '/trash-management/',
   userTrashList: '/trash-management/list/user-stats/',
   trashUpdate: '/trash-management/update/:id',
+  commentCreate: '/trash-management/comment-create/:id',
   userDetail: '/users/detail/:id',
   userExport: '/users/list/export/',
   userList: '/users/list/',

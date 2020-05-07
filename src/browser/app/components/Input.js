@@ -83,12 +83,22 @@ const Input = ({
  }) => {
   label = label && label.toUpperCase();
 
-  if (Array.isArray(items) && items[0] && items[0].message) {
-    items = items.reduce((prev, cur) => ({ ...prev, [cur.id]: cur }), {});
+  let itemsSimpleFormat = false;
+  let firstItemElement;
+  for(const i in items){
+    firstItemElement = items[i];
+    break;
   }
+  if (firstItemElement !== undefined && (typeof firstItemElement === 'string' || typeof firstItemElement === 'number')) {
+    itemsSimpleFormat = true;
+  } else {
+    if (Array.isArray(items) && items[0] && items[0].message) {
+      items = items.reduce((prev, cur) => ({ ...prev, [cur.id]: cur }), {});
+    }
 
-  if (!Array.isArray(items) && typeof items === 'object') {
-    items = Object.keys(items).map((x) => ({ label: msg(items[x].message), ...items[x] }));
+    if (!Array.isArray(items) && typeof items === 'object') {
+      items = Object.keys(items).map((x) => ({ label: msg(items[x].message), ...items[x] }));
+    }
   }
 
   if (!hint && nonTranslatedHint) hint = msg(nonTranslatedHint);
@@ -138,9 +148,16 @@ const Input = ({
   }
 
   if (type === 'select') {
-    const formItems = items.map(({ id, label }, key) =>
-      <MenuItem key={key} value={id} primaryText={label} />
-    );
+    let formItems = [];
+    if (itemsSimpleFormat) {
+      for(const i in items) {
+        formItems.push(<MenuItem key={i} value={i} primaryText={items[i]}/>);
+      }
+    } else {
+      formItems = items.map(({ id, label }, key) =>
+        <MenuItem key={key} value={id} primaryText={label} />
+      );
+    }
 
     if (next.allPlaceholder) {
       formItems.unshift(<MenuItem key="all" value="all" primaryText={msg(next.allPlaceholder)} />);
@@ -148,6 +165,10 @@ const Input = ({
 
     if (next.selectPlaceholder) {
       formItems.unshift(<MenuItem key="select" value="" primaryText={msg(next.selectPlaceholder)} />);
+    }
+
+    if (next.translatedSelectPlaceholder) {
+      formItems.unshift(<MenuItem key="select" value="" primaryText={next.translatedSelectPlaceholder} />);
     }
 
     return (

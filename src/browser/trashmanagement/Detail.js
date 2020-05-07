@@ -502,6 +502,11 @@ export default class Detail extends Component {
         label: msg('global.update'),
         linkTo: routesList.trashUpdate.replace(':id', item.id),
       },
+      {
+        name: 'comment',
+        label: msg('global.createComment'),
+        linkTo: routesList.commentCreate.replace(':id', item.id),
+      },
       canBeDeleted && {
         name: 'delete',
         label: msg('global.remove'),

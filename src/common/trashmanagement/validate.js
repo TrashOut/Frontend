@@ -74,3 +74,13 @@ export const validateFilter = values => {
   }
   return errors;
 };
+
+export const validateComment = values => {
+  const errors = {};
+
+  if (!values.body) {
+    errors.body = 'comment.validation.bodyIsRequired';
+  }
+
+  return errors;
+};

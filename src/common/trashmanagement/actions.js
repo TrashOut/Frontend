@@ -59,6 +59,7 @@ export const TOGGLE_ORDER_BY = 'TOGGLE_ORDER_BY';
 export const TRASH_SELECT = 'TRASH_SELECT';
 export const TRASH_SELECT_ALL = 'TRASH_SELECT_ALL';
 export const REMOVE_ACTIVITY = 'REMOVE_ACTIVITY';
+export const CREATE_COMMENT = 'CREATE_COMMENT';
 export const REMOVE_COMMENT = 'REMOVE_COMMENT';
 export const REMOVE_ACTIVITY_IMAGE = 'REMOVE_ACTIVITY_IMAGE';
 export const MARK_AS_SPAM = 'MARK_AS_SPAM';
@@ -132,6 +133,13 @@ export const removeActivity = (id, activityId) => ({ token }) => ({
   payload: api.removeActivity(activityId, token),
   then: fetchDetail(id),
   message: 'remove-activity',
+});
+
+export const createComment = (trashId, data) => ({ token }) => ({
+  type: CREATE_COMMENT,
+  payload: api.postComment(trashId, data, token),
+  message: 'create-comment',
+  then: destroy('commentForm'),
 });
 
 export const removeComment = (id, commentId) => ({ token }) => ({
