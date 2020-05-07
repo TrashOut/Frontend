@@ -155,7 +155,9 @@ let Comment = ({
   onRemove,
   time,
   user,
+  userImage,
   organization,
+  organizationImage,
 }) => (
   <Paper style={{ marginTop: '20px', marginBottom: '20px' }}>
     <h3 style={{ minHeight: '24px', padding: '12px', margin: 0, fontSize: '16px', fontWeight: 'normal', background: Colors.darkGray, color: 'white' }}>
@@ -171,8 +173,8 @@ let Comment = ({
             {
               id: '1',
               img: user
-                ? (user && (user.image || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'
-                : (organization && (organization.image || {}).fullDownloadUrl) || '/img/organization/noOrganization.png',
+                ? ((userImage || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'
+                : ((organizationImage || {}).fullDownloadUrl) || '/img/organization/noOrganization.png',
               translatedMessage: user
                 ? `${user.firstName || ''} ${user.lastName || ''}`
                 : organization.name,
@@ -226,7 +228,9 @@ Comment.propTypes = {
   onRemove: React.PropTypes.func,
   time: React.PropTypes.string,
   user: React.PropTypes.object,
+  userImage: React.PropTypes.object,
   organization: React.PropTypes.object,
+  organizationImage: React.PropTypes.object,
 };
 
 Comment = translate(Radium(Comment));
@@ -349,7 +353,9 @@ export default class Detail extends Component {
       <Comment
         key={key}
         user={val.user}
+        userImage={val.user_image}
         organization={val.organization}
+        organizationImage={val.organization_image}
         time={val.created}
         body={val.body}
         onRemove={() => addConfirm('activity', { onSubmit: () => removeComment(item.id, val.id) })}
