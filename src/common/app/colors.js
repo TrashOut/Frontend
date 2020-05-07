@@ -34,6 +34,7 @@ const Colors = {
   orange: '#F5B249',
   white: '#FFFFFF',
   lightGray: '#E0E0E0',
+  darkGray: '#9b9b9b',
   yellow: '#FAFAD2',
   red: '#FF3333',
 };

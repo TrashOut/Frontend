@@ -49,6 +49,9 @@ const SuccessMessages = {
   'remove-activity': {
     id: 'trash.removeActivity.success',
   },
+  'remove-comment': {
+    id: 'trash.removeComment.success',
+  },
   'remove-image': {
     id: 'global.imageRemoved.success',
   },
