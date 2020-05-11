@@ -58,6 +58,7 @@ export default class Trash extends Record({
   gps: {},
   cleanedByMe: false,
   url: '',
+  comments: [],
 }, 'trash') {
   constructor(values) {
     if (!values) {
