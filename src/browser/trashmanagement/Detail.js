@@ -26,6 +26,7 @@ import AppBar from 'material-ui/AppBar';
 import Colors from '../../common/app/colors';
 import Confirm from '../app/components/Confirm';
 import IconPreview from '../app/components/IconPreview';
+import IdentityPreview from '../app/components/IdentityPreview';
 import ImagePreview from '../app/components/ImagePreview';
 import Loading from '../app/components/Loading';
 import Paper from 'material-ui/Paper';
@@ -168,23 +169,17 @@ let Comment = ({
     </h3>
     <div style={style.activity}>
       <div style={style.activity.avatar}>
-        <IconPreview
-          selected={['1']}
-          options={[
-            {
-              id: '1',
-              img: user
-                ? ((userImage || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'
-                : ((organizationImage || {}).fullDownloadUrl) || '/img/organization/noOrganization.png',
-              translatedMessage: user
-                ? `${user.firstName || ''} ${user.lastName || ''}`
-                : organization.name,
-            },
-          ]}
+        <IdentityPreview
+          img={user
+            ? ((userImage || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'
+            : ((organizationImage || {}).fullDownloadUrl) || '/img/organization/noOrganization.png'
+          }
+          text={user
+            ? `${user.firstName || ''} ${user.lastName || ''}`
+            : organization.name
+          }
           avatarOnClick={avatarOnClick}
           size={100}
-          stretch={Boolean(true)}
-          showText={Boolean(true)}
           wrapperStyle={{ display: 'flex', justifyContent: 'center' }}
         />
       </div>
