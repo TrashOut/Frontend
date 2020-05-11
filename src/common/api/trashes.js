@@ -114,6 +114,22 @@ export const removeActivity = async (id, token) => {
   }
 };
 
+export const postComment = async (trashId, data, token) => {
+  try {
+    return await post(`/webapi/trash/${trashId}/comment`, data, token);
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const removeComment = async (trashId, commentId, token) => {
+  try {
+    return await remove(`/webapi/trash/${trashId}/comment/${commentId}`, token);
+  } catch (error) {
+    throw error;
+  }
+};
+
 export const markAsSpam = async (trashPointActivityId, token) => {
   try {
     return await post('/webapi/spam/', { trashPointActivityId }, token);

@@ -28,6 +28,7 @@ import React, { PureComponent as Component } from 'react';
 import routesList from '../routesList';
 import TrashManagement from './ListPage';
 import UpdateForm from './UpdateForm';
+import CommentCreate from './CommentCreate';
 import { Match } from '../../common/app/components';
 import { Switch } from 'react-router-dom';
 
@@ -38,6 +39,7 @@ export default class Index extends Component {
         <Match path={routesList.trashDetail} component={Detail} />
         <Match path={routesList.trashUpdate} component={UpdateForm} />
         <Match path={routesList.trashCreate} component={Form} />
+        <Match path={routesList.commentCreate} component={CommentCreate} />
         <Match path={routesList.trashBase} component={TrashManagement} />
       </Switch>
     );
