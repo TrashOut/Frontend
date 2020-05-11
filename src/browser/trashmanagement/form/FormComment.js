@@ -64,6 +64,7 @@ export default class Form extends Component {
       <form onSubmit={handleSubmit}>
         <div className="row">
           <h3>{msg('comment.addComment')}</h3>
+          <p>{msg('comment.intro')}</p>
           <div className="col s12">
             <Field
               name="body"
