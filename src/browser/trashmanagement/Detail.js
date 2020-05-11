@@ -158,6 +158,7 @@ let Comment = ({
   userImage,
   organization,
   organizationImage,
+  avatarOnClick,
 }) => (
   <Paper style={{ marginTop: '20px', marginBottom: '20px' }}>
     <h3 style={{ minHeight: '24px', padding: '12px', margin: 0, fontSize: '16px', fontWeight: 'normal', background: Colors.darkGray, color: 'white' }}>
@@ -180,6 +181,7 @@ let Comment = ({
                 : organization.name,
             },
           ]}
+          avatarOnClick={avatarOnClick}
           size={100}
           stretch={Boolean(true)}
           showText={Boolean(true)}
@@ -231,6 +233,7 @@ Comment.propTypes = {
   userImage: React.PropTypes.object,
   organization: React.PropTypes.object,
   organizationImage: React.PropTypes.object,
+  avatarOnClick: React.PropTypes.func,
 };
 
 Comment = translate(Radium(Comment));
@@ -346,8 +349,11 @@ export default class Detail extends Component {
   }
 
   renderComments() {
-    const { addConfirm, msg, item, removeComment } = this.props;
+    const { addConfirm, msg, item, removeComment, push, roles } = this.props;
+
     if (item.comments.length === 0) return null;
+
+    const canViewUserDetail = roles.isAuthorized('superAdmin') || roles.isAuthorizedWithArea('admin');
 
     const comments = item.comments.map((val, key) =>
       <Comment
@@ -359,6 +365,13 @@ export default class Detail extends Component {
         time={val.created}
         body={val.body}
         onRemove={() => addConfirm('activity', { onSubmit: () => removeComment(item.id, val.id) })}
+        avatarOnClick={val.organization
+          ? () => push(routesList.organizationsDetail.replace(':id', val.organization.id))
+          : (canViewUserDetail
+            ? () => push(routesList.userDetail.replace(':id', val.user.id))
+            : null
+          )
+        }
         canBeDeleted={val.canIDelete}
       />
     );
