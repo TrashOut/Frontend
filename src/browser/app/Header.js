@@ -215,7 +215,7 @@ const styles = {
     marginTop: '5px',
   },
   languages: {
-    marginTop: '50px',
+    marginTop: '10px',
     float: 'left',
     marginLeft: '30px',
     marginRight: '30px',
@@ -226,7 +226,7 @@ const styles = {
       width: '10%',
       color: 'white',
       textAlign: 'center',
-      marginTop: '30px',
+      marginTop: '20px',
       borderRight: '1px solid white',
       padding: '0 8px',
       last: {
