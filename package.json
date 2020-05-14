@@ -13,7 +13,7 @@
     "translations:fetch": "gulp fetch-translations"
   },
   "engines": {
-    "node": "6.6.0"
+    "node": "6.9.1"
   },
   "ava": {
     "babel": "inherit",
