@@ -78,6 +78,7 @@ export default class User extends Record({
   userRoleId: '',
   stats: {},
   volunteerCleanup: false,
+  trashActivityEmailNotification: true,
   language: null,
 }, 'user') {
   constructor(values, fromForm) {
