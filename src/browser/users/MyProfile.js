@@ -245,6 +245,7 @@ export default class Detail extends Component {
           data={[
             { value: user.eventOrganizer, label: msg(user.eventOrganizer ? 'user.eventOrganizer.yes' : 'user.eventOrganizer.no') },
             { value: user.volunteerCleanup, label: msg(user.volunteerCleanup ? 'user.volunteerCleanup.yes' : 'user.volunteerCleanup.no') },
+            { value: user.trashActivityEmailNotification, label: msg(user.trashActivityEmailNotification ? 'user.trashActivityEmailNotification.yes' : 'user.trashActivityEmailNotification.no') },
           ]}
         />
 

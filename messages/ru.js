@@ -4872,5 +4872,89 @@ export default [
 	{
 		"id": "organization.dumpsCleaned",
 		"defaultMessage": "Отвалы убраны"
+	},
+	{
+		"id": "global.language.portuguese",
+		"defaultMessage": "португальский"
+	},
+	{
+		"id": "global.language.italian",
+		"defaultMessage": "итальянский"
+	},
+	{
+		"id": "global.language.hungarian",
+		"defaultMessage": "Венгерский"
+	},
+	{
+		"id": "global.language.france",
+		"defaultMessage": "французский язык"
+	},
+	{
+		"id": "trash.removeComment.success",
+		"defaultMessage": "Комментарий был удален"
+	},
+	{
+		"id": "global.createComment",
+		"defaultMessage": "Добавить комментарий"
+	},
+	{
+		"id": "comment.validation.bodyIsRequired",
+		"defaultMessage": "Текст обязателен"
+	},
+	{
+		"id": "trash.createComment.success",
+		"defaultMessage": "Комментарий успешно добавлен"
+	},
+	{
+		"id": "comment.body",
+		"defaultMessage": "тело"
+	},
+	{
+		"id": "comment.commentAs",
+		"defaultMessage": "Комментарий как:"
+	},
+	{
+		"id": "comment.addComment",
+		"defaultMessage": "Комментарий"
+	},
+	{
+		"id": "comment.intro",
+		"defaultMessage": "#comment.intro"
+	},
+	{
+		"id": "mail.activity.greeting",
+		"defaultMessage": "#mail.activity.greeting"
+	},
+	{
+		"id": "mail.activity.p1",
+		"defaultMessage": "#mail.activity.p1"
+	},
+	{
+		"id": "mail.activity.p2",
+		"defaultMessage": "#mail.activity.p2"
+	},
+	{
+		"id": "mail.activity.footer",
+		"defaultMessage": "#mail.activity.footer"
+	},
+	{
+		"id": "mail.activity.subject",
+		"defaultMessage": "#mail.activity.subject"
+	},
+	{
+		"id": "mail.activity.button",
+		"defaultMessage": "#mail.activity.button"
+	},
+	{
+		"id": "user.trashActivityEmailNotification",
+		"defaultMessage": "#user.trashActivityEmailNotification"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.yes",
+		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.no",
+		"defaultMessage": "#user.trashActivityEmailNotification.no"
 	}
 ]

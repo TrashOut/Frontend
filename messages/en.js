@@ -4872,5 +4872,89 @@ export default [
 	{
 		"id": "organization.dumpsCleaned",
 		"defaultMessage": "Dumps cleaned"
+	},
+	{
+		"id": "global.language.portuguese",
+		"defaultMessage": "Portuguese"
+	},
+	{
+		"id": "global.language.italian",
+		"defaultMessage": "Italian"
+	},
+	{
+		"id": "global.language.hungarian",
+		"defaultMessage": "Hungarian"
+	},
+	{
+		"id": "global.language.france",
+		"defaultMessage": "French"
+	},
+	{
+		"id": "trash.removeComment.success",
+		"defaultMessage": "Comment was deleted"
+	},
+	{
+		"id": "global.createComment",
+		"defaultMessage": "Add comment"
+	},
+	{
+		"id": "comment.validation.bodyIsRequired",
+		"defaultMessage": "Text is required"
+	},
+	{
+		"id": "trash.createComment.success",
+		"defaultMessage": "Comment added successfully"
+	},
+	{
+		"id": "comment.body",
+		"defaultMessage": "Body"
+	},
+	{
+		"id": "comment.commentAs",
+		"defaultMessage": "Comment as:"
+	},
+	{
+		"id": "comment.addComment",
+		"defaultMessage": "Comment"
+	},
+	{
+		"id": "comment.intro",
+		"defaultMessage": "#comment.intro"
+	},
+	{
+		"id": "mail.activity.greeting",
+		"defaultMessage": "#mail.activity.greeting"
+	},
+	{
+		"id": "mail.activity.p1",
+		"defaultMessage": "#mail.activity.p1"
+	},
+	{
+		"id": "mail.activity.p2",
+		"defaultMessage": "#mail.activity.p2"
+	},
+	{
+		"id": "mail.activity.footer",
+		"defaultMessage": "#mail.activity.footer"
+	},
+	{
+		"id": "mail.activity.subject",
+		"defaultMessage": "#mail.activity.subject"
+	},
+	{
+		"id": "mail.activity.button",
+		"defaultMessage": "#mail.activity.button"
+	},
+	{
+		"id": "user.trashActivityEmailNotification",
+		"defaultMessage": "#user.trashActivityEmailNotification"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.yes",
+		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.no",
+		"defaultMessage": "#user.trashActivityEmailNotification.no"
 	}
 ]

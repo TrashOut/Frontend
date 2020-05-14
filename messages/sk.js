@@ -4019,7 +4019,7 @@ export default [
 	},
 	{
 		"id": "mail.newsletter.p5",
-		"defaultMessage": "Ďakujeme, že prispievate k tomu, aby bol svet čistejší! Nezabudnite používať mobilnú aplikáciu TrashOut na nahlasovanie a aktualizovanie nelegálnych skládok vo svojom okolí, nájdenie njabližšieho zberného miesta, či zúčastnenie sa čistiacej akcie."
+		"defaultMessage": "Ďakujeme, že prispievate k tomu, aby bol svet čistejší! Nezabudnite používať mobilnú aplikáciu TrashOut na nahlasovanie a aktualizovanie nelegálnych skládok vo svojom okolí, nájdenie najbližšieho zberného miesta, či zúčastnenie sa čistiacej akcie."
 	},
 	{
 		"id": "mail.newsletter.footer",
@@ -4759,7 +4759,7 @@ export default [
 	},
 	{
 		"id": "home.recycling_point_edit_redirect",
-		"defaultMessage": "Zberné miesto je zatiaľ možné upravovať len z webovej aplikácie, do ktorej sa prihlásite cez webový prehliada"
+		"defaultMessage": "Zberné miesto je zatiaľ možné upravovať len z webovej aplikácie, do ktorej sa prihlásite cez webový prehliadač"
 	},
 	{
 		"id": "collectionPoint.email_is_missing",
@@ -4872,5 +4872,89 @@ export default [
 	{
 		"id": "organization.dumpsCleaned",
 		"defaultMessage": "Vyčistené skládky"
+	},
+	{
+		"id": "global.language.portuguese",
+		"defaultMessage": "Portugalčina"
+	},
+	{
+		"id": "global.language.italian",
+		"defaultMessage": "Taliančina"
+	},
+	{
+		"id": "global.language.hungarian",
+		"defaultMessage": "Maďarčina"
+	},
+	{
+		"id": "global.language.france",
+		"defaultMessage": "Francúzština"
+	},
+	{
+		"id": "trash.removeComment.success",
+		"defaultMessage": "Komentár bol úspešne odstránený"
+	},
+	{
+		"id": "global.createComment",
+		"defaultMessage": "Komentovať"
+	},
+	{
+		"id": "comment.validation.bodyIsRequired",
+		"defaultMessage": "Pole Telo je povinné"
+	},
+	{
+		"id": "trash.createComment.success",
+		"defaultMessage": "Komentár bol úspešne pridaný"
+	},
+	{
+		"id": "comment.body",
+		"defaultMessage": "Telo"
+	},
+	{
+		"id": "comment.commentAs",
+		"defaultMessage": "Komentovať ako"
+	},
+	{
+		"id": "comment.addComment",
+		"defaultMessage": "Pridať komentár"
+	},
+	{
+		"id": "comment.intro",
+		"defaultMessage": "Nejaký pokec o tom ako komentovať, ako a prečo sa podpisovať, atď."
+	},
+	{
+		"id": "mail.activity.greeting",
+		"defaultMessage": "Vážená/ý"
+	},
+	{
+		"id": "mail.activity.p1",
+		"defaultMessage": "na vami sledovanom hlásení <a href=\"{string}\">skládky</a> pribudla nová aktivita. Zistite, či bola skládka aktualizovaná alebo bol pridaný komentár."
+	},
+	{
+		"id": "mail.activity.p2",
+		"defaultMessage": "Ďakujeme, že prispievate k tomu, aby bol svet čistejší! Nezabudnite používať mobilnú aplikáciu TrashOut na nahlasovanie a aktualizovanie nelegálnych skládok vo svojom okolí, nájdenie najbližšieho zberného miesta, či zúčastnenie sa čistiacej akcie."
+	},
+	{
+		"id": "mail.activity.footer",
+		"defaultMessage": "Tento e-mail ste dostali, pretože ste súhlasili  s podmienkami používania aplikácie TrashOut. Ak chcete zmeniť svoje preferencie o pravidelných hláseniach o sledovanej oblasti, môžete ich zmeniť kedykoľvek <a href=\"{string}\">tu</a>. Ak chcete vypnúť emailové notifikácie o aktualizáciach na vašich hláseniach, navštívte svoj <a href=\"%s\">profil</a> cez webovú aplikáciu TrashOut."
+	},
+	{
+		"id": "mail.activity.subject",
+		"defaultMessage": "TrashOut - informácie o aktivite na sledovanej skládke"
+	},
+	{
+		"id": "mail.activity.button",
+		"defaultMessage": "Zobraziť skládku"
+	},
+	{
+		"id": "user.trashActivityEmailNotification",
+		"defaultMessage": "Chcem dostávať emailové notifikácie o zmenách na mojich hláseniach"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.yes",
+		"defaultMessage": "Chcem dostávať emailové notifikácie o zmenách na mojich hláseniach"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.no",
+		"defaultMessage": "Nechcem dostávať emailové notifikácie o zmenách na mojich hláseniach"
 	}
 ]

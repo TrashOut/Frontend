@@ -4872,5 +4872,89 @@ export default [
 	{
 		"id": "organization.dumpsCleaned",
 		"defaultMessage": "Discariche pulite"
+	},
+	{
+		"id": "global.language.portuguese",
+		"defaultMessage": "portoghese"
+	},
+	{
+		"id": "global.language.italian",
+		"defaultMessage": "italiano"
+	},
+	{
+		"id": "global.language.hungarian",
+		"defaultMessage": "ungherese"
+	},
+	{
+		"id": "global.language.france",
+		"defaultMessage": "francese"
+	},
+	{
+		"id": "trash.removeComment.success",
+		"defaultMessage": "Il commento è stato cancellato"
+	},
+	{
+		"id": "global.createComment",
+		"defaultMessage": "Aggiungi un commento"
+	},
+	{
+		"id": "comment.validation.bodyIsRequired",
+		"defaultMessage": "Testo richiesto"
+	},
+	{
+		"id": "trash.createComment.success",
+		"defaultMessage": "Commento aggiunto correttamente"
+	},
+	{
+		"id": "comment.body",
+		"defaultMessage": "Corpo"
+	},
+	{
+		"id": "comment.commentAs",
+		"defaultMessage": "Commenta come:"
+	},
+	{
+		"id": "comment.addComment",
+		"defaultMessage": "Commento"
+	},
+	{
+		"id": "comment.intro",
+		"defaultMessage": "#comment.intro"
+	},
+	{
+		"id": "mail.activity.greeting",
+		"defaultMessage": "#mail.activity.greeting"
+	},
+	{
+		"id": "mail.activity.p1",
+		"defaultMessage": "#mail.activity.p1"
+	},
+	{
+		"id": "mail.activity.p2",
+		"defaultMessage": "#mail.activity.p2"
+	},
+	{
+		"id": "mail.activity.footer",
+		"defaultMessage": "#mail.activity.footer"
+	},
+	{
+		"id": "mail.activity.subject",
+		"defaultMessage": "#mail.activity.subject"
+	},
+	{
+		"id": "mail.activity.button",
+		"defaultMessage": "#mail.activity.button"
+	},
+	{
+		"id": "user.trashActivityEmailNotification",
+		"defaultMessage": "#user.trashActivityEmailNotification"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.yes",
+		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.no",
+		"defaultMessage": "#user.trashActivityEmailNotification.no"
 	}
 ]

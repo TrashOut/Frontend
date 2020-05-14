@@ -4872,5 +4872,89 @@ export default [
 	{
 		"id": "organization.dumpsCleaned",
 		"defaultMessage": "#organization.dumpsCleaned"
+	},
+	{
+		"id": "global.language.portuguese",
+		"defaultMessage": "#global.language.portuguese"
+	},
+	{
+		"id": "global.language.italian",
+		"defaultMessage": "#global.language.italian"
+	},
+	{
+		"id": "global.language.hungarian",
+		"defaultMessage": "#global.language.hungarian"
+	},
+	{
+		"id": "global.language.france",
+		"defaultMessage": "#global.language.france"
+	},
+	{
+		"id": "trash.removeComment.success",
+		"defaultMessage": "#trash.removeComment.success"
+	},
+	{
+		"id": "global.createComment",
+		"defaultMessage": "#global.createComment"
+	},
+	{
+		"id": "comment.validation.bodyIsRequired",
+		"defaultMessage": "#comment.validation.bodyIsRequired"
+	},
+	{
+		"id": "trash.createComment.success",
+		"defaultMessage": "#trash.createComment.success"
+	},
+	{
+		"id": "comment.body",
+		"defaultMessage": "#comment.body"
+	},
+	{
+		"id": "comment.commentAs",
+		"defaultMessage": "#comment.commentAs"
+	},
+	{
+		"id": "comment.addComment",
+		"defaultMessage": "#comment.addComment"
+	},
+	{
+		"id": "comment.intro",
+		"defaultMessage": "#comment.intro"
+	},
+	{
+		"id": "mail.activity.greeting",
+		"defaultMessage": "#mail.activity.greeting"
+	},
+	{
+		"id": "mail.activity.p1",
+		"defaultMessage": "#mail.activity.p1"
+	},
+	{
+		"id": "mail.activity.p2",
+		"defaultMessage": "#mail.activity.p2"
+	},
+	{
+		"id": "mail.activity.footer",
+		"defaultMessage": "#mail.activity.footer"
+	},
+	{
+		"id": "mail.activity.subject",
+		"defaultMessage": "#mail.activity.subject"
+	},
+	{
+		"id": "mail.activity.button",
+		"defaultMessage": "#mail.activity.button"
+	},
+	{
+		"id": "user.trashActivityEmailNotification",
+		"defaultMessage": "#user.trashActivityEmailNotification"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.yes",
+		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.no",
+		"defaultMessage": "#user.trashActivityEmailNotification.no"
 	}
 ]
