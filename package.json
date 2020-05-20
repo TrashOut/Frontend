@@ -6,11 +6,12 @@
     "ava:watch": "ava --watch",
     "build": "gulp build",
     "postinstalldev": "gulp build --development",
-    "startdev": "gulp --development",
     "postinstall": "gulp build --production",
     "start": "gulp --production",
     "test": "gulp test",
-    "translations:fetch": "gulp fetch-translations"
+    "translations:fetch": "gulp fetch-translations",
+    "startdev": "gulp --development",
+    "buildapp": "gulp build --production"
   },
   "engines": {
     "node": "6.9.1"
