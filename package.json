@@ -6,7 +6,6 @@
     "ava:watch": "ava --watch",
     "build": "gulp build",
     "postinstalldev": "gulp build --development",
-    "postinstall": "gulp build --production",
     "start": "gulp --production",
     "test": "gulp test",
     "translations:fetch": "gulp fetch-translations",
