@@ -69,7 +69,7 @@ const createStore = (req, reset) =>
       device: initialState.device
         .set('host', getHost(req))
         .set('userAgent', req.headers['user-agent'])
-        .set('widgetJsFilename', config.isProduction ? '/assets/widget.js' : 'http://localhost:8080/build/widget.js'),
+        .set('widgetJsFilename', (process.env.NODE_ENV == 'production' || process.env.NODE_ENV == 'stage') ? '/assets/widget.js' : 'http://localhost:8080/build/widget.js'),
       intl: initialState.intl
         .set('currentLocale', getLocale(req))
         .set('initialNow', Date.now()),
