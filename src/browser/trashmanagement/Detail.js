@@ -42,7 +42,8 @@ import { Box } from '../app/components';
 import { connect } from 'react-redux';
 import { prepareEventFromTrashes } from '../../common/events/actions';
 import { push } from 'react-router-redux';
-import { removeImage, removeActivity, markAsSpam, fetchDetail, removeTrash } from '../../common/trashmanagement/actions';
+import ReactMarkdown from 'react-markdown';
+import { removeImage, removeActivity, removeComment, markAsSpam, fetchDetail, removeTrash } from '../../common/trashmanagement/actions';
 import { trashTypes, trashSizes, trashAccessibility, trashStatuses } from '../../common/trashmanagement/consts';
 
 const statusStyle = {
@@ -146,6 +147,94 @@ History.propTypes = {
 
 History = translate(Radium(History));
 
+let Comment = ({
+  canBeDeleted,
+  formatDate,
+  msg,
+  body,
+  onRemove,
+  time,
+  user,
+  userImage,
+  organization,
+  organizationImage,
+}) => (
+  <Paper style={{ marginTop: '20px', marginBottom: '20px' }}>
+    <h3 style={{ minHeight: '24px', padding: '12px', margin: 0, fontSize: '16px', fontWeight: 'normal', background: Colors.darkGray, color: 'white' }}>
+      <div style={{ float: 'left', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+        <span style={{ marginLeft: '15px' }}>{formatDate(time)}</span>
+      </div>
+    </h3>
+    <div style={style.activity}>
+      <div style={style.activity.avatar}>
+        <IconPreview
+          selected={['1']}
+          options={[
+            {
+              id: '1',
+              img: user
+                ? ((userImage || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'
+                : ((organizationImage || {}).fullDownloadUrl) || '/img/organization/noOrganization.png',
+              translatedMessage: user
+                ? `${user.firstName || ''} ${user.lastName || ''}`
+                : organization.name,
+            },
+          ]}
+          size={100}
+          stretch={Boolean(true)}
+          showText={Boolean(true)}
+          wrapperStyle={{ display: 'flex', justifyContent: 'center' }}
+        />
+      </div>
+      <div style={style.activity.content}>
+        <ReactMarkdown
+          source={body}
+          softBreak="br"
+          allowedTypes={[
+            'Text',
+            'Paragraph',
+            'Softbreak',
+            'Link',
+            'Strong',
+            'Emph'
+          ]}
+          unwrapDisallowed
+        />
+        {canBeDeleted &&
+          <div style={style.deleteButton}>
+            <RaisedButton
+              label={msg('trash.removeActivity')}
+              onClick={onRemove}
+              labelStyle={{
+                fontSize: '12px',
+                fontWeight: 'normal',
+              }}
+              style={{
+                marginLeft: 'auto',
+              }}
+            />
+          </div>
+        }
+      </div>
+    </div>
+  </Paper>
+);
+
+Comment.propTypes = {
+  canBeDeleted: React.PropTypes.bool,
+  formatDate: React.PropTypes.func,
+  msg: React.PropTypes.func,
+  body: React.PropTypes.string,
+  onRemove: React.PropTypes.func,
+  time: React.PropTypes.string,
+  user: React.PropTypes.object,
+  userImage: React.PropTypes.object,
+  organization: React.PropTypes.object,
+  organizationImage: React.PropTypes.object,
+};
+
+Comment = translate(Radium(Comment));
+
 @translate
 @withRole((state) => {
   const { spam, userDetail: { reviewed }, gps: { area } } = state.trashes.item;
@@ -166,6 +255,7 @@ History = translate(Radium(History));
   prepareEventFromTrashes,
   push,
   removeActivity,
+  removeComment,
   removeImage,
   removeTrash,
 })
@@ -183,6 +273,7 @@ export default class Detail extends Component {
     prepareEventFromTrashes: React.PropTypes.func,
     push: React.PropTypes.func,
     removeActivity: React.PropTypes.func,
+    removeComment: React.PropTypes.func,
     removeImage: React.PropTypes.func,
     removeTrash: React.PropTypes.func,
     roles: React.PropTypes.object,
@@ -249,6 +340,33 @@ export default class Detail extends Component {
         <h2>{msg('trash.history')}</h2>
         <div style={style.topIndentation}>
           {history}
+        </div>
+      </div>
+    );
+  }
+
+  renderComments() {
+    const { addConfirm, msg, item, removeComment } = this.props;
+    if (item.comments.length === 0) return null;
+
+    const comments = item.comments.map((val, key) =>
+      <Comment
+        key={key}
+        user={val.user}
+        userImage={val.user_image}
+        organization={val.organization}
+        organizationImage={val.organization_image}
+        time={val.created}
+        body={val.body}
+        onRemove={() => addConfirm('activity', { onSubmit: () => removeComment(item.id, val.id) })}
+        canBeDeleted={val.canIDelete}
+      />
+    );
+    return (
+      <div>
+        <h2>{msg('trash.comments')}</h2>
+        <div style={style.topIndentation}>
+          {comments}
         </div>
       </div>
     );
@@ -403,6 +521,11 @@ export default class Detail extends Component {
         label: msg('global.update'),
         linkTo: routesList.trashUpdate.replace(':id', item.id),
       },
+      {
+        name: 'comment',
+        label: msg('global.createComment'),
+        linkTo: routesList.commentCreate.replace(':id', item.id),
+      },
       canBeDeleted && {
         name: 'delete',
         label: msg('global.remove'),
@@ -469,6 +592,7 @@ export default class Detail extends Component {
               }
             </Paper>
             {this.renderActivities()}
+            {this.renderComments()}
             {this.renderEvents()}
           </div>
         </div>
