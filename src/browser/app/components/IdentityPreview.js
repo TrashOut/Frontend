@@ -64,14 +64,15 @@ export default class IdentityPreview extends Component {
 
     return <div style={{ ...styles, ...wrapperStyle }}>
       <span style={{ ...styles.container, ...style }}>
-          <Avatar
-            src={img}
-            size={size}
-            style={avatarStyle}
-            onClick={avatarOnClick}
-          />
+        <Avatar
+          src={img}
+          size={size}
+          style={avatarStyle}
+          onClick={avatarOnClick}
+        />
+        <br/>
         <span style={styles.container.text}>{text}</span>
-        </span>
+      </span>
     </div>;
   }
 }
