@@ -44,16 +44,13 @@ export default class IdentityPreview extends Component {
       flexFlow: 'row wrap',
       alignItems: 'flex-start',
       container: {
-        margin: '20px',
         marginTop: '0',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
         textAlign: 'center',
         maxWidth: '120px',
         text: {
           overflowWrap: 'break-word',
           wordWrap: 'break-word',
+          whiteSpace: "pre-wrap"
         },
       },
     };
@@ -61,7 +58,7 @@ export default class IdentityPreview extends Component {
     const avatarStyle = {
       objectFit: 'cover',
       border: `3px solid ${Colors.gray}`,
-      marginBottom: '12px',
+      marginBottom: '5px',
       cursor: avatarOnClick ? 'pointer' : 'auto',
     }
 
