@@ -33,3 +33,5 @@ config/json
 
 #visual studio
 .idea
+
+src/server/firebase/firebase.service-account-credentials.json

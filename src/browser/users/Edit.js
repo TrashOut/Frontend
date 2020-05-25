@@ -320,6 +320,18 @@ export default class Edit extends Component {
                     />
                   </div>
                 </div>
+                <div className="row">
+                  <div className="col s12 m6">
+                    <Field
+                      name="trashActivityEmailNotification"
+                      type="radioList"
+                      component={Input}
+                      label={msg('user.trashActivityEmailNotification')}
+                      items={trueFalse}
+                      inRow={Boolean(true)}
+                    />
+                  </div>
+                </div>
                 <div className="col s12 m12 right-align">
                   <RaisedButton
                     type="button"

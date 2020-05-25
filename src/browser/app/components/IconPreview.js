@@ -39,6 +39,7 @@ export default class IconPreview extends Component {
     style: React.PropTypes.object,
     upperText: React.PropTypes.string,
     wrapperStyle: React.PropTypes.object,
+    avatarOnClick: React.PropTypes.func,
   };
 
   state = {
@@ -46,7 +47,7 @@ export default class IconPreview extends Component {
   };
 
   render() {
-    const { upperText, selected, msg, options, size, showText, stretch = false, style = {}, wrapperStyle = {} } = this.props;
+    const { upperText, selected, msg, options, size, showText, stretch = false, style = {}, wrapperStyle = {}, avatarOnClick = null } = this.props;
 
     const styles = {
       display: 'flex',
@@ -70,6 +71,7 @@ export default class IconPreview extends Component {
         marginBottom: '12px',
         marginLeft: 'auto',
         marginRight: 'auto',
+        cursor: avatarOnClick ? 'pointer' : 'auto',
       },
       image: {
         maxHeight: `${size * 0.65}`,
@@ -89,6 +91,7 @@ export default class IconPreview extends Component {
         key,
         size,
         style: styles.avatar,
+        onClick: avatarOnClick,
       };
 
       const src = this.state.imageHasError.indexOf(key) < 0

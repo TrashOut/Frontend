@@ -4872,5 +4872,89 @@ export default [
 	{
 		"id": "organization.dumpsCleaned",
 		"defaultMessage": "Megtiszított területek"
+	},
+	{
+		"id": "global.language.portuguese",
+		"defaultMessage": "portugál"
+	},
+	{
+		"id": "global.language.italian",
+		"defaultMessage": "olasz"
+	},
+	{
+		"id": "global.language.hungarian",
+		"defaultMessage": "Magyar"
+	},
+	{
+		"id": "global.language.france",
+		"defaultMessage": "Francia"
+	},
+	{
+		"id": "trash.removeComment.success",
+		"defaultMessage": "A megjegyzés törölve"
+	},
+	{
+		"id": "global.createComment",
+		"defaultMessage": "Megjegyzés hozzáadása"
+	},
+	{
+		"id": "comment.validation.bodyIsRequired",
+		"defaultMessage": "Szöveg szükséges"
+	},
+	{
+		"id": "trash.createComment.success",
+		"defaultMessage": "A megjegyzés sikeresen hozzáadva"
+	},
+	{
+		"id": "comment.body",
+		"defaultMessage": "Test"
+	},
+	{
+		"id": "comment.commentAs",
+		"defaultMessage": "Megjegyzés:"
+	},
+	{
+		"id": "comment.addComment",
+		"defaultMessage": "Megjegyzés"
+	},
+	{
+		"id": "comment.intro",
+		"defaultMessage": "#comment.intro"
+	},
+	{
+		"id": "mail.activity.greeting",
+		"defaultMessage": "#mail.activity.greeting"
+	},
+	{
+		"id": "mail.activity.p1",
+		"defaultMessage": "#mail.activity.p1"
+	},
+	{
+		"id": "mail.activity.p2",
+		"defaultMessage": "#mail.activity.p2"
+	},
+	{
+		"id": "mail.activity.footer",
+		"defaultMessage": "#mail.activity.footer"
+	},
+	{
+		"id": "mail.activity.subject",
+		"defaultMessage": "#mail.activity.subject"
+	},
+	{
+		"id": "mail.activity.button",
+		"defaultMessage": "#mail.activity.button"
+	},
+	{
+		"id": "user.trashActivityEmailNotification",
+		"defaultMessage": "#user.trashActivityEmailNotification"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.yes",
+		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+	},
+	{
+		"id": "user.trashActivityEmailNotification.no",
+		"defaultMessage": "#user.trashActivityEmailNotification.no"
 	}
 ]

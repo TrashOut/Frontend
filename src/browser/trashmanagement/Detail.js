@@ -26,6 +26,7 @@ import AppBar from 'material-ui/AppBar';
 import Colors from '../../common/app/colors';
 import Confirm from '../app/components/Confirm';
 import IconPreview from '../app/components/IconPreview';
+import IdentityPreview from '../app/components/IdentityPreview';
 import ImagePreview from '../app/components/ImagePreview';
 import Loading from '../app/components/Loading';
 import Paper from 'material-ui/Paper';
@@ -68,6 +69,7 @@ let History = ({
   time,
   user,
   anonymous,
+  avatarOnClick,
 }) => (
   <Paper style={{ marginTop: '20px', marginBottom: '20px' }}>
     <h3 style={{ minHeight: '24px', padding: '12px', margin: 0, fontSize: '16px', fontWeight: 'normal', ...statusStyle[status].style }}>
@@ -79,20 +81,11 @@ let History = ({
     </h3>
     <div style={style.activity}>
       <div style={style.activity.avatar}>
-        <IconPreview
-          selected={['1']}
-          options={[
-            {
-              id: '1',
-              img: (!anonymous && (user.image || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg',
-              translatedMessage: (!anonymous && (user.firstName || user.lastName))
-                ? `${user.firstName || ''} ${user.lastName || ''}`
-                : msg('trash.anonymous'),
-            },
-          ]}
+        <IdentityPreview
+          img={((!anonymous && user.image || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'}
+          text={!anonymous ? `${user.firstName || ''} ${user.lastName || ''}` : msg('trash.anonymous')}
+          avatarOnClick={avatarOnClick}
           size={100}
-          stretch={Boolean(true)}
-          showText={Boolean(true)}
           wrapperStyle={{ display: 'flex', justifyContent: 'center' }}
         />
       </div>
@@ -143,6 +136,7 @@ History.propTypes = {
   status: React.PropTypes.string,
   time: React.PropTypes.string,
   user: React.PropTypes.object,
+  avatarOnClick: React.PropTypes.object,
 };
 
 History = translate(Radium(History));
@@ -158,6 +152,7 @@ let Comment = ({
   userImage,
   organization,
   organizationImage,
+  avatarOnClick,
 }) => (
   <Paper style={{ marginTop: '20px', marginBottom: '20px' }}>
     <h3 style={{ minHeight: '24px', padding: '12px', margin: 0, fontSize: '16px', fontWeight: 'normal', background: Colors.darkGray, color: 'white' }}>
@@ -167,22 +162,17 @@ let Comment = ({
     </h3>
     <div style={style.activity}>
       <div style={style.activity.avatar}>
-        <IconPreview
-          selected={['1']}
-          options={[
-            {
-              id: '1',
-              img: user
-                ? ((userImage || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'
-                : ((organizationImage || {}).fullDownloadUrl) || '/img/organization/noOrganization.png',
-              translatedMessage: user
-                ? `${user.firstName || ''} ${user.lastName || ''}`
-                : organization.name,
-            },
-          ]}
+        <IdentityPreview
+          img={user
+            ? ((userImage || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'
+            : ((organizationImage || {}).fullDownloadUrl) || '/img/organization/noOrganization.png'
+          }
+          text={user
+            ? `${user.firstName || ''} ${user.lastName || ''}`
+            : organization.name
+          }
+          avatarOnClick={avatarOnClick}
           size={100}
-          stretch={Boolean(true)}
-          showText={Boolean(true)}
           wrapperStyle={{ display: 'flex', justifyContent: 'center' }}
         />
       </div>
@@ -231,6 +221,7 @@ Comment.propTypes = {
   userImage: React.PropTypes.object,
   organization: React.PropTypes.object,
   organizationImage: React.PropTypes.object,
+  avatarOnClick: React.PropTypes.func,
 };
 
 Comment = translate(Radium(Comment));
@@ -307,10 +298,11 @@ export default class Detail extends Component {
   }
 
   renderActivities() {
-    const { addConfirm, msg, item, removeActivity, removeImage, roles } = this.props;
+    const { addConfirm, msg, item, removeActivity, removeImage, push, roles } = this.props;
     if (item.updateHistory.length === 0) return null;
 
     const canBeDeleted = roles.isAuthorized('superAdmin') || roles.isAuthorizedWithArea('admin');
+    const canViewUserDetail = roles.isAuthorized('superAdmin') || roles.isAuthorizedWithArea('admin');
 
     const history = item.updateHistory.map((val, key) =>
       <History
@@ -333,6 +325,7 @@ export default class Detail extends Component {
         onImageRemove={(imageId) => addConfirm('image', { onSubmit: () => removeImage(item.id, val.activityId, imageId) })}
         onRemove={() => addConfirm('activity', { onSubmit: () => removeActivity(item.id, val.activityId) })}
         canBeDeleted={canBeDeleted}
+        avatarOnClick={!val.anonymous && canViewUserDetail ? () => push(routesList.userDetail.replace(':id', val.userInfo.userId)) : null}
       />
     );
     return (
@@ -346,8 +339,11 @@ export default class Detail extends Component {
   }
 
   renderComments() {
-    const { addConfirm, msg, item, removeComment } = this.props;
+    const { addConfirm, msg, item, removeComment, push, roles } = this.props;
+
     if (item.comments.length === 0) return null;
+
+    const canViewUserDetail = roles.isAuthorized('superAdmin') || roles.isAuthorizedWithArea('admin');
 
     const comments = item.comments.map((val, key) =>
       <Comment
@@ -359,6 +355,13 @@ export default class Detail extends Component {
         time={val.created}
         body={val.body}
         onRemove={() => addConfirm('activity', { onSubmit: () => removeComment(item.id, val.id) })}
+        avatarOnClick={val.organization
+          ? () => push(routesList.organizationsDetail.replace(':id', val.organization.id))
+          : (canViewUserDetail
+            ? () => push(routesList.userDetail.replace(':id', val.user.id))
+            : null
+          )
+        }
         canBeDeleted={val.canIDelete}
       />
     );
@@ -417,8 +420,8 @@ export default class Detail extends Component {
   }
 
   renderDetails() {
-    const { formatDate, msg, item } = this.props;
-    const { firstName, lastName, image } = item.userInfo;
+    const { formatDate, msg, item, roles, push } = this.props;
+    const { firstName, lastName, image, userId } = item.userInfo;
 
     const accessibility =
       Object.keys(item.accessibility).reduce((last, cur) => {
@@ -428,31 +431,20 @@ export default class Detail extends Component {
         return last;
       }, '');
 
+    const canViewUserDetail = roles.isAuthorized('superAdmin') || roles.isAuthorizedWithArea('admin');
+
     return (
       <div className="row">
         <Box
           className="col s12 m4"
           title={msg('trash.updated')}
         >
-          <IconPreview
-            selected={['1']}
-            options={[
-              {
-                id: '1',
-                img: (!item.anonymous && (image || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg',
-                translatedMessage: <span>
-                  {item.anonymous
-                    ? msg('trash.anonymous')
-                    : `${firstName || ''} ${lastName || ''}`
-                  }
-                  <br />
-                  {formatDate(item.updateTime)}
-                </span>,
-              },
-            ]}
+          <IdentityPreview
+            img={((!item.anonymous && image || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'}
+            text={!item.anonymous ? `${firstName || ''} ${lastName || ''}\n${formatDate(item.updateTime)}` : msg('trash.anonymous')}
+            avatarOnClick={!item.anonymous && canViewUserDetail ? () => push(routesList.userDetail.replace(':id', userId)) : null}
             size={80}
             stretch={Boolean(true)}
-            showText={Boolean(true)}
           />
         </Box>
 
