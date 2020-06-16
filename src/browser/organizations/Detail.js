@@ -122,12 +122,8 @@ export default class Detail extends Component {
 
   @autobind
   redirectToTrashes() {
-    const { push, setTable, users } = this.props;
-    if (users.isFetching) return null;
-    const usersArray = users.items.toArray();
-    const usersToFilter = [];
-    usersArray.forEach(user => usersToFilter.push(user.id));
-    setTable('TABLE_TYPE_TRASH', { userIds: usersToFilter });
+    const { push, setTable, match } = this.props;
+    setTable('TABLE_TYPE_TRASH', { organizationId: match.params.id });
     push(routesList.userTrashList);
   }
 

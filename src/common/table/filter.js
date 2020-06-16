@@ -54,6 +54,7 @@ export class TrashFilter extends Record({
   trashNote: '',
   trashIds: '',
   userIds: '',
+  organizationId: '',
   attributesNeeded: 'id,note,status,size,gpsFull,created,images',
   page: 1,
   orderBy: '-id',
