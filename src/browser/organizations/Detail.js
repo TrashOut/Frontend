@@ -41,7 +41,7 @@ import { autobind } from 'core-decorators';
 import { Confirm, Loading, SecondAppBar, Social, Box, Link } from '../app/components';
 import { connect } from 'react-redux';
 import { FacebookIcon, TwitterIcon, GoogleIcon } from '../app/components/Icons';
-import { fetchOrganizationUsers, fetchOrganizationUserIds, fetchOrganization, removeOrganization, joinOrganization, leaveOrganization, updateOrganization } from '../../common/organizations/actions';
+import { fetchOrganizationUsers, fetchOrganization, removeOrganization, joinOrganization, leaveOrganization, updateOrganization } from '../../common/organizations/actions';
 import { Match } from '../../common/app/components';
 import { organizationRoles } from '../../roles';
 import { setTable } from '../../common/table/actions';
@@ -60,7 +60,6 @@ import { Switch } from 'react-router-dom';
     isFetching: state.table.isFetching,
     items: state.table.map,
   },
-  userIds: state.organizations.userIds,
   filter: state.table.filter,
 }), {
   addConfirm,
@@ -69,7 +68,6 @@ import { Switch } from 'react-router-dom';
   fetchOrganization,
   removeOrganization,
   fetchOrganizationUsers,
-  fetchOrganizationUserIds,
   updateOrganization,
   setTable,
 })
@@ -79,8 +77,6 @@ export default class Detail extends Component {
     fetchEvent: React.PropTypes.func,
     fetchOrganization: React.PropTypes.func.isRequired,
     fetchOrganizationUsers: React.PropTypes.func.isRequired,
-    fetchOrganizationUserIds: React.PropTypes.func.isRequired,
-    userIds: React.PropTypes.array,
     filter: React.PropTypes.object,
     formatDate: React.PropTypes.func.isRequired,
     isFetching: React.PropTypes.bool,
@@ -106,10 +102,9 @@ export default class Detail extends Component {
   };
 
   componentWillMount() {
-    const { fetchOrganization, fetchOrganizationUserIds, match, setTable } = this.props;
+    const { fetchOrganization, match, setTable } = this.props;
     setTable('TABLE_TYPE_USER');
     fetchOrganization(match.params.id);
-    fetchOrganizationUserIds(match.params.id);
   }
 
   componentWillReceiveProps(nextProps) {
@@ -127,8 +122,12 @@ export default class Detail extends Component {
 
   @autobind
   redirectToTrashes() {
-    const {push, setTable, userIds} = this.props;
-    setTable('TABLE_TYPE_TRASH', {userIds: userIds});
+    const { push, setTable, users } = this.props;
+    if (users.isFetching) return null;
+    const usersArray = users.items.toArray();
+    const usersToFilter = [];
+    usersArray.forEach(user => usersToFilter.push(user.id));
+    setTable('TABLE_TYPE_TRASH', { userIds: usersToFilter });
     push(routesList.userTrashList);
   }
 
