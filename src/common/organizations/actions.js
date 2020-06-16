@@ -41,6 +41,8 @@ export const JOIN_ORGANIZATION = 'JOIN_ORGANIZATION';
 export const LEAVE_ORGANIZATION = 'LEAVE_ORGANIZATION';
 export const REMOVE_ORGANIZATION = 'REMOVE_ORGANIZATION';
 export const UPDATE_ORGANIZATION = 'UPDATE_ORGANIZATION';
+export const FETCH_ORGANIZATION_USER_IDS = 'FETCH_ORGANIZATION_USER_IDS';
+export const FETCH_ORGANIZATION_USER_IDS_SUCCESS = 'FETCH_ORGANIZATION_USER_IDS_SUCCESS';
 
 const send = async (organization, func, dispatch, token, removeImage) => {
   if (organization.image) {
@@ -195,3 +197,8 @@ export const fetchOrganizationUsers = (organizationId, filter) => ({ token, disp
     type: FETCH_ORGANIZATION_USERS,
   };
 };
+
+export const fetchOrganizationUserIds = (id) => ({ token }) => ({
+  type: FETCH_ORGANIZATION_USER_IDS,
+  payload: api.getOrganizationUserIds(id, token)
+});

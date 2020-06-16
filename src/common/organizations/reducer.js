@@ -32,6 +32,7 @@ const State = Record({
   isFetching: true,
   item: new Organization(),
   userRelation: '',
+  userIds: [],
 }, 'organization');
 
 const organizationReducer = (state = new State(), action) => {
@@ -56,6 +57,12 @@ const organizationReducer = (state = new State(), action) => {
         .setIn(['item', 'statistics'], action.payload[4] ? action.payload[4].stats : null)
         .set('isFetching', false);
     }
+
+    case actions.FETCH_ORGANIZATION_USER_IDS_SUCCESS: {
+      return state
+        .set('userIds', action.payload);
+    }
+
     default:
       return state;
   }

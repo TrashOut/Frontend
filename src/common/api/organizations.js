@@ -102,6 +102,14 @@ export const getOrganizationUsers = async (id, filter, token) => {
   }
 };
 
+export const getOrganizationUserIds = async (id, token) => {
+  try {
+    return await get(`/webapi/organization/${id}/users/ids`, token);
+  } catch (error) {
+    throw new Error('get-error');
+  }
+};
+
 export const getOrganizationUsersCount = async (id, filter, token) => {
   try {
     return await get(`/webapi/organization/${id}/users/count/?${getQueryString(filter)}`, token);
