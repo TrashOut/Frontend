@@ -4319,7 +4319,7 @@ export default [
 	},
 	{
 		"id": "global.validation.sizeExceeded",
-		"defaultMessage": "El tamaño de algunas imágenes supera el límite. Suba una imagen más pequeña (máximo 2 MB)."
+		"defaultMessage": "El tamaño de algunas imágenes supera el límite. Suba una imagen más pequeña (máximo 3 MB)."
 	},
 	{
 		"id": "global.image.mainImage",

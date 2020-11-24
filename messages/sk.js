@@ -4319,7 +4319,7 @@ export default [
 	},
 	{
 		"id": "global.validation.sizeExceeded",
-		"defaultMessage": "Veľkosť obrázkov bola prekročená. Nahrajte menší obrázok (max 2 MB)."
+		"defaultMessage": "Veľkosť obrázkov bola prekročená. Nahrajte menší obrázok (max 3 MB)."
 	},
 	{
 		"id": "global.image.mainImage",

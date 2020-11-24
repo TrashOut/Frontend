@@ -4319,7 +4319,7 @@ export default [
 	},
 	{
 		"id": "global.validation.sizeExceeded",
-		"defaultMessage": "Néhány kép mérete meghaladja a maximális méretet. Töltsön fel kisebb képet (legfeljebb 2 MB)."
+		"defaultMessage": "Néhány kép mérete meghaladja a maximális méretet. Töltsön fel kisebb képet (legfeljebb 3 MB)."
 	},
 	{
 		"id": "global.image.mainImage",

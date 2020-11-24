@@ -4319,7 +4319,7 @@ export default [
 	},
 	{
 		"id": "global.validation.sizeExceeded",
-		"defaultMessage": "Size of some Image exceeded the limit. Upload smaller image (max 2 MB)."
+		"defaultMessage": "Size of some Image exceeded the limit. Upload smaller image (max 3 MB)."
 	},
 	{
 		"id": "global.image.mainImage",
