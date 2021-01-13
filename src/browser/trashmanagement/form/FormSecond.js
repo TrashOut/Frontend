@@ -29,6 +29,7 @@ import translate from '../../../messages/translate';
 import { anonymous, trashAccessibility } from '../../../common/trashmanagement/consts';
 import { Field, reduxForm } from 'redux-form';
 import { validateCreate } from '../../../common/trashmanagement/validate';
+import {connect} from "react-redux";
 
 const styles = {
   button: {
@@ -38,6 +39,9 @@ const styles = {
 };
 
 @translate
+@connect(state => ({
+  viewer: state.users.viewer
+}), null)
 @reduxForm({
   destroyOnUnmount: false,
   forceUnregisterOnUnmount: true,
@@ -49,10 +53,16 @@ export default class FormSecond extends Component {
     handleSubmit: React.PropTypes.func,
     msg: React.PropTypes.func.isRequired,
     previousPage: React.PropTypes.func,
+    viewer: React.PropTypes.object,
   };
 
   render() {
-    const { handleSubmit, previousPage, msg } = this.props;
+    const { handleSubmit, previousPage, msg, viewer } = this.props;
+
+    let organizations = viewer.organizations
+      .filter(org => org.organizationRoleId == 1)
+      .reduce((obj, val) => { obj[val.id] = val.name; return obj; }, {});
+    organizations = Object.assign(organizations, { 0: msg('trash.anonymous') });
 
     return (
       <form onSubmit={handleSubmit}>
@@ -66,24 +76,14 @@ export default class FormSecond extends Component {
               multiLine={Boolean(true)}
             />
           </div>
-          <div className="col s12">
+          <div className="col s12 m4">
             <Field
-              name="accessibility"
-              type="checkboxList"
+              name="organizationId"
+              type="select"
               component={Input}
-              label={msg('trash.accessibility')}
-              items={trashAccessibility}
-              inRow={Boolean(true)}
-            />
-          </div>
-          <div className="col s12">
-            <Field
-              name="anonymous"
-              type="checkboxList"
-              component={Input}
-              label={msg('trash.sendAnonymously')}
-              items={anonymous}
-              inRow={Boolean(true)}
+              items={organizations}
+              label={msg('trash.reportAs')}
+              translatedSelectPlaceholder={viewer.displayName}
             />
           </div>
         </div>

@@ -54,6 +54,7 @@ export default class Trash extends Record({
   updateTime: '',
   userDetail: new User(),
   userInfo: {},
+  organizationId: null,
   organization: null,
   updateNeeded: 0,
   gps: {},
@@ -84,6 +85,14 @@ export default class Trash extends Record({
     if (values.userDetail) {
       values.userDetail = new User(values.userDetail);
     }
+    if (values.organizationId) {
+      if (values.organizationId === '0') {
+        values.anonymous = true;
+        values.organizationId = null;
+      } else {
+        values.organizationId = parseInt(values.organizationId);
+      }
+    }
     if (Array.isArray(values.updateHistory)) {
       values.updateHistory = values.updateHistory.reverse();
     }
@@ -110,7 +119,8 @@ export default class Trash extends Record({
         if (result.types[cur] === true) prev.push(cur);
         return prev;
       }, []),
-      anonymous: (result.anonymous.anonymous === true),
+      anonymous: (result.anonymous === true),
+      organizationId: result.organizationId,
       accessibility: result.accessibility,
     };
   }
