@@ -54,6 +54,7 @@ export default class Trash extends Record({
   updateTime: '',
   userDetail: new User(),
   userInfo: {},
+  organization: null,
   updateNeeded: 0,
   gps: {},
   cleanedByMe: false,

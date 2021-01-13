@@ -68,6 +68,7 @@ let History = ({
   status,
   time,
   user,
+  organization,
   anonymous,
   avatarOnClick,
 }) => (
@@ -82,8 +83,8 @@ let History = ({
     <div style={style.activity}>
       <div style={style.activity.avatar}>
         <IdentityPreview
-          img={((!anonymous && user.image || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'}
-          text={!anonymous ? `${user.firstName || ''} ${user.lastName || ''}` : msg('trash.anonymous')}
+          img={organization ? ((organization.image || {}).fullDownloadUrl || '/img/organization/noOrganization.png') : (((!anonymous && user.image || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg')}
+          text={organization ? organization.name : (!anonymous ? `${user.firstName || ''} ${user.lastName || ''}` : msg('trash.anonymous'))}
           avatarOnClick={avatarOnClick}
           size={100}
           wrapperStyle={{ display: 'flex', justifyContent: 'center' }}
@@ -136,6 +137,7 @@ History.propTypes = {
   status: React.PropTypes.string,
   time: React.PropTypes.string,
   user: React.PropTypes.object,
+  organization: React.PropTypes.object,
   avatarOnClick: React.PropTypes.object,
 };
 
@@ -308,6 +310,7 @@ export default class Detail extends Component {
       <History
         key={key}
         user={val.userInfo}
+        organization={val.organization}
         time={val.updateTime}
         note={val.changed.note}
         anonymous={val.anonymous}
@@ -325,7 +328,10 @@ export default class Detail extends Component {
         onImageRemove={(imageId) => addConfirm('image', { onSubmit: () => removeImage(item.id, val.activityId, imageId) })}
         onRemove={() => addConfirm('activity', { onSubmit: () => removeActivity(item.id, val.activityId) })}
         canBeDeleted={canBeDeleted}
-        avatarOnClick={!val.anonymous && canViewUserDetail ? () => push(routesList.userDetail.replace(':id', val.userInfo.userId)) : null}
+        avatarOnClick={val.organization
+          ? () => push(routesList.organizationsDetail.replace(':id', val.organization.id))
+          : (!val.anonymous && canViewUserDetail ? () => push(routesList.userDetail.replace(':id', val.userInfo.userId)) : null)
+        }
       />
     );
     return (
@@ -439,13 +445,22 @@ export default class Detail extends Component {
           className="col s12 m4"
           title={msg('trash.updated')}
         >
-          <IdentityPreview
-            img={((!item.anonymous && image || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'}
-            text={!item.anonymous ? `${firstName || ''} ${lastName || ''}\n${formatDate(item.updateTime)}` : msg('trash.anonymous')}
-            avatarOnClick={!item.anonymous && canViewUserDetail ? () => push(routesList.userDetail.replace(':id', userId)) : null}
-            size={80}
-            stretch={Boolean(true)}
-          />
+          {item.organization
+            ? <IdentityPreview
+              img={((item.organization.image || {}).fullDownloadUrl) || '/img/organization/noOrganization.png'}
+              text={`${item.organization.name}\n${formatDate(item.updateTime)}`}
+              avatarOnClick={() => push(routesList.organizationsDetail.replace(':id', item.organization.id))}
+              size={80}
+              stretch={Boolean(true)}
+            />
+            : <IdentityPreview
+              img={((!item.anonymous && image || {}).fullDownloadUrl) || '/img/users/noAvatar.jpg'}
+              text={!item.anonymous ? `${firstName || ''} ${lastName || ''}\n${formatDate(item.updateTime)}` : msg('trash.anonymous')}
+              avatarOnClick={!item.anonymous && canViewUserDetail ? () => push(routesList.userDetail.replace(':id', userId)) : null}
+              size={80}
+              stretch={Boolean(true)}
+            />
+          }
         </Box>
 
         <Box
