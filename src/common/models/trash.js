@@ -144,7 +144,8 @@ export default class Trash extends Record({
         if (result.types[cur] === true) prev.push(cur);
         return prev;
       }, []),
-      anonymous: result.anonymous.anonymous === true,
+      anonymous: (result.anonymous === true),
+      organizationId: result.organizationId,
       accessibility: result.accessibility,
       gps: result.gps,
       cleanedByMe: result.status === trashStatuses.cleaned.id && result.cleanedByMe.cleanedByMe === true,

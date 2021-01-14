@@ -51,6 +51,7 @@ const selector = formValueSelector('trashForm');
   item: state.trashes.item,
   isFetching: state.trashes.isFetching,
   apiRunningQueries: state.app.pendingCount,
+  viewer: state.users.viewer,
 }), { push, formRemoveImage, getPosition, updateTrash, fetchDetail })
 @reduxForm({
   form: 'trashForm',
@@ -75,6 +76,7 @@ export default class UpdateForm extends Component {
     initialValues: React.PropTypes.object,
     apiRunningQueries: React.PropTypes.bool,
     status: React.PropTypes.string,
+    viewer: React.PropTypes.object,
   };
 
   componentWillMount() {
@@ -86,7 +88,12 @@ export default class UpdateForm extends Component {
   }
 
   render() {
-    const { status, apiRunningQueries, isFetching, push, handleSubmit, submitting, files, formRemoveImage, updateTrash, item, msg } = this.props;
+    const { status, apiRunningQueries, isFetching, push, handleSubmit, submitting, files, formRemoveImage, updateTrash, item, msg, viewer } = this.props;
+
+    let organizations = viewer.organizations
+      .filter(org => org.organizationRoleId == 1)
+      .reduce((obj, val) => { obj[val.id] = val.name; return obj; }, {});
+    organizations = Object.assign(organizations, { 0: msg('trash.anonymous') });
 
     return (
       <div>
@@ -186,14 +193,14 @@ export default class UpdateForm extends Component {
                       inRow={Boolean(true)}
                     />
                   </div>
-                  <div className="col s12">
+                  <div className="col s12 m4">
                     <Field
-                      name="anonymous"
-                      type="checkboxList"
+                      name="organizationId"
+                      type="select"
                       component={Input}
-                      label={msg('trash.sendAnonymously')}
-                      items={anonymous}
-                      inRow={Boolean(true)}
+                      items={organizations}
+                      label={msg('trash.reportAs')}
+                      translatedSelectPlaceholder={viewer.displayName}
                     />
                   </div>
                 </div>
