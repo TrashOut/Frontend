@@ -586,10 +586,6 @@ export default [
 		"defaultMessage": "Törli a kiválasztott fotót?"
 	},
 	{
-		"id": "trash.create.noGps",
-		"defaultMessage": "Nincs GPS jel."
-	},
-	{
 		"id": "trash.create.noInternetHeader",
 		"defaultMessage": "Ön Offline."
 	},
@@ -2907,7 +2903,7 @@ export default [
 	},
 	{
 		"id": "user.addArea",
-		"defaultMessage": "Adja meg érdeklődési területeit!"
+		"defaultMessage": "Értesítések beállítása"
 	},
 	{
 		"id": "user.generateApiKey",
@@ -4919,42 +4915,50 @@ export default [
 	},
 	{
 		"id": "comment.intro",
-		"defaultMessage": "#comment.intro"
+		"defaultMessage": "Ha szervezetként kommentál, akkor azt javasoljuk, hogy írjon aláírást a megjegyzéshez (például név, beosztás, osztály stb.)"
 	},
 	{
 		"id": "mail.activity.greeting",
-		"defaultMessage": "#mail.activity.greeting"
+		"defaultMessage": "kedves"
 	},
 	{
 		"id": "mail.activity.p1",
-		"defaultMessage": "#mail.activity.p1"
+		"defaultMessage": "Új tevékenység történt a követett <a href=\"{string}\"> az illegális hulladéklerakóról szóló jelentésben </a>. Tudja meg, hogy frissítették-e, vagy van-e új megjegyzés."
 	},
 	{
 		"id": "mail.activity.p2",
-		"defaultMessage": "#mail.activity.p2"
+		"defaultMessage": "Köszönjük, hogy tisztábbá tette környezetünket! Ne felejtsd el a TrashOut mobilalkalmazást alkalmazni a környéken lévő illegális hulladéklerakók bejelentésére és frissítésére, a legközelebbi gyűjtőhely megkeresésére vagy a tisztítási eseményekben való részvételre."
 	},
 	{
 		"id": "mail.activity.footer",
-		"defaultMessage": "#mail.activity.footer"
+		"defaultMessage": "Azért kapja ezt az e-mailt, mert elfogadta a TrashOut Általános Szerződési Feltételeit. A jelentések frissítésével kapcsolatos e-mail értesítések kikapcsolásához keresse fel a <a href=\"{string}\"> profilod </a> a TrashOut webes alkalmazáson keresztül. Ha meg akarja változtatni a jelentések időszakos gyakoriságát, ellenőrzi az egyes területeket, <a href=\"%s\"> itt </a>. "
 	},
 	{
 		"id": "mail.activity.subject",
-		"defaultMessage": "#mail.activity.subject"
+		"defaultMessage": "TrashOut - új tevékenység történt a követett jelentésben"
 	},
 	{
 		"id": "mail.activity.button",
-		"defaultMessage": "#mail.activity.button"
+		"defaultMessage": "Jelentés megtekintése"
 	},
 	{
 		"id": "user.trashActivityEmailNotification",
-		"defaultMessage": "#user.trashActivityEmailNotification"
+		"defaultMessage": "E-mail értesítéseket szeretnék kapni a jelentéseimben szereplő új tevékenységekről"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.yes",
-		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+		"defaultMessage": "Igen, e-mail értesítéseket szeretnék kapni a jelentéseimben szereplő új tevékenységekről"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.no",
-		"defaultMessage": "#user.trashActivityEmailNotification.no"
+		"defaultMessage": "Nem, nem akarok e-mail értesítést kapni a jelentéseim új tevékenységeiről"
+	},
+	{
+		"id": "trash.create.noGps",
+		"defaultMessage": "Régi GPS hely! Kapcsolja be a helymegosztást. "
+	},
+	{
+		"id": "trash.reportAs",
+		"defaultMessage": "#trash.reportAs"
 	}
 ]

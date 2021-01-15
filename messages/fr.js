@@ -586,10 +586,6 @@ export default [
 		"defaultMessage": "Voulez-vous supprimer la photo choisie ?"
 	},
 	{
-		"id": "trash.create.noGps",
-		"defaultMessage": "Position GPS manquante"
-	},
-	{
 		"id": "trash.create.noInternetHeader",
 		"defaultMessage": "Pas d'internet disponible !"
 	},
@@ -2907,7 +2903,7 @@ export default [
 	},
 	{
 		"id": "user.addArea",
-		"defaultMessage": "Ajouter un secteur d'intérêt"
+		"defaultMessage": "Définir des notifications"
 	},
 	{
 		"id": "user.generateApiKey",
@@ -4919,42 +4915,50 @@ export default [
 	},
 	{
 		"id": "comment.intro",
-		"defaultMessage": "#comment.intro"
+		"defaultMessage": "Si vous commentez en tant qu'organisation, nous vous recommandons d'ajouter une signature au commentaire (par exemple, nom, poste, service, etc.)"
 	},
 	{
 		"id": "mail.activity.greeting",
-		"defaultMessage": "#mail.activity.greeting"
+		"defaultMessage": "cher"
 	},
 	{
 		"id": "mail.activity.p1",
-		"defaultMessage": "#mail.activity.p1"
+		"defaultMessage": "Il y a eu une nouvelle activité sur le <a href=\"{string}\"> rapport du vidage illégal </a> que vous suivez. Découvrez s'il a été mis à jour ou s'il y a un nouveau commentaire."
 	},
 	{
 		"id": "mail.activity.p2",
-		"defaultMessage": "#mail.activity.p2"
+		"defaultMessage": "Merci d'avoir rendu notre environnement plus propre! N'oubliez pas d'utiliser l'application mobile TrashOut pour signaler et mettre à jour les décharges illégales dans votre région, trouver le point de collecte le plus proche ou participer à un événement de nettoyage."
 	},
 	{
 		"id": "mail.activity.footer",
-		"defaultMessage": "#mail.activity.footer"
+		"defaultMessage": "Vous recevez cet e-mail car vous avez accepté les conditions générales de TrashOut. Pour désactiver les notifications par e-mail des mises à jour de vos rapports, accédez à votre <a href=\"{string}\"> profil </a> via l'application Web TrashOut. Si vous souhaitez modifier la périodicité des rapports surveillant une zone spécifique, vous pouvez les modifier à <a href=\"%s\"> ici </a>. "
 	},
 	{
 		"id": "mail.activity.subject",
-		"defaultMessage": "#mail.activity.subject"
+		"defaultMessage": "TrashOut - il y a eu une nouvelle activité sur le rapport que vous suivez"
 	},
 	{
 		"id": "mail.activity.button",
-		"defaultMessage": "#mail.activity.button"
+		"defaultMessage": "Voir le rapport"
 	},
 	{
 		"id": "user.trashActivityEmailNotification",
-		"defaultMessage": "#user.trashActivityEmailNotification"
+		"defaultMessage": "Je souhaite recevoir des notifications par e-mail concernant une nouvelle activité sur mes rapports"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.yes",
-		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+		"defaultMessage": "Oui, je souhaite recevoir des notifications par e-mail concernant une nouvelle activité sur mes rapports"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.no",
-		"defaultMessage": "#user.trashActivityEmailNotification.no"
+		"defaultMessage": "Non, je ne souhaite pas recevoir de notifications par e-mail concernant une nouvelle activité dans mes rapports"
+	},
+	{
+		"id": "trash.create.noGps",
+		"defaultMessage": "Ancienne localisation GPS ! Activez le partage de la localisation. "
+	},
+	{
+		"id": "trash.reportAs",
+		"defaultMessage": "#trash.reportAs"
 	}
 ]

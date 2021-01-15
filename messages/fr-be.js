@@ -586,10 +586,6 @@ export default [
 		"defaultMessage": "Voulez-vous supprimer la photo sélectionnée?"
 	},
 	{
-		"id": "trash.create.noGps",
-		"defaultMessage": "Pas de GPS"
-	},
-	{
 		"id": "trash.create.noInternetHeader",
 		"defaultMessage": "Tu es hors ligne!"
 	},
@@ -2907,7 +2903,7 @@ export default [
 	},
 	{
 		"id": "user.addArea",
-		"defaultMessage": "Ajouter des domaines d'intérêt"
+		"defaultMessage": "Benachrichtigungen festlegen"
 	},
 	{
 		"id": "user.generateApiKey",
@@ -4956,5 +4952,13 @@ export default [
 	{
 		"id": "user.trashActivityEmailNotification.no",
 		"defaultMessage": "#user.trashActivityEmailNotification.no"
+	},
+	{
+		"id": "trash.create.noGps",
+		"defaultMessage": "#trash.create.noGps"
+	},
+	{
+		"id": "trash.reportAs",
+		"defaultMessage": "#trash.reportAs"
 	}
 ]

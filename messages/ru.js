@@ -586,10 +586,6 @@ export default [
 		"defaultMessage": "Удалить выбранное фото?"
 	},
 	{
-		"id": "trash.create.noGps",
-		"defaultMessage": "Нет сигнала GPS"
-	},
-	{
 		"id": "trash.create.noInternetHeader",
 		"defaultMessage": "Вы не подключены к сети!"
 	},
@@ -2907,7 +2903,7 @@ export default [
 	},
 	{
 		"id": "user.addArea",
-		"defaultMessage": "Добавить интересующие районы"
+		"defaultMessage": "Установить уведомления"
 	},
 	{
 		"id": "user.generateApiKey",
@@ -4919,42 +4915,50 @@ export default [
 	},
 	{
 		"id": "comment.intro",
-		"defaultMessage": "#comment.intro"
+		"defaultMessage": "Если вы комментируете как организацию, мы рекомендуем добавить к комментарию подпись (например, имя, должность, отдел и т. Д.)"
 	},
 	{
 		"id": "mail.activity.greeting",
-		"defaultMessage": "#mail.activity.greeting"
+		"defaultMessage": "дорогой"
 	},
 	{
 		"id": "mail.activity.p1",
-		"defaultMessage": "#mail.activity.p1"
+		"defaultMessage": "В <a href=\"{string}\"> отчете о незаконной свалке </a>, за которым вы следите, появилось новое действие. Узнайте, было ли оно обновлено или есть новый комментарий."
 	},
 	{
 		"id": "mail.activity.p2",
-		"defaultMessage": "#mail.activity.p2"
+		"defaultMessage": "Спасибо за то, что сделали нашу окружающую среду чище! Не забудьте использовать мобильное приложение TrashOut, чтобы сообщать и обновлять незаконные свалки в вашем регионе, находить ближайший пункт сбора или принимать участие в уборке."
 	},
 	{
 		"id": "mail.activity.footer",
-		"defaultMessage": "#mail.activity.footer"
+		"defaultMessage": "Вы получаете это письмо, потому что вы согласны с Условиями TrashOut. Чтобы отключить уведомления об обновлениях ваших отчетов по электронной почте, перейдите в свой <a href=\"{string}\"> профиль </a> через веб-приложение TrashOut. Если вы хотите изменить периодичность отчетов, отслеживающих конкретную область, вы можете изменить их в <a href=\"%s\"> здесь </a>. "
 	},
 	{
 		"id": "mail.activity.subject",
-		"defaultMessage": "#mail.activity.subject"
+		"defaultMessage": "TrashOut - в отчете, за которым вы следите, появилось новое действие"
 	},
 	{
 		"id": "mail.activity.button",
-		"defaultMessage": "#mail.activity.button"
+		"defaultMessage": "Посмотреть отчет"
 	},
 	{
 		"id": "user.trashActivityEmailNotification",
-		"defaultMessage": "#user.trashActivityEmailNotification"
+		"defaultMessage": "Я хочу получать уведомления по электронной почте о новых действиях в моих отчетах"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.yes",
-		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+		"defaultMessage": "Да, я хочу получать уведомления по электронной почте о новых действиях в моих отчетах"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.no",
-		"defaultMessage": "#user.trashActivityEmailNotification.no"
+		"defaultMessage": "Нет, я не хочу получать уведомления по электронной почте о новых действиях в моих отчетах"
+	},
+	{
+		"id": "trash.create.noGps",
+		"defaultMessage": "Старое местоположение по GPS! Включите обмен местоположениями. "
+	},
+	{
+		"id": "trash.reportAs",
+		"defaultMessage": "#trash.reportAs"
 	}
 ]

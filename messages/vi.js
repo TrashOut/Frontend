@@ -586,10 +586,6 @@ export default [
 		"defaultMessage": "#trash.removeImageConfirm"
 	},
 	{
-		"id": "trash.create.noGps",
-		"defaultMessage": "#trash.create.noGps"
-	},
-	{
 		"id": "trash.create.noInternetHeader",
 		"defaultMessage": "#trash.create.noInternetHeader"
 	},
@@ -4956,5 +4952,13 @@ export default [
 	{
 		"id": "user.trashActivityEmailNotification.no",
 		"defaultMessage": "#user.trashActivityEmailNotification.no"
+	},
+	{
+		"id": "trash.create.noGps",
+		"defaultMessage": "#trash.create.noGps"
+	},
+	{
+		"id": "trash.reportAs",
+		"defaultMessage": "#trash.reportAs"
 	}
 ]

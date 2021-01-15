@@ -586,10 +586,6 @@ export default [
 		"defaultMessage": "Chcete odstrániť vybranú fotku?"
 	},
 	{
-		"id": "trash.create.noGps",
-		"defaultMessage": "Nemám polohu"
-	},
-	{
 		"id": "trash.create.noInternetHeader",
 		"defaultMessage": "Ste bez internetu!"
 	},
@@ -2907,7 +2903,7 @@ export default [
 	},
 	{
 		"id": "user.addArea",
-		"defaultMessage": "Pridajte oblastí záujmu"
+		"defaultMessage": "Nastaviť oznámenia o oblasti"
 	},
 	{
 		"id": "user.generateApiKey",
@@ -4899,7 +4895,7 @@ export default [
 	},
 	{
 		"id": "comment.validation.bodyIsRequired",
-		"defaultMessage": "Pole Telo je povinné"
+		"defaultMessage": "Pole text komentára je povinné"
 	},
 	{
 		"id": "trash.createComment.success",
@@ -4907,7 +4903,7 @@ export default [
 	},
 	{
 		"id": "comment.body",
-		"defaultMessage": "Telo"
+		"defaultMessage": "Text komentára"
 	},
 	{
 		"id": "comment.commentAs",
@@ -4919,7 +4915,7 @@ export default [
 	},
 	{
 		"id": "comment.intro",
-		"defaultMessage": "Nejaký pokec o tom ako komentovať, ako a prečo sa podpisovať, atď."
+		"defaultMessage": "V prípade, že komentujete ako organizácia odporúčame pridať do komentáru aj podpis (napr. meno, funkciu, oddelenie)"
 	},
 	{
 		"id": "mail.activity.greeting",
@@ -4956,5 +4952,13 @@ export default [
 	{
 		"id": "user.trashActivityEmailNotification.no",
 		"defaultMessage": "Nechcem dostávať emailové notifikácie o zmenách na mojich hláseniach"
+	},
+	{
+		"id": "trash.create.noGps",
+		"defaultMessage": "Stará GPS poloha! Zapnite zdieľanie polohy."
+	},
+	{
+		"id": "trash.reportAs",
+		"defaultMessage": "Nahlásiť ako"
 	}
 ]

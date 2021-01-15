@@ -586,10 +586,6 @@ export default [
 		"defaultMessage": "Vuoi eliminare l'immagine selezionata?"
 	},
 	{
-		"id": "trash.create.noGps",
-		"defaultMessage": "No gps"
-	},
-	{
 		"id": "trash.create.noInternetHeader",
 		"defaultMessage": "Sei offline!"
 	},
@@ -2907,7 +2903,7 @@ export default [
 	},
 	{
 		"id": "user.addArea",
-		"defaultMessage": "Aggiungi zone di interesse"
+		"defaultMessage": "Imposta notifiche"
 	},
 	{
 		"id": "user.generateApiKey",
@@ -4919,42 +4915,50 @@ export default [
 	},
 	{
 		"id": "comment.intro",
-		"defaultMessage": "#comment.intro"
+		"defaultMessage": "Se stai commentando come organizzazione, ti consigliamo di aggiungere una firma al commento (ad esempio, nome, posizione, dipartimento, ecc.)"
 	},
 	{
 		"id": "mail.activity.greeting",
-		"defaultMessage": "#mail.activity.greeting"
+		"defaultMessage": "caro"
 	},
 	{
 		"id": "mail.activity.p1",
-		"defaultMessage": "#mail.activity.p1"
+		"defaultMessage": "C'è stata una nuova attività nel <a href=\"{string}\"> rapporto sulla discarica illegale </a> che segui. Scopri se è stato aggiornato o se è presente un nuovo commento."
 	},
 	{
 		"id": "mail.activity.p2",
-		"defaultMessage": "#mail.activity.p2"
+		"defaultMessage": "Grazie per aver reso il nostro ambiente più pulito! Non dimenticare di utilizzare l'applicazione mobile TrashOut per segnalare e aggiornare discariche illegali nella tua zona, trovare il punto di raccolta più vicino o prendere parte a un evento di pulizia."
 	},
 	{
 		"id": "mail.activity.footer",
-		"defaultMessage": "#mail.activity.footer"
+		"defaultMessage": "Ricevi questa email perché hai accettato i Termini e condizioni di TrashOut. Per disattivare le notifiche via email degli aggiornamenti sui tuoi rapporti, visita il tuo <a href=\"{string}\"> profilo </a> tramite l'app Web TrashOut. Se desideri modificare la periodicità dei rapporti che monitorano un'area specifica, puoi modificarli all'indirizzo <a href=\"%s\"> qui </a>. "
 	},
 	{
 		"id": "mail.activity.subject",
-		"defaultMessage": "#mail.activity.subject"
+		"defaultMessage": "TrashOut: c'è stata una nuova attività nel rapporto che segui"
 	},
 	{
 		"id": "mail.activity.button",
-		"defaultMessage": "#mail.activity.button"
+		"defaultMessage": "Visualizza rapporto"
 	},
 	{
 		"id": "user.trashActivityEmailNotification",
-		"defaultMessage": "#user.trashActivityEmailNotification"
+		"defaultMessage": "Desidero ricevere notifiche e-mail su nuove attività nei miei rapporti"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.yes",
-		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+		"defaultMessage": "Sì, desidero ricevere notifiche e-mail su nuove attività nei miei rapporti"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.no",
-		"defaultMessage": "#user.trashActivityEmailNotification.no"
+		"defaultMessage": "No, non desidero ricevere notifiche e-mail su nuove attività nei miei rapporti"
+	},
+	{
+		"id": "trash.create.noGps",
+		"defaultMessage": "Vecchia posizione GPS! Attivare la condivisione della posizione. "
+	},
+	{
+		"id": "trash.reportAs",
+		"defaultMessage": "#trash.reportAs"
 	}
 ]

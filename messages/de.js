@@ -586,10 +586,6 @@ export default [
 		"defaultMessage": "Möchtest du das ausgewählte Foto löschen?"
 	},
 	{
-		"id": "trash.create.noGps",
-		"defaultMessage": "Kein GPS"
-	},
-	{
 		"id": "trash.create.noInternetHeader",
 		"defaultMessage": "Du bist offline!"
 	},
@@ -4919,42 +4915,50 @@ export default [
 	},
 	{
 		"id": "comment.intro",
-		"defaultMessage": "#comment.intro"
+		"defaultMessage": "Wenn Sie als Organisation Kommentare abgeben, empfehlen wir, dem Kommentar eine Signatur hinzuzufügen (z. B. Name, Position, Abteilung usw.)."
 	},
 	{
 		"id": "mail.activity.greeting",
-		"defaultMessage": "#mail.activity.greeting"
+		"defaultMessage": "sehr geehrter"
 	},
 	{
 		"id": "mail.activity.p1",
-		"defaultMessage": "#mail.activity.p1"
+		"defaultMessage": "Es gab eine neue Aktivität im <a href=\"{string}\"> Bericht über den illegalen Speicherauszug </a>, dem Sie folgen. Finden Sie heraus, ob es aktualisiert wurde oder ob es einen neuen Kommentar gibt."
 	},
 	{
 		"id": "mail.activity.p2",
-		"defaultMessage": "#mail.activity.p2"
+		"defaultMessage": "Vielen Dank, dass Sie unsere Umwelt sauberer machen! Vergessen Sie nicht, die mobile TrashOut-Anwendung zu verwenden, um illegale Dumps in Ihrer Nähe zu melden und zu aktualisieren, die nächste Sammelstelle zu finden oder an einer Reinigungsveranstaltung teilzunehmen."
 	},
 	{
 		"id": "mail.activity.footer",
-		"defaultMessage": "#mail.activity.footer"
+		"defaultMessage": "Sie erhalten diese E-Mail, weil Sie den Allgemeinen Geschäftsbedingungen von TrashOut zugestimmt haben. Um E-Mail-Benachrichtigungen über Aktualisierungen Ihrer Berichte zu deaktivieren, besuchen Sie Ihr <a href=\"{string}\"> Profil </a> über die TrashOut-Web-App. Wenn Sie die Periodizität von Berichten ändern möchten, die einen bestimmten Bereich überwachen, können Sie diese unter <a href=\"%s\"> hier </a> ändern. "
 	},
 	{
 		"id": "mail.activity.subject",
-		"defaultMessage": "#mail.activity.subject"
+		"defaultMessage": "TrashOut - Der Bericht, dem Sie folgen, enthält eine neue Aktivität"
 	},
 	{
 		"id": "mail.activity.button",
-		"defaultMessage": "#mail.activity.button"
+		"defaultMessage": "Zeige Bericht"
 	},
 	{
 		"id": "user.trashActivityEmailNotification",
-		"defaultMessage": "#user.trashActivityEmailNotification"
+		"defaultMessage": "Ich möchte E-Mail-Benachrichtigungen über neue Aktivitäten in meinen Berichten erhalten"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.yes",
-		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+		"defaultMessage": "Ja, ich möchte E-Mail-Benachrichtigungen über neue Aktivitäten in meinen Berichten erhalten"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.no",
-		"defaultMessage": "#user.trashActivityEmailNotification.no"
+		"defaultMessage": "Nein, ich möchte keine E-Mail-Benachrichtigungen über neue Aktivitäten in meinen Berichten erhalten"
+	},
+	{
+		"id": "trash.create.noGps",
+		"defaultMessage": "Alter GPS-Standort! Aktivieren Sie die Standortfreigabe. "
+	},
+	{
+		"id": "trash.reportAs",
+		"defaultMessage": "#trash.reportAs"
 	}
 ]

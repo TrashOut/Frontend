@@ -586,10 +586,6 @@ export default [
 		"defaultMessage": "¿Desea eliminar la foto seleccionada?"
 	},
 	{
-		"id": "trash.create.noGps",
-		"defaultMessage": "No hay señal GPS"
-	},
-	{
 		"id": "trash.create.noInternetHeader",
 		"defaultMessage": "¡Sin conexión!"
 	},
@@ -2907,7 +2903,7 @@ export default [
 	},
 	{
 		"id": "user.addArea",
-		"defaultMessage": "Agregar áreas de interés"
+		"defaultMessage": "Establecer notificaciones"
 	},
 	{
 		"id": "user.generateApiKey",
@@ -4919,42 +4915,50 @@ export default [
 	},
 	{
 		"id": "comment.intro",
-		"defaultMessage": "#comment.intro"
+		"defaultMessage": "Si está comentando como organización, le recomendamos agregar una firma al comentario (por ejemplo, nombre, cargo, departamento, etc.)"
 	},
 	{
 		"id": "mail.activity.greeting",
-		"defaultMessage": "#mail.activity.greeting"
+		"defaultMessage": "querido"
 	},
 	{
 		"id": "mail.activity.p1",
-		"defaultMessage": "#mail.activity.p1"
+		"defaultMessage": "Hubo una nueva actividad en el <a href=\"{string}\"> informe del vertedero ilegal </a> que sigue. Averigüe si se actualizó o si hay un nuevo comentario."
 	},
 	{
 		"id": "mail.activity.p2",
-		"defaultMessage": "#mail.activity.p2"
+		"defaultMessage": "¡Gracias por hacer que nuestro medio ambiente sea más limpio! No olvide utilizar la aplicación móvil TrashOut para informar y actualizar los vertederos ilegales en su área, encontrar el punto de recolección más cercano o participar en un evento de limpieza."
 	},
 	{
 		"id": "mail.activity.footer",
-		"defaultMessage": "#mail.activity.footer"
+		"defaultMessage": "Está recibiendo este correo electrónico porque ha aceptado los Términos y condiciones de TrashOut. Para desactivar las notificaciones por correo electrónico de actualizaciones en sus informes, visite su <a href=\"{string}\"> perfil </a> a través de la aplicación web TrashOut. Si desea cambiar la periodicidad de los informes que supervisan un área específica, puede cambiarlos en <a href=\"%s\"> aquí </a>. "
 	},
 	{
 		"id": "mail.activity.subject",
-		"defaultMessage": "#mail.activity.subject"
+		"defaultMessage": "TrashOut: hubo una nueva actividad en el informe que sigue"
 	},
 	{
 		"id": "mail.activity.button",
-		"defaultMessage": "#mail.activity.button"
+		"defaultMessage": "Vista del informe"
 	},
 	{
 		"id": "user.trashActivityEmailNotification",
-		"defaultMessage": "#user.trashActivityEmailNotification"
+		"defaultMessage": "Deseo recibir notificaciones por correo electrónico sobre nuevas actividades en mis informes"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.yes",
-		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+		"defaultMessage": "Sí, deseo recibir notificaciones por correo electrónico sobre nuevas actividades en mis informes."
 	},
 	{
 		"id": "user.trashActivityEmailNotification.no",
-		"defaultMessage": "#user.trashActivityEmailNotification.no"
+		"defaultMessage": "No, no quiero recibir notificaciones por correo electrónico sobre nuevas actividades en mis informes"
+	},
+	{
+		"id": "trash.create.noGps",
+		"defaultMessage": "¡La vieja ubicación del GPS! Enciende el compartir de la ubicación. "
+	},
+	{
+		"id": "trash.reportAs",
+		"defaultMessage": "#trash.reportAs"
 	}
 ]

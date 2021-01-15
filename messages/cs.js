@@ -586,10 +586,6 @@ export default [
 		"defaultMessage": "Chcete odstranit vybranou fotku?"
 	},
 	{
-		"id": "trash.create.noGps",
-		"defaultMessage": "Nemám polohu"
-	},
-	{
 		"id": "trash.create.noInternetHeader",
 		"defaultMessage": "Jste bez internetu!"
 	},
@@ -2907,7 +2903,7 @@ export default [
 	},
 	{
 		"id": "user.addArea",
-		"defaultMessage": "Přidat oblast zájmu"
+		"defaultMessage": "Nastavit oznámení o oblasti"
 	},
 	{
 		"id": "user.generateApiKey",
@@ -4919,42 +4915,50 @@ export default [
 	},
 	{
 		"id": "comment.intro",
-		"defaultMessage": "#comment.intro"
+		"defaultMessage": "V případě, že komentujete jako organizace doporučujeme přidat do komentáře i podpis (například jméno, funkce, oddělení)"
 	},
 	{
 		"id": "mail.activity.greeting",
-		"defaultMessage": "#mail.activity.greeting"
+		"defaultMessage": "Vážený/á"
 	},
 	{
 		"id": "mail.activity.p1",
-		"defaultMessage": "#mail.activity.p1"
+		"defaultMessage": "Na <a href=\"{string}\"> hlášení nelegální skládky </a>, které sledujete, došlo k nové aktivitě. Zjistěte, zda byol aktualizováno nebo přibyl nový komentář."
 	},
 	{
 		"id": "mail.activity.p2",
-		"defaultMessage": "#mail.activity.p2"
+		"defaultMessage": "Děkujeme vám, že se staráte o životní prostředí! Nezapomeňte pomocí mobilní aplikace TrashOut nahlásit a aktualizovat nelegální skládky ve vaší oblasti, najít nejbližší sběrné místo nebo se zúčastnit čistící akce."
 	},
 	{
 		"id": "mail.activity.footer",
-		"defaultMessage": "#mail.activity.footer"
+		"defaultMessage": "Tento e-mail jste obdrželi, protože jste souhlasili se smluvními podmínkami TrashOut. Chcete-li vypnout e-mailová upozornění o aktualizacích na sledovaných skládkach, můžete tak učinit ve svém <a href=\"{string}\"> profilu </a> cez webovou aplikaci TrashOut. Pokud chcete změnit periodicitu emailovcých přehledů o konkrétní oblast, můžete ji změnit <a href=\"%s\"> zde </a>. "
 	},
 	{
 		"id": "mail.activity.subject",
-		"defaultMessage": "#mail.activity.subject"
+		"defaultMessage": "TrashOut - na skládke, kterou sledujete, došlo k nové aktivitě"
 	},
 	{
 		"id": "mail.activity.button",
-		"defaultMessage": "#mail.activity.button"
+		"defaultMessage": "Zobrazit hlášení"
 	},
 	{
 		"id": "user.trashActivityEmailNotification",
-		"defaultMessage": "#user.trashActivityEmailNotification"
+		"defaultMessage": "Chci dostávat e-mailová upozornění na novou aktivitu na mých hlášení skládek"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.yes",
-		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+		"defaultMessage": "Ano, chci dostávat e-mailová upozornění na novou aktivitu mých hlášení skládek"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.no",
-		"defaultMessage": "#user.trashActivityEmailNotification.no"
+		"defaultMessage": "Ne, nechci dostávat e-mailová upozornění na novou aktivitu na mých hlášení skládek"
+	},
+	{
+		"id": "trash.create.noGps",
+		"defaultMessage": "Stará GPS poloha. Zapněte sdílení polohy."
+	},
+	{
+		"id": "trash.reportAs",
+		"defaultMessage": "Nahlásit jako"
 	}
 ]

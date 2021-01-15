@@ -586,10 +586,6 @@ export default [
 		"defaultMessage": "Do you want to delete selected photo?"
 	},
 	{
-		"id": "trash.create.noGps",
-		"defaultMessage": "No gps"
-	},
-	{
 		"id": "trash.create.noInternetHeader",
 		"defaultMessage": "You are offline!"
 	},
@@ -2907,7 +2903,7 @@ export default [
 	},
 	{
 		"id": "user.addArea",
-		"defaultMessage": "Add Areas of Interest"
+		"defaultMessage": "Set notifications about the area"
 	},
 	{
 		"id": "user.generateApiKey",
@@ -4019,7 +4015,7 @@ export default [
 	},
 	{
 		"id": "mail.newsletter.p5",
-		"defaultMessage": "Thank you for making our World cleaner for everyone. Don't forget to use TrashOut mobile application to find and update illegal dumps and learn about environment."
+		"defaultMessage": "Thank you for making our environment cleaner! Do not forget to use TrashOut mobile application to report and update illegal dumps in your area, find the nearest collection point, or take part in a cleaning event."
 	},
 	{
 		"id": "mail.newsletter.footer",
@@ -4919,42 +4915,50 @@ export default [
 	},
 	{
 		"id": "comment.intro",
-		"defaultMessage": "#comment.intro"
+		"defaultMessage": "If you are commenting as an organization, we recommend adding a signature to the comment (for example, name, position, department, etc.)"
 	},
 	{
 		"id": "mail.activity.greeting",
-		"defaultMessage": "#mail.activity.greeting"
+		"defaultMessage": "Dear"
 	},
 	{
 		"id": "mail.activity.p1",
-		"defaultMessage": "#mail.activity.p1"
+		"defaultMessage": "There was a new activity on the <a href=\"{string}\">report of the illegal dump</a> you follow. Find out whether it was updated or if there is a new comment."
 	},
 	{
 		"id": "mail.activity.p2",
-		"defaultMessage": "#mail.activity.p2"
+		"defaultMessage": "Thank you for making our environment cleaner! Do not forget to use TrashOut mobile application to report and update illegal dumps in your area, find the nearest collection point, or take part in a cleaning event."
 	},
 	{
 		"id": "mail.activity.footer",
-		"defaultMessage": "#mail.activity.footer"
+		"defaultMessage": "You are receiving this email because you have agreed to the Terms and Conditions of TrashOut. To turn off email notifications of updates on your reports, visit your <a href=\"{string}\"> profile </a> via the TrashOut web app. If you would like to change the periodicity of reports monitoring specific area, you can change them at <a href=\"%s\"> here </a>. "
 	},
 	{
 		"id": "mail.activity.subject",
-		"defaultMessage": "#mail.activity.subject"
+		"defaultMessage": "TrashOut - there was a new activity on the report you follow"
 	},
 	{
 		"id": "mail.activity.button",
-		"defaultMessage": "#mail.activity.button"
+		"defaultMessage": "View report"
 	},
 	{
 		"id": "user.trashActivityEmailNotification",
-		"defaultMessage": "#user.trashActivityEmailNotification"
+		"defaultMessage": "I want to receive email notifications about new activity on my reports"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.yes",
-		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+		"defaultMessage": "Yes, I want to receive email notifications about new activity on my reports"
 	},
 	{
 		"id": "user.trashActivityEmailNotification.no",
-		"defaultMessage": "#user.trashActivityEmailNotification.no"
+		"defaultMessage": "No, I do not want to receive email notifications about new activity on my reports"
+	},
+	{
+		"id": "trash.create.noGps",
+		"defaultMessage": "Old GPS location! Turn on location sharing. "
+	},
+	{
+		"id": "trash.reportAs",
+		"defaultMessage": "Report as"
 	}
 ]
