@@ -4959,6 +4959,6 @@ export default [
 	},
 	{
 		"id": "trash.reportAs",
-		"defaultMessage": "#trash.reportAs"
+		"defaultMessage": "Rapporter comme"
 	}
 ]
