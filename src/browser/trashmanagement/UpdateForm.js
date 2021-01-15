@@ -40,6 +40,8 @@ import { push } from 'react-router-redux';
 import { trashSizes, trashTypes, trashAccessibility, trashStatuses, anonymous, cleanedByMe } from '../../common/trashmanagement/consts';
 import { updateTrash, fetchDetail } from '../../common/trashmanagement/actions';
 import { validateUpdate, asyncValidate } from '../../common/trashmanagement/validate';
+import withRole from "../../common/app/withRole";
+import {fetchOrganizationThinList} from "../../common/organizations/actions";
 
 const selector = formValueSelector('trashForm');
 
@@ -52,13 +54,16 @@ const selector = formValueSelector('trashForm');
   isFetching: state.trashes.isFetching,
   apiRunningQueries: state.app.pendingCount,
   viewer: state.users.viewer,
-}), { push, formRemoveImage, getPosition, updateTrash, fetchDetail })
+  organizationIsFetching: state.organizations.isFetching,
+  organizationThinList: state.organizations.thinList,
+}), { push, formRemoveImage, getPosition, updateTrash, fetchDetail, fetchOrganizationThinList })
 @reduxForm({
   form: 'trashForm',
   validate: validateUpdate,
   asyncValidate,
   asyncBlurFields: ['images'],
 })
+@withRole()
 export default class UpdateForm extends Component {
   static propTypes = {
     fetchDetail: React.PropTypes.func,
@@ -77,22 +82,35 @@ export default class UpdateForm extends Component {
     apiRunningQueries: React.PropTypes.bool,
     status: React.PropTypes.string,
     viewer: React.PropTypes.object,
+    roles: React.PropTypes.object,
+    organizationIsFetching: React.PropTypes.bool,
+    organizationThinList: React.PropTypes.object,
   };
 
   componentWillMount() {
-    const { initialValues, fetchDetail, match } = this.props;
+    const { initialValues, fetchDetail, match, fetchOrganizationThinList, organizationThinList } = this.props;
+
     getPosition();
     if (!initialValues) {
       fetchDetail(match.params.id);
     }
+
+    if (Object.keys(organizationThinList).length == 0) fetchOrganizationThinList();
   }
 
   render() {
-    const { status, apiRunningQueries, isFetching, push, handleSubmit, submitting, files, formRemoveImage, updateTrash, item, msg, viewer } = this.props;
+    const { status, apiRunningQueries, isFetching, push, handleSubmit, submitting, files, formRemoveImage, updateTrash, item, msg, viewer, roles, organizationIsFetching, organizationThinList } = this.props;
 
-    let organizations = viewer.organizations
-      .filter(org => org.organizationRoleId == 1)
-      .reduce((obj, val) => { obj[val.id] = val.name; return obj; }, {});
+    if (organizationIsFetching) return <Loading />;
+
+    let organizations;
+    if (roles.isAuthorized('superAdmin')) {
+      organizations = organizationThinList;
+    } else {
+      organizations = viewer.organizations
+        .filter(org => org.organizationRoleId == 1)
+        .reduce((obj, val) => { obj[val.id] = val.name; return obj; }, {});
+    }
     organizations = Object.assign(organizations, { 0: msg('trash.anonymous') });
 
     return (
