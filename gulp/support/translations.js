@@ -28,7 +28,7 @@ const querystring = require('querystring');
 
 function downloadData(projectId, done) {
   const token = {
-    api_token: '75c1ff7e8c5e718c3e55ac7c17f5d517',
+    api_token: '4f9ab3b7db19f315abbbd8db6bf1bff8',
     id: 97547,
   };
   console.log('get languages...');
@@ -36,7 +36,7 @@ function downloadData(projectId, done) {
   getProjectLanguages(querystring.stringify(token), (languages) => {
     Promise.all(languages.map(language => new Promise((resolve, reject) => {
       const languageToken = {
-        api_token: '75c1ff7e8c5e718c3e55ac7c17f5d517',
+        api_token: '4f9ab3b7db19f315abbbd8db6bf1bff8',
         id: 97547,
         language: language.code,
       };
