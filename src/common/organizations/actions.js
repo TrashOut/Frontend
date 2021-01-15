@@ -34,6 +34,10 @@ export const CREATE_ORGANIZATION = 'CREATE_ORGANIZATION';
 export const FETCH_ORGANIZATION = 'FETCH_ORGANIZATION';
 export const FETCH_ORGANIZATION_ACTIVITY = 'FETCH_ORGANIZATION_ACTIVITY';
 export const FETCH_ORGANIZATION_LIST = 'FETCH_ORGANIZATION_LIST';
+export const FETCH_ORGANIZATION_THIN_LIST = 'FETCH_ORGANIZATION_THIN_LIST';
+export const FETCH_ORGANIZATION_THIN_LIST_START = 'FETCH_ORGANIZATION_THIN_LIST_START';
+export const FETCH_ORGANIZATION_THIN_LIST_ERROR = 'FETCH_ORGANIZATION_THIN_LIST_ERROR';
+export const FETCH_ORGANIZATION_THIN_LIST_SUCCESS = 'FETCH_ORGANIZATION_THIN_LIST_SUCCESS';
 export const FETCH_ORGANIZATION_SUCCESS = 'FETCH_ORGANIZATION_SUCCESS';
 export const FETCH_ORGANIZATION_USERS = 'FETCH_ORGANIZATION_USERS';
 export const FETCH_ORGANIZATION_USERS_SUCCESS = 'FETCH_ORGANIZATION_USERS_SUCCESS';
@@ -109,6 +113,11 @@ export const fetchOrganizationList = (filter) => ({ dispatch, token, getState })
     type: FETCH_ORGANIZATION_LIST,
   };
 };
+
+export const fetchOrganizationThinList = () => ({ token }) => ({
+  type: FETCH_ORGANIZATION_THIN_LIST,
+  payload: api.getOrganizations('', token),
+});
 
 export const fetchOrganization = (id) => ({ token }) => {
   const promise = async () => {

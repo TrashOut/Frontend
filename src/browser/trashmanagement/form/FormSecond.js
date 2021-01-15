@@ -30,6 +30,9 @@ import { anonymous, trashAccessibility } from '../../../common/trashmanagement/c
 import { Field, reduxForm } from 'redux-form';
 import { validateCreate } from '../../../common/trashmanagement/validate';
 import {connect} from "react-redux";
+import withRole from "../../../common/app/withRole";
+import {fetchOrganizationThinList} from "../../../common/organizations/actions";
+import Loading from "../../app/components/Loading";
 
 const styles = {
   button: {
@@ -40,28 +43,48 @@ const styles = {
 
 @translate
 @connect(state => ({
-  viewer: state.users.viewer
-}), null)
+  viewer: state.users.viewer,
+  organizationIsFetching: state.organizations.isFetching,
+  organizationThinList: state.organizations.thinList,
+}), {
+  fetchOrganizationThinList,
+})
 @reduxForm({
   destroyOnUnmount: false,
   forceUnregisterOnUnmount: true,
   form: 'trashForm',
   validate: validateCreate,
 })
+@withRole()
 export default class FormSecond extends Component {
   static propTypes = {
     handleSubmit: React.PropTypes.func,
     msg: React.PropTypes.func.isRequired,
     previousPage: React.PropTypes.func,
     viewer: React.PropTypes.object,
+    roles: React.PropTypes.object,
+    organizationIsFetching: React.PropTypes.bool,
+    organizationThinList: React.PropTypes.object,
   };
 
-  render() {
-    const { handleSubmit, previousPage, msg, viewer } = this.props;
+  componentWillMount() {
+    const { fetchOrganizationThinList, organizationThinList } = this.props;
+    if (Object.keys(organizationThinList).length == 0) fetchOrganizationThinList();
+  }
 
-    let organizations = viewer.organizations
-      .filter(org => org.organizationRoleId == 1)
-      .reduce((obj, val) => { obj[val.id] = val.name; return obj; }, {});
+  render() {
+    const { handleSubmit, previousPage, msg, viewer, roles, organizationIsFetching, organizationThinList } = this.props;
+
+    if (organizationIsFetching) return <Loading />;
+
+    let organizations;
+    if (roles.isAuthorized('superAdmin')) {
+      organizations = organizationThinList;
+    } else {
+      organizations = viewer.organizations
+        .filter(org => org.organizationRoleId == 1)
+        .reduce((obj, val) => { obj[val.id] = val.name; return obj; }, {});
+    }
     organizations = Object.assign(organizations, { 0: msg('trash.anonymous') });
 
     return (

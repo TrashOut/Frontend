@@ -32,6 +32,7 @@ const State = Record({
   isFetching: true,
   item: new Organization(),
   userRelation: '',
+  thinList: {},
 }, 'organization');
 
 const organizationReducer = (state = new State(), action) => {
@@ -56,6 +57,30 @@ const organizationReducer = (state = new State(), action) => {
         .setIn(['item', 'statistics'], action.payload[4] ? action.payload[4].stats : null)
         .set('isFetching', false);
     }
+
+    case actions.FETCH_ORGANIZATION_THIN_LIST_START: {
+      return state
+        .set('isFetching', true)
+        .set('thinList', {});
+    }
+
+    case actions.FETCH_ORGANIZATION_THIN_LIST_ERROR: {
+      return state
+        .set('isFetching', false);
+    }
+
+    case actions.FETCH_ORGANIZATION_THIN_LIST_SUCCESS: {
+      // TODO: solve this on backend (API)
+      const data = {};
+      action.payload.forEach(item => {
+        data[item.id] = item.name;
+      });
+
+      return state
+        .set('thinList', data)
+        .set('isFetching', false);
+    }
+
     default:
       return state;
   }
