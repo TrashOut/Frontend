@@ -4960,5 +4960,9 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "Nahlásiť ako"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "V prípade, že chcete registrovať organizáciu, môžete tak urobit v ďalšom kroku v sekcií organizácie."
 	}
 ]

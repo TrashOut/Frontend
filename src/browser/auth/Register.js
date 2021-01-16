@@ -59,6 +59,7 @@ export default class Register extends Component {
       <div>
         <Paper className="paper">
           <h3 style={styles.center}>{msg('global.createNewAccount')}</h3>
+          <p>{msg('global.createNewAccountDesc')}</p>
           <form onSubmit={handleSubmit(values => signUp('password', values))}>
             <Field
               name="email"
