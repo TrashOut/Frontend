@@ -31,6 +31,9 @@ import { connect } from 'react-redux';
 import { Field, reduxForm } from 'redux-form';
 import { push } from 'react-router-redux';
 import { validateCreate } from '../../../common/organizations/validate';
+import {getLanguagesGlobal} from "../../../common/helpers";
+
+const languagesGlobal = getLanguagesGlobal();
 
 @translate
 @connect(state => ({
@@ -143,6 +146,19 @@ export default class Form extends Component {
               component={Input}
               label={msg('global.email')}
               hint={msg('global.email')}
+            />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col s12 m6">
+            <Field
+              name="language"
+              type="select"
+              items={languagesGlobal}
+              component={Input}
+              label={msg('organization.language')}
+              hint={msg('organization.language')}
+              selectPlaceholder="global.select"
             />
           </div>
         </div>

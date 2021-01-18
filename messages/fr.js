@@ -4960,5 +4960,17 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "Rapporter comme"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "Si vous souhaitez enregistrer votre organisation, enregistrez d'abord votre compte personnel. Ensuite, connectez-vous et créez une organisation. "
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "Langue pour les notifications par mail"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "requis"
 	}
 ]

@@ -4960,5 +4960,17 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "Jelentés mint"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "Ha regisztrálni kívánja szervezetét, először regisztrálja személyes fiókját. Ezután jelentkezzen be, és hozzon létre egy szervezetet. "
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "Az e-mail értesítések nyelve"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "A mező kitöltése kötelező"
 	}
 ]

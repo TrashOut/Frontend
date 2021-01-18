@@ -4960,5 +4960,17 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "Nahlásit jako"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "Chcete-li zaregistrovat organizaci, zaregistrujte si nejprve svůj osobní účet. Poté se přihlaste a vytvořte organizaci."
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "Jazyk"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "Pole je povinné"
 	}
 ]

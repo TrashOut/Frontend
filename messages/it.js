@@ -4960,5 +4960,17 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "Segnala come"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "Se desiderate registrare la vostra organizzazione, registrate prima il vostro conto personale. In seguito, effettuare il login e creare un'organizzazione. "
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "Preferenza di lingua per le notifiche e-mail"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "Il campo è obbligatorio"
 	}
 ]

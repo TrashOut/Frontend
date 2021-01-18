@@ -4960,5 +4960,17 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "Сообщить как"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "Если вы хотите зарегистрировать свою организацию, сначала зарегистрируйте личный кабинет. После этого войдите в систему и создайте организацию. "
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "Предпочтительный язык электронных уведомлений"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "Поле обязательно для заполнения"
 	}
 ]

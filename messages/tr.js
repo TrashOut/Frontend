@@ -4960,5 +4960,17 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "#trash.reportAs"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "#global.createNewAccountDesc"
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "#organization.language"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "Alan zorunludur"
 	}
 ]

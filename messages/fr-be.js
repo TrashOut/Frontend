@@ -4960,5 +4960,17 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "#trash.reportAs"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "#global.createNewAccountDesc"
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "Préférence de langue pour les notifications par e-mail"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "Ce champ est requis"
 	}
 ]

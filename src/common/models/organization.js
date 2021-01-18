@@ -44,6 +44,7 @@ export default class Organization extends Record({
   imageId: '',
   image: null,
   gpsId: '',
+  language: null,
   activity: '',
   users: '',
   selected: false,

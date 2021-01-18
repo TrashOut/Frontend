@@ -57,6 +57,10 @@ export const validateCreate = (values) => {
     errors.contactEmail = 'profile.validation.invalidEmail';
   }
 
+  if (!values.language) {
+    errors.language = 'global.validation.required';
+  }
+
   return { ...errors, ...validateImage(values.images) };
 };
 
