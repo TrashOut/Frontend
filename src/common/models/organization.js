@@ -53,6 +53,7 @@ export default class Organization extends Record({
   parent: null,
   usersCount: 0,
   statistics: {},
+  organizationHasArea: []
 }, 'organization') {
   constructor(values, fromForm) {
     if (fromForm) {

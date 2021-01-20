@@ -47,6 +47,7 @@ import { organizationRoles } from '../../roles';
 import { setTable } from '../../common/table/actions';
 import { Switch } from 'react-router-dom';
 import AddArea from "./AddArea";
+import { notifications } from '../../common/consts';
 
 @withRole(state => ({
   isFetching: state.organizations.isFetching,
@@ -248,6 +249,67 @@ export default class Detail extends Component {
     );
   }
 
+  renderOrganizationHasArea() {
+    const { msg, organization, roles } = this.props;
+    const { organizationHasArea } = organization;
+
+    const canManage = roles.isAuthorized('superAdmin') || roles.isAuthorizedWithOrganization('manager');
+
+    if (!organizationHasArea || organizationHasArea.length === 0) return null;
+
+    return (
+      <div className="row">
+        <h2>{msg('organization.notifications')}</h2>
+        <p>{msg('organization.notifications.description')}</p>
+        <Table
+          isPagination={Boolean(false)}
+          header={{
+            specName: {
+              label: msg('geo.name'),
+              sortable: false,
+            },
+            type: {
+              label: msg('geo.type'),
+              sortable: false,
+            },
+            notificationFrequency: {
+              label: msg('global.geo.notificationFrequency'),
+              sortable: false,
+            },
+            delete: {
+              label: msg('global.remove'),
+              sortable: false,
+              type: 'buttonLink',
+              linkName: msg('global.remove'),
+              onClick: (values) => removeArea(values.id),
+              hide: !canManage,
+            },
+            edit: {
+              label: msg('global.edit'),
+              sortable: false,
+              type: 'link',
+              linkName: msg('global.edit'),
+              template: routesList.organizationsEditArea.replace(':organizationId', organization.id).replace(':id', '{id}'),
+              hide: !canManage,
+            },
+          }}
+          data={organizationHasArea.map(({ area, notificationFrequency }) => ({
+            ...area,
+            specName: area[area.type],
+            notificationFrequency,
+          }))}
+          translatedFields={{
+            notificationFrequency: notifications,
+          }}
+          showLinkButton={Boolean(false)}
+          isLocal={Boolean(true)}
+          selectable={Boolean(false)}
+          hasPrimaryColor={Boolean(true)}
+        />
+      </div>
+    );
+  }
+
   renderAdminContent() {
     const { msg, users } = this.props;
     if (users.isFetching) return null;
@@ -365,6 +427,7 @@ export default class Detail extends Component {
                 : this.renderInfoBox(canManage)
               }
             </Paper>
+            {this.renderOrganizationHasArea()}
             {canManage && this.renderAdminContent()}
           </div>
         </div>

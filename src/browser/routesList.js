@@ -47,6 +47,7 @@ export default {
   organizationsList: '/organizations/list/',
   organizationsUpdate: '/organizations/update/:id',
   organizationsAddArea: '/organizations/detail/:id/add-area',
+  organizationsEditArea: '/organizations/detail/:organizationId/edit-area/:id/',
   organizationsInvitations: '/organizations/detail/:id/invite/',
   organizationsManagers: '/organizations/detail/:id/managers/',
   trashCreate: '/trash-management/create/',
