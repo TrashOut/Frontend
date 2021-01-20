@@ -46,6 +46,7 @@ export const LEAVE_ORGANIZATION = 'LEAVE_ORGANIZATION';
 export const REMOVE_ORGANIZATION = 'REMOVE_ORGANIZATION';
 export const UPDATE_ORGANIZATION = 'UPDATE_ORGANIZATION';
 export const ADD_ORGANIZATION_TO_AREA = 'ADD_ORGANIZATION_TO_AREA';
+export const REMOVE_ORGANIZATION_AREA = 'REMOVE_ORGANIZATION_AREA';
 
 const send = async (organization, func, dispatch, token, removeImage) => {
   if (organization.image) {
@@ -210,5 +211,12 @@ export const assignOrganizationArea = (organizationId, areaId, frequency = 3600)
   type: ADD_ORGANIZATION_TO_AREA,
   payload: api.postOrganizationArea(organizationId, areaId, frequency, token),
   message: 'add-organization-to-area',
+  then: fetchOrganization(organizationId),
+});
+
+export const removeOrganizationArea = (organizationId, areaId) => ({ token }) => ({
+  type: REMOVE_ORGANIZATION_AREA,
+  payload: api.deleteOrganizationArea(organizationId, areaId, token),
+  message: 'remove-organization-area',
   then: fetchOrganization(organizationId),
 });

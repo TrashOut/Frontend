@@ -145,3 +145,11 @@ export const postOrganizationArea = async (organizationId, areaId, notificationF
     throw new Error('cannot-create');
   }
 };
+
+export const deleteOrganizationArea = async (organizationId, areaId, token) => {
+  try {
+    return await remove(`/webapi/organization/${organizationId}/area/${areaId}`, token);
+  } catch (error) {
+    throw error;
+  }
+};

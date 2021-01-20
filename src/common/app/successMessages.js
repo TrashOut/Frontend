@@ -162,6 +162,10 @@ const SuccessMessages = {
     id: 'global.addToArea.success',
     redirect: './',
   },
+  'remove-organization-area': {
+    id: 'geo.areaRemove.success',
+    redirect: './',
+  },
   'area-root-set': {
     id: 'geo.rootSet.success',
     redirect: '/geographical-areas/detail/{originalObject[id]}',

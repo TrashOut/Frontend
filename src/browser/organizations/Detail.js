@@ -41,7 +41,7 @@ import { autobind } from 'core-decorators';
 import { Confirm, Loading, SecondAppBar, Social, Box, Link } from '../app/components';
 import { connect } from 'react-redux';
 import { FacebookIcon, TwitterIcon, GoogleIcon } from '../app/components/Icons';
-import { fetchOrganizationUsers, fetchOrganization, removeOrganization, joinOrganization, leaveOrganization, updateOrganization } from '../../common/organizations/actions';
+import { fetchOrganizationUsers, fetchOrganization, removeOrganization, joinOrganization, leaveOrganization, updateOrganization, removeOrganizationArea as removeArea } from '../../common/organizations/actions';
 import { Match } from '../../common/app/components';
 import { organizationRoles } from '../../roles';
 import { setTable } from '../../common/table/actions';
@@ -72,6 +72,7 @@ import { notifications } from '../../common/consts';
   fetchOrganizationUsers,
   updateOrganization,
   setTable,
+  removeArea,
 })
 export default class Detail extends Component {
   static propTypes = {
@@ -96,6 +97,7 @@ export default class Detail extends Component {
     users: React.PropTypes.object,
     statistics: React.PropTypes.object,
     organization: React.PropTypes.object,
+    removeArea: React.PropTypes.func.isRequired,
   };
 
   state = {
@@ -250,7 +252,7 @@ export default class Detail extends Component {
   }
 
   renderOrganizationHasArea() {
-    const { msg, organization, roles } = this.props;
+    const { msg, organization, roles, removeArea } = this.props;
     const { organizationHasArea } = organization;
 
     const canManage = roles.isAuthorized('superAdmin') || roles.isAuthorizedWithOrganization('manager');
@@ -281,7 +283,7 @@ export default class Detail extends Component {
               sortable: false,
               type: 'buttonLink',
               linkName: msg('global.remove'),
-              onClick: (values) => removeArea(values.id),
+              onClick: (values) => removeArea(organization.id, values.id),
               hide: !canManage,
             },
             edit: {
