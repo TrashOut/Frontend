@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "Môj profil"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Nastaviť oznámenia o oblasti"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Opis"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Frekvencia oznámení"
 	},
 	{
@@ -3014,23 +3014,23 @@ export default [
 		"defaultMessage": "Upraviť oblasť záujmu"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Za hodinu"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Nikdy"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Za deň"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Týždenne"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Za mesiac"
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "Aktuálne heslo"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "Oblasť bola úspešne pridaná"
 	},
 	{
@@ -4278,7 +4278,7 @@ export default [
 		"defaultMessage": "V tejto sekcii môžete vidieť administrátorov, manažérov a používateľov. Môžete pridať alebo odstrániť administrátorov pre oblasti alebo podoblasti, môžete spravovať aliasy k oblastiam."
 	},
 	{
-		"id": "user.geo.description",
+		"id": "global.geo.description",
 		"defaultMessage": "Vyberte si geografické oblasti, ktoré vás zaujímajú. Nastavte si e-mailové upozornenia a ich frekvencie, takže môžete zostať informovaní o hlásených skládkach a udalostiach v týchto oblastiach. Môžete sledovať oblastí koľko uznáte za vhodné, jednotlivé nastavenia môžete kedykoľvek meniť."
 	},
 	{

@@ -138,3 +138,10 @@ export const getOrganizationStatistics = async (id, token) => {
   }
 };
 
+export const postOrganizationArea = async (organizationId, areaId, notificationFrequency, token) => {
+  try {
+    return await post(`/webapi/organization/${organizationId}/area`, { organizationId, areaId, notificationFrequency }, token);
+  } catch (error) {
+    throw new Error('cannot-create');
+  }
+};

@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "Mein Profil"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Gebiete von Interesse hinzufügen"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Beschreibung"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Benachrichtigungsfrequenz"
 	},
 	{
@@ -3014,23 +3014,23 @@ export default [
 		"defaultMessage": "Interessenbereich bearbeiten"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Pro Stunde"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Nie"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Pro Tag"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Pro Woche"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Pro Monat"
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "Aktuelles Passwort"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "Bereich wurde erfolgreich hinzugefügt"
 	},
 	{
@@ -4278,7 +4278,7 @@ export default [
 		"defaultMessage": "In diesem Abschnitt siehst du Administratoren, Manager und Benutzer. Du kannst Administratoren für Bereiche und Unterbereiche hinzufügen oder entfernen. Du kannst auch Alias verwalten."
 	},
 	{
-		"id": "user.geo.description",
+		"id": "global.geo.description",
 		"defaultMessage": "Fühl dich frei, um Bereiche auszuwählen, die dir wichtig sind. Legen dir E-Mail-Benachrichtigungen und deren Häufigkeit fest, damit du über gemeldete und bereinigte Deponien in diesen Bereichen informiert bleibst. Du kannst beliebig viele Bereiche überwachen und Einstellungen von Benachrichtigungen jederzeit ändern!"
 	},
 	{

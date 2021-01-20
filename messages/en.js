@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "My Profile"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Set notifications about the area"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Description"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Notification Frequency"
 	},
 	{
@@ -3014,23 +3014,23 @@ export default [
 		"defaultMessage": "Edit Area of interest"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Per hour"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Never"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Per day"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Per week"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Per month"
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "Current Password"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "Area was successfully added"
 	},
 	{
@@ -4278,7 +4278,7 @@ export default [
 		"defaultMessage": "In this section you can see administrators, managers and users. You can add or remove administrators for areas and subareas. You can also manage aliases."
 	},
 	{
-		"id": "user.geo.description",
+		"id": "global.geo.description",
 		"defaultMessage": "Feel free to choose areas that you care about. Set email notifications and their frequency, so you can stay informed about reported and cleaned dumps in these areas. You can monitor as many areas as you wish and change settings of notifications any time!"
 	},
 	{

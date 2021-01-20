@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "Profili Im"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Vendosni njoftimet"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Përshkrimi"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Frekuenca e Njoftimit"
 	},
 	{
@@ -3014,23 +3014,23 @@ export default [
 		"defaultMessage": "Ndrysho Zonën e interesit"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Për orë"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Asnjëherë"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Për ditë"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Për javë"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Për muaj"
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "#profile.currentPassword"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "Zona u shtua me sukses"
 	},
 	{
@@ -4278,8 +4278,8 @@ export default [
 		"defaultMessage": "#geo.description.superAdmin"
 	},
 	{
-		"id": "user.geo.description",
-		"defaultMessage": "#user.geo.description"
+		"id": "global.geo.description",
+		"defaultMessage": "#global.geo.description"
 	},
 	{
 		"id": "geo.confirm.removeAdmin",

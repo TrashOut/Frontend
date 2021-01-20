@@ -158,6 +158,10 @@ const SuccessMessages = {
     id: 'organization.invitationSent.success',
     redirect: '../',
   },
+  'add-organization-to-area': {
+    id: 'global.addToArea.success',
+    redirect: './',
+  },
   'area-root-set': {
     id: 'geo.rootSet.success',
     redirect: '/geographical-areas/detail/{originalObject[id]}',
@@ -181,7 +185,7 @@ const SuccessMessages = {
     redirect: '/my-profile/',
   },
   'add-user-to-area': {
-    id: 'user.addToArea.success',
+    id: 'global.addToArea.success',
     redirect: '/my-profile/',
   },
   'update-article': {

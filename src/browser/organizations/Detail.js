@@ -46,6 +46,7 @@ import { Match } from '../../common/app/components';
 import { organizationRoles } from '../../roles';
 import { setTable } from '../../common/table/actions';
 import { Switch } from 'react-router-dom';
+import AddArea from "./AddArea";
 
 @withRole(state => ({
   isFetching: state.organizations.isFetching,
@@ -294,7 +295,7 @@ export default class Detail extends Component {
   }
 
   render() {
-    const { addConfirm, msg, item, isFetching, removeOrganization, joinOrganization, leaveOrganization, roles } = this.props;
+    const { addConfirm, msg, item, isFetching, removeOrganization, joinOrganization, leaveOrganization, roles, match } = this.props;
 
     const canManage = roles.isAuthorized('superAdmin') || roles.isAuthorizedWithOrganization('manager');
     const role = roles.getOrganizationRole();
@@ -302,6 +303,7 @@ export default class Detail extends Component {
     const buttons = [];
 
     if (canManage) {
+      buttons.push({ name: 'addArea', label: msg('global.addArea'), linkTo: routesList.organizationsAddArea.replace(':id', item.id) });
       buttons.push({ name: 'edit', label: msg('organization.edit'), linkTo: routesList.organizationsUpdate.replace(':id', item.id) });
       buttons.push({ name: 'delete', label: msg('global.remove'), onClick: () => addConfirm('organization.delete', { onSubmit: () => removeOrganization(item.id) }) });
       buttons.push({ name: 'managers', label: msg('organization.addManager'), linkTo: routesList.organizationsManagers.replace(':id', item.id) });
@@ -328,6 +330,11 @@ export default class Detail extends Component {
           />
 
           <Switch>
+            <Match
+              path={routesList.organizationsAddArea}
+              component={AddArea}
+              customProps={{ id: match.params.id }}
+            />
             <Match
               path={routesList.organizationsInvitations}
               component={Invite}

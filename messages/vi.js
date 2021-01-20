@@ -2902,8 +2902,8 @@ export default [
 		"defaultMessage": "#user.myProfile"
 	},
 	{
-		"id": "user.addArea",
-		"defaultMessage": "#user.addArea"
+		"id": "global.addArea",
+		"defaultMessage": "#global.addArea"
 	},
 	{
 		"id": "user.generateApiKey",
@@ -2942,8 +2942,8 @@ export default [
 		"defaultMessage": "#organization.description"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
-		"defaultMessage": "#user.geo.notificationFrequency"
+		"id": "global.geo.notificationFrequency",
+		"defaultMessage": "#global.geo.notificationFrequency"
 	},
 	{
 		"id": "user.reviewed",
@@ -3014,24 +3014,24 @@ export default [
 		"defaultMessage": "#user.editArea"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
-		"defaultMessage": "#user.geo.notificationFrequency.perHour"
+		"id": "global.geo.notificationFrequency.perHour",
+		"defaultMessage": "#global.geo.notificationFrequency.perHour"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
-		"defaultMessage": "#user.geo.notificationFrequency.never"
+		"id": "global.geo.notificationFrequency.never",
+		"defaultMessage": "#global.geo.notificationFrequency.never"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
-		"defaultMessage": "#user.geo.notificationFrequency.perDay"
+		"id": "global.geo.notificationFrequency.perDay",
+		"defaultMessage": "#global.geo.notificationFrequency.perDay"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
-		"defaultMessage": "#user.geo.notificationFrequency.perWeek"
+		"id": "global.geo.notificationFrequency.perWeek",
+		"defaultMessage": "#global.geo.notificationFrequency.perWeek"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
-		"defaultMessage": "#user.geo.notificationFrequency.perMonth"
+		"id": "global.geo.notificationFrequency.perMonth",
+		"defaultMessage": "#global.geo.notificationFrequency.perMonth"
 	},
 	{
 		"id": "user.level",
@@ -4082,8 +4082,8 @@ export default [
 		"defaultMessage": "#profile.currentPassword"
 	},
 	{
-		"id": "user.addToArea.success",
-		"defaultMessage": "#user.addToArea.success"
+		"id": "global.addToArea.success",
+		"defaultMessage": "#global.addToArea.success"
 	},
 	{
 		"id": "collectionPoint.created.success",
@@ -4278,8 +4278,8 @@ export default [
 		"defaultMessage": "#geo.description.superAdmin"
 	},
 	{
-		"id": "user.geo.description",
-		"defaultMessage": "#user.geo.description"
+		"id": "global.geo.description",
+		"defaultMessage": "#global.geo.description"
 	},
 	{
 		"id": "geo.confirm.removeAdmin",

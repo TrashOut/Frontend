@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "Mon profil"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Benachrichtigungen festlegen"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "La description"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Fréquence des notifications"
 	},
 	{
@@ -3014,23 +3014,23 @@ export default [
 		"defaultMessage": "Modifier la zone d'intérêt"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Par heure"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Jamais"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Par jour"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Par semaine"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Par mois"
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "Mot de passe actuel"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "La zone a été ajoutée avec succès"
 	},
 	{
@@ -4278,7 +4278,7 @@ export default [
 		"defaultMessage": "Dans cette section, vous pouvez voir les administrateurs, les gestionnaires et les utilisateurs. Vous pouvez ajouter ou supprimer des administrateurs pour les zones et les sous-zones. Vous pouvez également gérer des alias."
 	},
 	{
-		"id": "user.geo.description",
+		"id": "global.geo.description",
 		"defaultMessage": "N'hésitez pas à choisir les domaines qui vous intéressent. Définissez les notifications par e-mail et leur fréquence, afin de rester informé des décharges signalées et nettoyées dans ces zones. Vous pouvez surveiller autant de zones que vous le souhaitez et modifier les paramètres des notifications à tout moment!"
 	},
 	{

@@ -45,6 +45,7 @@ export const JOIN_ORGANIZATION = 'JOIN_ORGANIZATION';
 export const LEAVE_ORGANIZATION = 'LEAVE_ORGANIZATION';
 export const REMOVE_ORGANIZATION = 'REMOVE_ORGANIZATION';
 export const UPDATE_ORGANIZATION = 'UPDATE_ORGANIZATION';
+export const ADD_ORGANIZATION_TO_AREA = 'ADD_ORGANIZATION_TO_AREA';
 
 const send = async (organization, func, dispatch, token, removeImage) => {
   if (organization.image) {
@@ -204,3 +205,10 @@ export const fetchOrganizationUsers = (organizationId, filter) => ({ token, disp
     type: FETCH_ORGANIZATION_USERS,
   };
 };
+
+export const assignOrganizationArea = (organizationId, areaId, frequency = 3600) => ({ token }) => ({
+  type: ADD_ORGANIZATION_TO_AREA,
+  payload: api.postOrganizationArea(organizationId, areaId, frequency, token),
+  message: 'add-organization-to-area',
+  then: fetchOrganization(organizationId),
+});

@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "Profilom"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Értesítések beállítása"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Leírás"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Értesítési gyakoriság"
 	},
 	{
@@ -3014,23 +3014,23 @@ export default [
 		"defaultMessage": "Érdeklődési terület szerkesztése"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Óránként"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Soha"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Naponta"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Hetente"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Havonta"
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "Aktuális jelszó"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "A terület sikeresen hozzáadva"
 	},
 	{
@@ -4278,7 +4278,7 @@ export default [
 		"defaultMessage": "Ebben a szakaszban láthatja az adminisztrátorokat, a menedzsereket és a felhasználókat. Felveheti vagy eltávolíthatja az adminisztrátorokat a területekről és alterületekről. Az álneveket is itt kezelheti."
 	},
 	{
-		"id": "user.geo.description",
+		"id": "global.geo.description",
 		"defaultMessage": "Szabadon kiválaszthatja az Ön számára fontos területeket, csak állítsa be az e-mail értesítéseket és azok gyakoriságát, így tájékozódhat ezen területekről érkező bejelentésekről és megtisztított hulladéklerakókról. Figyelemmel kísérheti a kiválasztott területet, és bármikor megváltoztathatja az értesítések beállításait!"
 	},
 	{

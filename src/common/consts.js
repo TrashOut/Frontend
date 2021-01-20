@@ -64,10 +64,10 @@ export const updateNeeded = spams;
 export const trueFalse = spams;
 
 export const notifications = {
-  0: { frequency: 0, message: 'user.geo.notificationFrequency.never' },
-  86400: { frequency: 86400, message: 'user.geo.notificationFrequency.perDay' },
-  604800: { frequency: 604800, message: 'user.geo.notificationFrequency.perWeek' },
-  2419200: { frequency: 2419200, message: 'user.geo.notificationFrequency.perMonth' },
+  0: { frequency: 0, message: 'global.geo.notificationFrequency.never' },
+  86400: { frequency: 86400, message: 'global.geo.notificationFrequency.perDay' },
+  604800: { frequency: 604800, message: 'global.geo.notificationFrequency.perWeek' },
+  2419200: { frequency: 2419200, message: 'global.geo.notificationFrequency.perMonth' },
 };
 
 export const languages = {

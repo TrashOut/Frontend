@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "Il mio profilo"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Imposta notifiche"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Descrizione"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Frequenza notifiche"
 	},
 	{
@@ -3014,23 +3014,23 @@ export default [
 		"defaultMessage": "Modifica area di interesse"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Per Ora"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Mai"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Per giorno"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Per settimana"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Per mese"
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "Password attuale"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "Area aggiunta con successo"
 	},
 	{
@@ -4278,7 +4278,7 @@ export default [
 		"defaultMessage": "In questa sezione puoi vedere amministratori, manager e utenti. È possibile aggiungere o rimuovere amministratori per aree e sottoaree. Puoi anche gestire gli alias."
 	},
 	{
-		"id": "user.geo.description",
+		"id": "global.geo.description",
 		"defaultMessage": "Sentiti libero di scegliere le aree che ti interessano. Imposta le notifiche e-mail e la loro frequenza, così puoi rimanere informato sulle discariche segnalate e pulite in queste aree. È possibile monitorare tutte le aree che si desidera e modificare le impostazioni delle notifiche in qualsiasi momento!"
 	},
 	{
