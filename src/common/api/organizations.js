@@ -146,6 +146,14 @@ export const postOrganizationArea = async (organizationId, areaId, notificationF
   }
 };
 
+export const putOrganizationArea = async (organizationId, areaId, notificationFrequency, token) => {
+  try {
+    return await put(`/webapi/organization/${organizationId}/area/${areaId}`, { notificationFrequency }, token);
+  } catch (error) {
+    throw new Error('cannot-update');
+  }
+};
+
 export const deleteOrganizationArea = async (organizationId, areaId, token) => {
   try {
     return await remove(`/webapi/organization/${organizationId}/area/${areaId}`, token);

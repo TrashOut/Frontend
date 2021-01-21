@@ -3010,7 +3010,7 @@ export default [
 		"defaultMessage": "Collection point was successfully updated."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Edit Area of interest"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Recycle Point Type Category"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "Area was successfully updated"
 	},
 	{

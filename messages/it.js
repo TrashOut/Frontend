@@ -3010,7 +3010,7 @@ export default [
 		"defaultMessage": "Il punto di  raccolta è stato aggiornato con successo."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Modifica area di interesse"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Categoria centro di riciclaggio"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "Zona aggiornata con successo"
 	},
 	{

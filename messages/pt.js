@@ -3010,7 +3010,7 @@ export default [
 		"defaultMessage": "O ponto de coleta foi atualizado com sucesso."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Editar área de interesse"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Categoria de tipo de ponto de reciclagem"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "A área foi atualizada com sucesso"
 	},
 	{

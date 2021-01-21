@@ -3010,7 +3010,7 @@ export default [
 		"defaultMessage": "Sběrné místo bylo úspěšně upraveno."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Upravit oblast zájmu"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Kategorie typu recyklačního bodu"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "Oblast byla úspěšně upravena."
 	},
 	{

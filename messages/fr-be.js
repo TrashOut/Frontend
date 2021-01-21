@@ -3010,7 +3010,7 @@ export default [
 		"defaultMessage": "Le point de collecte a été mis à jour avec succès."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Modifier la zone d'intérêt"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Catégorie de type de point de recyclage"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "La zone a été mise à jour avec succès"
 	},
 	{

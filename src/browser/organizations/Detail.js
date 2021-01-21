@@ -48,6 +48,7 @@ import { setTable } from '../../common/table/actions';
 import { Switch } from 'react-router-dom';
 import AddArea from "./AddArea";
 import { notifications } from '../../common/consts';
+import EditArea from "./EditArea";
 
 @withRole(state => ({
   isFetching: state.organizations.isFetching,
@@ -398,6 +399,10 @@ export default class Detail extends Component {
               path={routesList.organizationsAddArea}
               component={AddArea}
               customProps={{ id: match.params.id }}
+            />
+            <Match
+              path={routesList.organizationsEditArea}
+              component={EditArea}
             />
             <Match
               path={routesList.organizationsInvitations}

@@ -3010,7 +3010,7 @@ export default [
 		"defaultMessage": "Le point de collecte a été mis à jour avec succès."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Modifier secteur favori"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Catégories de déchets acceptés"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "Secteur mis à jour avec succès"
 	},
 	{

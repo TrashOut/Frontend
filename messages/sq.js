@@ -3010,7 +3010,7 @@ export default [
 		"defaultMessage": "Pika e riciklimit u përditësua me sukses."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Ndrysho Zonën e interesit"
 	},
 	{
@@ -3342,8 +3342,8 @@ export default [
 		"defaultMessage": "#collectionPoint.category"
 	},
 	{
-		"id": "user.editArea.success",
-		"defaultMessage": "#user.editArea.success"
+		"id": "global.editArea.success",
+		"defaultMessage": "#global.editArea.success"
 	},
 	{
 		"id": "user.roles.organization.manager",

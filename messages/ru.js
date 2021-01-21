@@ -3010,7 +3010,7 @@ export default [
 		"defaultMessage": "Пункт переработки был успешно обновлен."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Редактировать интересуюший район"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Категория типа пункта переработки"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "Район был успешно обновлен"
 	},
 	{

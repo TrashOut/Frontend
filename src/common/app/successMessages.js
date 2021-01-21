@@ -162,6 +162,10 @@ const SuccessMessages = {
     id: 'global.addToArea.success',
     redirect: './',
   },
+  'update-organization-area': {
+    id: 'global.editArea.success',
+    redirect: '../../',
+  },
   'remove-organization-area': {
     id: 'geo.areaRemove.success',
     redirect: './',
@@ -185,7 +189,7 @@ const SuccessMessages = {
     id: 'geo.managerEdit.success',
   },
   'edit-user-area': {
-    id: 'user.editArea.success',
+    id: 'global.editArea.success',
     redirect: '/my-profile/',
   },
   'add-user-to-area': {

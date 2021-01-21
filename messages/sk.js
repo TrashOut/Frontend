@@ -3010,7 +3010,7 @@ export default [
 		"defaultMessage": "Zberné miesto bolo úspešne aktualizované"
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Upraviť oblasť záujmu"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Kategória zberného miesta"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "Oblasť bola úspešne aktualizovaná"
 	},
 	{

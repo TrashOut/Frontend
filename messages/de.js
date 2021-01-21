@@ -3010,7 +3010,7 @@ export default [
 		"defaultMessage": "Recyclingstandort wurde erfolgreich aktualisiert."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Interessenbereich bearbeiten"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Recyclingstandort-Kategorie"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "Bereich wurde erfolgreich aktualisiert"
 	},
 	{

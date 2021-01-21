@@ -3010,7 +3010,7 @@ export default [
 		"defaultMessage": "Gyűjtési pont frissítve"
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Érdeklődési terület szerkesztése"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Újrahasznosítási pont típusa"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "A terület sikeresen frissült"
 	},
 	{

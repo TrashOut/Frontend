@@ -3010,8 +3010,8 @@ export default [
 		"defaultMessage": "#collectionPoint.update.success"
 	},
 	{
-		"id": "user.editArea",
-		"defaultMessage": "#user.editArea"
+		"id": "global.editArea",
+		"defaultMessage": "#global.editArea"
 	},
 	{
 		"id": "global.geo.notificationFrequency.perHour",
@@ -3342,8 +3342,8 @@ export default [
 		"defaultMessage": "#collectionPoint.category"
 	},
 	{
-		"id": "user.editArea.success",
-		"defaultMessage": "#user.editArea.success"
+		"id": "global.editArea.success",
+		"defaultMessage": "#global.editArea.success"
 	},
 	{
 		"id": "user.roles.organization.manager",
