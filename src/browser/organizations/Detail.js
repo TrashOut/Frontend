@@ -183,7 +183,7 @@ export default class Detail extends Component {
               />
               <Social
                 label={item.contactEmail}
-                link={item.contactEmaill}
+                link={item.contactEmail}
                 icon={<Email />}
                 fullWidth
               />
