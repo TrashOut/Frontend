@@ -4972,5 +4972,13 @@ export default [
 	{
 		"id": "global.validation.required",
 		"defaultMessage": "requis"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Zones surveillées"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "Cette organisation a mis en place des notifications par e-mail régulières sur les domaines suivants:"
 	}
 ]

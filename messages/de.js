@@ -4972,5 +4972,13 @@ export default [
 	{
 		"id": "global.validation.required",
 		"defaultMessage": "Dieses Feld ist erforderlich"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Überwachte Bereiche"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "Diese Organisation hat regelmäßige E-Mail-Benachrichtigungen zu folgenden Bereichen eingerichtet:"
 	}
 ]

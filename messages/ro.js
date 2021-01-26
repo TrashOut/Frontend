@@ -4972,5 +4972,13 @@ export default [
 	{
 		"id": "global.validation.required",
 		"defaultMessage": "Câmpul este obligatoriu"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Zonele monitorizate"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "Această organizație a creat notificări periodice prin e-mail despre următoarele domenii:"
 	}
 ]

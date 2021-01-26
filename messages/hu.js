@@ -4972,5 +4972,13 @@ export default [
 	{
 		"id": "global.validation.required",
 		"defaultMessage": "A mező kitöltése kötelező"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Megfigyelt területek"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "Ez a szervezet rendszeres e-mailes értesítéseket állított be a következő területekről:"
 	}
 ]

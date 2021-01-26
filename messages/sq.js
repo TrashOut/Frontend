@@ -4972,5 +4972,13 @@ export default [
 	{
 		"id": "global.validation.required",
 		"defaultMessage": "#global.validation.required"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "#organization.notifications"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "#organization.notifications.description"
 	}
 ]

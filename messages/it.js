@@ -4972,5 +4972,13 @@ export default [
 	{
 		"id": "global.validation.required",
 		"defaultMessage": "Il campo è obbligatorio"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Aree monitorate"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "Questa organizzazione ha impostato notifiche e-mail regolari sulle seguenti aree:"
 	}
 ]

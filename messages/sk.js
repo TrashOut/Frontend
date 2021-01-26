@@ -4972,5 +4972,13 @@ export default [
 	{
 		"id": "global.validation.required",
 		"defaultMessage": "Pole je povinné"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Sledované oblasti"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "Táto organizácia má nastavené pravidelné emailové notifikácie o týchto oblastiach:"
 	}
 ]

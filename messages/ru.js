@@ -4972,5 +4972,13 @@ export default [
 	{
 		"id": "global.validation.required",
 		"defaultMessage": "Поле обязательно для заполнения"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Наблюдаемые территории"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "Eta organizatsiya nastroila regulyarnyye uvedomleniya po elektronnoy pochte o sleduyushchikh oblastyakh:"
 	}
 ]

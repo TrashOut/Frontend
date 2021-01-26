@@ -4972,5 +4972,13 @@ export default [
 	{
 		"id": "global.validation.required",
 		"defaultMessage": "The field is required"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Monitored areas"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "This organization has set up regular email notifications about the following areas:"
 	}
 ]
