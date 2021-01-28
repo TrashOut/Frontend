@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "Môj profil"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Nastaviť oznámenia o oblasti"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Opis"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Frekvencia oznámení"
 	},
 	{
@@ -3010,27 +3010,27 @@ export default [
 		"defaultMessage": "Zberné miesto bolo úspešne aktualizované"
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Upraviť oblasť záujmu"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Za hodinu"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Nikdy"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Za deň"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Týždenne"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Za mesiac"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Kategória zberného miesta"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "Oblasť bola úspešne aktualizovaná"
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "Aktuálne heslo"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "Oblasť bola úspešne pridaná"
 	},
 	{
@@ -4278,7 +4278,7 @@ export default [
 		"defaultMessage": "V tejto sekcii môžete vidieť administrátorov, manažérov a používateľov. Môžete pridať alebo odstrániť administrátorov pre oblasti alebo podoblasti, môžete spravovať aliasy k oblastiam."
 	},
 	{
-		"id": "user.geo.description",
+		"id": "global.geo.description",
 		"defaultMessage": "Vyberte si geografické oblasti, ktoré vás zaujímajú. Nastavte si e-mailové upozornenia a ich frekvencie, takže môžete zostať informovaní o hlásených skládkach a udalostiach v týchto oblastiach. Môžete sledovať oblastí koľko uznáte za vhodné, jednotlivé nastavenia môžete kedykoľvek meniť."
 	},
 	{
@@ -4963,6 +4963,22 @@ export default [
 	},
 	{
 		"id": "global.createNewAccountDesc",
-		"defaultMessage": "V prípade, že chcete registrovať organizáciu, môžete tak urobit v ďalšom kroku v sekcií organizácie."
+		"defaultMessage": "Ak chcete zaregistrovať organizáciu, vytvorte si najskôr svoj osobný účet. Potom sa prihláste a vytvorte organizáciu v sekcii Organizácie."
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "Voľba jazyka pre e-mailové notifikácie"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "Pole je povinné"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Sledované oblasti"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "Táto organizácia má nastavené pravidelné emailové notifikácie o týchto oblastiach:"
 	}
 ]

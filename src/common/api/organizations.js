@@ -138,3 +138,26 @@ export const getOrganizationStatistics = async (id, token) => {
   }
 };
 
+export const postOrganizationArea = async (organizationId, areaId, notificationFrequency, token) => {
+  try {
+    return await post(`/webapi/organization/${organizationId}/area`, { organizationId, areaId, notificationFrequency }, token);
+  } catch (error) {
+    throw new Error('cannot-create');
+  }
+};
+
+export const putOrganizationArea = async (organizationId, areaId, notificationFrequency, token) => {
+  try {
+    return await put(`/webapi/organization/${organizationId}/area/${areaId}`, { notificationFrequency }, token);
+  } catch (error) {
+    throw new Error('cannot-update');
+  }
+};
+
+export const deleteOrganizationArea = async (organizationId, areaId, token) => {
+  try {
+    return await remove(`/webapi/organization/${organizationId}/area/${areaId}`, token);
+  } catch (error) {
+    throw error;
+  }
+};

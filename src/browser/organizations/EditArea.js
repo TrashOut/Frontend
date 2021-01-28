@@ -6,7 +6,7 @@
  * those who are helping TrashOut and those who are not. Clean up our code,
  * so we can clean up our planet. Get in touch with us: help@trashout.ngo
  *
- * Copyright 2017 TrashOut, n.f.
+ * Copyright 2020 TrashOut, n.f.
  *
  * This file is part of the TrashOut project.
  *
@@ -32,42 +32,31 @@ import { connect } from 'react-redux';
 import { notifications } from '../../common/consts';
 import { push } from 'react-router-redux';
 import { submit } from 'redux-form';
-import { updateUserArea } from '../../common/areas/actions';
+import { updateOrganizationArea } from '../../common/organizations/actions';
 
 @translate
-@connect(state => ({
-  areas: state.users.viewer.userHasArea,
-}), { updateUserArea, push, submit })
+@connect(null, { updateOrganizationArea, push, submit })
 export default class Invite extends Component {
   static propTypes = {
-    areas: React.PropTypes.array,
     match: React.PropTypes.object,
     msg: React.PropTypes.func.isRequired,
     push: React.PropTypes.func.isRequired,
     submit: React.PropTypes.func,
-    updateUserArea: React.PropTypes.func.isRequired,
+    updateOrganizationArea: React.PropTypes.func.isRequired,
   };
 
   @autobind
   onSubmit(values) {
-    const { areas, updateUserArea, match: { params: { id } } } = this.props;
+    const { updateOrganizationArea, match: { params: { id, organizationId } } } = this.props;
 
-    const area = areas.filter(x => x.areaId === id)[0];
-    updateUserArea(
-      id,
-      notifications[Object.keys(notifications)[values.notification]].frequency,
-      area.userAreaRoleId
-    );
+    updateOrganizationArea(organizationId, id, notifications[Object.keys(notifications)[values.notification]].frequency);
   }
 
   render() {
-    const { areas, msg, push, submit, match } = this.props;
-
-    const id = match.params.id;
-    const area = areas.filter(x => x.areaId === id);
+    const { areas, msg, push, submit, match: { params: { id, organizationId } } } = this.props;
 
     const buttons = [
-      <FlatButton type="button" label={msg('global.cancel')} onClick={() => push('../')} />,
+      <FlatButton type="button" label={msg('global.cancel')} onClick={() => push('../../')} />,
       <FlatButton type="submit" label={msg('global.editArea')} onClick={() => submit('filter')} />,
     ];
 
@@ -80,12 +69,9 @@ export default class Invite extends Component {
         actionsContainerStyle={{ borderTop: '0' }}
         titleStyle={{ borderBottom: '0' }}
       >
-        {area &&
-          <NotificationForm
-            onSubmit={this.onSubmit}
-            area={area[0]}
-          />
-        }
+        <NotificationForm
+          onSubmit={this.onSubmit}
+        />
       </Dialog>
     );
   }

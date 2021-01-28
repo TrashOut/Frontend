@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "Můj profil"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Nastavit oznámení o oblasti"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Popis organizace"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Frekvence zasílání notifikací"
 	},
 	{
@@ -3010,27 +3010,27 @@ export default [
 		"defaultMessage": "Sběrné místo bylo úspěšně upraveno."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Upravit oblast zájmu"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Jednou za hodinu"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Nikdy"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Jednou za den"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Jednou za týden"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Jednou za měsíc"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Kategorie typu recyklačního bodu"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "Oblast byla úspěšně upravena."
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "Současné heslo"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "Oblast byla úspěšně přidána"
 	},
 	{
@@ -4278,7 +4278,7 @@ export default [
 		"defaultMessage": "V této sekci naleznete správce, manažery a uživatele. Můžete přidat nebo odebrat administrátory pro oblasti a podoblasti. Můžete také spravovat aliasy."
 	},
 	{
-		"id": "user.geo.description",
+		"id": "global.geo.description",
 		"defaultMessage": "Neváhejte volit oblasti, které vás zajímají. Nastavte e-mailové upozornění a jejich četnost, abyste byli v těchto oblastech informováni o hlášených a vyčištěných skládkách. Můžete sledovat tolik oblastí, kolik chcete, a změnit nastavení upozornění kdykoliv!"
 	},
 	{
@@ -4960,5 +4960,25 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "Nahlásit jako"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "Chcete-li zaregistrovat organizaci, zaregistrujte si nejprve svůj osobní účet. Poté se přihlaste a vytvořte organizaci."
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "Jazyk"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "Pole je povinné"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Sledované oblasti"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "Tato organizace má nastaveno pravidelné emailové notifikace o těchto oblastech:"
 	}
 ]

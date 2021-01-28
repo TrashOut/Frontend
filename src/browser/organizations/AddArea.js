@@ -6,7 +6,7 @@
  * those who are helping TrashOut and those who are not. Clean up our code,
  * so we can clean up our planet. Get in touch with us: help@trashout.ngo
  *
- * Copyright 2017 TrashOut, n.f.
+ * Copyright 2020 TrashOut, n.f.
  *
  * This file is part of the TrashOut project.
  *
@@ -27,7 +27,7 @@ import FlatButton from 'material-ui/FlatButton';
 import NotificationForm from './NotificationForm';
 import React, { PureComponent as Component } from 'react';
 import translate from '../../messages/translate';
-import { assignArea } from '../../common/areas/actions';
+import { assignOrganizationArea as assignArea } from '../../common/organizations/actions';
 import { autobind } from 'core-decorators';
 import { connect } from 'react-redux';
 import { notifications } from '../../common/consts';
@@ -48,6 +48,7 @@ export default class Invite extends Component {
     push: React.PropTypes.func.isRequired,
     submit: React.PropTypes.func,
     assignArea: React.PropTypes.func.isRequired,
+    id: React.PropTypes.number.isRequired,
   };
 
   state = {
@@ -57,7 +58,8 @@ export default class Invite extends Component {
 
   @autobind
   onSubmit(values) {
-    const { assignArea, items } = this.props;
+    const { assignArea, items, id } = this.props;
+
     const array = Object.keys(values);
 
     for (let i = array.length - 1; i >= 0; i -= 1) {
@@ -68,6 +70,7 @@ export default class Invite extends Component {
         const result = items.get(index).filter(x => x.label === values[index]);
         if (result.length > 0) {
           assignArea(
+            id,
             result[0].pathId,
             notifications[Object.keys(notifications)[values.notification]].frequency
           );
@@ -98,7 +101,7 @@ export default class Invite extends Component {
     const { stepIndex } = this.state;
 
     const buttons = [
-      (stepIndex === 0) && <FlatButton type="button" label={msg('global.cancel')} onClick={() => push('../')} />,
+      (stepIndex === 0) && <FlatButton type="button" label={msg('global.cancel')} onClick={() => push('./')} />,
       (stepIndex === 0) && <FlatButton type="button" label={msg('global.nextStep')} onClick={() => this.handleNext()} />,
       (stepIndex === 1) && <FlatButton type="button" label={msg('global.back')} onClick={() => this.handlePrev()} />,
       (stepIndex === 1) && <FlatButton type="submit" label={msg('global.addArea')} onClick={() => submit('filter')} />,

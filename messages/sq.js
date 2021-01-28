@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "Profili Im"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Vendosni njoftimet"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Përshkrimi"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Frekuenca e Njoftimit"
 	},
 	{
@@ -3010,27 +3010,27 @@ export default [
 		"defaultMessage": "Pika e riciklimit u përditësua me sukses."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Ndrysho Zonën e interesit"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Për orë"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Asnjëherë"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Për ditë"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Për javë"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Për muaj"
 	},
 	{
@@ -3342,8 +3342,8 @@ export default [
 		"defaultMessage": "#collectionPoint.category"
 	},
 	{
-		"id": "user.editArea.success",
-		"defaultMessage": "#user.editArea.success"
+		"id": "global.editArea.success",
+		"defaultMessage": "#global.editArea.success"
 	},
 	{
 		"id": "user.roles.organization.manager",
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "#profile.currentPassword"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "Zona u shtua me sukses"
 	},
 	{
@@ -4278,8 +4278,8 @@ export default [
 		"defaultMessage": "#geo.description.superAdmin"
 	},
 	{
-		"id": "user.geo.description",
-		"defaultMessage": "#user.geo.description"
+		"id": "global.geo.description",
+		"defaultMessage": "#global.geo.description"
 	},
 	{
 		"id": "geo.confirm.removeAdmin",
@@ -4960,5 +4960,25 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "#trash.reportAs"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "#global.createNewAccountDesc"
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "#organization.language"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "#global.validation.required"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "#organization.notifications"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "#organization.notifications.description"
 	}
 ]

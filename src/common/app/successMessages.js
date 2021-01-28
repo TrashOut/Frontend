@@ -158,6 +158,18 @@ const SuccessMessages = {
     id: 'organization.invitationSent.success',
     redirect: '../',
   },
+  'add-organization-to-area': {
+    id: 'global.addToArea.success',
+    redirect: './',
+  },
+  'update-organization-area': {
+    id: 'global.editArea.success',
+    redirect: '../../',
+  },
+  'remove-organization-area': {
+    id: 'geo.areaRemove.success',
+    redirect: './',
+  },
   'area-root-set': {
     id: 'geo.rootSet.success',
     redirect: '/geographical-areas/detail/{originalObject[id]}',
@@ -177,11 +189,11 @@ const SuccessMessages = {
     id: 'geo.managerEdit.success',
   },
   'edit-user-area': {
-    id: 'user.editArea.success',
+    id: 'global.editArea.success',
     redirect: '/my-profile/',
   },
   'add-user-to-area': {
-    id: 'user.addToArea.success',
+    id: 'global.addToArea.success',
     redirect: '/my-profile/',
   },
   'update-article': {

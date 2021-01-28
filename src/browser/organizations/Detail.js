@@ -41,11 +41,14 @@ import { autobind } from 'core-decorators';
 import { Confirm, Loading, SecondAppBar, Social, Box, Link } from '../app/components';
 import { connect } from 'react-redux';
 import { FacebookIcon, TwitterIcon, GoogleIcon } from '../app/components/Icons';
-import { fetchOrganizationUsers, fetchOrganization, removeOrganization, joinOrganization, leaveOrganization, updateOrganization } from '../../common/organizations/actions';
+import { fetchOrganizationUsers, fetchOrganization, removeOrganization, joinOrganization, leaveOrganization, updateOrganization, removeOrganizationArea as removeArea } from '../../common/organizations/actions';
 import { Match } from '../../common/app/components';
 import { organizationRoles } from '../../roles';
 import { setTable } from '../../common/table/actions';
 import { Switch } from 'react-router-dom';
+import AddArea from "./AddArea";
+import { notifications } from '../../common/consts';
+import EditArea from "./EditArea";
 
 @withRole(state => ({
   isFetching: state.organizations.isFetching,
@@ -70,6 +73,7 @@ import { Switch } from 'react-router-dom';
   fetchOrganizationUsers,
   updateOrganization,
   setTable,
+  removeArea,
 })
 export default class Detail extends Component {
   static propTypes = {
@@ -94,6 +98,7 @@ export default class Detail extends Component {
     users: React.PropTypes.object,
     statistics: React.PropTypes.object,
     organization: React.PropTypes.object,
+    removeArea: React.PropTypes.func.isRequired,
   };
 
   state = {
@@ -178,7 +183,7 @@ export default class Detail extends Component {
               />
               <Social
                 label={item.contactEmail}
-                link={item.contactEmaill}
+                link={item.contactEmail}
                 icon={<Email />}
                 fullWidth
               />
@@ -247,6 +252,67 @@ export default class Detail extends Component {
     );
   }
 
+  renderOrganizationHasArea() {
+    const { msg, organization, roles, removeArea } = this.props;
+    const { organizationHasArea } = organization;
+
+    const canManage = roles.isAuthorized('superAdmin') || roles.isAuthorizedWithOrganization('manager');
+
+    if (!organizationHasArea || organizationHasArea.length === 0) return null;
+
+    return (
+      <div className="row">
+        <h2>{msg('organization.notifications')}</h2>
+        <p>{msg('organization.notifications.description')}</p>
+        <Table
+          isPagination={Boolean(false)}
+          header={{
+            specName: {
+              label: msg('geo.name'),
+              sortable: false,
+            },
+            type: {
+              label: msg('geo.type'),
+              sortable: false,
+            },
+            notificationFrequency: {
+              label: msg('global.geo.notificationFrequency'),
+              sortable: false,
+            },
+            delete: {
+              label: msg('global.remove'),
+              sortable: false,
+              type: 'buttonLink',
+              linkName: msg('global.remove'),
+              onClick: (values) => removeArea(organization.id, values.id),
+              hide: !canManage,
+            },
+            edit: {
+              label: msg('global.edit'),
+              sortable: false,
+              type: 'link',
+              linkName: msg('global.edit'),
+              template: routesList.organizationsEditArea.replace(':organizationId', organization.id).replace(':id', '{id}'),
+              hide: !canManage,
+            },
+          }}
+          data={organizationHasArea.map(({ area, notificationFrequency }) => ({
+            ...area,
+            specName: area[area.type],
+            notificationFrequency,
+          }))}
+          translatedFields={{
+            notificationFrequency: notifications,
+          }}
+          showLinkButton={Boolean(false)}
+          isLocal={Boolean(true)}
+          selectable={Boolean(false)}
+          hasPrimaryColor={Boolean(true)}
+        />
+      </div>
+    );
+  }
+
   renderAdminContent() {
     const { msg, users } = this.props;
     if (users.isFetching) return null;
@@ -294,7 +360,7 @@ export default class Detail extends Component {
   }
 
   render() {
-    const { addConfirm, msg, item, isFetching, removeOrganization, joinOrganization, leaveOrganization, roles } = this.props;
+    const { addConfirm, msg, item, isFetching, removeOrganization, joinOrganization, leaveOrganization, roles, match } = this.props;
 
     const canManage = roles.isAuthorized('superAdmin') || roles.isAuthorizedWithOrganization('manager');
     const role = roles.getOrganizationRole();
@@ -302,6 +368,7 @@ export default class Detail extends Component {
     const buttons = [];
 
     if (canManage) {
+      buttons.push({ name: 'addArea', label: msg('global.addArea'), linkTo: routesList.organizationsAddArea.replace(':id', item.id) });
       buttons.push({ name: 'edit', label: msg('organization.edit'), linkTo: routesList.organizationsUpdate.replace(':id', item.id) });
       buttons.push({ name: 'delete', label: msg('global.remove'), onClick: () => addConfirm('organization.delete', { onSubmit: () => removeOrganization(item.id) }) });
       buttons.push({ name: 'managers', label: msg('organization.addManager'), linkTo: routesList.organizationsManagers.replace(':id', item.id) });
@@ -328,6 +395,15 @@ export default class Detail extends Component {
           />
 
           <Switch>
+            <Match
+              path={routesList.organizationsAddArea}
+              component={AddArea}
+              customProps={{ id: match.params.id }}
+            />
+            <Match
+              path={routesList.organizationsEditArea}
+              component={EditArea}
+            />
             <Match
               path={routesList.organizationsInvitations}
               component={Invite}
@@ -358,6 +434,7 @@ export default class Detail extends Component {
                 : this.renderInfoBox(canManage)
               }
             </Paper>
+            {this.renderOrganizationHasArea()}
             {canManage && this.renderAdminContent()}
           </div>
         </div>

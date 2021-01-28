@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "Mi perfil"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Establecer notificaciones"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Descripción"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Frecuencia de notificación"
 	},
 	{
@@ -3010,27 +3010,27 @@ export default [
 		"defaultMessage": "El punto de reciclaje se actualizó con éxito."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Editar área de interés"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Por hora"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Nunca"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Por día"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Por semana"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Por mes"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Categoría de tipo de punto de reciclaje"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "El área se actualizó con éxito"
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "Contraseña actual"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "El área se ha añadido correctamente"
 	},
 	{
@@ -4278,7 +4278,7 @@ export default [
 		"defaultMessage": "En esta sección, puede ver los administradores y usuarios. Puede agregar o eliminar administradores para áreas y subáreas. También puedes administrar los alias."
 	},
 	{
-		"id": "user.geo.description",
+		"id": "global.geo.description",
 		"defaultMessage": "Elija las áreas que le interesan. Defina las notificaciones por correo electrónico y su frecuencia, para que pueda mantenerse informado sobre los vertederos denunciados y limpiados en estas áreas. ¡Puede controlar tantas áreas como desee y cambiar la configuración de las notificaciones en cualquier momento!"
 	},
 	{
@@ -4960,5 +4960,25 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "Reporta como"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "Si desea registrar su organización, registre primero su cuenta personal. Después, inicie sesión y cree una organización. "
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "Preferencia de idioma para las notificaciones por correo electrónico"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "El campo es obligatorio"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Áreas monitoreadas"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "Esta organización ha configurado notificaciones periódicas por correo electrónico sobre las siguientes áreas:"
 	}
 ]

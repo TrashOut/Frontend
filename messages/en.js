@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "My Profile"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Set notifications about the area"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Description"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Notification Frequency"
 	},
 	{
@@ -3010,27 +3010,27 @@ export default [
 		"defaultMessage": "Collection point was successfully updated."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Edit Area of interest"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "Per hour"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Never"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "Per day"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "Per week"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "Per month"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Recycle Point Type Category"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "Area was successfully updated"
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "Current Password"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "Area was successfully added"
 	},
 	{
@@ -4278,7 +4278,7 @@ export default [
 		"defaultMessage": "In this section you can see administrators, managers and users. You can add or remove administrators for areas and subareas. You can also manage aliases."
 	},
 	{
-		"id": "user.geo.description",
+		"id": "global.geo.description",
 		"defaultMessage": "Feel free to choose areas that you care about. Set email notifications and their frequency, so you can stay informed about reported and cleaned dumps in these areas. You can monitor as many areas as you wish and change settings of notifications any time!"
 	},
 	{
@@ -4960,5 +4960,25 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "Report as"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "If you wish to register your organization, register your personal account first. Afterward, log in and create an organization. "
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "Language preference for email notifications"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "The field is required"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Monitored areas"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "This organization has set up regular email notifications about the following areas:"
 	}
 ]

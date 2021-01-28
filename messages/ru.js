@@ -2902,7 +2902,7 @@ export default [
 		"defaultMessage": "Мой профиль"
 	},
 	{
-		"id": "user.addArea",
+		"id": "global.addArea",
 		"defaultMessage": "Установить уведомления"
 	},
 	{
@@ -2942,7 +2942,7 @@ export default [
 		"defaultMessage": "Описание"
 	},
 	{
-		"id": "user.geo.notificationFrequency",
+		"id": "global.geo.notificationFrequency",
 		"defaultMessage": "Частота уведомлений"
 	},
 	{
@@ -3010,27 +3010,27 @@ export default [
 		"defaultMessage": "Пункт переработки был успешно обновлен."
 	},
 	{
-		"id": "user.editArea",
+		"id": "global.editArea",
 		"defaultMessage": "Редактировать интересуюший район"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perHour",
+		"id": "global.geo.notificationFrequency.perHour",
 		"defaultMessage": "В час"
 	},
 	{
-		"id": "user.geo.notificationFrequency.never",
+		"id": "global.geo.notificationFrequency.never",
 		"defaultMessage": "Никогда"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perDay",
+		"id": "global.geo.notificationFrequency.perDay",
 		"defaultMessage": "В день"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perWeek",
+		"id": "global.geo.notificationFrequency.perWeek",
 		"defaultMessage": "В неделю"
 	},
 	{
-		"id": "user.geo.notificationFrequency.perMonth",
+		"id": "global.geo.notificationFrequency.perMonth",
 		"defaultMessage": "В месяц"
 	},
 	{
@@ -3342,7 +3342,7 @@ export default [
 		"defaultMessage": "Категория типа пункта переработки"
 	},
 	{
-		"id": "user.editArea.success",
+		"id": "global.editArea.success",
 		"defaultMessage": "Район был успешно обновлен"
 	},
 	{
@@ -4082,7 +4082,7 @@ export default [
 		"defaultMessage": "Текущий пароль"
 	},
 	{
-		"id": "user.addToArea.success",
+		"id": "global.addToArea.success",
 		"defaultMessage": "Район успешно добавлен"
 	},
 	{
@@ -4278,7 +4278,7 @@ export default [
 		"defaultMessage": "В этом разделе вы можете просматривать администраторов, менеджеров и пользователей. Вы можете добавлять или удалять администраторов для областей и районов. Вы также можете управлять альтернативными названиями."
 	},
 	{
-		"id": "user.geo.description",
+		"id": "global.geo.description",
 		"defaultMessage": "Не стесняйтесь выбирать те районы, которые вам интересны. Настройте уведомления по электронной почте и их частоту, чтобы вы могли получать информацию об отмеченных и очищенных свалках в этих районах. Вы можете отслеживать столько районов, сколько пожелаете, и изменять настройки уведомлений в любое время!"
 	},
 	{
@@ -4960,5 +4960,25 @@ export default [
 	{
 		"id": "trash.reportAs",
 		"defaultMessage": "Сообщить как"
+	},
+	{
+		"id": "global.createNewAccountDesc",
+		"defaultMessage": "Если вы хотите зарегистрировать свою организацию, сначала зарегистрируйте личный кабинет. После этого войдите в систему и создайте организацию. "
+	},
+	{
+		"id": "organization.language",
+		"defaultMessage": "Предпочтительный язык электронных уведомлений"
+	},
+	{
+		"id": "global.validation.required",
+		"defaultMessage": "Поле обязательно для заполнения"
+	},
+	{
+		"id": "organization.notifications",
+		"defaultMessage": "Наблюдаемые территории"
+	},
+	{
+		"id": "organization.notifications.description",
+		"defaultMessage": "Eta organizatsiya nastroila regulyarnyye uvedomleniya po elektronnoy pochte o sleduyushchikh oblastyakh:"
 	}
 ]

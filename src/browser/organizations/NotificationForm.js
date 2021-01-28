@@ -6,7 +6,7 @@
  * those who are helping TrashOut and those who are not. Clean up our code,
  * so we can clean up our planet. Get in touch with us: help@trashout.ngo
  *
- * Copyright 2017 TrashOut, n.f.
+ * Copyright 2020 TrashOut, n.f.
  *
  * This file is part of the TrashOut project.
  *

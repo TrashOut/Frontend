@@ -283,7 +283,7 @@ export default class Detail extends Component {
               sortable: false,
             },
             notificationFrequency: {
-              label: msg('user.geo.notificationFrequency'),
+              label: msg('global.geo.notificationFrequency'),
               sortable: false,
             },
             userAreaRoleId: {
@@ -421,7 +421,7 @@ export default class Detail extends Component {
     const profileImage = (user.image || {}).fullDownloadUrl;
 
     const menuButtons = [
-      { name: 'addArea', label: msg('user.addArea'), linkTo: routesList.userAddArea },
+      { name: 'addArea', label: msg('global.addArea'), linkTo: routesList.userAddArea },
       { name: 'edit', label: msg('global.edit'), linkTo: routesList.editProfile },
       { name: 'apiKey', label: msg('user.generateApiKey'), linkTo: routesList.generateApiKey },
       { name: 'widget', label: msg('user.generateWidget'), linkTo: routesList.generateWidget },
