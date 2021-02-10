@@ -4980,5 +4980,33 @@ export default [
 	{
 		"id": "organization.notifications.description",
 		"defaultMessage": "#organization.notifications.description"
+	},
+	{
+		"id": "organization.type",
+		"defaultMessage": "#organization.type"
+	},
+	{
+		"id": "organization.type.other",
+		"defaultMessage": "#organization.type.other"
+	},
+	{
+		"id": "organization.type.government",
+		"defaultMessage": "#organization.type.government"
+	},
+	{
+		"id": "organization.type.municipality",
+		"defaultMessage": "#organization.type.municipality"
+	},
+	{
+		"id": "organization.type.business",
+		"defaultMessage": "#organization.type.business"
+	},
+	{
+		"id": "organization.type.ngo",
+		"defaultMessage": "#organization.type.ngo"
+	},
+	{
+		"id": "organization.type.school",
+		"defaultMessage": "#organization.type.school"
 	}
 ]

@@ -4980,5 +4980,33 @@ export default [
 	{
 		"id": "organization.notifications.description",
 		"defaultMessage": "Eta organizatsiya nastroila regulyarnyye uvedomleniya po elektronnoy pochte o sleduyushchikh oblastyakh:"
+	},
+	{
+		"id": "organization.type",
+		"defaultMessage": "Тип организации"
+	},
+	{
+		"id": "organization.type.other",
+		"defaultMessage": "Другое"
+	},
+	{
+		"id": "organization.type.government",
+		"defaultMessage": "Правительство"
+	},
+	{
+		"id": "organization.type.municipality",
+		"defaultMessage": "Муниципалитет"
+	},
+	{
+		"id": "organization.type.business",
+		"defaultMessage": "Бизнес"
+	},
+	{
+		"id": "organization.type.ngo",
+		"defaultMessage": "неправительственная организация"
+	},
+	{
+		"id": "organization.type.school",
+		"defaultMessage": "учебное заведение"
 	}
 ]

@@ -4980,5 +4980,33 @@ export default [
 	{
 		"id": "organization.notifications.description",
 		"defaultMessage": "Táto organizácia má nastavené pravidelné emailové notifikácie o týchto oblastiach:"
+	},
+	{
+		"id": "organization.type",
+		"defaultMessage": "Typ organizácie"
+	},
+	{
+		"id": "organization.type.other",
+		"defaultMessage": "Iné"
+	},
+	{
+		"id": "organization.type.government",
+		"defaultMessage": "Štátny orgán"
+	},
+	{
+		"id": "organization.type.municipality",
+		"defaultMessage": "Samospráva"
+	},
+	{
+		"id": "organization.type.business",
+		"defaultMessage": "Firma"
+	},
+	{
+		"id": "organization.type.ngo",
+		"defaultMessage": "Nezisková organizácia"
+	},
+	{
+		"id": "organization.type.school",
+		"defaultMessage": "Vzdelávacia inštitúcia"
 	}
 ]

@@ -4980,5 +4980,33 @@ export default [
 	{
 		"id": "organization.notifications.description",
 		"defaultMessage": "Ez a szervezet rendszeres e-mailes értesítéseket állított be a következő területekről:"
+	},
+	{
+		"id": "organization.type",
+		"defaultMessage": "Szervezet típusa"
+	},
+	{
+		"id": "organization.type.other",
+		"defaultMessage": "Egyéb"
+	},
+	{
+		"id": "organization.type.government",
+		"defaultMessage": "Kormány"
+	},
+	{
+		"id": "organization.type.municipality",
+		"defaultMessage": "Község"
+	},
+	{
+		"id": "organization.type.business",
+		"defaultMessage": "Üzleti"
+	},
+	{
+		"id": "organization.type.ngo",
+		"defaultMessage": "Nem kormányzati szervezet"
+	},
+	{
+		"id": "organization.type.school",
+		"defaultMessage": "Oktatási intézmény"
 	}
 ]

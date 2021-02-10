@@ -4980,5 +4980,33 @@ export default [
 	{
 		"id": "organization.notifications.description",
 		"defaultMessage": "Tato organizace má nastaveno pravidelné emailové notifikace o těchto oblastech:"
+	},
+	{
+		"id": "organization.type",
+		"defaultMessage": "Typ organizace"
+	},
+	{
+		"id": "organization.type.other",
+		"defaultMessage": "jiný"
+	},
+	{
+		"id": "organization.type.government",
+		"defaultMessage": "Vláda"
+	},
+	{
+		"id": "organization.type.municipality",
+		"defaultMessage": "Obec"
+	},
+	{
+		"id": "organization.type.business",
+		"defaultMessage": "Obchodní"
+	},
+	{
+		"id": "organization.type.ngo",
+		"defaultMessage": "Nevládní organizace"
+	},
+	{
+		"id": "organization.type.school",
+		"defaultMessage": "Vzdělávací instituce"
 	}
 ]

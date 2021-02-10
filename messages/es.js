@@ -4980,5 +4980,33 @@ export default [
 	{
 		"id": "organization.notifications.description",
 		"defaultMessage": "Esta organización ha configurado notificaciones periódicas por correo electrónico sobre las siguientes áreas:"
+	},
+	{
+		"id": "organization.type",
+		"defaultMessage": "Tipo de organización"
+	},
+	{
+		"id": "organization.type.other",
+		"defaultMessage": "Otros"
+	},
+	{
+		"id": "organization.type.government",
+		"defaultMessage": "Gobierno"
+	},
+	{
+		"id": "organization.type.municipality",
+		"defaultMessage": "Municipio"
+	},
+	{
+		"id": "organization.type.business",
+		"defaultMessage": "Negocios"
+	},
+	{
+		"id": "organization.type.ngo",
+		"defaultMessage": "Organización no gubernamental"
+	},
+	{
+		"id": "organization.type.school",
+		"defaultMessage": "Institución educativa"
 	}
 ]

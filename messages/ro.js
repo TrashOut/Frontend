@@ -4980,5 +4980,33 @@ export default [
 	{
 		"id": "organization.notifications.description",
 		"defaultMessage": "Această organizație a creat notificări periodice prin e-mail despre următoarele domenii:"
+	},
+	{
+		"id": "organization.type",
+		"defaultMessage": "Tipul organizației"
+	},
+	{
+		"id": "organization.type.other",
+		"defaultMessage": "Alte"
+	},
+	{
+		"id": "organization.type.government",
+		"defaultMessage": "Guvern"
+	},
+	{
+		"id": "organization.type.municipality",
+		"defaultMessage": "Municipalitate"
+	},
+	{
+		"id": "organization.type.business",
+		"defaultMessage": "Afaceri"
+	},
+	{
+		"id": "organization.type.ngo",
+		"defaultMessage": "Organizație non-guvernamentală"
+	},
+	{
+		"id": "organization.type.school",
+		"defaultMessage": "Instituție educațională"
 	}
 ]

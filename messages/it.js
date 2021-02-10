@@ -4980,5 +4980,33 @@ export default [
 	{
 		"id": "organization.notifications.description",
 		"defaultMessage": "Questa organizzazione ha impostato notifiche e-mail regolari sulle seguenti aree:"
+	},
+	{
+		"id": "organization.type",
+		"defaultMessage": "Tipo di organizzazione"
+	},
+	{
+		"id": "organization.type.other",
+		"defaultMessage": "Altro"
+	},
+	{
+		"id": "organization.type.government",
+		"defaultMessage": "Governo"
+	},
+	{
+		"id": "organization.type.municipality",
+		"defaultMessage": "Comune"
+	},
+	{
+		"id": "organization.type.business",
+		"defaultMessage": "Business"
+	},
+	{
+		"id": "organization.type.ngo",
+		"defaultMessage": "Organizzazione non governativa"
+	},
+	{
+		"id": "organization.type.school",
+		"defaultMessage": "Istituzione educativa"
 	}
 ]
