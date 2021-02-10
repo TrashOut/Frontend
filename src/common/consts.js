@@ -94,3 +94,5 @@ export const areaTypes = {
   zip: { id: 'zip', message: 'geo.zip' },
   street: { id: 'street', message: 'geo.street' },
 };
+
+export const organizationTypes = [ 'other', 'government', 'municipality', 'business', 'ngo', 'shool' ];

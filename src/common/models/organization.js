@@ -40,7 +40,7 @@ export default class Organization extends Record({
   mailBody: '',
   mailBodyMarkdown: '',
   mailSubject: '',
-  organizationType: {},
+  type: '',
   imageId: '',
   image: null,
   gpsId: '',
@@ -73,7 +73,6 @@ export default class Organization extends Record({
     const result = this.toJS();
 
     result.mailBody = result.mailBodyMarkdown && marked(result.mailBodyMarkdown);
-    result.organizationTypeId = '1';
 
     if (!result.parentId) delete result.parentId;
     if (!result.areaId) delete result.areaId;
@@ -83,7 +82,6 @@ export default class Organization extends Record({
     delete result.id;
     delete result.created;
     delete result.activity;
-    delete result.organizationType;
     delete result.imageId;
     delete result.selected;
     delete result.users;

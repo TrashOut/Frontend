@@ -271,7 +271,7 @@ export const OrganizationFilter = Record({
   orderBy: '',
   name: '',
   description: '',
-  organizationTypeId: '',
+  type: '',
   gpsId: '',
   mailSubject: '',
   mailBody: '',

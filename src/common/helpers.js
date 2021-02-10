@@ -23,7 +23,7 @@
  * See the GNU General Public License for more details: <https://www.gnu.org/licenses/>.
  */
 
-const {languages} = require("./consts");
+const {languages, organizationTypes} = require("./consts");
 
 export const getLanguagesGlobal = () => {
   let ret = {};
@@ -35,6 +35,16 @@ export const getLanguagesGlobal = () => {
       id: value.globalId,
       message: value.message
     };
+  }
+
+  return ret;
+}
+
+export const getOrganizationTypeList = () => {
+  let ret = {};
+
+  for(const type of organizationTypes) {
+    ret[type] = { id : type, message: 'organization.type.' + type };
   }
 
   return ret;
