@@ -61,6 +61,10 @@ export const validateCreate = (values) => {
     errors.language = 'global.validation.required';
   }
 
+  if (!values.type) {
+    errors.type = 'global.validation.required';
+  }
+
   return { ...errors, ...validateImage(values.images) };
 };
 

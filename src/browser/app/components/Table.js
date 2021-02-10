@@ -235,6 +235,7 @@ export default class Table extends Component { // eslint-disable-line react/no-m
           const style = header[val2].style;
           const calculatedValue = header[val2].calculatedValue;
           const areaDescription = header[val2].areaDescription;
+          const translatePrefix = header[val2].translatePrefix || '';
 
           const value = (typeof val.toJS === 'function') ? val.toJS() : val;
           const dottedValue = convertToDotNotaion(value);
@@ -275,6 +276,8 @@ export default class Table extends Component { // eslint-disable-line react/no-m
           } else if (type === 'area') {
             const area = (value.gps || { area: {} }).area;
             content = area && formattedMessage(areaDescription, area[0] || (area.toJS ? area.toJS() : area));
+          } else if (type === 'translate') {
+            content = msg(translatePrefix + value[val2]);
           } else {
             content = (linkName && formattedMessage(linkName, dottedValue)) || this.getMessage(val, val2);
           }

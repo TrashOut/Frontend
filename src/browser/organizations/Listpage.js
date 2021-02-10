@@ -101,6 +101,12 @@ export default class ListPage extends Component {
                     return [locality, country].filter(x => x).join(', ');
                   },
                 },
+                type: {
+                  label: msg('organizations.type'),
+                  sortable: false,
+                  type: 'translate',
+                  translatePrefix: 'organization.type.'
+                },
                 id: {
                   label: msg('organizations.id'),
                   sortable: true,

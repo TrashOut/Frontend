@@ -247,6 +247,12 @@ export default class Detail extends Component {
             title={msg('organization.usersCount')}
             text={item.usersCount}
           />
+          <Box
+            className="col s12"
+            title={msg('organization.type')}
+          >
+            {msg('organization.type.' + item.type)}
+          </Box>
         </div>
       </div>
     );

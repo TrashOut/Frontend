@@ -31,9 +31,7 @@ import { connect } from 'react-redux';
 import { Field, reduxForm } from 'redux-form';
 import { push } from 'react-router-redux';
 import { validateCreate } from '../../../common/organizations/validate';
-import {getLanguagesGlobal} from "../../../common/helpers";
-
-const languagesGlobal = getLanguagesGlobal();
+import { getLanguagesGlobal, getOrganizationTypeList } from "../../../common/helpers";
 
 @translate
 @connect(state => ({
@@ -63,6 +61,13 @@ export default class Form extends Component {
     setTable: React.PropTypes.func,
     usersFetching: React.PropTypes.bool,
   };
+
+  constructor(props) {
+    super(props);
+
+    this.languagesGlobal = getLanguagesGlobal();
+    this.organizationTypeList = getOrganizationTypeList();
+  }
 
   render() {
     const {
@@ -154,10 +159,21 @@ export default class Form extends Component {
             <Field
               name="language"
               type="select"
-              items={languagesGlobal}
+              items={this.languagesGlobal}
               component={Input}
               label={msg('organization.language')}
               hint={msg('organization.language')}
+              selectPlaceholder="global.select"
+            />
+          </div>
+          <div className="col s12 m6">
+            <Field
+              name="type"
+              type="select"
+              items={this.organizationTypeList}
+              component={Input}
+              label={msg('organization.type')}
+              hint={msg('organization.type')}
               selectPlaceholder="global.select"
             />
           </div>
