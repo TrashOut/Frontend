@@ -102,7 +102,7 @@ export default class ListPage extends Component {
                   },
                 },
                 type: {
-                  label: msg('organizations.type'),
+                  label: msg('organization.type'),
                   sortable: false,
                   type: 'translate',
                   translatePrefix: 'organization.type.'
