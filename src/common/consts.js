@@ -95,4 +95,4 @@ export const areaTypes = {
   street: { id: 'street', message: 'geo.street' },
 };
 
-export const organizationTypes = [ 'other', 'government', 'municipality', 'business', 'ngo', 'shool' ];
+export const organizationTypes = [ 'other', 'government', 'municipality', 'business', 'ngo', 'school' ];
