@@ -150,14 +150,14 @@ export const removeOrganization = (id) => ({ token }) => ({
   message: 'organization-removed',
 });
 
-export const joinOrganization = (organizationId, userId) => ({ getState, token, dispatch }) => {
+export const joinOrganization = (organizationId, userId, organizationRoleId = 1) => ({ getState, token, dispatch }) => {
   const filter = getState().table.filter.toJS();
 
   const postOrganizationPromise = async () => {
     if (Array.isArray(userId)) {
-      return Promise.all(userId.map(async x => await api.postOrganizationUser(organizationId, x, token)));
+      return Promise.all(userId.map(async x => await api.postOrganizationUser(organizationId, x, organizationRoleId, token)));
     }
-    return await api.postOrganizationUser(organizationId, userId, token);
+    return await api.postOrganizationUser(organizationId, userId, organizationRoleId, token);
   };
 
   const promise = async () => {

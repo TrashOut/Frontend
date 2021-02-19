@@ -50,6 +50,7 @@ export default {
   organizationsEditArea: '/organizations/detail/:organizationId/edit-area/:id/',
   organizationsInvitations: '/organizations/detail/:id/invite/',
   organizationsManagers: '/organizations/detail/:id/managers/',
+  organizationsEditMember: '/organizations/detail/:id/edit-member/:userId/:val',
   trashCreate: '/trash-management/create/',
   trashDetail: '/trash-management/detail/:id',
   trashExport: '/trash-management/list/export/',

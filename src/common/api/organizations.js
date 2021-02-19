@@ -110,10 +110,10 @@ export const getOrganizationUsersCount = async (id, filter, token) => {
   }
 };
 
-export const postOrganizationUser = async (id, userId, token) => {
+export const postOrganizationUser = async (id, userId, organizationRoleId, token) => {
   try {
     return userId
-      ? await post(`/webapi/organization/${id}/user/${userId}`, { organizationRoleId: 1 }, token)
+      ? await post(`/webapi/organization/${id}/user/${userId}`, { organizationRoleId }, token)
       : await post(`/webapi/user/joinOrganization/${id}`, null, token);
   } catch (error) {
     throw new Error('cannot-create');

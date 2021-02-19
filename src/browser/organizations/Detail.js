@@ -49,6 +49,7 @@ import { Switch } from 'react-router-dom';
 import AddArea from "./AddArea";
 import { notifications } from '../../common/consts';
 import EditArea from "./EditArea";
+import EditUser from "./EditUser";
 
 @withRole(state => ({
   isFetching: state.organizations.isFetching,
@@ -120,9 +121,11 @@ export default class Detail extends Component {
   }
 
   @autobind
-  removeUser(user) {
-    const { addConfirm, item, leaveOrganization } = this.props;
-    return addConfirm('organization.leave', { onSubmit: () => leaveOrganization(item.id, user.id) });
+  editUser(user) {
+    const { push, match } = this.props;
+    const userId = user.id;
+    const roleId = user.organizationRoleId;
+    push(routesList.organizationsEditMember.replace(':id', match.params.id).replace(':userId', userId).replace(':val', roleId));
   }
 
   @autobind
@@ -345,12 +348,12 @@ export default class Detail extends Component {
               label: msg('profile.role'),
               sortable: false,
             },
-            unjoin: {
-              label: msg('organization.removeUser'),
+            edit: {
+              label: msg('global.edit'),
               sortable: false,
               type: 'button',
-              onClick: this.removeUser,
-              linkName: msg('organization.removeUser'),
+              onClick: this.editUser,
+              linkName: msg('global.edit'),
             },
           }}
           data={users.items}
@@ -417,6 +420,11 @@ export default class Detail extends Component {
             <Match
               path={routesList.organizationsManagers}
               component={Managers}
+              isUnauthorized={!canManage}
+            />
+            <Match
+              path={routesList.organizationsEditMember}
+              component={EditUser}
               isUnauthorized={!canManage}
             />
           </Switch>
