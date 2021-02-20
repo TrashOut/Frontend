@@ -5008,5 +5008,33 @@ export default [
 	{
 		"id": "organization.type.school",
 		"defaultMessage": "Instituție educațională"
+	},
+	{
+		"id": "organizations.changeUserRole",
+		"defaultMessage": "Schimbați rolul utilizatorului în organizație:"
+	},
+	{
+		"id": "organizations.changeUserRole.manager",
+		"defaultMessage": "Administrator"
+	},
+	{
+		"id": "organizations.changeUserRole.manager.desc",
+		"defaultMessage": "Managerul poate edita profilul organizației, poate schimba rolurile membrilor săi. Mai mult, utilizatorii cu acest rol pot comenta, raporta și actualiza site-urile de reținere în numele organizației."
+	},
+	{
+		"id": "organizations.changeUserRole.member",
+		"defaultMessage": "Membru"
+	},
+	{
+		"id": "organizations.changeUserRole.member.desc",
+		"defaultMessage": "Membru este un utilizator care a decis să se alăture și să vă urmeze organizația pe platforma TrashOut. Acest utilizator nu are drepturi speciale în organizația dvs., dar rapoartele și actualizările făcute de acest utilizator sunt incluse în statisticile organizației dvs. "
+	},
+	{
+		"id": "organizations.changeUserRole.delete",
+		"defaultMessage": "Eliminați din organizație"
+	},
+	{
+		"id": "organizations.changeUserRole.delete.desc",
+		"defaultMessage": "Aceasta va elimina utilizatorul selectat din organizația dvs. Activitățile anterioare ale utilizatorului vor fi excluse din statisticile organizației. "
 	}
 ]

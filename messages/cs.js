@@ -5008,5 +5008,33 @@ export default [
 	{
 		"id": "organization.type.school",
 		"defaultMessage": "Vzdělávací instituce"
+	},
+	{
+		"id": "organizations.changeUserRole",
+		"defaultMessage": "Změnit roli uživatele v organizaci:"
+	},
+	{
+		"id": "organizations.changeUserRole.manager",
+		"defaultMessage": "Manažer"
+	},
+	{
+		"id": "organizations.changeUserRole.manager.desc",
+		"defaultMessage": "Správce může upravovat profil organizace, měnit role jejích členů. Uživatelé s touto rolí mohou jménem organizace komentovat, hlásit a aktualizovat skládky."
+	},
+	{
+		"id": "organizations.changeUserRole.member",
+		"defaultMessage": "Člen"
+	},
+	{
+		"id": "organizations.changeUserRole.member.desc",
+		"defaultMessage": "Člen je uživatel, který se rozhodl připojit a sledovat vaši organizaci na platformě TrashOut. Tento uživatel nemá ve vaší organizaci žádná zvláštní práva, ale zprávy a aktualizace provedené tímto uživatelem jsou zahrnuty do statistik vaší organizace. "
+	},
+	{
+		"id": "organizations.changeUserRole.delete",
+		"defaultMessage": "Odebrat z organizace"
+	},
+	{
+		"id": "organizations.changeUserRole.delete.desc",
+		"defaultMessage": "Tím odeberete vybraného uživatele z vaší organizace. Předchozí aktivity uživatele budou ze statistik organizace vyloučeny. "
 	}
 ]

@@ -5008,5 +5008,33 @@ export default [
 	{
 		"id": "organization.type.school",
 		"defaultMessage": "учебное заведение"
+	},
+	{
+		"id": "organizations.changeUserRole",
+		"defaultMessage": "Изменить роль пользователя в организации:"
+	},
+	{
+		"id": "organizations.changeUserRole.manager",
+		"defaultMessage": "Менеджер"
+	},
+	{
+		"id": "organizations.changeUserRole.manager.desc",
+		"defaultMessage": "Менеджер может редактировать профиль организации, изменять роли ее членов. Более того, пользователи с этой ролью могут комментировать, создавать отчеты и обновлять дампы от имени организации."
+	},
+	{
+		"id": "organizations.changeUserRole.member",
+		"defaultMessage": "Член"
+	},
+	{
+		"id": "organizations.changeUserRole.member.desc",
+		"defaultMessage": "Член - это пользователь, который решил присоединиться и следовать за вашей организацией на платформе TrashOut. Этот пользователь не имеет никаких специальных прав в Вашей организации, но отчеты и обновления, сделанные этим пользователем, включаются в статистику Вашей организации. "
+	},
+	{
+		"id": "organizations.changeUserRole.delete",
+		"defaultMessage": "Удалить из организации"
+	},
+	{
+		"id": "organizations.changeUserRole.delete.desc",
+		"defaultMessage": "Это удалит выбранного пользователя из Вашей организации. Прошлые действия пользователя будут исключены из статистики организации. "
 	}
 ]

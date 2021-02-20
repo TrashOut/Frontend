@@ -5008,5 +5008,33 @@ export default [
 	{
 		"id": "organization.type.school",
 		"defaultMessage": "Institución educativa"
+	},
+	{
+		"id": "organizations.changeUserRole",
+		"defaultMessage": "Cambiar el rol del usuario en la organización:"
+	},
+	{
+		"id": "organizations.changeUserRole.manager",
+		"defaultMessage": "Gerente"
+	},
+	{
+		"id": "organizations.changeUserRole.manager.desc",
+		"defaultMessage": "El administrador puede editar el perfil de la organización y cambiar los roles de sus miembros. Además, los usuarios con este rol pueden comentar, informar y actualizar los vertederos en nombre de la organización."
+	},
+	{
+		"id": "organizations.changeUserRole.member",
+		"defaultMessage": "Miembro"
+	},
+	{
+		"id": "organizations.changeUserRole.member.desc",
+		"defaultMessage": "Miembro es un usuario que ha decidido unirse y seguir a su organización en la plataforma TrashOut. Este usuario no tiene ningún derecho especial en su organización, pero los informes y actualizaciones realizados por este usuario se incluyen en las estadísticas de su organización. "
+	},
+	{
+		"id": "organizations.changeUserRole.delete",
+		"defaultMessage": "Eliminar de la organización"
+	},
+	{
+		"id": "organizations.changeUserRole.delete.desc",
+		"defaultMessage": "Esto eliminará al usuario seleccionado de su organización. Las actividades anteriores del usuario serán excluidas de las estadísticas de la organización. "
 	}
 ]

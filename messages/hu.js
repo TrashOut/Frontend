@@ -5008,5 +5008,33 @@ export default [
 	{
 		"id": "organization.type.school",
 		"defaultMessage": "Oktatási intézmény"
+	},
+	{
+		"id": "organizations.changeUserRole",
+		"defaultMessage": "A felhasználó szerepének megváltoztatása a szervezetben:"
+	},
+	{
+		"id": "organizations.changeUserRole.manager",
+		"defaultMessage": "Menedzser"
+	},
+	{
+		"id": "organizations.changeUserRole.manager.desc",
+		"defaultMessage": "A menedzser szerkesztheti a szervezet profilját, megváltoztathatja a tagok szerepét. Ezenkívül az ezzel a szerepkörrel rendelkező felhasználók a szervezet nevében megjegyzést fűzhetnek, jelentést tehetnek és frissíthetik a szemétlerakókat."
+	},
+	{
+		"id": "organizations.changeUserRole.member",
+		"defaultMessage": "Tag"
+	},
+	{
+		"id": "organizations.changeUserRole.member.desc",
+		"defaultMessage": "A tag olyan felhasználó, aki úgy döntött, hogy csatlakozik a szervezetéhez, és követi a szervezetét a TrashOut platformon. Ez a felhasználó nem rendelkezik különleges jogokkal a szervezetében, de a felhasználó által készített jelentéseket és frissítéseket a szervezet statisztikái tartalmazzák. "
+	},
+	{
+		"id": "organizations.changeUserRole.delete",
+		"defaultMessage": "Eltávolítás a szervezetből"
+	},
+	{
+		"id": "organizations.changeUserRole.delete.desc",
+		"defaultMessage": "Ezzel eltávolítja a kiválasztott felhasználót a szervezetéből. A felhasználó korábbi tevékenységeit kizárjuk a szervezet statisztikáiból. "
 	}
 ]

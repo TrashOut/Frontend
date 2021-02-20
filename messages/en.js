@@ -5008,5 +5008,33 @@ export default [
 	{
 		"id": "organization.type.school",
 		"defaultMessage": "Educational institution"
+	},
+	{
+		"id": "organizations.changeUserRole",
+		"defaultMessage": "Change user's role in the organization:"
+	},
+	{
+		"id": "organizations.changeUserRole.manager",
+		"defaultMessage": "Manager"
+	},
+	{
+		"id": "organizations.changeUserRole.manager.desc",
+		"defaultMessage": "Manager can edit the profile of the organization, change the roles of its members. Moreover, users with this role can comment, report, and update dumpsites on behalf of the organization."
+	},
+	{
+		"id": "organizations.changeUserRole.member",
+		"defaultMessage": "Member"
+	},
+	{
+		"id": "organizations.changeUserRole.member.desc",
+		"defaultMessage": "Member is a user that decided to join and follow your organization on TrashOut platform. This user does not have any special rights in your organization, but reports and updates made by this user are included in your organization's statistics. "
+	},
+	{
+		"id": "organizations.changeUserRole.delete",
+		"defaultMessage": "Remove from organization"
+	},
+	{
+		"id": "organizations.changeUserRole.delete.desc",
+		"defaultMessage": "This will remove selected user from your organization. The user's past activities will be excluded from the organization's statistics. "
 	}
 ]

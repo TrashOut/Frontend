@@ -3015,7 +3015,7 @@ export default [
 	},
 	{
 		"id": "global.geo.notificationFrequency.perHour",
-		"defaultMessage": "Per Ora"
+		"defaultMessage": "All'ora"
 	},
 	{
 		"id": "global.geo.notificationFrequency.never",
@@ -3023,15 +3023,15 @@ export default [
 	},
 	{
 		"id": "global.geo.notificationFrequency.perDay",
-		"defaultMessage": "Per giorno"
+		"defaultMessage": "Al giorno"
 	},
 	{
 		"id": "global.geo.notificationFrequency.perWeek",
-		"defaultMessage": "Per settimana"
+		"defaultMessage": "Alla settimana"
 	},
 	{
 		"id": "global.geo.notificationFrequency.perMonth",
-		"defaultMessage": "Per mese"
+		"defaultMessage": "Al mese"
 	},
 	{
 		"id": "user.level",
@@ -4615,7 +4615,7 @@ export default [
 	},
 	{
 		"id": "event.addToCalendar",
-		"defaultMessage": "Aggiungi al calendario"
+		"defaultMessage": "Aggiungi al mio calendario"
 	},
 	{
 		"id": "global.add",
@@ -5008,5 +5008,33 @@ export default [
 	{
 		"id": "organization.type.school",
 		"defaultMessage": "Istituzione educativa"
+	},
+	{
+		"id": "organizations.changeUserRole",
+		"defaultMessage": "Cambia il ruolo dell'utente nell'organizzazione:"
+	},
+	{
+		"id": "organizations.changeUserRole.manager",
+		"defaultMessage": "Manager"
+	},
+	{
+		"id": "organizations.changeUserRole.manager.desc",
+		"defaultMessage": "Il manager può modificare il profilo dell'organizzazione, cambiare i ruoli dei suoi membri. Inoltre, gli utenti con questo ruolo possono commentare, segnalare e aggiornare le discariche per conto dell'organizzazione."
+	},
+	{
+		"id": "organizations.changeUserRole.member",
+		"defaultMessage": "Membro"
+	},
+	{
+		"id": "organizations.changeUserRole.member.desc",
+		"defaultMessage": "Membro è un utente che ha deciso di unirsi e seguire la tua organizzazione sulla piattaforma TrashOut. Questo utente non ha diritti speciali nella tua organizzazione, ma i rapporti e gli aggiornamenti fatti da questo utente sono inclusi nelle statistiche della tua organizzazione. "
+	},
+	{
+		"id": "organizations.changeUserRole.delete",
+		"defaultMessage": "Rimuovi dall'organizzazione"
+	},
+	{
+		"id": "organizations.changeUserRole.delete.desc",
+		"defaultMessage": "Questo rimuoverà l'utente selezionato dall'organizzazione. Le attività passate dell'utente saranno escluse dalle statistiche dell'organizzazione. "
 	}
 ]

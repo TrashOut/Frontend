@@ -5008,5 +5008,33 @@ export default [
 	{
 		"id": "organization.type.school",
 		"defaultMessage": "Vzdelávacia inštitúcia"
+	},
+	{
+		"id": "organizations.changeUserRole",
+		"defaultMessage": "Zmena roly používateľa v organizácii:"
+	},
+	{
+		"id": "organizations.changeUserRole.manager",
+		"defaultMessage": "Manažér"
+	},
+	{
+		"id": "organizations.changeUserRole.manager.desc",
+		"defaultMessage": "Manažér môže upravovať profil organizácie a meniť roly jej členov. Používatelia s touto rolou môžu navyše komentovať, hlásiť a aktualizovať skládky v mene organizácie. "
+	},
+	{
+		"id": "organizations.changeUserRole.member",
+		"defaultMessage": "Člen"
+	},
+	{
+		"id": "organizations.changeUserRole.member.desc",
+		"defaultMessage": "Člen je používateľ, ktorý sa rozhodol pripojiť k vašej organizácii a sledovať jej aktivity. Nemá žiadne špeciálne práva vo vašej organizácii. Hlásenia a aktualizácie vykonané týmto používateľom sú zahrnuté v štatistikách vašej organizácie. "
+	},
+	{
+		"id": "organizations.changeUserRole.delete",
+		"defaultMessage": "Odstrániť z organizácie"
+	},
+	{
+		"id": "organizations.changeUserRole.delete.desc",
+		"defaultMessage": "Týmto odstránite vybratého používateľa z vašej organizácie. Doterajšie aktivity používateľa budú zo štatistík organizácie vylúčené."
 	}
 ]

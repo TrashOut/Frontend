@@ -5008,5 +5008,33 @@ export default [
 	{
 		"id": "organization.type.school",
 		"defaultMessage": "#organization.type.school"
+	},
+	{
+		"id": "organizations.changeUserRole",
+		"defaultMessage": "#organizations.changeUserRole"
+	},
+	{
+		"id": "organizations.changeUserRole.manager",
+		"defaultMessage": "#organizations.changeUserRole.manager"
+	},
+	{
+		"id": "organizations.changeUserRole.manager.desc",
+		"defaultMessage": "#organizations.changeUserRole.manager.desc"
+	},
+	{
+		"id": "organizations.changeUserRole.member",
+		"defaultMessage": "#organizations.changeUserRole.member"
+	},
+	{
+		"id": "organizations.changeUserRole.member.desc",
+		"defaultMessage": "#organizations.changeUserRole.member.desc"
+	},
+	{
+		"id": "organizations.changeUserRole.delete",
+		"defaultMessage": "#organizations.changeUserRole.delete"
+	},
+	{
+		"id": "organizations.changeUserRole.delete.desc",
+		"defaultMessage": "#organizations.changeUserRole.delete.desc"
 	}
 ]
