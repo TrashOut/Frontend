@@ -23,7 +23,6 @@
  * See the GNU General Public License for more details: <https://www.gnu.org/licenses/>.
  */
 import Dialog from 'material-ui/Dialog';
-import FlatButton from 'material-ui/FlatButton';
 import React, { PureComponent as Component } from 'react';
 import translate from '../../messages/translate';
 import {
@@ -34,7 +33,7 @@ import { autobind } from 'core-decorators';
 import { connect } from 'react-redux';
 import { push } from 'react-router-redux';
 import { RadioButton } from 'material-ui/RadioButton';
-import { RadioButtonGroup } from "material-ui";
+import { RadioButtonGroup, RaisedButton } from "material-ui";
 import routesList from "../routesList";
 
 @translate
@@ -84,8 +83,9 @@ export default class EditUser extends Component {
     const { selected } = this.state;
 
     const buttons = [
-      <FlatButton type="button" label={msg('global.cancel')} onClick={() => push('../../')} />,
-      <FlatButton type="submit" primary={Boolean(true)} label={msg('global.save')} onClick={() => this.submit()} />,
+      <RaisedButton type="button" label={msg('global.cancel')} onClick={() => push('../../')} />,
+      <span> &nbsp; </span>,
+      <RaisedButton type="submit" primary={Boolean(true)} label={msg('global.save')} onClick={() => this.submit()} />,
     ];
 
     return (
