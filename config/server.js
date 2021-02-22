@@ -32,7 +32,7 @@ const config = {
   googleAnalyticsId: 'UA-00000000-0',
   googleTagManagerId: 'GTM-0000000',
   isProduction: process.env.NODE_ENV === 'production',
-  locales: ['cs', 'de', 'en', 'es', 'sk', 'ru', 'pt', 'it', 'hu', 'fr'],
+  locales: ['cs', 'de', 'en', 'es', 'sk', 'ru', 'pt', 'it', 'hu', 'fr', 'ro'],
   port: 8080,
   remoteHotReload: false,
   sentryUrl: process.env.NODE_ENV === 'production'

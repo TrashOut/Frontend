@@ -39,8 +39,9 @@ const onWindowIntl = () => {
   const it = require('react-intl/locale-data/it');
   const hu = require('react-intl/locale-data/hu');
   const fr = require('react-intl/locale-data/fr');
+  const ro = require('react-intl/locale-data/ro');
 
-  [cs, en, de, es, ru, sk, pt, it, hu, fr].forEach(locale => addLocaleData(locale));
+  [cs, en, de, es, ru, sk, pt, it, hu, fr, ro].forEach(locale => addLocaleData(locale));
 
   require('./main');
 };
@@ -59,6 +60,7 @@ if (!window.Intl) {
     'intl/locale-data/jsonp/it.js',
     'intl/locale-data/jsonp/hu.js',
     'intl/locale-data/jsonp/fr.js',
+    'intl/locale-data/jsonp/ro.js',
   ], (require) => {
     require('intl');
     require('intl/locale-data/jsonp/cs.js');
@@ -71,6 +73,7 @@ if (!window.Intl) {
     require('intl/locale-data/jsonp/it.js');
     require('intl/locale-data/jsonp/hu.js');
     require('intl/locale-data/jsonp/fr.js');
+    require('intl/locale-data/jsonp/ro.js');
 
     onWindowIntl();
   });

@@ -36,6 +36,7 @@ const mapLanguages = {
   it_AU: 'it',
   hu_AU: 'hu',
   fr_AU: 'fr',
+  ro_RO: 'ro',
 };
 
 const getKey = (obj, val) => Object.keys(obj).find(key => obj[key] === val);
