@@ -323,7 +323,7 @@ export default class Detail extends Component {
   }
 
   renderAdminContent() {
-    const { msg, users } = this.props;
+    const { msg, users, roles } = this.props;
     if (users.isFetching) return null;
 
     return (
@@ -343,6 +343,7 @@ export default class Detail extends Component {
             email: {
               label: msg('global.email'),
               sortable: false,
+              hide: !roles.isAuthorized('superAdmin'),
             },
             organizationRoleId: {
               label: msg('profile.role'),
