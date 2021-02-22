@@ -151,8 +151,15 @@ const SuccessMessages = {
     id: 'organization.join.success',
     redirect: '/organizations/detail/{originalObject[id]}/',
   },
+  'organization-joined-general': {
+    id: 'global.changesSaved',
+    redirect: '/organizations/detail/{originalObject[id]}/',
+  },
   'organization-leaved': {
     id: 'organization.leave.success',
+  },
+  'organization-leaved-general': {
+    id: 'global.changesSaved',
   },
   'invitations-sent': {
     id: 'organization.invitationSent.success',

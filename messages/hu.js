@@ -5036,5 +5036,9 @@ export default [
 	{
 		"id": "organizations.changeUserRole.delete.desc",
 		"defaultMessage": "Ezzel eltávolítja a kiválasztott felhasználót a szervezetéből. A felhasználó korábbi tevékenységeit kizárjuk a szervezet statisztikáiból. "
+	},
+	{
+		"id": "global.changesSaved",
+		"defaultMessage": "A módosításokat sikeresen mentette. "
 	}
 ]

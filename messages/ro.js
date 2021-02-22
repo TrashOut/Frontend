@@ -5036,5 +5036,9 @@ export default [
 	{
 		"id": "organizations.changeUserRole.delete.desc",
 		"defaultMessage": "Aceasta va elimina utilizatorul selectat din organizația dvs. Activitățile anterioare ale utilizatorului vor fi excluse din statisticile organizației. "
+	},
+	{
+		"id": "global.changesSaved",
+		"defaultMessage": "Modificările au fost salvate cu succes. "
 	}
 ]

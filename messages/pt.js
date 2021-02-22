@@ -5036,5 +5036,9 @@ export default [
 	{
 		"id": "organizations.changeUserRole.delete.desc",
 		"defaultMessage": "Isto irá remover o utilizador seleccionado da sua organização. As atividades passadas do usuário serão excluídas das estatísticas da organização. "
+	},
+	{
+		"id": "global.changesSaved",
+		"defaultMessage": "As alterações foram salvas com sucesso. "
 	}
 ]

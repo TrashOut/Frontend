@@ -70,9 +70,9 @@ export default class EditUser extends Component {
     const option = this.state.selected;
 
     if (option == '0') {
-      leaveOrganization(organizationId, userId);
+      leaveOrganization(organizationId, userId, true);
     } else {
-      joinOrganization(organizationId, userId, option);
+      joinOrganization(organizationId, userId, option, true);
     }
 
     push(routesList.organizationsDetail.replace(':id', match.params.id));

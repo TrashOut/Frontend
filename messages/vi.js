@@ -5036,5 +5036,9 @@ export default [
 	{
 		"id": "organizations.changeUserRole.delete.desc",
 		"defaultMessage": "#organizations.changeUserRole.delete.desc"
+	},
+	{
+		"id": "global.changesSaved",
+		"defaultMessage": "#global.changesSaved"
 	}
 ]

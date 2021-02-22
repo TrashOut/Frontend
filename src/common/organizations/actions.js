@@ -150,7 +150,7 @@ export const removeOrganization = (id) => ({ token }) => ({
   message: 'organization-removed',
 });
 
-export const joinOrganization = (organizationId, userId, organizationRoleId = 1) => ({ getState, token, dispatch }) => {
+export const joinOrganization = (organizationId, userId, organizationRoleId = 1, generalMessage = false) => ({ getState, token, dispatch }) => {
   const filter = getState().table.filter.toJS();
 
   const postOrganizationPromise = async () => {
@@ -171,11 +171,11 @@ export const joinOrganization = (organizationId, userId, organizationRoleId = 1)
     originalObject: { id: organizationId },
     thenPromise: promise,
     then: fetchMe(),
-    message: 'organization-joined',
+    message: generalMessage ? 'organization-joined-general' : 'organization-joined',
   };
 };
 
-export const leaveOrganization = (organizationId, userId) => ({ getState, token, dispatch }) => {
+export const leaveOrganization = (organizationId, userId, generalMessage = false) => ({ getState, token, dispatch }) => {
   const filter = getState().table.filter.toJS();
 
   const promise = async () => {
@@ -188,7 +188,7 @@ export const leaveOrganization = (organizationId, userId) => ({ getState, token,
     payload: api.removeOrganizationUser(organizationId, userId, token),
     thenPromise: promise,
     then: fetchMe(),
-    message: 'organization-leaved',
+    message: generalMessage ? 'organization-leaved-general' : 'organization-leaved',
   };
 };
 
