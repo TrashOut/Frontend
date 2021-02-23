@@ -49,3 +49,7 @@ export const getOrganizationTypeList = () => {
 
   return ret;
 }
+
+export const getLanguageSimpleList = () => {
+  return Object.keys(languages);
+}

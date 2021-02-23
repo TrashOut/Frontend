@@ -34,6 +34,7 @@ import { formValueSelector, Field, reduxForm } from 'redux-form';
 import { languages } from '../../common/consts';
 import { signUp } from '../../common/lib/redux-firebase/actions';
 import { validateRegister as validate } from '../../common/auth/validate';
+import Locale from "./Locale";
 
 const selector = formValueSelector('register');
 
@@ -133,6 +134,7 @@ export default class Register extends Component {
             &larr; {msg('global.backToLogin')}
           </Link>
         </p>
+        <Locale/>
       </div>
     );
   }

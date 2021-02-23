@@ -32,6 +32,7 @@ import Social from './Social';
 import translate from '../../messages/translate';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import Locale from "./Locale";
 
 const UserDisabled = translate(({ msg }) => (
   <Paper className="paper" style={styles.disabled}>
@@ -88,6 +89,7 @@ export default class SignInPage extends Component {
             {msg('global.createNewAccount')}
           </Link>
         </p>
+        <Locale/>
       </div>
     );
   }
