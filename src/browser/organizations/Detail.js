@@ -108,9 +108,11 @@ export default class Detail extends Component {
   };
 
   componentWillMount() {
-    const { fetchOrganization, match, setTable } = this.props;
+    const { fetchOrganization, match, setTable, filter, fetchOrganizationUsers } = this.props;
     setTable('TABLE_TYPE_USER');
     fetchOrganization(match.params.id);
+
+    fetchOrganizationUsers(match.params.id, filter.toJS());
   }
 
   componentWillReceiveProps(nextProps) {
