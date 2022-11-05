@@ -45,7 +45,7 @@ import { toggleMenu } from '../../common/window/actions';
 import ExitToApp from 'material-ui/svg-icons/action/exit-to-app';
 // import { changeLanguage } from '../../common/users/actions';
 
-const languages = ['en', 'de', 'cs', 'sk', 'ru', 'es', 'pt', 'it', 'hu', 'fr', 'ro'];
+const languages = ['en', 'de', 'cs', 'sk', 'ru', 'es', 'pt', 'it', 'hu', 'fr', 'ro', 'ka'];
 
 @Radium
 @translate
@@ -238,7 +238,7 @@ const styles = {
         color: Colors.primary,
       },
       secondLine: {
-        marginLeft: '15px',
+        // marginLeft: '15px',
       }
     },
   },
