@@ -81,7 +81,7 @@ export const languages = {
   it: { id: 'it', globalId: 'it_AU', message: 'global.language.italian' },
   hu: { id: 'hu', globalId: 'hu_AU', message: 'global.language.hungarian' },
   fr: { id: 'fr', globalId: 'fr_AU', message: 'global.language.france' },
-  ro: { id: 'fr', globalId: 'ro_RO', message: 'global.language.romanian' },
+  ro: { id: 'ro', globalId: 'ro_RO', message: 'global.language.romanian' },
   ka: { id: 'ka', globalId: 'ka_GE', message: 'global.language.georgian' },
 };
 
