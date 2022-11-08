@@ -195,7 +195,7 @@
     "url-loader": "^0.5.5",
     "uuid": "^2.0.2",
     "uuid-v4": "^0.1.0",
-    "validator": "^6.0.0",
+    "validator": "^13.7.0",
     "webpack": "^3.3.0",
     "webpack-concat-plugin": "^1.4.2",
     "webpack-dev-middleware": "^1.2.0",
