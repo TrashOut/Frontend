@@ -125,7 +125,7 @@
     "moment": "^2.18.1",
     "moment-timezone": "^0.5.13",
     "nconf": "^0.8.1",
-    "node-sass": "^4.0.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.8.1",
     "postcss-loader": "^0.13.0",
     "prop-types": "^15.5.10",
