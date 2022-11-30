@@ -83,6 +83,8 @@ export const languages = {
   fr: { id: 'fr', globalId: 'fr_AU', message: 'global.language.france' },
   ro: { id: 'ro', globalId: 'ro_RO', message: 'global.language.romanian' },
   ka: { id: 'ka', globalId: 'ka_GE', message: 'global.language.georgian' },
+  sr: { id: 'sr', globalId: 'sr_SP', message: 'global.language.serbian' },
+  uk: { id: 'uk', globalId: 'uk_UA', message: 'global.language.ukrainian' },
 };
 
 export const areaTypes = {

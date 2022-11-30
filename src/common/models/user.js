@@ -38,6 +38,8 @@ const mapLanguages = {
   fr_AU: 'fr',
   ro_RO: 'ro',
   ka_GE: 'ka',
+  sr_SP: 'sr',
+  uk_UA: 'uk',
 };
 
 const getKey = (obj, val) => Object.keys(obj).find(key => obj[key] === val);
