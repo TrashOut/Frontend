@@ -4687,7 +4687,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "Estoy de acuerdo con el procesamiento de mis datos personales. He leído y acepto"
+		"defaultMessage": "Al continuar, usted acepta que TrashOut"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -5040,5 +5040,37 @@ export default [
 	{
 		"id": "global.changesSaved",
 		"defaultMessage": "Los cambios se han guardado correctamente. "
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "rumano"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "Al registrarte, aceptas nuestros Términos y Condiciones y la Política de Privacidad. "
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "Parece que ahora estás desconectado. Cuando vuelva a conectarse a Internet, abra la aplicación y se cargará el informe."
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "Los informes de la basura se han cargado con éxito "
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "La carga de los informes de basura que creaste en el modo sin conexión fue exitosa. Gracias"
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "Comprobación de los informes fuera de línea que deben cargarse"
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "Haga clic para ver el mapa de basura"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Iniciar sesión con Google"
 	}
 ]

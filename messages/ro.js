@@ -4687,7 +4687,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "Sunt de acord cu procesarea datelor personale. Am citit si acceptat"
+		"defaultMessage": "Continuând, sunteți de acord cu TrashOut's"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -5040,5 +5040,37 @@ export default [
 	{
 		"id": "global.changesSaved",
 		"defaultMessage": "Modificările au fost salvate cu succes. "
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "Română"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "Prin înscriere, sunteți de acord cu Termenii și condițiile noastre și cu Politica de confidențialitate. "
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "Se pare că sunteți acum offline. Când vă conectați din nou la internet, deschideți aplicația și raportul va fi încărcat."
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "Rapoartele de gunoi au fost încărcate cu succes "
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "Încărcarea rapoartelor privind gunoiul pe care le-ați creat în modul offline a avut succes. Vă mulțumim"
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "Verificarea tuturor rapoartelor offline care trebuie încărcate"
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "Faceți clic pentru a vizualiza TrashMap"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Conectați-vă cu Google"
 	}
 ]

@@ -4687,7 +4687,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "Súhlasím so spracovaním mojich osobných údajov. Prečítal/a som si a prijímam"
+		"defaultMessage": "Pokračovaním vyjadrujete súhlas s"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -5040,5 +5040,37 @@ export default [
 	{
 		"id": "global.changesSaved",
 		"defaultMessage": "Zmeny boli úspešne uložené. "
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "Rumunský"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "Registráciou súhlasíte s našimi podmienkami používania a zásadami ochrany osobných údajov."
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "Zdá sa, že ste offline. Vaše hlásenia sa nahrajú, keď sa najbližšie pripojíte k internetu a otvoríte aplikáciu TrashOut. "
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "Hlásenia skládok boli úspešne nahrané"
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "Nahrávanie hlásení skládok vytvorených v offline režime bolo úspešné. Ďakujeme"
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "Kontrolujeme nahlásené skládky počas offline režimu"
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "Kliknite pre zobrazenie Trash mapy"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Prihlásiť sa pomocou Google"
 	}
 ]

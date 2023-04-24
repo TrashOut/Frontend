@@ -5040,5 +5040,37 @@ export default [
 	{
 		"id": "global.changesSaved",
 		"defaultMessage": "#global.changesSaved"
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "#global.language.romanian"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "#global.register.terms"
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "#trash.create.thankYou.offline"
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "#trash.create.notification.title"
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "#trash.create.notification.text"
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "#trash.offline.checking"
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "#user.widget.trashMapInit"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Đăng nhập bằng Google"
 	}
 ]

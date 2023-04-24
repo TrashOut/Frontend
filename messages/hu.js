@@ -4687,7 +4687,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "Egyetértek a személyes adataim feldolgozásával. Elolvastam és elfogadtam"
+		"defaultMessage": "A folytatással Ön elfogadja a TrashOut"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -5040,5 +5040,37 @@ export default [
 	{
 		"id": "global.changesSaved",
 		"defaultMessage": "A módosításokat sikeresen mentette. "
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "román"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "A regisztrációval Ön elfogadja a Felhasználási feltételek és adatvédelmi irányelveket. "
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "Úgy tűnik, most már offline állapotban van. Amikor újra csatlakozik az internethez, nyissa meg az alkalmazást, és a jelentés feltöltésre kerül."
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "A szemétjelentések sikeresen feltöltésre kerültek "
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "Az offline módban létrehozott szemétjelentések feltöltése sikeres volt. Köszönöm."
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "Ellenőrzi a feltöltendő offline jelentések feltöltését"
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "Kattintson a TrashMap megtekintéséhez"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Jelentkezzen be a Google-lal"
 	}
 ]

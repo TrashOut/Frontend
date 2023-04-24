@@ -5068,5 +5068,9 @@ export default [
 	{
 		"id": "user.widget.trashMapInit",
 		"defaultMessage": "Натисніть, щоб переглянути TrashMap"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Увійдіть за допомогою Google"
 	}
 ]

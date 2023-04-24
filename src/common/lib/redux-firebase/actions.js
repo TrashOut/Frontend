@@ -191,10 +191,50 @@ const emailSignIn = async (firebaseAuth, validate, { email, password }, dispatch
   }
 };
 
-const socialSignIn = async (firebaseAuth, providerName, dispatch) => {
-  invariant(providerName === 'facebook',
-   `${providerName} provider is not yet supported.`);
+const authorizeUser = async (firebaseUser, token, dispatch) => {
+  const dbUser = await getMe(token);
+  const user = mapFirebaseUserToAppUser(firebaseUser, dbUser).set('token', token);
+  if (user.language) dispatch(setCurrentLocale(user.language, true));
 
+  dispatch(onAuth(user));
+  if (firebaseUser.emailVerified && dbUser.email !== firebaseUser.email) dispatch(finishChangeEmail(firebaseUser.email));
+};
+
+export const onAuth = user => ({
+  type: FIREBASE_ON_AUTH,
+  payload: { user },
+});
+
+export const signIn = (providerName: string, fields: Object, redirect: string) =>
+  ({ firebaseAuth, validate, dispatch }: any) => {
+    let promise;
+    switch (providerName) {
+      case 'password':
+        promise = emailSignIn(firebaseAuth, validate, fields, dispatch);
+        break;
+
+      case 'facebook':
+        promise = facebookSignIn(firebaseAuth, dispatch);
+        break;
+
+      case 'google':
+        promise = googleSignIn(firebaseAuth, dispatch);
+        break;
+
+      default:
+        throw new Error(`${providerName} provider is not yet supported.`);
+    }
+
+    return {
+      type: 'FIREBASE_SIGN_IN',
+      payload: promise,
+      meta: { providerName, fields },
+      message: 'signed-in',
+      originalObject: { redirect },
+    };
+  };
+
+const facebookSignIn = async (firebaseAuth, dispatch) => {
   const provider = new firebaseAuth.FacebookAuthProvider();
   provider.addScope(facebookPermissions.join(','));
 
@@ -228,33 +268,34 @@ const socialSignIn = async (firebaseAuth, providerName, dispatch) => {
   }
 };
 
-const authorizeUser = async (firebaseUser, token, dispatch) => {
-  const dbUser = await getMe(token);
-  const user = mapFirebaseUserToAppUser(firebaseUser, dbUser).set('token', token);
-  if (user.language) dispatch(setCurrentLocale(user.language, true));
+const googleSignIn = async (firebaseAuth, dispatch) => {
+  const provider = new firebaseAuth.GoogleAuthProvider();
 
-  dispatch(onAuth(user));
-  if (firebaseUser.emailVerified && dbUser.email !== firebaseUser.email) dispatch(finishChangeEmail(firebaseUser.email));
-};
+  let promise = null;
+  try {
+    promise = await firebaseAuth().signInWithPopup(provider);
+  } catch (error) {
+    if (error.code === 'auth/popup-blocked') {
+      promise = await firebaseAuth().signInWithRedirect(provider);
+    }
+    throw error;
+  }
 
-export const onAuth = user => ({
-  type: FIREBASE_ON_AUTH,
-  payload: { user },
-});
-
-export const signIn = (providerName: string, fields: Object, redirect: string) =>
-  ({ firebaseAuth, validate, dispatch }: any) => {
-    const promise = providerName === 'password'
-      ? emailSignIn(firebaseAuth, validate, fields, dispatch)
-      : socialSignIn(firebaseAuth, providerName, dispatch);
-    return {
-      type: 'FIREBASE_SIGN_IN',
-      payload: promise,
-      meta: { providerName, fields },
-      message: 'signed-in',
-      originalObject: { redirect },
+  const token = await promise.user.getIdToken();
+  try {
+    await authorizeUser(promise.user, token, dispatch);
+    return promise;
+  } catch (error) {
+    const appUser = {
+      uid: promise.user.uid,
+      email: promise.user.email,
+      firstName: promise.user.displayName,
     };
-  };
+    await createUser(appUser, token);
+    await authorizeUser(promise.user, token, dispatch);
+    return promise;
+  }
+};
 
 export const removeUser = () => ({ firebaseAuth, dispatch }) => {
   const promise = async () => {

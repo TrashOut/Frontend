@@ -4687,7 +4687,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "J'accepte le traitement de mes données personnelles. J'ai lu et accepté"
+		"defaultMessage": "En continuant, vous acceptez les conditions suivantes de TrashOut"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -4855,115 +4855,115 @@ export default [
 	},
 	{
 		"id": "organization.statistics.title",
-		"defaultMessage": "#organization.statistics.title"
+		"defaultMessage": "Statistiques sur les activités des membres"
 	},
 	{
 		"id": "organization.dumpsReported",
-		"defaultMessage": "#organization.dumpsReported"
+		"defaultMessage": "Rapports"
 	},
 	{
 		"id": "organization.dumpsUpdated",
-		"defaultMessage": "#organization.dumpsUpdated"
+		"defaultMessage": "Mises à jour"
 	},
 	{
 		"id": "organization.dumpsCleaned",
-		"defaultMessage": "#organization.dumpsCleaned"
+		"defaultMessage": "Décharges nettoyées"
 	},
 	{
 		"id": "global.language.portuguese",
-		"defaultMessage": "#global.language.portuguese"
+		"defaultMessage": "Portugais"
 	},
 	{
 		"id": "global.language.italian",
-		"defaultMessage": "#global.language.italian"
+		"defaultMessage": "Italien"
 	},
 	{
 		"id": "global.language.hungarian",
-		"defaultMessage": "#global.language.hungarian"
+		"defaultMessage": "Hongrois"
 	},
 	{
 		"id": "global.language.france",
-		"defaultMessage": "#global.language.france"
+		"defaultMessage": "Français"
 	},
 	{
 		"id": "trash.removeComment.success",
-		"defaultMessage": "#trash.removeComment.success"
+		"defaultMessage": "Le commentaire a été supprimé"
 	},
 	{
 		"id": "global.createComment",
-		"defaultMessage": "#global.createComment"
+		"defaultMessage": "Ajouter un commentaire"
 	},
 	{
 		"id": "comment.validation.bodyIsRequired",
-		"defaultMessage": "#comment.validation.bodyIsRequired"
+		"defaultMessage": "Le texte est requis"
 	},
 	{
 		"id": "trash.createComment.success",
-		"defaultMessage": "#trash.createComment.success"
+		"defaultMessage": "Commentaire ajouté avec succès"
 	},
 	{
 		"id": "comment.body",
-		"defaultMessage": "#comment.body"
+		"defaultMessage": "Corps"
 	},
 	{
 		"id": "comment.commentAs",
-		"defaultMessage": "#comment.commentAs"
+		"defaultMessage": "Commentez comme :"
 	},
 	{
 		"id": "comment.addComment",
-		"defaultMessage": "#comment.addComment"
+		"defaultMessage": "Commentaire"
 	},
 	{
 		"id": "comment.intro",
-		"defaultMessage": "#comment.intro"
+		"defaultMessage": "Si vous commentez en tant qu'organisation, nous vous recommandons d'ajouter une signature au commentaire (par exemple, nom, poste, département, etc.)."
 	},
 	{
 		"id": "mail.activity.greeting",
-		"defaultMessage": "#mail.activity.greeting"
+		"defaultMessage": "Cher"
 	},
 	{
 		"id": "mail.activity.p1",
-		"defaultMessage": "#mail.activity.p1"
+		"defaultMessage": "Il y a eu une nouvelle activité sur le <a href=\"{string}\">rapport de la décharge illégale</a> que vous suivez. Découvrez s'il a été mis à jour ou s'il y a un nouveau commentaire."
 	},
 	{
 		"id": "mail.activity.p2",
-		"defaultMessage": "#mail.activity.p2"
+		"defaultMessage": "Merci de rendre notre environnement plus propre ! N'oubliez pas d'utiliser l'application mobile TrashOut pour signaler et mettre à jour les décharges illégales dans votre région, trouver le point de collecte le plus proche ou participer à un événement de nettoyage."
 	},
 	{
 		"id": "mail.activity.footer",
-		"defaultMessage": "#mail.activity.footer"
+		"defaultMessage": "Vous recevez cet e-mail parce que vous avez accepté les conditions générales de TrashOut. Pour désactiver les notifications par e-mail des mises à jour de vos rapports, visitez votre <a href=\"{string}\"> profil </a> via l'application web TrashOut. Si vous souhaitez modifier la périodicité des rapports surveillant une zone spécifique, vous pouvez les modifier à <a href=\"%s\"> ici </a>. "
 	},
 	{
 		"id": "mail.activity.subject",
-		"defaultMessage": "#mail.activity.subject"
+		"defaultMessage": "TrashOut - il y a eu une nouvelle activité sur le rapport que vous suivez"
 	},
 	{
 		"id": "mail.activity.button",
-		"defaultMessage": "#mail.activity.button"
+		"defaultMessage": "Voir le rapport"
 	},
 	{
 		"id": "user.trashActivityEmailNotification",
-		"defaultMessage": "#user.trashActivityEmailNotification"
+		"defaultMessage": "Je souhaite recevoir des notifications par courrier électronique concernant les nouvelles activités sur mes rapports."
 	},
 	{
 		"id": "user.trashActivityEmailNotification.yes",
-		"defaultMessage": "#user.trashActivityEmailNotification.yes"
+		"defaultMessage": "Oui, je veux recevoir des notifications par courriel concernant les nouvelles activités sur mes rapports."
 	},
 	{
 		"id": "user.trashActivityEmailNotification.no",
-		"defaultMessage": "#user.trashActivityEmailNotification.no"
+		"defaultMessage": "Non, je ne veux pas recevoir de notifications par courriel concernant les nouvelles activités sur mes rapports."
 	},
 	{
 		"id": "trash.create.noGps",
-		"defaultMessage": "#trash.create.noGps"
+		"defaultMessage": "Ancienne localisation GPS ! Activez le partage de la localisation. "
 	},
 	{
 		"id": "trash.reportAs",
-		"defaultMessage": "#trash.reportAs"
+		"defaultMessage": "Rapport comme"
 	},
 	{
 		"id": "global.createNewAccountDesc",
-		"defaultMessage": "#global.createNewAccountDesc"
+		"defaultMessage": "Si vous souhaitez enregistrer votre organisation, enregistrez d'abord votre compte personnel. Ensuite, connectez-vous et créez une organisation. "
 	},
 	{
 		"id": "organization.language",
@@ -4983,62 +4983,94 @@ export default [
 	},
 	{
 		"id": "organization.type",
-		"defaultMessage": "#organization.type"
+		"defaultMessage": "Type d'organisation"
 	},
 	{
 		"id": "organization.type.other",
-		"defaultMessage": "#organization.type.other"
+		"defaultMessage": "Autre"
 	},
 	{
 		"id": "organization.type.government",
-		"defaultMessage": "#organization.type.government"
+		"defaultMessage": "Gouvernement"
 	},
 	{
 		"id": "organization.type.municipality",
-		"defaultMessage": "#organization.type.municipality"
+		"defaultMessage": "Municipalité"
 	},
 	{
 		"id": "organization.type.business",
-		"defaultMessage": "#organization.type.business"
+		"defaultMessage": "Entreprise"
 	},
 	{
 		"id": "organization.type.ngo",
-		"defaultMessage": "#organization.type.ngo"
+		"defaultMessage": "Organisation non gouvernementale"
 	},
 	{
 		"id": "organization.type.school",
-		"defaultMessage": "#organization.type.school"
+		"defaultMessage": "Établissement d'enseignement"
 	},
 	{
 		"id": "organizations.changeUserRole",
-		"defaultMessage": "#organizations.changeUserRole"
+		"defaultMessage": "Modifier le rôle de l'utilisateur dans l'organisation :"
 	},
 	{
 		"id": "organizations.changeUserRole.manager",
-		"defaultMessage": "#organizations.changeUserRole.manager"
+		"defaultMessage": "Directeur"
 	},
 	{
 		"id": "organizations.changeUserRole.manager.desc",
-		"defaultMessage": "#organizations.changeUserRole.manager.desc"
+		"defaultMessage": "Le gestionnaire peut modifier le profil de l'organisation, changer les rôles de ses membres. En outre, les utilisateurs ayant ce rôle peuvent commenter, signaler et mettre à jour les décharges au nom de l'organisation."
 	},
 	{
 		"id": "organizations.changeUserRole.member",
-		"defaultMessage": "#organizations.changeUserRole.member"
+		"defaultMessage": "Membre"
 	},
 	{
 		"id": "organizations.changeUserRole.member.desc",
-		"defaultMessage": "#organizations.changeUserRole.member.desc"
+		"defaultMessage": "Un membre est un utilisateur qui a décidé de rejoindre et de suivre votre organisation sur la plateforme TrashOut. Cet utilisateur n'a pas de droits particuliers dans votre organisation, mais les rapports et les mises à jour qu'il effectue sont inclus dans les statistiques de votre organisation. "
 	},
 	{
 		"id": "organizations.changeUserRole.delete",
-		"defaultMessage": "#organizations.changeUserRole.delete"
+		"defaultMessage": "Retirer de l'organisation"
 	},
 	{
 		"id": "organizations.changeUserRole.delete.desc",
-		"defaultMessage": "#organizations.changeUserRole.delete.desc"
+		"defaultMessage": "Cela supprimera l'utilisateur sélectionné de votre organisation. Les activités passées de l'utilisateur seront exclues des statistiques de l'organisation. "
 	},
 	{
 		"id": "global.changesSaved",
-		"defaultMessage": "#global.changesSaved"
+		"defaultMessage": "Les modifications ont été enregistrées avec succès. "
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "Roumain"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "En vous inscrivant, vous acceptez nos conditions générales et notre politique de confidentialité. "
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "Il semble que vous soyez maintenant hors ligne. Lorsque vous vous connecterez à nouveau à l'internet, ouvrez l'application et le rapport sera téléchargé. "
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "Les rapports sur les déchets ont été téléchargés avec succès "
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "Le téléchargement des rapports sur les déchets que vous avez créés en mode hors ligne a réussi. Nous vous remercions"
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "Vérification des rapports hors ligne à télécharger."
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "#user.widget.trashMapInit"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Connectez-vous avec Google"
 	}
 ]

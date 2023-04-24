@@ -5068,5 +5068,9 @@ export default [
 	{
 		"id": "user.widget.trashMapInit",
 		"defaultMessage": "დააჭირეთ, რომ იხილოთ რუკა"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "შედით Google-ით"
 	}
 ]

@@ -46,6 +46,15 @@ const Social = ({ disabled, msg, signIn, redirect }) => {
         fullWidth="true"
         style={style}
       />
+      <RaisedButton
+        label={msg('global.googleLogin')}
+        backgroundColor="#c94130"
+        labelColor="white"
+        data-provider="google"
+        onClick={onButtonClick}
+        fullWidth="true"
+        style={style}
+      />
     </div>
   );
 };

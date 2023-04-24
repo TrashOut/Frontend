@@ -643,7 +643,7 @@ export default [
 	},
 	{
 		"id": "trash.create.success",
-		"defaultMessage": "Trash was successfully reported. Thank you."
+		"defaultMessage": "Reports created while being in the offline mode were successfully uploaded. Thank you!"
 	},
 	{
 		"id": "trash.photosOfTrash",
@@ -4687,7 +4687,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "I agree with processing of my personal data. I have read and accepted"
+		"defaultMessage": "By continuing, you agree to TrashOut's"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -5040,5 +5040,37 @@ export default [
 	{
 		"id": "global.changesSaved",
 		"defaultMessage": "Changes were successfully saved. "
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "Romanian"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "By signing up you agree to our Terms and Conditions & Privacy Policy. "
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "It seems you are now offline. When you connect to the internet again, open the application and the report will be uploaded. "
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "Trash reports were successfully uploaded "
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "The upload of trash reports you created in the offline mode was successful. Thank you"
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "Checking for any offline reports to be uploaded"
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "Click to view the TrashMap"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Log in with Google"
 	}
 ]

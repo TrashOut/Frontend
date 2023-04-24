@@ -4687,7 +4687,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "Accetto il trattamento dei miei dati personali. Ho letto e accettato"
+		"defaultMessage": "Continuando, lei accetta che TrashOut"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -5040,5 +5040,37 @@ export default [
 	{
 		"id": "global.changesSaved",
 		"defaultMessage": "Le modifiche sono state salvate con successo. "
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "rumeno"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "Iscrivendosi si accettano i nostri Termini e Condizioni e l'Informativa sulla Privacy. "
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "Sembra che ora sei offline. Quando ti connetti nuovamente a Internet, apri l'applicazione e il rapporto verrà caricato."
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "I rapporti sul cestino sono stati caricati con successo "
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "L'upload dei rapporti spazzatura che hai creato in modalità offline è andato a buon fine. Grazie"
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "Controllo di eventuali rapporti offline da caricare"
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "Fare clic per visualizzare la TrashMap"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Accedi con Google"
 	}
 ]

@@ -4687,7 +4687,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "J'accepte le traitement de mes données personnelles. J'ai lu et accepté"
+		"defaultMessage": "En continuant, vous acceptez les conditions suivantes de TrashOut"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -5040,5 +5040,37 @@ export default [
 	{
 		"id": "global.changesSaved",
 		"defaultMessage": "Les modifications ont été sauvegardées avec succès. "
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "roumain"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "En vous inscrivant, vous acceptez nos conditions générales et notre politique de confidentialité. "
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "Il semble que vous êtes maintenant hors ligne. Lorsque vous vous connectez à nouveau à Internet, ouvrez l'application et le rapport sera téléchargé."
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "Les rapports sur les déchets ont été téléchargés avec succès "
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "Le téléchargement des rapports sur les déchets que vous avez créés en mode hors ligne a réussi. Nous vous remercions"
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "Vérification des rapports hors ligne à télécharger."
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "Cliquez pour voir la TrashMap"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Connectez-vous avec Google"
 	}
 ]

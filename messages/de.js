@@ -4687,7 +4687,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "Ich stimme der Verarbeitung meiner persönlichen Daten zu. Ich stimme den "
+		"defaultMessage": "Indem Sie fortfahren, erklären Sie sich mit TrashOut's"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -5040,5 +5040,37 @@ export default [
 	{
 		"id": "global.changesSaved",
 		"defaultMessage": "Die Änderungen wurden erfolgreich gespeichert. "
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "rumänisch"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "Mit der Anmeldung erklären Sie sich mit unseren Allgemeinen Geschäftsbedingungen und der Datenschutzrichtlinie einverstanden. "
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "Sie scheinen jetzt offline zu sein. Wenn Sie sich wieder mit dem Internet verbinden, öffnen Sie die Anwendung und der Bericht wird hochgeladen."
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "Papierkorbberichte wurden erfolgreich hochgeladen "
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "Der Upload von Müllberichten, die Sie im Offline-Modus erstellt haben, war erfolgreich. Dankeschön"
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "Überprüfung, ob Offline-Berichte hochgeladen werden können"
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "Klicken Sie hier, um die TrashMap anzuzeigen"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Melden Sie sich mit Google an"
 	}
 ]

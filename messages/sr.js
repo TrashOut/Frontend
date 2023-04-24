@@ -5068,5 +5068,9 @@ export default [
 	{
 		"id": "user.widget.trashMapInit",
 		"defaultMessage": "Кликните да бисте приказали трасхМап"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Пријавите се са Гоогле-ом"
 	}
 ]

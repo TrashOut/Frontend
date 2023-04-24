@@ -4687,7 +4687,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "Concordo com o processamento dos meus dados pessoais. Eu li e aceito"
+		"defaultMessage": "Ao continuar, você concorda com o TrashOut's"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -5040,5 +5040,37 @@ export default [
 	{
 		"id": "global.changesSaved",
 		"defaultMessage": "As alterações foram salvas com sucesso. "
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "romena"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "Ao inscrever-se, você concorda com nossos Termos e Condições & Política de Privacidade. "
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "Parece que agora você está offline. Quando você se conectar à internet novamente, abra o aplicativo e o relatório será carregado."
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "Os relatórios do lixo foram carregados com sucesso "
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "O upload de relatórios de lixo que você criou no modo offline foi bem sucedido. Obrigado"
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "Verificação de quaisquer relatórios offline a serem carregados"
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "Clique para ver o TrashMap"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Entrar com o Google"
 	}
 ]

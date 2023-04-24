@@ -4687,7 +4687,7 @@ export default [
 	},
 	{
 		"id": "global.signUp.acceptRegister.startSentense",
-		"defaultMessage": "Я согласен с обработкой моих личных данных. Я прочитал и принял"
+		"defaultMessage": "Продолжая, вы соглашаетесь с тем, что TrashOut"
 	},
 	{
 		"id": "global.signUp.acceptRegister.privatePolicy",
@@ -5040,5 +5040,37 @@ export default [
 	{
 		"id": "global.changesSaved",
 		"defaultMessage": "Изменения были успешно сохранены. "
+	},
+	{
+		"id": "global.language.romanian",
+		"defaultMessage": "румынский"
+	},
+	{
+		"id": "global.register.terms",
+		"defaultMessage": "Подписываясь, вы соглашаетесь с нашими Положениями и условиями и Политикой конфиденциальности. "
+	},
+	{
+		"id": "trash.create.thankYou.offline",
+		"defaultMessage": "Кажется, вы сейчас не в сети. Когда вы снова подключитесь к Интернету, откройте приложение, и отчет будет загружен."
+	},
+	{
+		"id": "trash.create.notification.title",
+		"defaultMessage": "Отчеты о мусоре были успешно загружены "
+	},
+	{
+		"id": "trash.create.notification.text",
+		"defaultMessage": "Загрузка мусорных отчетов, созданных вами в автономном режиме, прошла успешно. Спасибо"
+	},
+	{
+		"id": "trash.offline.checking",
+		"defaultMessage": "Проверка загрузки любых автономных отчетов"
+	},
+	{
+		"id": "user.widget.trashMapInit",
+		"defaultMessage": "Нажмите, чтобы просмотреть карты свалки"
+	},
+	{
+		"id": "global.googleLogin",
+		"defaultMessage": "Войти через Google"
 	}
 ]
