@@ -15,6 +15,7 @@
     self = this;
     TrashMap.prototype = {
       defaults: {
+        searchInputId: 'trash-map-search',
         widget: {
           id: '#trash-map'
         },
@@ -73,6 +74,7 @@
         this.isInitialized = true;
         this.initLoader();
         this.initMap();
+        this.initSearch();
         return this;
       },
       initMap: function() {
@@ -102,6 +104,39 @@
         });
         this.setMapType();
       },
+
+      initSearch: function () {
+        const input = document.getElementById(this.config.searchInputId);
+        if (!input) {
+          return;
+        }
+
+        const map = this.getMap();
+
+        // data fields that we need
+        const autocomplete = new google.maps.places.Autocomplete(input, {
+          fields: ["geometry"],
+        });
+
+        autocomplete.bindTo("bounds", map);
+        map.controls[google.maps.ControlPosition.TOP_RIGHT].push(input);
+
+        autocomplete.addListener("place_changed", function () {
+          const place = autocomplete.getPlace();
+
+          if (!place.geometry || !place.geometry.location) {
+            return;
+          }
+
+          if (place.geometry.viewport) {
+            map.fitBounds(place.geometry.viewport);
+          } else {
+            map.setCenter(place.geometry.location);
+            map.setZoom(17);
+          }
+        });
+      },
+
       getMap: function() {
         return self.map.object.gmap3().get(0);
       },

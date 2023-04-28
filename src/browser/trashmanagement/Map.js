@@ -33,7 +33,9 @@ import Script from 'react-load-script';
 import { connect } from 'react-redux';
 import { renewToken } from '../../common/lib/redux-firebase/actions';
 import { setCenter, setZoom } from '../../common/map/actions';
+import translate from '../../messages/translate';
 
+@translate
 @connect(state => ({
   zoom: state.map.zoom,
   cluster: state.trashes.cluster,
@@ -56,6 +58,7 @@ class TrashMap extends Component {
     zoom: React.PropTypes.number,
     renewToken: React.PropTypes.func.isRequired,
     xtoken: React.PropTypes.string,
+    msg: React.PropTypes.func,
   };
 
   componentDidMount() {
@@ -127,9 +130,19 @@ class TrashMap extends Component {
   }
 
   render() {
+    const { msg } = this.props;
+
     return (
       <Paper>
         <div id="trash-map" className="widget">
+          <div style={{ display: 'none' }}>
+            <input
+              type="text"
+              id="trash-map-search"
+              style={searchStyle}
+              placeholder={msg('global.findPlace')}
+            />
+          </div>
           <div id="map" style={{ height: '600px' }} />
           <div className="spinner hide">
             <div className="rect1" />
@@ -175,3 +188,18 @@ export default class TrashMapWrapper extends Component { // eslint-disable-line 
   }
 }
 
+const searchStyle = {
+  boxSizing: 'border-box',
+  MozBoxSizing: 'border-box',
+  border: '1px solid transparent',
+  width: '200px',
+  height: '32px',
+  marginTop: '27px',
+  padding: '0 12px',
+  borderRadius: '1px',
+  boxShadow: '0 2px 6px rgba(0, 0, 0, 0.3)',
+  fontSize: '14px',
+  outline: 'none',
+  textOverflow: 'ellipses',
+  marginRight: '10px',
+};
