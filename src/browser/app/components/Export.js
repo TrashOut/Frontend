@@ -32,6 +32,9 @@ import translate from '../../../messages/translate';
 import { autobind } from 'core-decorators';
 import { connect } from 'react-redux';
 
+const limitMax = 5000;
+const limitUnlimited = 100000;
+
 @connect(state => ({
   exportFinished: state.table.exportFinished,
 }))
@@ -46,6 +49,7 @@ export default class Export extends Component {
     pages: React.PropTypes.number,
     title: React.PropTypes.string,
     exportFinished: React.PropTypes.bool,
+    allowUnlimited: React.PropTypes.bool,
   };
   static contextTypes = {
     router: React.PropTypes.object,
@@ -72,7 +76,10 @@ export default class Export extends Component {
   initExport() {
     const { onSubmit } = this.props;
     const { attributesNeeded, limit } = this.state;
-    onSubmit(attributesNeeded, limit);
+
+    const applyLimit = limit > limitMax ? limitUnlimited : limit;
+
+    onSubmit(attributesNeeded, applyLimit);
   }
 
   selectAttribute(value) {
@@ -97,7 +104,7 @@ export default class Export extends Component {
   }
 
   render() {
-    const { attributes, pages, currentPage, msg, title } = this.props;
+    const { attributes, pages, currentPage, msg, title, allowUnlimited } = this.props;
     const { attributesNeeded, limit } = this.state;
 
     const buttons = [
@@ -137,13 +144,13 @@ export default class Export extends Component {
         <strong>{msg('export.itemsPerFile')}</strong>
         <Slider
           min={100}
-          max={5000}
+          max={allowUnlimited ? limitMax + 1 : limitMax}
           step={100}
           defaultValue={limit}
           value={limit}
           onChange={this.changeLimit}
         />
-        <strong>{msg('export.itemsPerFile.currentValue')} </strong>{limit}
+        <strong>{msg('export.itemsPerFile.currentValue')} </strong>{limit > limitMax ? '∞' : limit}
         {pages > 0 &&
           <div>
             <p>{msg('export.preparingExport')}</p>

@@ -66,6 +66,7 @@ export default class Export extends Component {
       pages={count}
       currentPage={currentNumber}
       title={msg('global.export')}
+      allowUnlimited
     />);
   }
 }
