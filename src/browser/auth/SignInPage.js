@@ -90,6 +90,12 @@ export default class SignInPage extends Component {
           </Link>
         </p>
         <Locale/>
+        <p style={styles.accept}>
+          {msg('global.signUp.acceptRegister.startSentense')}
+          <a href="https://www.trashout.ngo/policy"> {msg('global.signUp.acceptRegister.privatePolicy')} </a>
+          {msg('global.signUp.acceptRegister.and')}
+          <a href="https://www.trashout.ngo/terms"> {msg('global.signUp.acceptRegister.terms')} </a>
+        </p>
       </div>
     );
   }
@@ -106,6 +112,9 @@ const styles = {
     textAlign: 'center',
   },
   content: {
+    textAlign: 'center',
+  },
+  accept: {
     textAlign: 'center',
   },
 };

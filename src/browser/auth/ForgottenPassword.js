@@ -101,6 +101,12 @@ export default class ForgottenPassword extends React.Component {
             &larr; {msg('global.backToLogin')}
           </Link>
         </p>
+        <p style={styles.accept}>
+          {msg('global.signUp.acceptRegister.startSentense')}
+          <a href="https://www.trashout.ngo/policy"> {msg('global.signUp.acceptRegister.privatePolicy')} </a>
+          {msg('global.signUp.acceptRegister.and')}
+          <a href="https://www.trashout.ngo/terms"> {msg('global.signUp.acceptRegister.terms')} </a>
+        </p>
       </div>
     );
   }
@@ -113,5 +119,8 @@ const styles = {
   },
   success: {
     marginBottom: '15px',
+  },
+  accept: {
+    textAlign: 'center',
   },
 };
