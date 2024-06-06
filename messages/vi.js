@@ -4786,24 +4786,24 @@ export default [
 		"defaultMessage": "#home.recycling_point_edit_go_to_web"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
-		"defaultMessage": "#home.recycling_point_edit_do_later\n"
+		"id": "home.recycling_point_edit_do_later",
+		"defaultMessage": "#home.recycling_point_edit_do_later"
 	},
 	{
 		"id": "event.event_edit_title",
 		"defaultMessage": "#event.event_edit_title"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
-		"defaultMessage": "#event.event_edit_redirect\n"
+		"id": "event.event_edit_redirect",
+		"defaultMessage": "#event.event_edit_redirect"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
-		"defaultMessage": "#event.event_edit_do_later\n"
+		"id": "event.event_edit_do_later",
+		"defaultMessage": "#event.event_edit_do_later"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
-		"defaultMessage": "#event.event_edit_go_to_web\n"
+		"id": "event.event_edit_go_to_web",
+		"defaultMessage": "#event.event_edit_go_to_web"
 	},
 	{
 		"id": "event.event_joinEventTitle",
@@ -4846,8 +4846,8 @@ export default [
 		"defaultMessage": "#event.create.thankYou.shareTitle"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
-		"defaultMessage": "#event.create.thankYou.detail\n"
+		"id": "event.create.thankYou.detail",
+		"defaultMessage": "#event.create.thankYou.detail"
 	},
 	{
 		"id": "trash.create.thankYou.detail",
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Đăng nhập bằng Google"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "#comment.create"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "#comment.createModalDesciption"
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "#comment.lastComments"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "#profile.deleteAccount"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "#profile.deleteAccountConfirm"
 	}
 ]

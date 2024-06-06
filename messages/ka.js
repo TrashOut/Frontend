@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "დაარედაქტირე"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "გაუქმება"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "დაარედაქტირე ეს ივენთი"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "მოვლენების რედაქტირება შესაძლებელია მხოლოდ TrashOut ვებ აპლიკაციიდან, რომელიც ხელმისაწვდომია ვებ ბრაუზერის საშუალებით"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "გაუქმება"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "დაარედაქტირე ახლა"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "გაუზიარე სხვებს"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "ნახე აქტივობა"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "შედით Google-ით"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Დაამატე კომენტარი"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "კომენტარების დამატება ამჟამად შესაძლებელია მხოლოდ ჩვენი ვებ აპლიკაციის საშუალებით. გინდა იქ გააგრძელო? "
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "ბოლო კომენტარები"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "წაშალე ჩემი ანგარიში"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "ნამდვილად გსურთ თქვენი ანგარიშის წაშლა?"
 	}
 ]

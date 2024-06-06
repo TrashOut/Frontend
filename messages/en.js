@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "Edit now"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "Cancel"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "Edit this event"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "Events can only be edited from the TrashOut web application that is accessible through a web browser"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "Cancel"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "Edit now"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "Share with others"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "See event"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Log in with Google"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Add comment"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "Adding comments is currently possible only via our web app. Do you want to continue there? "
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "Last comments"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "Delete my account"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "Do you really want to delete your account?"
 	}
 ]

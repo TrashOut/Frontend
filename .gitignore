@@ -38,3 +38,6 @@ config/json
 .vscode
 
 src/server/firebase/firebase.service-account-credentials.json
+
+.devx
+.vscfavoriterc

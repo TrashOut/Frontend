@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "Bearbeiten Sie jetzt"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "Stornieren"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "Bearbeiten Sie dieses Ereignis"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "Ereignisse können nur in der Webanwendung bearbeitet werden, auf die über einen Webbrowser zugegriffen werden kann"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "Stornieren"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "Bearbeiten Sie jetzt"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "Mit anderen teilen"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "Siehe Veranstaltung"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Melden Sie sich mit Google an"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Kommentar hinzufügen"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "Das Hinzufügen von Kommentaren ist derzeit nur über unsere Web-App möglich. Möchten Sie dort weitermachen? "
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "Letzte Kommentare"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "Mein Konto löschen"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "Wollen Sie Ihr Konto wirklich löschen?"
 	}
 ]

@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "Editează acum"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "Închide"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "Editează acest eveniment "
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "Evenimentele pot fi editate doar din aplicația web TrashOut care este accesibilă prin intermediul browserului web"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "Închide"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "Editează acum"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "Distribuie cu ceilalți"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "Vezi eveniment"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Conectați-vă cu Google"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Adăugați un comentariu"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "În prezent, adăugarea de comentarii este posibilă doar prin intermediul aplicației noastre web. Doriți să continuați acolo? "
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "Ultimele comentarii"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "Ștergeți-mi contul"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "Chiar doriți să vă ștergeți contul?"
 	}
 ]

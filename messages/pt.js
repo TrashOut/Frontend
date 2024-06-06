@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "Edite agora"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "Cancelar"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "Edite este evento"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "Os eventos podem ser editados apenas a partir do aplicativo da web TrashOut, acessível através de um navegador da web."
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "Cancelar"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "Edite agora"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "Compartilhar com outras pessoas"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "Ver evento"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Entrar com o Google"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Adicionar comentário"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "Actualmente, a adição de comentários só é possível através da nossa aplicação Web. Pretende continuar a fazê-lo? "
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "Últimos comentários"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "Eliminar a minha conta"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "Quer mesmo apagar a sua conta?"
 	}
 ]

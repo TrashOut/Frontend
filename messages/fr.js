@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "Modifier maintenant"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "Annuler"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "Modifier cet événement"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "Les événements ne peuvent être modifiés qu'à partir de l'application Web accessible via un navigateur Web"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "Annuler"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "Modifier maintenant"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "Partager avec les autres"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "Voir l'événement"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Connectez-vous avec Google"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Ajouter un commentaire"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "L'ajout de commentaires n'est actuellement possible que via notre application web. Voulez-vous continuer à le faire ? "
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "Derniers commentaires"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "Supprimer mon compte"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "Voulez-vous vraiment supprimer votre compte ?"
 	}
 ]

@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "Редагувати зараз"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "Скасувати"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "Редагувати цю подію"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "Події можна редагувати лише за допомогою веб-програми TrashOut, доступної через веб-браузер"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "Скасувати"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "Редагувати зараз"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "Поділіться з іншими"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "Дивіться подію"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Увійдіть за допомогою Google"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Додати коментар"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "Наразі додавання коментарів можливе лише через наш веб-додаток. Ви хочете продовжити там? "
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "Останні коментарі"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "Видалити мій обліковий запис"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "Ви дійсно хочете видалити свій обліковий запис?"
 	}
 ]

@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "Szerkesztés most"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "Mégsem"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "Szerkessze ezt az eseményt"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "Az események csak a TrashOut webalkalmazásból szerkeszthetők, amely webböngészőn keresztül érhető el"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "Mégsem"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "Szerkesztés most"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "Oszd meg másokkal"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "Lásd az eseményt"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Jelentkezzen be a Google-lal"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Hozzászólás hozzáadása"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "A hozzászólások hozzáadása jelenleg csak a webes alkalmazásunkon keresztül lehetséges. Szeretné ott folytatni? "
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "Utolsó megjegyzések"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "Fiókom törlése"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "Tényleg törölni szeretné a fiókját?"
 	}
 ]

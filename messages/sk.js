@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "Upraviť teraz"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "Zrušiť"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "Upraviť podujatie"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "Čistiace podujatia je zatiaľ možné upravovať len z našej webovej aplikácie, do ktorej sa prihlásite cez webový prehliadač"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "Zrušiť"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "Upraviť teraz"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "Zdieľať s priateľmi"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "Prezrieť podujatie"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Prihlásiť sa pomocou Google"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Pridať komentár"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "Komentáre je zatiaľ možné pridávať iba cez webovú aplikáciu. Pokračovať na webovú aplikáciu?"
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "Nedávne komentáre"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "Odstrániť môj účet"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "Naozaj chcete odstrániť svoj účet?"
 	}
 ]

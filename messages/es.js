@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "Editar ahora"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "Cancelar"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "Editar este evento"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "Los eventos solo se pueden editar desde la aplicación web a la que se puede acceder a través de un navegador web"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "Cancelar"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "Editar ahora"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "Comparte con otros"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "Ver evento"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Iniciar sesión con Google"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Añadir un comentario"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "Actualmente sólo es posible añadir comentarios a través de nuestra aplicación web. Desea continuar allí? "
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "Últimos comentarios"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "Eliminar mi cuenta"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "¿De verdad quieres borrar tu cuenta?"
 	}
 ]

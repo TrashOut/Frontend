@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "Изменить сейчас"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "Отмена"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "Изменить это событие"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "События можно редактировать только из веб-приложения, которое доступно через веб-браузер"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "Отмена"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "Изменить сейчас"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "Поделиться с другими"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "Посмотреть событие"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Войти через Google"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Добавить комментарий"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "Добавление комментариев в настоящее время возможно только через наше веб-приложение. Вы хотите продолжить там? "
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "Последние комментарии"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "Удалить мой аккаунт"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "Вы действительно хотите удалить свой аккаунт?"
 	}
 ]

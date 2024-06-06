@@ -4786,7 +4786,7 @@ export default [
 		"defaultMessage": "Upravit nyní"
 	},
 	{
-		"id": "home.recycling_point_edit_do_later\n",
+		"id": "home.recycling_point_edit_do_later",
 		"defaultMessage": "Zrušit"
 	},
 	{
@@ -4794,15 +4794,15 @@ export default [
 		"defaultMessage": "Upravit událost"
 	},
 	{
-		"id": "event.event_edit_redirect\n",
+		"id": "event.event_edit_redirect",
 		"defaultMessage": "V současné době lze události upravovat pouze z naší webové aplikace, ke které přistupíte prostřednictvím webového prohlížeče"
 	},
 	{
-		"id": "event.event_edit_do_later\n",
+		"id": "event.event_edit_do_later",
 		"defaultMessage": "Zrušit"
 	},
 	{
-		"id": "event.event_edit_go_to_web\n",
+		"id": "event.event_edit_go_to_web",
 		"defaultMessage": "Upravit nyní"
 	},
 	{
@@ -4846,7 +4846,7 @@ export default [
 		"defaultMessage": "Sdílejte s ostatními"
 	},
 	{
-		"id": "event.create.thankYou.detail\n",
+		"id": "event.create.thankYou.detail",
 		"defaultMessage": "Zobrazit událost"
 	},
 	{
@@ -5072,5 +5072,25 @@ export default [
 	{
 		"id": "global.googleLogin",
 		"defaultMessage": "Přihlásit se přes Google"
+	},
+	{
+		"id": "comment.create",
+		"defaultMessage": "Přidat komentář"
+	},
+	{
+		"id": "comment.createModalDesciption",
+		"defaultMessage": "Přidávání komentářů je v současné době možné pouze prostřednictvím naší webové aplikace. Chcete v tom pokračovat? "
+	},
+	{
+		"id": "comment.lastComments",
+		"defaultMessage": "Poslední komentáře"
+	},
+	{
+		"id": "profile.deleteAccount",
+		"defaultMessage": "Smazat můj účet"
+	},
+	{
+		"id": "profile.deleteAccountConfirm",
+		"defaultMessage": "Opravdu chcete smazat svůj účet?"
 	}
 ]

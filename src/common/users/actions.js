@@ -163,10 +163,10 @@ export const finishChangeEmail = (email) => ({ token, userId, userUid }) => {
 };
 
 export const disableAccount = () => ({ dispatch, userId, token }) => {
-  dispatch(removeUser());
+  dispatch(removeUser()); // remove user in Firebase
   return {
     type: 'REMOVE_USER',
-    payload: deleteUser(userId, token),
+    payload: deleteUser(userId, token), // remove user in API
     message: 'user-disabled',
   };
 };
